@@ -231,10 +231,12 @@ class ConsultantRule(models.Model):
 
 
 class StudentProfile(models.Model):
-    # Personal / Preference
+    # Personal Info
     name = models.CharField(max_length=255)
-    target_degree = models.CharField(max_length=100)
-    field_of_interest = models.CharField(max_length=255)
+    email = models.EmailField(blank=True)
+    phone = models.CharField(max_length=50, blank=True)
+
+    # Preferences
     preferred_countries = models.JSONField(default=list, blank=True)
     preferred_cities = models.JSONField(default=list, blank=True)
     preferred_intake = models.CharField(max_length=100, blank=True)
@@ -242,10 +244,33 @@ class StudentProfile(models.Model):
     budget_currency = models.CharField(max_length=10, blank=True)
     career_goal = models.TextField(blank=True)
 
+    # Discovery Inputs
+    interested_career_paths = models.JSONField(default=list, blank=True)
+    preferred_subject_areas = models.JSONField(default=list, blank=True)
+    disliked_subject_areas = models.JSONField(default=list, blank=True)
+
     # Academics
     highest_qualification = models.CharField(max_length=255, blank=True)
     institution_name = models.CharField(max_length=255, blank=True)
-    academic_major = models.CharField(max_length=255, blank=True)
+
+    academic_stream = models.CharField(
+        max_length=100,
+        blank=True,
+        help_text="For school students: Medical, Non-Medical, Commerce, Arts, Humanities, etc."
+    )
+
+    academic_major = models.CharField(
+        max_length=255,
+        blank=True,
+        help_text="For undergraduate students: Computer Science, BCom, Mechanical Engineering, etc."
+    )
+
+    subjects_studied = models.JSONField(
+        default=list,
+        blank=True,
+        help_text="Example: ['Maths', 'Physics', 'Computer Science', 'Economics']"
+    )
+
     cgpa = models.FloatField(null=True, blank=True)
     percentage = models.FloatField(null=True, blank=True)
     grading_scale = models.CharField(max_length=100, blank=True)
@@ -281,6 +306,12 @@ class StudentProfile(models.Model):
     english_waiver_required = models.BooleanField(default=False)
     no_gre_required = models.BooleanField(default=False)
     no_application_fee_preferred = models.BooleanField(default=False)
+
+    # Internal Notes
+    counselor_notes = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name

@@ -391,26 +391,29 @@ class ConsultantRuleAdmin(admin.ModelAdmin):
 class StudentProfileAdmin(admin.ModelAdmin):
     list_display = (
         "name",
-        "target_degree",
-        "field_of_interest",
+        "highest_qualification",
+        "academic_stream",
+        "academic_major",
+        "percentage",
+        "cgpa",
+        "ielts_overall",
         "max_budget",
         "budget_currency",
-        "cgpa",
-        "percentage",
-        "ielts_overall",
     )
 
     search_fields = (
         "name",
-        "field_of_interest",
-        "preferred_countries",
-        "preferred_cities",
+        "email",
+        "phone",
+        "academic_stream",
         "academic_major",
         "career_goal",
+        "counselor_notes",
     )
 
     list_filter = (
-        "target_degree",
+        "highest_qualification",
+        "academic_stream",
         "budget_currency",
         "scholarship_required",
         "low_tuition_required",
@@ -419,12 +422,21 @@ class StudentProfileAdmin(admin.ModelAdmin):
         "no_gre_required",
     )
 
+    readonly_fields = (
+        "created_at",
+        "updated_at",
+    )
+
     fieldsets = (
-        ("Personal / Preference", {
+        ("Personal Info", {
             "fields": (
                 "name",
-                "target_degree",
-                "field_of_interest",
+                "email",
+                "phone",
+            )
+        }),
+        ("Preferences", {
+            "fields": (
                 "preferred_countries",
                 "preferred_cities",
                 "preferred_intake",
@@ -433,11 +445,20 @@ class StudentProfileAdmin(admin.ModelAdmin):
                 "career_goal",
             )
         }),
+        ("Discovery Inputs", {
+            "fields": (
+                "interested_career_paths",
+                "preferred_subject_areas",
+                "disliked_subject_areas",
+            )
+        }),
         ("Academics", {
             "fields": (
                 "highest_qualification",
                 "institution_name",
+                "academic_stream",
                 "academic_major",
+                "subjects_studied",
                 "cgpa",
                 "percentage",
                 "grading_scale",
@@ -478,6 +499,13 @@ class StudentProfileAdmin(admin.ModelAdmin):
                 "english_waiver_required",
                 "no_gre_required",
                 "no_application_fee_preferred",
+            )
+        }),
+        ("Internal Notes", {
+            "fields": (
+                "counselor_notes",
+                "created_at",
+                "updated_at",
             )
         }),
     )

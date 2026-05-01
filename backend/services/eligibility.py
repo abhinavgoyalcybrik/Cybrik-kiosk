@@ -192,6 +192,10 @@ def get_eligible_courses(student) -> List[Dict]:
             "reasons": result["reasons"],
         })
 
-    results = sorted(results, key=lambda x: x["score"], reverse=True)
+    results = sorted(
+    results,
+    key=lambda x: x["score"]["final_score"],
+    reverse=True
+    )
 
     return results
