@@ -1,0 +1,165 @@
+Key facts
+Duration
+3 years full-time
+Locations
+ERC Institute, Singapore.
+Course overview
+Deakin’s Bachelor of Artificial Intelligence equips you with the knowledge and skills to design, develop and evolve computational solutions that harness the latest advances in artificial intelligence (AI). Get hands-on experience developing AI-driven software solutions with the support of academics who are leaders in this emerging field. Our world-class research in AI feeds directly into our curriculum, ensuring what you learn is at the cutting edge of industry expectations and capabilities.
+You will have access to fully equipped computer labs with state-of-the-art software and technologies, ensuring you graduate with the specialist skills to design and build the intelligent systems of the future.
+Want the skills to build intelligent machines and software that power our future?
+Current Deakin students
+To access your official course details for the year you started your degree, please visit the handbook
+- Award granted
+- Bachelor of Artificial Intelligence
+- Year
+2026 course information
+- Deakin code
+- S308E
+- Australian Qualifications Framework (AQF) recognition
+The award conferred upon completion is recognised in the Australian Qualifications Framework at Level 7
+#1 Victorian uni for graduate employment
+Choose a Deakin degree for vital industry experience on placements, hands-on learning in world-class facilities and guidance from industry-expert academics. We offer lifetime career support and are the #1 Victorian university for graduate employment.
+Course structure
+To complete the Bachelor of Artificial Intelligence, you must pass 24 credit points. This includes:
+- DAI001 Academic Integrity and Respect at Deakin (0-credit-point compulsory unit) in their your study period
+- STP010 Career Tools for Employability (0-credit-point compulsory unit)
+- 17 credit points of core units
+- 3 credit points of capstone units
+- 1 minor (4 credit points)
+- a maximum of 10 credit points at level 1
+- a minimum of 6 credit points at level 3.
+Most units are equal to one credit point.
+As a full-time student you will study four credit points per trimester and usually undertake two trimesters per year.
+All students are required to meet the University's academic progress and conduct requirements.
+17
+Core units
++
+4
+Minor sequence
++
+3
+Capstone units
+=
+24
+Total
+Year 1 - Trimester 1
+Academic Integrity and Respect at Deakin (0 credit points)
+Career Tools for Employability (0 credit points)
+Introduction to Programming
+Discrete Mathematics
+Computer Systems
+Introduction to Data Science and Artificial Intelligence
+Year 1 - Trimester 2
+Object-Oriented Development
+Computer Networks and Communication
+Introduction to Mathematical Modelling
+Year 1 - Trimester 3
+Database Fundamentals
+Year 2 - Trimester 1
+Data Structures and Algorithms
+Computational Intelligence
+Data Wrangling
+Plus one (1) minor unit (one (1) credit point)
+Year 2 - Trimester 2
+Machine Learning
+Professional Practice in Information Technology #
+Linear Algebra for Data Analysis
+Plus one (1) minor unit (one (1) credit point)
+Year 2 - Trimester 3
+One (1) capstone unit (one (1) credit point):
+IT Industry Experience + (capstone)
+Year 3 - Trimester 1
+Natural Language Processing
+Plus one (1) minor unit (one (1) credit point)
+Plus one (1) capstone unit (one (1) credit point):
+Team Project (A) - Project Management and Practices ^~ (capstone)
+Year 3 - Trimester 2
+Deep Learning
+Robotics, Computer Vision and Speech Processing
+Plus one (1) minor unit (one (1) credit point)
+Plus one (1) capstone unit (1 credit point):
+Team Project (B) - Execution and Delivery ^ (capstone)
+^ Offered in Trimester 1, Trimester 2, Trimester 3.
++ Students must have completed STP010 Career Tools for Employability (0-credit point compulsory unit) and SIT223 Professional Practice in IT.
+# Corequisite of STP010 Career Tools for Employability (0-credit point compulsory unit).
+Refer to the details of each minor sequence for availability.
+Intakes by location
+The availability of a course varies across locations and intakes. This means that a course offered in Trimester 1 may not be offered in the same location for Trimester 2 or 3. Check each intake for up-to-date information on when and where you can commence your studies.
+- Start date: March
+- Available at:
+ERC Institute, Singapore
+- Start date: July
+- Available at:
+ERC Institute, Singapore
+This course is intended for students studying onshore in Singapore, with located learning support provided by ERC Institute.
+This course is not available to domestic and international students studying online or onshore at campuses in Australia.
+Deakin splits the academic year into three terms, known as trimesters. Most students usually undertake two trimesters each year (March-June, July-November).
+CHOOSE DEAKIN, THE #1 VICTORIAN UNIVERSITY FOR COURSE SATISFACTION
+Course location
+This program, delivered by Deakin University and ERC Institute is an exciting partnership between two quality institutions. It provides an opportunity for international students to experience the best of Australian teaching and learning practices while based in Singapore. This course is not available to international students studying online or onshore at campuses in Australia.
+Equipment requirements
+The learning experiences and assessment activities within this course require that students have access to a range of technologies beyond a desktop computer or laptop. Students will be required to purchase minor equipment, such as small single board computers, microcontrollers and sensors, which will be used within a range of units in this course. This equipment is also usable by the student beyond their studies. Equipment requirements and details of suppliers will be provided on a per-unit basis. The indicative cost of this equipment for this course is AUD$500.
+For information regarding hardware and software requirements, please refer to the Bring your own device (BYOD) guidelines via the School of Information Technology website in addition to the individual unit outlines in the Handbook.
+Workload
+You can expect to participate in a range of teaching activities each week. This could include lectures, seminars, practicals and online interaction. You can refer to the individual unit details in the course structure for more information. You will also need to study and complete assessment tasks in your own time.
+Entry requirements
+Selection is based on a holistic consideration of your academic merit, work experience, likelihood of success, availability of places, participation requirements, regulatory requirements, and individual circumstances. You will need to meet the minimum academic and English language proficiency requirements to be considered for selection, but this does not guarantee admission.
+A combination of qualifications and experience may be deemed equivalent to minimum academic requirements.
+If you don't meet the academic entry requirements as outlined in the tabs below, or haven't completed Year 12, or don't hold any relevant qualifications, the STAT (Skills for Tertiary Admissions Test) Multiple Choice (MC) may be an option for you to meet course entry requirements.
+Academic requirements
+If you're currently studying Year 12, or completed Year 12 in the last two years, you will need to meet all the following criteria to be considered for admission to this degree:
+Year 12 prerequisite subjects
+- Units 3 and 4: a study score of at least 25 in English EAL (English as an Additional Language) or at least 20 in English other than EAL
+- Units 3 and 4: a study score of at least 20 in one of Maths: Mathematical Methods or Maths: Specialist Mathematics or Maths: General Mathematics
+ATAR
+- Senior Secondary Certificate of Education with an unadjusted ATAR of at least 50 or equivalent
+If you have undertaken higher education studies after secondary schooling, you will need to meet all the following criteria to be considered for admission to this degree:
+- successful completion of at least two bachelor level or above units (AQF Level 7 or equivalent)
+- evidence of mathematical ability (equivalent to that of the Year 12 maths prerequisite)
+If you have undertaken any Vocational Education and Training (VET) study after secondary school, you will need to meet at least one of following criteria to be considered for admission to this degree:
+- completion of a certificate IV or higher in a related discipline
+- completion of a diploma or higher in any discipline
+- at least 50% completion of a diploma or higher in a related discipline
+If you finished Year 12 more than three years ago, or did not finish Year 12, and haven't undertaken any further study, you may be considered for admission to this degree based on your work, volunteer and/or life experience.
+Submit a personal statement outlining your motivation to study, previous education and employment history, and how this course can assist your career aspirations or progression. Think of it as a job application cover letter - it should be relevant and demonstrate your commitment and interest in this course or study area.
+You will also require evidence of mathematical ability (equivalent to that of the Year 12 maths prerequisite).
+Find the entry requirement for your country?International entry score
+We are comparing your country’s qualification to the Australian ATAR score. Meeting this score does not guarantee admission into a course. Admission is subject to meeting all criteria, including English language requirements.
+To meet the English language proficiency requirements of this course, you will need to demonstrate at least one of the following:
+- Victorian Certificate of Education (VCE) English Units 3 and 4: Study score of 25 in English as an Additional Language (EAL) or 20 in any other English
+- IELTS overall score of 6.0 (with no band score less than 6.0) or equivalent
+- other evidence of English language proficiency (learn more about other ways to satisfy the requirements)
+Subject adjustment
+A study score of 30 in any English, any Information Technology or any Mathematics equals 2 aggregate points per study. Overall maximum of 10 points.
+Access and equity
+Equity schemes and scholarships, formerly known as Special Entry Access Schemes (SEAS), enable Deakin to consider any disadvantaged circumstances you may have experienced and how these have impacted your studies. Equity schemes help us identify whether you are from an under-represented group when making selection decisions for certain courses. It's important to note that participation in an equity scheme does not exempt you from meeting the standard course entry requirements. Learn more about Deakin's equity schemes and scholarships.
+Learn more about Deakin courses and how we compare to other universities when it comes to the quality of our teaching and learning. We're also committed to admissions transparency. Read about our first intake of 2025 students (PDF, 812KB) – their average ATARs, whether they had any previous higher education experience and more.
+Not sure if you can get into Deakin? Discover the different entry pathways we offer and study options available to you, no matter your ATAR or education history.
+Recognition of prior learning
+If you have completed previous studies which you believe may reduce the number of units you have to complete at Deakin, indicate in the appropriate section on your application that you wish to be considered for Recognition of Prior Learning. You will need to provide a certified copy of your previous course details so your credit can be determined. If you are eligible, your offer letter will then contain information about your Recognition of Prior Learning.
+Please note, depending on RPL granted, some units may not be available until 2026. Please seek course advice.
+Fees and scholarships
+Please contact the ERC Institute for Bachelor of Artificial Intelligence fee information.
+Scholarship options
+We want to help you excel at Deakin. Our scholarships recognise your dedication and achievements, providing financial support that can ease the cost of living and studying. With less pressure, you’ll have more freedom to focus on what matters most – your education and future success.
+Apply now
+Apply through ERC Institute
+Applications can be made directly to ERC Institute. For more information on the application process and closing dates, please contact ERC Institute directly by emailing enquiry@erci.edu.sg or call +65 6349 2727.
+Need more information on how to apply?
+For information on the application process, including required documents and important dates, visit the How to apply webpage.
+If you need assistance, please contact us.
+Career outcomes
+AI offers an exciting future for students, with industries increasingly investing in learned behaviour and operational efficiency. However, this is the tip of the iceberg, and many more challenging real-world problems remain to be solved.
+Graduates will be equipped with the specialist knowledge to work on the design, development and operation of AI-driven software solutions across a wide range of industries. You may find employment as a data engineer, data scientist, data analyst, AI engineer, AI ethicist or AI architect, to name a few.
+Deakin's graduate learning outcomes describe the knowledge and capabilities graduates can demonstrate at the completion of their course. These outcomes mean that regardless of the Deakin course you undertake, you can rest assured your degree will teach you the skills and professional attributes that employers value. They'll set you up to learn and work effectively in the future.
+| Deakin Graduate Learning Outcomes | Course Learning Outcomes |
+|---|---|
+| Discipline-specific knowledge and capabilities | Develop a broad, coherent knowledge of the discipline of artificial intelligence, including deep learning and reinforcement learning, with detailed knowledge of key AI algorithms. Design, develop and implement software solutions that incorporate artificial intelligence Apply knowledge of artificial intelligence to the research and evaluation of AI solutions and provision of specialist advice. |
+| Communication | Prepare different types of technical and user-oriented documentation using adequate structure, terminology and context. Convey information in a clear, concise and coherent manner using appropriate oral communication techniques and skills. Represent ideas using IT codes, conventions, modelling languages, and standards to reflect on artificial intelligence ideas and processes in an effective manner. Apply interpersonal skills to proactively assist, contribute to ideas, respect opinions and value contribution made by others when working collaboratively. |
+| Digital literacy | Identify, select and use digital technologies and tools to generate, manage and share digital resources associated with artificial intelligence concepts and solutions. Independently and systematically locate information, evaluate its reliability, and use the information for design and problem solving. Identify appropriate practices and processes to ensure the security, integrity, safety and availability of digital resources. |
+| Critical thinking | In assessing artificial intelligence scenarios, critically evaluate arguments, hypothesis, systems, and proposals to identify basic statements. In assessing artificial intelligence scenarios, locate ambiguity and vagueness in arguments, requirements, and proposals to determine if ideas are reasonable, and identify information that may be contradictory, omitted, or not collected. In assessing artificial intelligence scenarios, apply judgement in evaluating ideas, associated reasoning, and available evidence to arrive at conclusions that are valid. |
+| Problem solving | Apply technical skills, knowledge and techniques to identify and define problems utilising artificial intelligence in a variety of contexts. Apply technical skills and knowledge in modelling methods and processes to understand problems, handle abstraction and design artificial intelligence solutions. Apply technical skills and knowledge to develop creative approaches and/or solutions in planning, designing, managing, evaluating and executing artificial intelligence projects. |
+| Self-management | Evaluate own knowledge and skills using frameworks of reflection and use that self-awareness to target professional goals. Recognise the need, and engage in, independent learning for continual development as a computing professional. Work under general direction, engaging in the feedback process independently to ensure outcomes are achieved. |
+| Teamwork | Contribute knowledge and skills of artificial intelligence when working within a team, demonstrating responsibility and accountability. Engage consistently and professionally in groupware to contribute knowledge and skills of artificial intelligence to achieve shared team objectives and outcomes. Apply strategies to support positive group dynamics and to function effectively as a team member. |
+| Global citizenship | Apply professional ethics, responsibilities, and norms of professional computing practice. Demonstrate awareness of regulation and ethical implications of acquisition, use, disclosure and eventual disposal of information. Engage with societal, health, safety, legal, and cultural issues to identify consequential responsibilities relevant to artificial intelligence in practice. |
+*Deakin references data from a range of government, higher education and reputable media sources. For more information, visit our University rankings page.

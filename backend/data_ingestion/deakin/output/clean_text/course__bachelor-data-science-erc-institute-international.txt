@@ -1,0 +1,167 @@
+Key facts
+Duration
+3 years full-time
+Locations
+ERC Institute, Singapore
+Course overview
+With every click, swipe, search, share and stream, data is created at a phenomenal rate. Its volume and complexity give rise to considerable opportunities as businesses strive to harness the power of big data to remain competitive. Throughout this course you will explore the entire lifecycle of data. You will develop a deep understanding of how information is created, gathered, processed and analysed, as well as how it is used to generate insights and inform strategic decisions.
+Propel yourself into a thriving field with innovative course content covering the latest trends and insights in data science. This ensures you graduate with a specialist, technical and highly relevant skill set that is sought after by employers across the globe. Explore different analytical methods, tools and techniques as you learn key concepts and deep dive into advanced topics in machine learning, AI and predictive analytics.
+Want to hone your analytical skills for a rewarding career in data science?
+Current Deakin students
+To access your official course details for the year you started your degree, please visit the handbook
+- Award granted
+- Bachelor of Data Science
+- Year
+2026 course information
+- Deakin code
+- S379E
+- Level
+- Undergraduate
+- Australian Qualifications Framework (AQF) recognition
+The award conferred upon completion is recognised in the Australian Qualifications Framework at Level 7
+#1 Victorian uni for graduate employment
+Choose a Deakin degree for vital industry experience on placements, hands-on learning in world-class facilities and guidance from industry-expert academics. We offer lifetime career support and are the #1 Victorian university for graduate employment.
+Course structure
+To complete the Bachelor of Data Science, you must pass 24 credit points. This includes:
+- DAI001 Academic Integrity and Respect at Deakin (0-credit-point compulsory unit) in your first study period
+- STP010 Career Tools for Employability (0-credit-point compulsory unit)
+- 17 credit points of core units
+- 3 credit points of capstone units
+- 1 minor (4 credit points)
+- a maximum of 10 credit points at level 1
+- a minimum of 14 credit points over levels 2 and 3
+- a minimum of 6 credit points at level 3.
+Most units are equal to one credit point.
+As a full-time student you will study four credit points per trimester and usually undertake two trimesters per year.
+All students are required to meet the University's academic progress and conduct requirements.
+17
+Core units
++
+3
+Capstone units
++
+4
+Minor sequences
+=
+24
+Total units
+Year 1 - Trimester 1
+Academic Integrity and Respect at Deakin (0 credit points)
+Career Tools for Employability (0 credit points)
+Computer Systems
+Discrete Mathematics
+Introduction to Data Science and Artificial Intelligence
+Introduction to Programming
+Year 1 - Trimester 2
+Introduction to Statistics and Data Analysis
+Object-Oriented Development
+Linear Algebra for Data Analysis
+Year 1 Trimester 3
+Database Fundamentals
+Year 2 - Trimester 1
+Data Wrangling
+Data Structures and Algorithms
+Plus 1 of:
+Computer Networks and Communication
+1 minor unit (1 credit point) OR 2 minor units (2 credit points)
+Year 2 - Trimester 2
+Professional Practice in Information Technology #
+Feature Generation and Engineering
+Data Capture Technologies
+Plus one of
+Computer Networks and Communication
+Year 2 - Trimester 3
+One (1) capstone unit (one (1) credit point):
+IT Industry Experience + (capstone)
+Year 3 - Trimester 1
+Natural Language Processing
+Machine Learning
+Plus one (1) minor unit (1credit point)
+Plus one (1) capstone unit (1credit point):
+Team Project (A) - Project Management and Practices ^ (capstone)
+Year 3 - Trimester 2
+Deep Learning
+Plus one (1) minor unit (1credit point)
+Plus one (1) capstone unit (1 credit point):
+Team Project (B) - Execution and Delivery ^ (capstone)
+^ Offered in Trimester 1, Trimester 2 and Trimester 3.
+# Corequisite of STP010 Career Tools for Employability (0-credit point compulsory unit).
++ Students must have completed STP010 Career Tools for Employability (0-credit point compulsory unit) and SIT223 Professional Practice in IT.
+Refer to the details of each minor sequence for availability.
+Intakes by location
+The availability of a course varies across locations and intakes. This means that a course offered in Trimester 1 may not be offered in the same location for Trimester 2 or 3. Check each intake for up-to-date information on when and where you can commence your studies.
+- Start date: March
+- Available at:
+ERC Institute, Singapore
+- Start date: July
+- Available at:
+ERC Institute, Singapore
+This course is intended for students studying onshore in Singapore, with located learning support provided by ERC Institute.
+This course is not available to domestic and international students studying online or onshore at campuses in Australia.
+CHOOSE DEAKIN, THE #1 VICTORIAN UNIVERSITY FOR COURSE SATISFACTION
+Course location
+This program, delivered by Deakin University and ERC Institute is an exciting partnership between two quality institutions. It provides an opportunity for international students to experience the best of Australian teaching and learning practices while based in Singapore. This course is not available to international students studying online or onshore at campuses in Australia.
+Equipment requirements
+The learning experiences and assessment activities within this course require that students have access to a range of technologies beyond a desktop computer or laptop. Students will be required to purchase minor equipment, such as small single board computers, microcontrollers and sensors, which will be used within a range of units in this course. This equipment is also usable by the student beyond their studies. Equipment requirements and details of suppliers will be provided on a per-unit basis. The indicative cost of this equipment for this course is AUD$500.
+For information regarding hardware and software requirements, please refer to the Bring your own device (BYOD) guidelines via the School of Information Technology website in addition to the individual unit outlines in the Handbook.
+Workload
+You can expect to participate in a range of teaching activities each week. This could include lectures, seminars, practicals and online interaction. You can refer to the individual unit details in the course structure for more information. You will also need to study and complete assessment tasks in your own time.
+Entry requirements
+Selection is based on a holistic consideration of your academic merit, work experience, likelihood of success, availability of places, participation requirements, regulatory requirements, and individual circumstances. You will need to meet the minimum academic and English language proficiency requirements to be considered for selection, but this does not guarantee admission.
+A combination of qualifications and experience may be deemed equivalent to minimum academic requirements.
+If you don't meet the academic entry requirements as outlined in the tabs below, or haven't completed Year 12, or don't hold any relevant qualifications, the STAT (Skills for Tertiary Admissions Test) Multiple Choice (MC) may be an option for you to meet course entry requirements.
+Academic requirements
+If you’re currently studying Year 12, or completed Year 12 in the last two years, you will need to meet all the following criteria to be considered for admission to this degree:
+Year 12 prerequisite subjects
+- Units 3 and 4: a study score of at least 25 in English EAL (English as an Additional Language) or at least 20 in English other than EAL
+ATAR
+- Senior Secondary Certificate of Education with an unadjusted ATAR of at least 50 or equivalent
+If you have undertaken higher education studies after secondary schooling, you will need to meet all the following criteria to be considered for admission to this degree:
+- successful completion of at least two bachelor level or above units (AQF Level 7 or equivalent)
+If you have undertaken any Vocational Education and Training (VET) study after secondary school, you will need to meet at least one of following criteria to be considered for admission to this degree:
+- completion of a certificate IV or higher in a related discipline
+- completion of a diploma or higher in any discipline
+- at least 50% completion of a diploma or higher in a related discipline
+If you finished Year 12 more than three years ago, or did not finish Year 12, and have not undertaken any further study, you may be considered for admission to this degree based on your work, volunteer and/or life experience.
+Submit a personal statement outlining your motivation to study, previous education and employment history, and how this course can assist your career aspirations or progression. Think of it as a job application cover letter – it should be relevant and demonstrate your commitment and interest in this course or study area.
+Find the entry requirement for your country?International entry score
+We are comparing your country’s qualification to the Australian ATAR score. Meeting this score does not guarantee admission into a course. Admission is subject to meeting all criteria, including English language requirements.
+To meet the English language proficiency requirements of this course, you will need to demonstrate at least one of the following:
+- Victorian Certificate of Education (VCE) English Units 3 and 4: Study score of 25 in English as an Additional Language (EAL) or 20 in any other English
+- IELTS overall score of 6.0 (with no band score less than 6.0) or equivalent
+- other evidence of English language proficiency (learn more about other ways to satisfy the requirements)
+Subject adjustment
+A study score of 30 in any English, any Information Technology or any Mathematics equals 2 aggregate points per study. Overall maximum of 10 points.
+Access and equity
+Equity schemes and scholarships, formerly known as Special Entry Access Schemes (SEAS), enable Deakin to consider any disadvantaged circumstances you may have experienced and how these have impacted your studies. Equity schemes help us identify whether you are from an under-represented group when making selection decisions for certain courses. It's important to note that participation in an equity scheme does not exempt you from meeting the standard course entry requirements. Learn more about Deakin's equity schemes and scholarships.
+Learn more about Deakin courses and how we compare to other universities when it comes to the quality of our teaching and learning. We're also committed to admissions transparency. Read about our first intake of 2025 students (PDF, 812KB) – their average ATARs, whether they had any previous higher education experience and more.
+Not sure if you can get into Deakin? Discover the different entry pathways we offer and study options available to you, no matter your ATAR or education history.
+Recognition of prior learning
+If you have completed previous studies which you believe may reduce the number of units you have to complete at Deakin, indicate in the appropriate section on your application that you wish to be considered for Recognition of prior learning. You will need to provide a certified copy of your previous course details so your credit can be determined. If you are eligible, your offer letter will then contain information about your Recognition of prior learning.
+Please note, depending on RPL granted, some units may not be available until 2026. Please seek course advice.
+Fees and scholarships
+Please contact the ERC Institute for Bachelor of Data Science fee information.
+Scholarship options
+We want to help you excel at Deakin. Our scholarships recognise your dedication and achievements, providing financial support that can ease the cost of living and studying. With less pressure, you’ll have more freedom to focus on what matters most – your education and future success.
+Apply now
+Apply through ERC Institute
+Applications can be made directly to ERC Institute. For more information on the application process and closing dates, please contact ERC Institute directly by emailing enquiry@erci.edu.sg or call +65 6349 2727.
+Need more information on how to apply?
+For information on the application process, including required documents and important dates, visit the How to apply webpage.
+If you need assistance, please contact us.
+Career outcomes
+Data professionals are in high demand as organisations increasingly rely on skilled specialists to unlock hidden patterns in big data. This provides meaningful insights that inform decisions, drive business growth and increase their strategic advantage in the competitive business world.
+No longer found solely amongst the big tech giants, data analysts are needed across every industry, opening a world of opportunities for your career.
+As a graduate, you will have the skills, knowledge and industry connections to build a varied and sustainable career as a data analyst, data scientist, business strategist, data engineer, data architect, data visualisation specialist, information analyst or reporting analyst in the public and private sectors. Depending on your chosen industry or sector, you could be optimising digital marketing campaigns, developing new and innovative products and services, predicting customer sales patterns, or increasing productivity in areas such as sales or supply chain management.
+Deakin's graduate learning outcomes describe the knowledge and capabilities graduates can demonstrate at the completion of their course. These outcomes mean that regardless of the Deakin course you undertake, you can rest assured your degree will teach you the skills and professional attributes that employers value. They'll set you up to learn and work effectively in the future.
+| Deakin Graduate Learning Outcomes | Course Learning Outcomes |
+|---|---|
+| Discipline-specific knowledge and capabilities | Develop a broad and coherent knowledge of data science, with detailed knowledge of the data analytics principles and approaches and knowledge, skills, tools, and methodologies for professional practice. |
+| Communication | Communicate in a professional context to inform, motivate, and effect change, and to drive sustainable innovation, utilising a range of verbal, graphical and written methods, recognising the needs of diverse audiences. |
+| Digital literacy | Utilise a range of digital technologies and information sources to discover, analyse, evaluate, select, process, and disseminate both technical and non-technical information in data science projects. |
+| Critical thinking | Evaluate information and evidence, applying critical and analytical thinking and reasoning, technical skills, personal judgement, and values, in decision making processes. |
+| Problem solving | Apply theoretical constructs and skills and critical analysis to real-world and ill-defined problems and develop innovative data analytics solutions. |
+| Self-management | Work independently to apply knowledge and skills to new situations in professional practice and/or further learning in the field of data science with adaptability, autonomy, responsibility, and personal accountability for actions as a practitioner and a learner. |
+| Teamwork | Contribute effectively as a skilled and knowledgeable individual to the processes and output of a work unit or team, applying specific knowledge and skills and using professional practices associated with the information technology industry. |
+| Global citizenship | Apply professional and ethical standards and accountability in the preparation, handling, and analysis of data. |
+*Deakin references data from a range of government, higher education and reputable media sources. For more information, visit our University rankings page.

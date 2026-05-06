@@ -1,0 +1,610 @@
+[
+  {
+    "url": "https://www.deakin.edu.au/international-students",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students.txt",
+    "text_length": 344,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/choosing-your-degree",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__choosing-your-degree.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__choosing-your-degree.txt",
+    "text_length": 6293,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/choosing-your-degree/postgrad-degrees",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__choosing-your-degree__postgrad-degrees.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__choosing-your-degree__postgrad-degrees.txt",
+    "text_length": 4134,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/choosing-your-degree/study-in-july",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__choosing-your-degree__study-in-july.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__choosing-your-degree__study-in-july.txt",
+    "text_length": 7838,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/choosing-your-degree/undergrad-degrees",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__choosing-your-degree__undergrad-degrees.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__choosing-your-degree__undergrad-degrees.txt",
+    "text_length": 2902,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements.txt",
+    "text_length": 5192,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements/english",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements__english.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements__english.txt",
+    "text_length": 3525,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements/english/dueli",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements__english__dueli.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements__english__dueli.txt",
+    "text_length": 5490,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements/pathways",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements__pathways.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements__pathways.txt",
+    "text_length": 3192,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements/students-under-18",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements__students-under-18.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements__students-under-18.txt",
+    "text_length": 7810,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/entry-requirements/visas",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__entry-requirements__visas.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__entry-requirements__visas.txt",
+    "text_length": 6921,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/fees-and-scholarships",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__fees-and-scholarships.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__fees-and-scholarships.txt",
+    "text_length": 5965,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/help-or-contact",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__help-or-contact.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__help-or-contact.txt",
+    "text_length": 2406,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/help-or-contact/support-in-your-country-or-region",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__help-or-contact__support-in-your-country-or-region.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__help-or-contact__support-in-your-country-or-region.txt",
+    "text_length": 2944,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/help-or-contact/support-in-your-country-or-region/authorised-international-agents",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__help-or-contact__support-in-your-country-or-region__authorised-international-agents.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__help-or-contact__support-in-your-country-or-region__authorised-international-agents.txt",
+    "text_length": 1436,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/help-or-contact/support-in-your-country-or-region/south-asia",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__help-or-contact__support-in-your-country-or-region__south-asia.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__help-or-contact__support-in-your-country-or-region__south-asia.txt",
+    "text_length": 6150,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/how-to-apply",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__how-to-apply.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__how-to-apply.txt",
+    "text_length": 6546,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/partnership-institutions",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__partnership-institutions.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__partnership-institutions.txt",
+    "text_length": 6036,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/study-abroad-and-exchange",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__study-abroad-and-exchange.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__study-abroad-and-exchange.txt",
+    "text_length": 12297,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/study-abroad-and-exchange/exchange-partners",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__study-abroad-and-exchange__exchange-partners.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__study-abroad-and-exchange__exchange-partners.txt",
+    "text_length": 6750,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/study-abroad-and-exchange/how-to-apply-for-study-abroad-and-exchange",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__study-abroad-and-exchange__how-to-apply-for-study-abroad-and-exchange.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__study-abroad-and-exchange__how-to-apply-for-study-abroad-and-exchange.txt",
+    "text_length": 10627,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/study-abroad-and-exchange/pre-approved-study-options",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__study-abroad-and-exchange__pre-approved-study-options.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__study-abroad-and-exchange__pre-approved-study-options.txt",
+    "text_length": 6291,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/study-abroad-and-exchange/streamlined-study-packages",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__study-abroad-and-exchange__streamlined-study-packages.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__study-abroad-and-exchange__streamlined-study-packages.txt",
+    "text_length": 11586,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia.txt",
+    "text_length": 5385,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/before-you-arrive",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__before-you-arrive.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__before-you-arrive.txt",
+    "text_length": 13120,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/before-you-arrive/confirmation-of-enrolment",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__before-you-arrive__confirmation-of-enrolment.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__before-you-arrive__confirmation-of-enrolment.txt",
+    "text_length": 2195,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia.txt",
+    "text_length": 4499,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/geelong",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__geelong.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__geelong.txt",
+    "text_length": 6027,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/health-and-safety",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__health-and-safety.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__health-and-safety.txt",
+    "text_length": 4933,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/living-costs",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__living-costs.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__living-costs.txt",
+    "text_length": 2256,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/melbourne",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__melbourne.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__melbourne.txt",
+    "text_length": 5654,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/support",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__support.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__support.txt",
+    "text_length": 3489,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/transport",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__transport.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__transport.txt",
+    "text_length": 4708,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/warrnambool",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__warrnambool.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__warrnambool.txt",
+    "text_length": 4960,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/living-in-australia/working",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__living-in-australia__working.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__living-in-australia__working.txt",
+    "text_length": 2791,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/international-students/why-study-in-australia/parents-and-families",
+    "html_path": "data_ingestion/deakin/output/raw_html/international-students__why-study-in-australia__parents-and-families.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/international-students__why-study-in-australia__parents-and-families.txt",
+    "text_length": 6416,
+    "status": "saved",
+    "page_type": "international_info"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-artificial-intelligence-erc-institute-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-artificial-intelligence-erc-institute-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-artificial-intelligence-erc-institute-international.txt",
+    "text_length": 17594,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-artificial-intelligence-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-artificial-intelligence-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-artificial-intelligence-honours-international.txt",
+    "text_length": 20746,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-artificial-intelligence-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-artificial-intelligence-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-artificial-intelligence-international.txt",
+    "text_length": 20236,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-artificial-intelligence-sliit-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-artificial-intelligence-sliit-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-artificial-intelligence-sliit-international.txt",
+    "text_length": 17139,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-bachelor-information-technology-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-bachelor-information-technology-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-bachelor-information-technology-international.txt",
+    "text_length": 22515,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-bachelor-laws-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-bachelor-laws-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-bachelor-laws-international.txt",
+    "text_length": 23194,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-bachelor-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-bachelor-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-bachelor-science-international.txt",
+    "text_length": 24106,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-honours-international.txt",
+    "text_length": 14124,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-international.txt",
+    "text_length": 24099,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-master-international-relations-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-master-international-relations-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-master-international-relations-international.txt",
+    "text_length": 19363,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-arts-psychology-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-arts-psychology-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-arts-psychology-international.txt",
+    "text_length": 17843,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-biomedical-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-biomedical-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-biomedical-science-international.txt",
+    "text_length": 20579,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-business-analytics-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-business-analytics-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-business-analytics-international.txt",
+    "text_length": 16893,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-business-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-business-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-business-international.txt",
+    "text_length": 16517,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-business-sport-management-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-business-sport-management-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-business-sport-management-international.txt",
+    "text_length": 17023,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-commerce-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-commerce-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-commerce-international.txt",
+    "text_length": 19537,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-computer-science-erc-institute-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-computer-science-erc-institute-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-computer-science-erc-institute-international.txt",
+    "text_length": 16156,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-cyber-security-erc-institute-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-cyber-security-erc-institute-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-cyber-security-erc-institute-international.txt",
+    "text_length": 16281,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-cyber-security-honours",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-cyber-security-honours.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-cyber-security-honours.txt",
+    "text_length": 20186,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-cyber-security-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-cyber-security-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-cyber-security-honours-international.txt",
+    "text_length": 20140,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-data-science-erc-institute-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-data-science-erc-institute-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-data-science-erc-institute-international.txt",
+    "text_length": 15842,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-data-science-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-data-science-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-data-science-honours-international.txt",
+    "text_length": 21263,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-data-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-data-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-data-science-international.txt",
+    "text_length": 19503,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-engineering-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-engineering-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-engineering-honours-international.txt",
+    "text_length": 25195,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-environmental-science-and-sustainability-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-environmental-science-and-sustainability-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-environmental-science-and-sustainability-international.txt",
+    "text_length": 18615,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-environmental-science-wildlife-and-conservation-biology-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-environmental-science-wildlife-and-conservation-biology-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-environmental-science-wildlife-and-conservation-biology-international.txt",
+    "text_length": 19954,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-forensic-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-forensic-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-forensic-science-international.txt",
+    "text_length": 18517,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-information-technology-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-information-technology-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-information-technology-international.txt",
+    "text_length": 20135,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-marine-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-marine-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-marine-science-international.txt",
+    "text_length": 19565,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-science-international.txt",
+    "text_length": 20089,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-software-engineering-honours-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-software-engineering-honours-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-software-engineering-honours-international.txt",
+    "text_length": 22633,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/bachelor-zoology-and-animal-science-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__bachelor-zoology-and-animal-science-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__bachelor-zoology-and-animal-science-international.txt",
+    "text_length": 19023,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-applied-artificial-intelligence-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-applied-artificial-intelligence-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-applied-artificial-intelligence-professional-international.txt",
+    "text_length": 18168,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-construction-management-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-construction-management-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-construction-management-professional-international.txt",
+    "text_length": 16577,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-cyber-security-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-cyber-security-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-cyber-security-professional-international.txt",
+    "text_length": 17615,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-data-science-global-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-data-science-global-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-data-science-global-international.txt",
+    "text_length": 10137,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-data-science-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-data-science-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-data-science-professional-international.txt",
+    "text_length": 17225,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-engineering-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-engineering-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-engineering-professional-international.txt",
+    "text_length": 17572,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-information-technology-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-information-technology-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-information-technology-professional-international.txt",
+    "text_length": 16117,
+    "status": "saved"
+  },
+  {
+    "url": "https://www.deakin.edu.au/course/master-sustainability-professional-international",
+    "page_type": "course",
+    "html_path": "data_ingestion/deakin/output/raw_html/course__master-sustainability-professional-international.html",
+    "text_path": "data_ingestion/deakin/output/clean_text/course__master-sustainability-professional-international.txt",
+    "text_length": 23588,
+    "status": "saved"
+  }
+]

@@ -1,0 +1,165 @@
+Key facts
+Duration
+3 years full-time
+Locations
+ERC Institute, Singapore
+Course overview
+This course equips you with the knowledge and practical skills to design and develop innovative software solutions addressing multifaceted information and technology problems faced by communities, business and industry. Learn what it takes to create and integrate complex new computing technologies while exploring existing and emerging challenges. You will explore areas such as data analytics, machine learning, robotics, intelligent and autonomous systems, and telecommunications.
+Computer scientists are problem solvers and innovators, and at Deakin, you will get a competitive edge in the job market. Gain hands-on experience with current technologies and training in fundamental concepts, models and methods.
+Want to drive change through technology?
+This course provides a combination of experiential learning and practical exposure, supported by experienced, industry-connected staff.
+You will have opportunities to expand your skills and gain practical experience through a specialised capstone project in collaboration with your peers. These opportunities equip you with the skills to develop solutions to real-world industry problems and apply agile project management methods widely used across the sector.
+Our past students have worked on capstone projects such as:
+- medical – a mobile app that tracks pupil responses to light
+- real estate – a mobile app to track your notes about properties you view
+- transport – planning a bus trip with real-time data
+- gaming – children’s computer game to build their resilience
+- architecture – a virtual reality space to assess architecture student projects
+- security – voice-activated password software
+- political – a secure online voting system
+Deakin’s research-active teaching staff ensure our world-class research programs feed directly into the curriculum, meaning you will be learning at the cutting edge of industry standards.
+Throughout the course, you will gain a comprehensive understanding of:
+- artificial intelligence
+- machine learning
+- embedded devices
+- Internet of Things (IoT)
+- computer systems and networks
+- data management and information processes
+- human computer interaction
+- programming and software development
+- mathematical methods
+- algorithm design and analysis.
+Current Deakin students
+To access your official course details for the year you started your degree, please visit the handbook
+- Award granted
+- Bachelor of Computer Science
+- Year
+2026 course information
+- Deakin code
+- S306E
+- Level
+- Undergraduate
+- Australian Qualifications Framework (AQF) recognition
+The award conferred upon completion is recognised in the Australian Qualifications Framework at Level 7
+#1 Victorian uni for graduate employment
+Choose a Deakin degree for vital industry experience on placements, hands-on learning in world-class facilities and guidance from industry-expert academics. We offer lifetime career support and are the #1 Victorian university for graduate employment.
+Course structure
+To complete the Bachelor of Computer Science, students must attain 24 credit points, which must include the following:
+- Sixteen (16) credit points of core units
+- Two Minors (8 credit points)
+- Completion of DAI001 Academic Integrity and Respect at Deakin (0-credit point compulsory unit)
+- Completion of STP010 Career Tools for Employability (0-credit point compulsory unit)
+- a maximum of 10 credit points at level 1
+- a minimum of 14 credit points at levels 2 and 3
+- a minimum of 6 credit points at level 3
+Students are required to meet the University's academic progress and conduct requirements.
+Year 1 - Trimester 1
+Year 1 - Trimester 2
+Year 1 - Trimester 3
+Year 2 - Trimester 1
+Plus two (2) minor units (two (2) credit points)
+Year 2 - Trimester 2
+Plus two (2) minor units (two (2) credit points)
+Year 2 - Trimester 3
+One (1) capstone unit (one (1) credit point)
+Year 3 - Trimester 1
+Three (3) minor units (three (3) credit points)
+Plus one (1) capstone unit (one (1) credit point):
+Year 3 - Trimester 2
+Plus one (1) minor unit (one (1) credit point)
+Plus one (1) capstone unit (one (1) credit point):
+^ Offered in Trimester 1, Trimester 2, Trimester 3.
++ Students must have completed STP010 Career Tools for Employability (0-credit point compulsory unit) and SIT223 Professional Practice in IT.
+# Corequisite of STP010 Career Tools for Employability (0-credit point compulsory unit).
+Refer to the details of each minor sequence for availability.
+Intakes by location
+The availability of a course varies across locations and intakes. This means that a course offered in Trimester 1 may not be offered in the same location for Trimester 2 or 3. Check each intake for up-to-date information on when and where you can commence your studies.
+- Start date: March
+- Available at:
+ERC Institute, Singapore
+- Start date: July
+- Available at:
+ERC Institute, Singapore
+This course is intended for students studying onshore in Singapore, with located learning support provided by ERC Institute.
+This course is not available to domestic and international students studying online or onshore at campuses in Australia.
+Deakin splits the academic year into three terms, known as trimesters. Most students usually undertake two trimesters each year (March-June, July-November).
+CHOOSE DEAKIN, THE #1 VICTORIAN UNIVERSITY FOR COURSE SATISFACTION
+Course location
+This program, delivered by Deakin University and ERC Institute is an exciting partnership between two quality institutions. It provides an opportunity for international students to experience the best of Australian teaching and learning practices while based in Singapore. This course is not available to international students studying online or onshore at campuses in Australia.
+Equipment requirements
+The learning experiences and assessment activities within this course require that students have access to a range of technologies beyond a desktop computer or laptop. Students will be required to purchase minor equipment, such as small single board computers, microcontrollers and sensors, which will be used within a range of units in this course. This equipment is also usable by the student beyond their studies. Equipment requirements and details of suppliers will be provided on a per-unit basis. The indicative cost of this equipment for this course is AUD$500.
+For information regarding hardware and software requirements, please refer to the Bring your own device (BYOD) guidelines via the School of Information Technology website in addition to the individual unit outlines in the Handbook.
+Workload
+You can expect to participate in a range of teaching activities each week. This could include lectures, seminars, practicals and online interaction. You can refer to the individual unit details in the course structure for more information. You will also need to study and complete assessment tasks in your own time.
+Entry requirements
+Selection is based on a holistic consideration of your academic merit, work experience, likelihood of success, availability of places, participation requirements, regulatory requirements, and individual circumstances. You will need to meet the minimum academic and English language proficiency requirements to be considered for selection, but this does not guarantee admission.
+A combination of qualifications and experience may be deemed equivalent to minimum academic requirements.
+If you don't meet the academic entry requirements as outlined in the tabs below, or haven't completed Year 12, or don't hold any relevant qualifications, the STAT (Skills for Tertiary Admissions Test) Multiple Choice (MC) may be an option for you to meet course entry requirements.
+Academic requirements
+If you're currently studying Year 12, or completed Year 12 in the last two years, you will need to meet all the following criteria to be considered for admission to this degree:
+Year 12 prerequisite subjects
+- Units 3 and 4: a study score of at least 25 in English EAL (English as an Additional Language) or at least 20 in English other than EAL
+ATAR
+- Senior Secondary Certificate of Education with an unadjusted ATAR of at least 50 or equivalent
+If you have undertaken higher education studies after secondary schooling, you will need to meet all the following criteria to be considered for admission to this degree:
+- successful completion of at least two bachelor level or above units (AQF Level 7 or equivalent)
+If you have undertaken any Vocational Education and Training (VET) study after secondary school, you will need to meet at least one of following criteria to be considered for admission to this degree:
+- completion of a certificate IV or higher in a related discipline
+- completion of a diploma or higher in any discipline
+- at least 50% completion of a diploma or higher in a related discipline
+If you finished Year 12 more than three years ago, or did not finish Year 12, and have not undertaken any further study, you may be considered for admission to this degree based on your work, volunteer and/or life experience.
+Submit a personal statement outlining your motivation to study, previous education and employment history, and how this course can assist your career aspirations or progression. Think of it as a job application cover letter - it should be relevant and demonstrate your commitment and interest in this course or study area.
+To meet the English language proficiency requirements of this course, you will need to demonstrate at least one of the following:
+- Victorian Certificate of Education (VCE) English Units 3 and 4: Study score of 25 in English as an Additional Language (EAL) or 20 in any other English
+- IELTS overall score of 6.0 (with no band score less than 6.0) or equivalent
+- other evidence of English language proficiency (learn more about other ways to satisfy the requirements)
+Subject adjustment
+A study score of 30 in any English, any Information Technology or any Mathematics equals 2 aggregate points per study. Overall maximum of 10 points.
+Access and equity
+Equity schemes and scholarships, formerly known as Special Entry Access Schemes (SEAS), enable Deakin to consider any disadvantaged circumstances you may have experienced and how these have impacted your studies. Equity schemes help us identify whether you are from an under-represented group when making selection decisions for certain courses. It's important to note that participation in an equity scheme does not exempt you from meeting the standard course entry requirements. Learn more about Deakin's equity schemes and scholarships.
+Learn more about Deakin courses and how we compare to other universities when it comes to the quality of our teaching and learning. We're also committed to admissions transparency. Read about our first intake of 2025 students (PDF, 812KB) – their average ATARs, whether they had any previous higher education experience and more.
+Not sure if you can get into Deakin? Discover the different entry pathways we offer and study options available to you, no matter your ATAR or education history.
+Recognition of prior learning
+If you have completed previous studies which you believe may reduce the number of units you have to complete at Deakin, indicate in the appropriate section on your application that you wish to be considered for Recognition of Prior Learning (RPL). You will need to provide a certified copy of your previous course details so your credit can be determined. If you are eligible, your offer letter will then contain information about your Recognition of Prior Learning.
+Please note, depending on RPL granted, some units may not be available until 2026. Please seek course advice.
+Fees and scholarships
+Please contact the ERC Institute for Bachelor of Computer Science fee information.
+Scholarship options
+We want to help you excel at Deakin. Our scholarships recognise your dedication and achievements, providing financial support that can ease the cost of living and studying. With less pressure, you’ll have more freedom to focus on what matters most – your education and future success.
+Apply now
+Apply through ERC Institute
+Applications can be made directly to ERC Institute. For more information on the application process and closing dates, please contact ERC Institute directly by emailing enquiry@erci.edu.sg or call +65 6349 2727.
+Need more information on how to apply?
+For information on the application process, including required documents and important dates, visit the How to apply webpage.
+If you need assistance, please contact us.
+Career outcomes
+You’ll be ready for employment in organisations engaged in:
+- artificial intelligence and machine learning
+- robotics application development
+- technology innovation.
+You’ll graduate with career options such as:
+- innovation lead
+- data scientist
+- software developer
+- database specialist
+- technology consultant
+- software analyst
+- solutions architect
+- project manager.
+As a computer science graduate, you will enter one of the most exciting and dynamic industries, with opportunities in areas such as:
+- cognitive computing and intelligent systems
+- robotics and autonomous systems
+- emerging technologies.
+As your experience develops, you will also be well prepared to progress into project management positions.
+Deakin's graduate learning outcomes describe the knowledge and capabilities graduates can demonstrate at the completion of their course. These outcomes mean that regardless of the Deakin course you undertake, you can rest assured your degree will teach you the skills and professional attributes that employers value. They'll set you up to learn and work effectively in the future.
+| Deakin Graduate Learning Outcomes | Course Learning Outcomes |
+|---|---|
+| Discipline-specific knowledge and capabilities | Develop a broad, coherent knowledge of the computer science discipline, with detailed knowledge of the application of computer science methods and principles in modern computing systems. Use knowledge, skills, tools and methodologies for professional computer science practice. Design algorithms, system models, software components, computing systems and processes, to meet application requirements within realistic economic, environmental, social, political, legal and ethical constraints. |
+| Communication | Communicate in a computer science context to inform, motivate and effect change by utilising a range of verbal, graphical and written methods, recognising the needs of diverse audiences. |
+| Digital literacy | Utilise a range of digital technologies and information sources to discover, analyse, evaluate, select, process and disseminate both technical and non-technical information. |
+| Critical thinking | Evaluate specialist computer science information using critical and analytical thinking, technical skills and well-developed judgement to identify problems, analyse requirements and propose solutions. |
+| Problem solving | Apply theoretical constructs and skills and critical analysis to real-world and ill-defined problems and develop innovative computing solutions. |
+| Self-management | Apply knowledge and skills to new situations in professional practice and/or further learning in the field of computer science with adaptability, autonomy, responsibility and personal accountability for actions as a practitioner and a learner. Apply understanding of reflective practice and self-critique skills within broad parameters to plan for their own future continuing professional development. |
+| Teamwork | Contribute effectively as a skilled and knowledgeable individual to the processes and output of a work unit or team. Work collaboratively in multi-disciplinary teams, employing effective communication, self- and team- management skills to achieve shared goals. |
+| Global citizenship | Apply professional and ethical standards and accountability for own learning to in the development, design, construction and management of localised computing solutions. |
+*Deakin references data from a range of government, higher education and reputable media sources. For more information, visit our University rankings page.

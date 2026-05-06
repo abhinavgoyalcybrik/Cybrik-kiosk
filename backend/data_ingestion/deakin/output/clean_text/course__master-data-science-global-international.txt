@@ -1,0 +1,80 @@
+Key facts
+Duration
+2 years part-time (includes the 11 month or 12 month pathway program via Great Learning and 1 year part-time Deakin content)
+Locations
+This course is delivered by Great Learning wholly Online.
+Course overview
+Indian nationals residing in India are encouraged to consider the Master of Data Science (Global). This program is designed for IT professionals seeking a masters qualification in emerging technology fields such as machine learning, data science, and AI. Offered in partnership with Great Learning, the degree builds upon relevant postgraduate programs. This provides graduates the opportunity to extend their learning in data science through advanced studies at Deakin.
+Read moreCurrent Deakin students
+To access your official course details for the year you started your degree, please visit the handbook
+- Award granted
+- Master of Data Science (Global)
+- Year
+2026 course information
+- Deakin code
+- S773
+- Australian Qualifications Framework (AQF) recognition
+The award conferred upon completion is recognised in the Australian Qualifications Framework at Level 9
+Course structure
+To complete the Master of Data Science (Global) students must pass 12 credit points and meet the following course rules to be eligible to graduate:
+- DAI001 Academic Integrity and Respect at Deakin (0-credit-point compulsory unit) in their first study period
+- 8 credit points of core units
+- 4 credit points of elective units
+Students are required to meet the University's academic progress and conduct requirements. See the enrolment codes and terminology to help make sense of the University’s vocabulary.
+Graduates of the Postgraduate Program in Artificial Intelligence and Machine Learning (PGPAIML) or Postgraduate Program in Data Science and Business Analytics (PGPDSBA) who have successfully completed Great Learning units equivalent to 6 credit points as recognised by Deakin; and will have met the minimum requirements for admission to Deakin, will be eligible for enrolment into the Deakin course with 6 credit points of Recognition of Prior Learning (RPL) and will be required to successfully complete 6 units with Deakin University in online mode in order to qualify for the Deakin Master of Data Science (Global) Award. i.e.
+- 6 x Deakin units
+- 6 x RPL
+The Deakin component of the structure consists of all existing units which will be delivered online over a period of a year (3 x trimesters). Students will enrol part-time, undertaking 2 units (2 credit points) each trimester. Outlined below are the units.
+Recognition for prior learning (RPL) (based on Great Learning programs)
+Analytics for Security and Privacy ^
+Statistical Data Analysis ^
+4 x level 7 course-grouped units
+Deakin units
+Academic Integrity and Respect at Deakin 0 credit points
+Engineering AI Solutions
+Mathematics for Artificial Intelligence
+Machine Learning
+Modern Data Science
+Real World Analytics
+Data Wrangling
+^ Recognition for prior learning (RPL) granted upon entry into the course
+Intakes by location
+The availability of a course varies across locations and intakes. This means that a course offered in Trimester 1 may not be offered in the same location for Trimester 2 or 3. Check each intake for up-to-date information on when and where you can commence your studies.
+This course is only available to students via the Great Learning pathway. This course is not available to international students studying onshore in Australia. This course is offered part-time only.
+Workload
+You can expect to participate in a range of teaching activities each week. This could include classes, seminars, practicals and online interaction. You can refer to the individual unit details in the course structure for more information. You will also need to study and complete assessment tasks in your own time.
+Entry requirements
+Selection is based on a holistic consideration of your academic merit, work experience, likelihood of success, availability of places, participation requirements, regulatory requirements, and individual circumstances. You will need to meet the minimum academic and English language proficiency requirements or higher to be considered for selection, but this does not guarantee admission.
+A combination of qualifications and experience may be deemed equivalent to minimum academic requirements.
+To be considered for admission to this degree you will need to meet the following criteria:
+- completion of a bachelor degree or higher in any discipline
+Depending on your previous qualifications and professional experience, it may take you 1.5 years or 1 year to complete your 2 year masters degree (refer to Recognition for prior learning for additional information).
+To meet the English language proficiency requirements of this course, you will need to demonstrate at least one of the following:
+- bachelor degree from a recognised English-speaking country
+- IELTS overall score of 6.5 (with no band score less than 6.0) or equivalent
+- other evidence of English language proficiency (learn more about other ways to satisfy the requirements)
+Learn more about Deakin courses and how we compare to other universities when it comes to the quality of our teaching and learning.
+Not sure if you can get into Deakin postgraduate study? Postgraduate study doesn’t have to be a balancing act; we provide flexible course entry and exit options based on your desired career outcomes and the time you are able to commit to your study.
+Fees and scholarships
+Fee information
+Fee rate
+For fee information please refer to Great Learning
+Apply now
+Apply through Great Learning
+Applications can be made directly to Great Learning. (Note this link is for Great Learning applicants based in India. It is unavailable when accessing from Australia). For more information on the application process and closing dates, please email Great Learning or call +91 804 718 7565.
+Pathways
+The Master of Data Science (Global) builds upon the postgraduate programs from Great Learning with units that extend students into the data science area. Units within the Deakin delivered content are independent of each other and provide coverage of the mathematical foundations that underpin data science, machine learning, engineering, and IT solutions that incorporate artificial intelligence, preparation of data, and analytics for real world projects.
+Career outcomes
+Interested in advancing in your current employment or expanding your career opportunities? The Master of Data Science (Global) provides a masters level qualification in emerging technology areas like machine learning, data science and AI. This program equips you with the specialist skills required in modern workplaces. Graduates of this course may find careers as a data analyst, data scientist, analytics programmer, analytics manager, analytics consultant, business analyst, management adviser, management analyst, business adviser and strategist, marketing manager, market research analyst or marketing specialist.
+Deakin's graduate learning outcomes describe the knowledge and capabilities graduates can demonstrate at the completion of their course. These outcomes mean that regardless of the Deakin course you undertake, you can rest assured your degree will teach you the skills and professional attributes that employers value. They'll set you up to learn and work effectively in the future.
+| Deakin Graduate Learning Outcomes | Course Learning Outcomes |
+|---|---|
+| Discipline-specific knowledge and capabilities | Develop a broad, coherent knowledge of the analytics discipline, including: the origin and characteristics of data; the methods and approaches to dealing with data appropriately and securely; and how the use of analytics outcomes can be used to improve business, organisations or society. |
+| Communication | Communicate in professional and other context to inform, explain and drive sustainable innovation through data science and to motivate and effect change by drawing upon advances in technology, future trends and industry standards, and by utilising a range of verbal, graphical and written methods, recognising the needs of diverse audiences including specialist and non-specialist clients, industry personnel and other stakeholders. |
+| Digital literacy | Identify, evaluate, select and use digital technologies, platforms, frameworks, and tools from the field of data science to generate, manage, process and share digital resources and justify digital tools selection to influence others. |
+| Critical thinking | Questions assumptions and seeks to uncover inconsistencies and ambiguities in information and judgements, critically evaluates their sources and rationales, to inform and justify decision making in the field of data science. |
+| Problem solving | Apply expert, specialised cognitive, technical, and creative skills from data science to understand requirements and design, implement, operate, and evaluate solutions to complex real-world and ill-defined computing problems. |
+| Self-management | Apply reflective practice and work independently to apply knowledge and skills in a professional manner to complex situations and ongoing learning in the field of data science with adaptability, autonomy, responsibility, and personal and professional accountability for actions as a practitioner and a learner. |
+| Teamwork | Work independently and collaboratively within multidisciplinary environments to achieve team goals, contributing advanced knowledge and skills from data science to advance the teams objectives, employing effective teamwork practices and principles to cultivate creative thinking, interpersonal adeptness, leadership skills, and handle challenging discussions, while excelling in diverse professional, social, and cultural scenarios. |
+| Global citizenship | Engage in professional and ethical behaviour in the field of data science, with appreciation for the global context, and openly and respectfully collaborate with diverse communities and cultures. |
+*Deakin references data from a range of government, higher education and reputable media sources. For more information, visit our University rankings page.
