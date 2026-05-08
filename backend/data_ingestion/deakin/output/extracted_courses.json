@@ -1,0 +1,26 @@
+[
+  {
+    "course_name": "Bachelor of Software Engineering (Honours)",
+    "degree_level": "Undergraduate",
+    "field_of_study": null,
+    "cricos_code": "092212D",
+    "duration": "3 years",
+    "campuses": [
+      "Burwood (Melbourne)",
+      "Online"
+    ],
+    "intakes": [
+      "March",
+      "July"
+    ],
+    "annual_tuition_fee_aud": 42000,
+    "academic_requirements": null,
+    "english_requirements": {
+      "ielts_overall": 6.0,
+      "ielts_no_band_below": 6.0
+    },
+    "application_deadlines": [],
+    "scholarships": [],
+    "source_url": "https://www.deakin.edu.au/course/bachelor-software-engineering-honours-international"
+  }
+]

@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 from playwright.sync_api import sync_playwright
+from data_ingestion.deakin.link_classifier import classify_link
 
 BASE_URL = "https://www.deakin.edu.au"
 SITEMAP_URL = "https://www.deakin.edu.au/footer/sitemap"
@@ -215,6 +216,40 @@ def extract_course_links(html: str) -> list[str]:
             links.append(url)
 
     return sorted(set(links))
+
+def extract_candidate_links(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "lxml")
+    links = []
+
+    for anchor in soup.find_all("a", href=True):
+        url = normalize_url(urljoin(BASE_URL, anchor["href"]))
+        anchor_text = " ".join(anchor.get_text(" ").split())
+
+        if not is_deakin_url(url):
+            continue
+
+        links.append({
+            "url": url,
+            "anchor_text": anchor_text,
+        })
+
+    return links
+
+classified_links = []
+
+for link in candidate_links:
+    result = classify_link(
+        url=link["url"],
+        anchor_text=link["anchor_text"]
+    )
+
+    if result.get("should_crawl"):
+        classified_links.append({
+            "url": link["url"],
+            "page_type": result["page_type"],
+            "confidence": result["confidence"],
+            "reason": result["reason"],
+        })
 
 def crawl():
     setup_dirs()
