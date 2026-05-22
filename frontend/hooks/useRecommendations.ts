@@ -11,6 +11,7 @@ export type StudentProfile = {
     preferredCountries: string[];
     preferredCities: string[];
     preferredFields: string[];
+    preferredUniversity: string;
     preferredIntakeSeason: string;
     preferredIntakeYear: string;
 
@@ -46,6 +47,7 @@ const initialProfile: StudentProfile = {
   preferredCountries: [],
   preferredCities: [],
   preferredFields: [],
+  preferredUniversity: "",
   preferredIntakeSeason: "",
   preferredIntakeYear: "",
 
@@ -85,12 +87,28 @@ export default function useRecommendations() {
   }));
 };
 
-    const completedFields = useMemo(() => {
-    return Object.values(profile).filter((value) => {
-        if (Array.isArray(value)) return value.length > 0;
-        return value.trim() !== "";
-    }).length;
-    }, [profile]);
+  const completedFields = useMemo(() => {
+    return (Object.keys(initialProfile) as Array<keyof StudentProfile>).filter(
+      (field) => {
+        const value = profile[field];
+        const initialValue = initialProfile[field];
+
+        if (Array.isArray(value) && Array.isArray(initialValue)) {
+          return value.length > 0;
+        }
+
+        if (typeof value === "string" && typeof initialValue === "string") {
+          if (!value.trim()) {
+            return false;
+          }
+
+          return value !== initialValue;
+        }
+
+        return false;
+      }
+    ).length;
+  }, [profile]);
 
   const totalFields = Object.keys(initialProfile).length;
 
@@ -104,17 +122,6 @@ export default function useRecommendations() {
     return "Low";
   }, [completionPercentage]);
 
-  const suitableCourseCount = useMemo(() => {
-    const totalCourses = 124;
-    const minimumCourses = 12;
-
-    const reduction = Math.round(
-      (completionPercentage / 100) * (totalCourses - minimumCourses)
-    );
-
-    return totalCourses - reduction;
-  }, [completionPercentage]);
-
   return {
     profile,
     updateProfileField,
@@ -122,6 +129,5 @@ export default function useRecommendations() {
     totalFields,
     completionPercentage,
     confidenceLevel,
-    suitableCourseCount,
   };
 }

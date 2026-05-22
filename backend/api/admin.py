@@ -11,6 +11,7 @@ from .models import (
     StudentProfile,
     ShortlistItem,
     RecommendationLog,
+    WhatsAppLead,
 )
 
 
@@ -147,6 +148,7 @@ class CourseAdmin(admin.ModelAdmin):
         "specialization",
         "mode",
         "application_difficulty",
+        "human_verified",
     )
 
     search_fields = (
@@ -166,6 +168,7 @@ class CourseAdmin(admin.ModelAdmin):
         "coop_available",
         "placement_year_available",
         "application_difficulty",
+        "human_verified",
     )
 
     autocomplete_fields = ("university",)
@@ -221,6 +224,13 @@ class CourseAdmin(admin.ModelAdmin):
                 "competitiveness",
                 "seats_available",
                 "admissions_notes",
+            )
+        }),
+        ("Human Review", {
+            "fields": (
+                "human_verified",
+                "human_verified_by",
+                "human_verified_at",
             )
         }),
     )
@@ -616,4 +626,50 @@ class RecommendationLogAdmin(admin.ModelAdmin):
                 "ai_response",
             )
         }),
+    )
+
+
+@admin.register(WhatsAppLead)
+class WhatsAppLeadAdmin(admin.ModelAdmin):
+    list_display = (
+        "name",
+        "phone",
+        "source",
+        "crm_status",
+        "student_profile",
+        "course",
+        "created_at",
+    )
+    search_fields = ("name", "phone", "email", "crm_response", "source")
+    list_filter = ("crm_status", "source", "created_at")
+    autocomplete_fields = ("student_profile", "course")
+    readonly_fields = ("created_at", "updated_at")
+    fieldsets = (
+        (
+            "Lead Info",
+            {
+                "fields": (
+                    "name",
+                    "phone",
+                    "email",
+                    "source",
+                    "student_profile",
+                    "course",
+                    "lead_form_url",
+                )
+            },
+        ),
+        (
+            "Message + CRM",
+            {
+                "fields": (
+                    "whatsapp_message",
+                    "metadata",
+                    "crm_status",
+                    "crm_response",
+                    "created_at",
+                    "updated_at",
+                )
+            },
+        ),
     )

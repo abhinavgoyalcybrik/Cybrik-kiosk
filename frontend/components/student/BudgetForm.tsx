@@ -102,8 +102,6 @@ export default function BudgetForm({
             ))}
         </select>
       </div>
-
-      <button className="form-button">Save Budget</button>
     </div>
   );
 }

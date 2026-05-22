@@ -11,6 +11,7 @@ class UniversityMiniSerializer(serializers.ModelSerializer):
 class CourseRecommendationSerializer(serializers.Serializer):
     course_id = serializers.IntegerField()
     title = serializers.CharField()
+    course_url = serializers.CharField(allow_blank=True)
     university = UniversityMiniSerializer()
     degree_level = serializers.CharField()
     field_of_study = serializers.CharField()

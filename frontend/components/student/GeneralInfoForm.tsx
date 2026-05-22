@@ -51,10 +51,6 @@ export default function GeneralInfoForm({
           updateProfileField("currentCity", e.target.value)
         }
       />
-
-      <button className="form-button">
-        Save
-      </button>
     </div>
   );
 }

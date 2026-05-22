@@ -49,7 +49,21 @@ class University(models.Model):
 
     def __str__(self):
         return f"{self.name} - {self.city}, {self.country}"
-    
+
+class GalleryImage(models.Model):
+    university = models.ForeignKey(
+        University,
+        on_delete=models.CASCADE,
+        related_name="gallery_images"
+    )
+    image_url = models.URLField(max_length=500)
+    caption = models.CharField(max_length=255, blank=True)
+    is_primary = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Image for {self.university.name} - {self.image_url}"
+
 class Course(models.Model):
     university = models.ForeignKey(
         University,
@@ -90,6 +104,11 @@ class Course(models.Model):
     competitiveness = models.CharField(max_length=100, blank=True)
     seats_available = models.PositiveIntegerField(null=True, blank=True)
     admissions_notes = models.TextField(blank=True)
+
+    # Human Review
+    human_verified = models.BooleanField(default=False, help_text="Mark when a human has reviewed and confirmed this course is complete and accurate.")
+    human_verified_by = models.CharField(max_length=150, blank=True, help_text="Name of the person who verified this course.")
+    human_verified_at = models.DateTimeField(null=True, blank=True, help_text="When this course was last verified.")
 
     def __str__(self):
         return f"{self.title} - {self.university.name}"
@@ -367,3 +386,52 @@ class RecommendationLog(models.Model):
 
     def __str__(self):
         return f"Recommendation for {self.student_profile.name} - {self.created_at}"
+
+
+class WhatsAppLead(models.Model):
+    CRM_STATUS_PENDING = "pending"
+    CRM_STATUS_SENT = "sent"
+    CRM_STATUS_FAILED = "failed"
+
+    CRM_STATUS_CHOICES = (
+        (CRM_STATUS_PENDING, "Pending"),
+        (CRM_STATUS_SENT, "Sent"),
+        (CRM_STATUS_FAILED, "Failed"),
+    )
+
+    name = models.CharField(max_length=255)
+    phone = models.CharField(max_length=50)
+    email = models.EmailField(blank=True)
+
+    student_profile = models.ForeignKey(
+        StudentProfile,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="whatsapp_leads",
+    )
+    course = models.ForeignKey(
+        Course,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="whatsapp_leads",
+    )
+
+    source = models.CharField(max_length=100, blank=True, default="whatsapp")
+    lead_form_url = models.URLField(blank=True)
+    whatsapp_message = models.TextField(blank=True)
+    metadata = models.JSONField(default=dict, blank=True)
+
+    crm_status = models.CharField(
+        max_length=20,
+        choices=CRM_STATUS_CHOICES,
+        default=CRM_STATUS_PENDING,
+    )
+    crm_response = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.name} ({self.phone}) - {self.crm_status}"

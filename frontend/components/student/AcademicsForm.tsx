@@ -133,15 +133,13 @@ export default function AcademicsForm({
         placeholder="e.g. 6.5"
         onChange={(value) => updateProfileField("ieltsOverall", value)}
       />
-
-      <button className="form-button">Save Academics</button>
     </div>
   );
 }
 
 function SectionTitle({ title }: { title: string }) {
   return (
-    <h4 className="border-b border-slate-200 pb-2 text-sm font-semibold text-slate-800">
+    <h4 className="border-b border-emerald-100 pb-2 text-sm font-semibold text-slate-800">
       {title}
     </h4>
   );

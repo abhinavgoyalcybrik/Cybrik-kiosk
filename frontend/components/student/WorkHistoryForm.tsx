@@ -51,8 +51,8 @@ export default function WorkHistoryForm({
               onClick={() => updateProfileField("hasWorkExperience", option)}
               className={`flex-1 rounded-xl border px-3 py-2 text-sm font-medium transition ${
                 profile.hasWorkExperience === option
-                  ? "border-blue-600 bg-blue-50 text-blue-700"
-                  : "border-slate-200 bg-white text-slate-600 hover:border-blue-300"
+                  ? "border-emerald-600 bg-emerald-50 text-emerald-700"
+                  : "border-slate-200 bg-white text-slate-600 hover:border-emerald-300"
               }`}
             >
               {option}
@@ -97,8 +97,6 @@ export default function WorkHistoryForm({
           }
         />
       </div>
-
-      <button className="form-button">Save Work History</button>
     </div>
   );
 }

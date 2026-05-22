@@ -1,3 +1,8 @@
+"use client";
+
+import Image from "next/image";
+import { useMemo, useState } from "react";
+
 import GeneralInfoForm from "./GeneralInfoForm";
 import PreferencesForm from "./PreferencesForm";
 import AcademicsForm from "./AcademicsForm";
@@ -24,7 +29,7 @@ export default function StudentProfileSidebar({
   completionPercentage,
   confidenceLevel,
 }: StudentProfileSidebarProps) {
-  const sections = [
+  const sections = useMemo(() => [
     {
       title: "General Information",
       component: (
@@ -70,11 +75,30 @@ export default function StudentProfileSidebar({
         />
       ),
     },
-  ];
+  ], [profile, updateProfileField]);
+
+  const [openSections, setOpenSections] = useState<Record<string, boolean>>({
+    "General Information": true,
+    Preferences: false,
+    Academics: false,
+    "Work History / Gap Justification": false,
+    Budget: false,
+  });
 
   return (
-    <aside className="w-[360px] border-r border-slate-200 bg-white p-5">
+    <aside className="h-full w-full overflow-y-auto border-r border-slate-200 bg-white p-5">
       <div className="mb-6">
+        <div className="mb-4">
+          <Image
+            src="/cybrik-logo.png"
+            alt="Cybrik"
+            width={150}
+            height={44}
+            priority
+            className="h-11 w-auto object-contain"
+          />
+        </div>
+
         <p className="text-sm font-medium text-slate-500">
           Student Profile
         </p>
@@ -85,6 +109,10 @@ export default function StudentProfileSidebar({
 
         <p className="mt-2 text-sm text-slate-500">
           Add more details to improve recommendation accuracy.
+        </p>
+
+        <p className="mt-2 text-xs font-medium uppercase tracking-[0.12em] text-emerald-600">
+          Live updates enabled
         </p>
       </div>
 
@@ -101,7 +129,7 @@ export default function StudentProfileSidebar({
 
         <div className="h-2 rounded-full bg-slate-200">
           <div
-            className="h-2 rounded-full bg-blue-600 transition-all duration-500"
+            className="h-2 rounded-full bg-emerald-600 transition-all duration-500"
             style={{ width: `${completionPercentage}%` }}
           />
         </div>
@@ -115,7 +143,14 @@ export default function StudentProfileSidebar({
         {sections.map((section, index) => (
           <details
             key={section.title}
-            open={index === 0}
+            open={openSections[section.title] ?? index === 0}
+            onToggle={(event) => {
+              const nextOpen = event.currentTarget.open;
+              setOpenSections((currentSections) => ({
+                ...currentSections,
+                [section.title]: nextOpen,
+              }));
+            }}
             className="group rounded-xl border border-slate-200 bg-white p-4"
           >
             <summary className="cursor-pointer list-none text-sm font-semibold text-slate-800">

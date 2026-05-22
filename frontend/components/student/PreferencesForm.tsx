@@ -115,6 +115,19 @@ export default function PreferencesForm({
         }
       />
 
+      <div>
+        <label className="mb-1 block text-sm font-medium text-slate-700">
+          Preferred University (Optional)
+        </label>
+        <input
+          type="text"
+          className="form-input"
+          placeholder="e.g. Deakin University"
+          value={profile.preferredUniversity}
+          onChange={(e) => updateProfileField("preferredUniversity", e.target.value)}
+        />
+      </div>
+
       <div className="grid grid-cols-2 gap-3">
         <div>
           <label className="mb-1 block text-sm font-medium text-slate-700">
@@ -178,8 +191,6 @@ export default function PreferencesForm({
           </select>
         </div>
       </div>
-
-      <button className="form-button">Save Preferences</button>
     </div>
   );
 }
@@ -219,8 +230,8 @@ function MultiSelectGroup({
                 onClick={() => onToggle(option)}
                 className={`rounded-full border px-3 py-1.5 text-sm transition ${
                   isSelected
-                    ? "border-blue-600 bg-blue-50 text-blue-700"
-                    : "border-slate-200 bg-white text-slate-600 hover:border-blue-300"
+                    ? "border-emerald-600 bg-emerald-50 text-emerald-700"
+                    : "border-slate-200 bg-white text-slate-600 hover:border-emerald-300"
                 }`}
               >
                 {option}

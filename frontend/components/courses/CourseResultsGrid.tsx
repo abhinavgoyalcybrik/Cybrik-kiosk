@@ -1,102 +1,73 @@
+import { motion, AnimatePresence } from "framer-motion";
 import CourseCard from "./CourseCard";
+import { CourseCardItem } from "@/lib/types";
 
 type CourseResultsGridProps = {
-  completionPercentage: number;
+  courses: CourseCardItem[];
+  isLoading?: boolean;
+  errorMessage?: string | null;
+  emptyMessage?: string;
 };
 
-const allCourses = [
-  {
-    id: 1,
-    title: "Bachelor of Computer Science",
-    university: "Deakin University",
-    location: "Melbourne, Australia",
-    tuition: "AUD 42,000/year",
-    duration: "3 years",
-    intake: "March, July",
-    ielts: "6.5 overall",
-    score: 84,
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05,
+    },
   },
-  {
-    id: 2,
-    title: "Bachelor of Software Engineering (Honours)",
-    university: "Deakin University",
-    location: "Melbourne, Australia",
-    tuition: "AUD 42,000/year",
-    duration: "4 years",
-    intake: "March, July",
-    ielts: "6.5 overall",
-    score: 79,
-  },
-  {
-    id: 3,
-    title: "Bachelor of Business Analytics",
-    university: "Deakin University",
-    location: "Melbourne, Australia",
-    tuition: "AUD 39,000/year",
-    duration: "3 years",
-    intake: "March, July, November",
-    ielts: "6.5 overall",
-    score: 72,
-  },
-  {
-    id: 4,
-    title: "Master of Information Technology",
-    university: "Monash University",
-    location: "Melbourne, Australia",
-    tuition: "AUD 46,000/year",
-    duration: "2 years",
-    intake: "February, July",
-    ielts: "6.5 overall",
-    score: 90,
-  },
-  {
-    id: 5,
-    title: "Bachelor of Cyber Security",
-    university: "RMIT University",
-    location: "Melbourne, Australia",
-    tuition: "AUD 41,000/year",
-    duration: "3 years",
-    intake: "February, July",
-    ielts: "6.5 overall",
-    score: 81,
-  },
-];
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 },
+};
 
 export default function CourseResultsGrid({
-  completionPercentage,
+  courses,
+  isLoading = false,
+  errorMessage = null,
+  emptyMessage = "No programs match your current search.",
 }: CourseResultsGridProps) {
-  const visibleCourses =
-    completionPercentage < 20
-      ? allCourses
-      : completionPercentage < 40
-      ? allCourses.slice(0, 4)
-      : completionPercentage < 60
-      ? allCourses.slice(0, 3)
-      : allCourses.slice(0, 2);
-
   return (
     <section>
-      <div className="mb-4 flex items-center justify-between">
-        <div>
-          <h2 className="text-xl font-semibold text-slate-900">
-            Recommended Courses
-          </h2>
-
-          <p className="text-sm text-slate-500">
-            Sorted by match score, highest first.
+      <motion.div 
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        className="program-grid"
+      >
+        {isLoading && (
+          <p className="status-banner neutral full-row">
+            Loading recommendations from backend...
           </p>
-        </div>
+        )}
 
-        <button className="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm">
-          Filters
-        </button>
-      </div>
+        {errorMessage && (
+          <p className="status-banner warning full-row">
+            {errorMessage}
+          </p>
+        )}
 
-      <div className="grid gap-5 lg:grid-cols-2 xl:grid-cols-3">
-        {visibleCourses.map((course) => (
-          <CourseCard key={course.id} {...course} />
-        ))}
-      </div>
+        {!isLoading && !errorMessage && courses.length === 0 && (
+          <p className="status-banner neutral full-row">
+            {emptyMessage}
+          </p>
+        )}
+
+        <AnimatePresence mode="popLayout">
+          {courses.map((course) => (
+            <motion.div
+              key={course.id}
+              variants={itemVariants}
+              layout
+            >
+              <CourseCard {...course} />
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </motion.div>
     </section>
   );
 }
