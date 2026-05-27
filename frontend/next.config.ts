@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ["nimbly-acuteness-zips.ngrok-free.dev"],
   images: {
     remotePatterns: [
       {
@@ -28,6 +29,14 @@ const nextConfig: NextConfig = {
         hostname: "t3.gstatic.com",
       },
     ],
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        destination: "http://127.0.0.1:8003/api/:path*/",
+      },
+    ];
   },
 };
 

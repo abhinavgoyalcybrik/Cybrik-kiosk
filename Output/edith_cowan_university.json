@@ -1,0 +1,5928 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-19T08:14:44.087520Z",
+    "university_name": "Edith Cowan University",
+    "source": "https://www.ecu.edu.au/",
+    "total_programs": 141
+  },
+  "programs": [
+    {
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-early-childhood-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Bachelor Of Education Early Childhood Studies"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Bachelor Of Science Nursing"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "117518J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum secondary school results"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Acting)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "078476G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;",
+        "Year 12 English ATAR/English Literature ATAR grade C or better or equivalent;"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-acting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Arts and Cultural Management)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "108847M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-arts-and-cultural-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Dance)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "108846A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "Prior training to an intermediate level in any dance style, or show significant natural aptitude and facility for dance"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-dance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Music Theatre)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "050058A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-music-theatre",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Aviation",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "070518A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42950,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-aviation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "059125M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 41750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)",
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "AQF Diploma, Advanced Diploma or Associate Degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-biomedical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Bioscience)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "112686M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-biomedical-science-bioscience",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business Analytics",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "117611A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV",
+        "Successfully completed 1.0 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-business-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "South West",
+        "Sri Lanka"
+      ],
+      "cricos_code": "094285D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "0101101",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-commerce-bachelor-of-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115039G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)",
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-communication",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Community and Human Services",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "118074B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-community-and-human-services",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Computer Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "052112F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Counselling",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "083640C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate;"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Counter Terrorism Security and Intelligence",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "071524F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum IELTS score of 6.0 (no individual band less than 6.0)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-counter-terrorism-security-and-intelligence",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative Writing",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115040C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-creative-writing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative and Performing Arts Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "105882K",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completed a Bachelor degree in dance, performing arts, visual arts, fine arts, screen production or creative writing",
+        "Weighted Average Mark (WAM) of 70% or higher",
+        "Secondary school results"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-creative-and-performing-arts-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "057991G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Design",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115038H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-design",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "074169G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average": 7.5,
+          "speaking and listening": 8
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV",
+        "Successfully completed 0.25 EFTSL of study at bachelor level or higher"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-primary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary, 1-10)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average": 7.5,
+          "speaking and listening": 8.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme.* * Further information can be found on the Study course entry page.",
+        "Successful completion of the International General Certificate of Secondary Education (IGCSE) grade C or above, PLUS a completed 4 year National Diploma."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-primary-1-10",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Secondary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "074171B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average": 7.5,
+          "speaking and listening": 8
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results"
+        },
+        {
+          "type": "AQF Cert IV",
+          "equivalent": true
+        },
+        {
+          "type": "Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent)"
+        },
+        {
+          "type": "Undergraduate Certificate"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-secondary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Chemical) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083336M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum IB Diploma points: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-chemical-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil and Environmental) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083181C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "secondary_school_results": null
+        },
+        {
+          "IB Diploma points": null
+        },
+        {
+          "A-Levels grades": null
+        },
+        {
+          "completion of overseas high school/bachelor equivalent": true
+        },
+        {
+          "foundation program requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-and-environmental-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083180D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "requirements": null
+        },
+        {
+          "type": "English language proficiency",
+          "requirements": "Year 12 English ATAR/English Literature ATAR grade C or better or equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Computer Systems) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083401G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Computer Systems) Honours/Bachelor of Computer Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083191A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours-bachelor-of-computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electrical Power) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083337K",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "secondary_school_results": null
+        },
+        {
+          "IB_Diploma_points": null
+        },
+        {
+          "A-Levels_grades": null
+        },
+        {
+          "completion_of_overseas_high_school_equivalent": true
+        },
+        {
+          "foundation_program_requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-power-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electrical and Renewable Energy) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "092816J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "requirements": null
+        },
+        {
+          "type": "English language proficiency",
+          "requirements": {
+            "IELTS": {
+              "band": 6.0
+            }
+          }
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-and-renewable-energy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electronics and Communications) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083185K",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "requirements": null
+        },
+        {
+          "type": "English language proficiency",
+          "requirements": {
+            "IELTS": {
+              "band": 6.0
+            }
+          }
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electronics-and-communications-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Energy) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "V32",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 8350,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum secondary school results (for international students)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-energy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Instrumentation Control and Automation) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083338J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "requirement": "Completion of overseas high school/bachelor equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-instrumentation-control-and-automation-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechanical) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083184M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "requirements": null
+        },
+        {
+          "type": "IB Diploma points",
+          "requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechanical-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechatronics) Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083183A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "requirements": null
+        },
+        {
+          "type": "IB Diploma points",
+          "requirements": null
+        },
+        {
+          "type": "A-Levels grades",
+          "requirements": null
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent",
+          "requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechatronics) Honours/Bachelor of Technology (Motorsports)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083197F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Diploma or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours-bachelor-of-technology-motorsports",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering Honours/Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "094918J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 40750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS Academic"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS Academic": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "secondary_school_results": null
+        },
+        {
+          "IB Diploma points": null
+        },
+        {
+          "A-Levels grades": null
+        },
+        {
+          "completion_of_overseas_high_school_equivalent": true
+        },
+        {
+          "foundation_program_requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering Honours/Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "099362M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS Academic Overall band minimum score of 6.0 (no individual band less than 6.0)"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6,
+          "individual_band": 6
+        },
+        "Special Tertiary Admissions Test": null,
+        "University Preparation Course": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Diploma or equivalent; Undergraduate Certificate; Successfully completed 0.5 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Skills for Tertiary Admissions Test;",
+        "Year 12 English ATAR/English Literature ATAR grade C or better or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "105884H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Media and Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "107636H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Diploma, Advanced Diploma or Associate Degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-global-media-and-communication",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Sport Business Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "112685A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-global-sport-business-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Sport Business Management (International)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "112684B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-global-sport-business-management-international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "071523G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV",
+        "Successfully completed 1.0 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-health-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Hospitality and Tourism Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "052951M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-hospitality-and-tourism-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "052093D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Journalism and Broadcast Media",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "115041B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Diploma, Advanced Diploma or Associate Degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-journalism-and-broadcast-media",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "053990G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 38600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)",
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Advanced Diploma or equivalent",
+        "Undergraduate Certificate",
+        "Successfully completed 1 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws (Graduate Entry)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "083400G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Recognised Bachelor or Masters degree in any discipline",
+        "Secondary school results for international students"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-graduate-entry",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of Bachelor of Laws degree or Juris Doctor from a recognised Australian University",
+        "Minimum Weighted Average Mark (WAM) of 70 or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "094920D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "AQF Advanced Diploma or equivalent",
+        "Undergraduate Certificate",
+        "Successfully completed 1 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 21750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "AQF Advanced Diploma or equivalent",
+        "Undergraduate Certificate",
+        "Successfully completed 1 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent)",
+        "Skills for Tertiary Admissions Test",
+        "University Preparation Course",
+        "Indigenous University Orientation Course"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West",
+        "Sri Lanka"
+      ],
+      "cricos_code": "0102000",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 50750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Special Tertiary Admissions Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "Special Tertiary Admissions Test": null
+      },
+      "academic_requirements": [
+        "AQF Advanced Diploma or equivalent",
+        "Undergraduate Certificate",
+        "Successfully completed 1 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Marketing, Advertising and Public Relations",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "077130J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 38150,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-marketing-advertising-and-public-relations",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "0101999",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-music",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "067343A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completed a Bachelor of Music degree",
+        "Maintained a course Weighted Average Mark of 70 or higher"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-music-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Performing Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "077131G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-performing-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "115507F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41150,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV",
+        "Successfully completed 1.0 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychological-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West",
+        "Sri Lanka"
+      ],
+      "cricos_code": "0100522",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 40850,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate;"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "T75",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "APAC-accredited 3-year Bachelor degree with a major in Psychology",
+        "Weighted Course Average (WAM) of 70 per cent or higher",
+        "Credit average in second and third year units, as well as a Credit average in the majority of Psychology units"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychology-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology and Counselling",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "0100521",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 40850,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychology-and-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology, Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "0100523",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 40850,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;",
+        "Year 12 English ATAR/English Literature ATAR grade C or better or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychology-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "106397D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum IELTS score: 6.0 (no individual band less than 6.0)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Cyber Security)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "077146A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-cyber-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Cybercrime, Security and Intelligence)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "105883J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-cybercrime-security-and-intelligence",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Exercise Science and Rehabilitation)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "060854A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "AQF Diploma or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-science-and-rehabilitation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Exercise and Sports Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "055462D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-and-sports-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Exercise and Sports Science)/Bachelor of Commerce (Sport Business)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Joondalup",
+        "City Campus"
+      ],
+      "cricos_code": "097272G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;* University Preparation Course;* Indigenous University Orientation Course; or* Experience Based Entry Scheme."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-and-sports-science-bachelor-of-commerce-sport-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (International Exercise and Sports Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "106006B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 1.0 EFTSL of study at bachelor level or higher in the UK, Ireland, USA, NZ or Canada"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-international-exercise-and-sports-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Midwifery) Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree in midwifery with a Weighted Average Mark (WAM) of 70 or higher",
+        "Secondary school results"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-midwifery-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Nursing Studies)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sri Lanka",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "AQF Cert IV",
+        "Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent)",
+        "Undergraduate Certificate",
+        "Skills for Tertiary Admissions Test",
+        "University Preparation Course",
+        "Indigenous University Orientation Course",
+        "Experience Based Entry Scheme"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Nursing) Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree in nursing with a Weighted Average Mark (WAM) of 70 or higher",
+        "Minimum secondary school results for international students"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Nursing)/Bachelor of Science (Midwifery)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "097835K",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 55000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Pearson English Test (PTE) Academic",
+        "Occupational English Test (OET)",
+        "TOEFL iBT for Australia",
+        "Cambridge C1 Advanced or Cambridge C2 Proficiency"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "listening": 7.0,
+          "reading": 7.0,
+          "speaking": 7.0,
+          "writing": 6.5
+        },
+        "Pearson English Test (PTE) Academic": null,
+        "Occupational English Test (OET)": null,
+        "TOEFL iBT for Australia": null,
+        "Cambridge C1 Advanced or Cambridge C2 Proficiency": null
+      },
+      "academic_requirements": [
+        "AQF Diploma or equivalent",
+        "Undergraduate Certificate",
+        "Successfully completed 0.5 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent)",
+        "Skills for Tertiary Admissions Test"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-bachelor-of-science-midwifery",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Occupational Therapy)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "055463C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE",
+        "OET"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ]
+        },
+        "PTE": {
+          "overall": 65,
+          "bands": [
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        "OET": {
+          "overall": "B",
+          "bands": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of at least six years of primary and secondary education taught and assessed solely in English",
+        "Completion of at least 5 years full-time equivalent continuous combined secondary and/or tertiary and/or vocational education taught and assessed in a recognised country"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-occupational-therapy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Paramedical Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "077135D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ]
+        },
+        "PTE": {
+          "overall": 65,
+          "scores": [
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        "TOEFL": {
+          "total": 94,
+          "sections": [
+            24,
+            24,
+            27,
+            23
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Secondary school results",
+          "description": null
+        },
+        {
+          "type": "AQF Cert IV",
+          "description": null
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-paramedical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science/Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "094919G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40950,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "AQF Diploma, Advanced Diploma or Associate Degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-bachelor-of-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Screen Production",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115037J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-screen-production",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Work",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "060864K",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ]
+        },
+        "PTE": {
+          "overall": 65,
+          "scores": [
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        "TOEFL": {
+          "total": 94,
+          "sections": [
+            24,
+            24,
+            27,
+            23
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-social-work",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Speech Pathology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "070836J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.5,
+          "bands": [
+            7.0
+          ]
+        },
+        "PTE": {
+          "overall": 72,
+          "bands": [
+            65
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum English standard requirements for this course may also be satisfied with one of the following: Year 12 English ATAR/English Literature ATAR grade C or better or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-speech-pathology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Technology (Aeronautical)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "075154F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum IELTS score: 6.0 (no individual band less than 6.0)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-aeronautical",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Technology (Engineering)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "083190B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Technology (Motorsports)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "056770F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum secondary school results"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-motorsports",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Visual Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115046H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Secondary school results",
+        "AQF Cert IV; Successfully completed 0.25 EFTSL of study at bachelor level or higher at an Australian higher education provider (or equivalent); Undergraduate Certificate; Skills for Tertiary Admissions Test;"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-visual-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Youth Work",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "079117A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39350,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Secondary school results"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/bachelor-of-youth-work",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-midwifery",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Master Of Midwifery"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-graduate-entry",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Master Of Nursing Graduate Entry"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-paramedic-practitioner",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Master Of Paramedic Practitioner"
+    },
+    {
+      "program_course_name": "Master of Advanced Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 44100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a cognate discipline",
+        "Where accepted, equivalent prior learning, including at least five years relevant professional experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-advanced-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Arts (Performing Arts)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "074069M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree"
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-arts-performing-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 63220,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "equivalent": true
+        },
+        {
+          "type": "Minimum of 3 years of relevant supervisory/management experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "092814M",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "duration": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Education Leadership)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "118969G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a cognate discipline",
+        "Equivalent prior learning, including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration-education-leadership",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration Global",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "079116B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration-global",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Analytics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "111125H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "no_individual_band_less_than": 6
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "20 months part-time",
+      "annual_tuition_fee": {
+        "amount": 46120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor's degree in a cognate discipline",
+          "requirements": null
+        },
+        {
+          "type": "Equivalent prior learning, including at least five years of relevant professional experience"
+        },
+        {
+          "type": "Four-year, full-time, non-cognate undergraduate degree"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-psychology-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "118968H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-business-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 13300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Academic Admission requirements (Band 6)",
+        "English competency requirements may be satisfied through completion of one of the following: IELTS Academic Overall band minimum score of 6.5"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-clinical-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "108006H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            6.5
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "4th year qualification in an accredited course in psychology",
+          "equivalents": "considered"
+        },
+        {
+          "qualification": "Bachelor Honours degree in a cognate discipline",
+          "equivalents": "accepted"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-clinical-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "115047G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-communication",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Computer Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "Online"
+      ],
+      "cricos_code": "065186C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Bachelor degree from a country specified on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "no individual band less than": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a related discipline",
+        "Bachelor degree in any discipline plus five years relevant work experience",
+        "Graduate Certificate of Computer Science (or equivalent)",
+        "Evidence of academic capability judged to be equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Counselling",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "118888H",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Counselling",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": "country specified in the Admissions Policy"
+        },
+        {
+          "type": "Equivalent prior learning",
+          "with": "at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-counselling-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Creative Arts Entrepreneurship and Cultural Innovation",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": {
+            "listening": 6.0,
+            "reading": 6.0,
+            "writing": 6.0,
+            "speaking": 6.0
+          }
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-creative-arts-entrepreneurship-and-cultural-innovation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Creative Writing",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time (Fast-Track) or 2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24680,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma Programme (IBDP)": {
+          "points": 24
+        },
+        "A-Levels": {
+          "grades": [
+            "B",
+            "C"
+          ]
+        },
+        "Completion of an overseas high school or bachelor equivalent": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-creative-writing-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Criminology and Justice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Critical Care Paramedicine",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "096054C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Other tests, courses or programs defined on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "Other tests, courses or programs defined on the English Proficiency Bands page": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in Paramedicine",
+        "Graduate Certificate or Graduate Diploma in Critical Care Paramedicine",
+        "Registration with Australian Health Practitioner Regulation Agency (Ahpra) or equivalent accredited professional registration body"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-critical-care-paramedicine",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Cyber Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "Online"
+      ],
+      "cricos_code": "083335A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Other tests, courses or programs defined on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "Other tests, courses or programs defined on the English Proficiency Bands page": null
+      },
+      "academic_requirements": [
+        "Bachelor degree in a related discipline",
+        "Bachelor degree in any discipline, plus five years relevant work experience",
+        "Graduate Certificate of Cyber Security (or equivalent)",
+        "Evidence of academic capability judged to be equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-cyber-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Data Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West",
+        "Sri Lanka"
+      ],
+      "cricos_code": "103286b",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-data-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00279B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "16 months part-time",
+      "annual_tuition_fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma": {
+          "points": null
+        },
+        "A-Levels": {
+          "grades": null
+        },
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-education-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "034459F",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 37650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education (Advanced)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "097203J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-education-advanced",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "067370J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree in engineering or engineering technology",
+          "level": "AQF Level 7"
+        },
+        {
+          "type": "Master of Technology with equivalents considered"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "094280J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "field": "engineering",
+          "min_average": 65
+        },
+        {
+          "type": "equivalent prior learning",
+          "experience": "at least 5 years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-engineering-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "091873G",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 42600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Bachelor degree from a country specified on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "individual_band": 6.0
+        },
+        "Other tests, courses or programs defined on the English Proficiency Bands page": null
+      },
+      "academic_requirements": [
+        "Bachelor degree in a related discipline",
+        "Bachelor degree in any discipline plus five years relevant work experience",
+        "Graduate Certificate of Environmental Science (or equivalent)",
+        "Evidence of academic capability judged to be equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "113964H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-environmental-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Exercise Science (Strength and Conditioning)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "U94",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 33450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in Sports Science, Human Movement, Physical Education, Exercise Physiology, Kinesiology or a similar program of study",
+        "Minimum IELTS score: 6.5 (no individual band less than 6.0)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-exercise-science-strength-and-conditioning",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Finance",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "079115C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": "any country"
+        },
+        {
+          "type": "Equivalent prior learning",
+          "description": "including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Horticultural Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "108845B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "no_individual_band_less_than": 6
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a related discipline",
+        "Bachelor degree in any discipline plus five years relevant work experience",
+        "Graduate Certificate in a related discipline"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-horticultural-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Human Resource Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "079123C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-human-resource-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Human Resource Management",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 62320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "completion": "within the last 10 years"
+        },
+        {
+          "type": "Minimum GPA or percentage",
+          "value": null
+        },
+        {
+          "type": "IB Diploma points",
+          "value": null
+        },
+        {
+          "type": "A-Levels grades",
+          "value": null
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-human-resource-management-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Hospitality Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "086218D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 41250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Bachelor degree from a country specified on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.5,
+          "individual band minimum score": 6.0
+        }
+      },
+      "academic_requirements": [
+        "A Bachelor degree",
+        "Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-international-hospitality-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Management Information Systems",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "079125A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "no_individual_band_less_than": 6
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-management-information-systems",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Marketing and Innovation Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "083332D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Other tests, courses or programs defined on the English Proficiency Bands page"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 (no individual band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Bachelor degree; or Equivalent prior learning including at least five years relevant professional experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-marketing-and-innovation-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Mental Health",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39890,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor's degree in any discipline"
+        },
+        {
+          "type": "Equivalent prior learning including at least five years of relevant professional experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-mental-health-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Mental Health Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 43450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a cognate discipline",
+        "Where accepted, equivalent prior learning, including at least five years relevant professional experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-mental-health-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing (Nurse Practitioner)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 4750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "listening": 7.0,
+          "reading": 7.0,
+          "speaking": 7.0,
+          "writing": 6.5
+        },
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "current registration as a Registered Nurse with the Nursing and Midwifery Board of Australia (NMBA)"
+        },
+        {
+          "type": "Bachelor of Nursing, with equivalents considered"
+        },
+        {
+          "type": "postgraduate qualification at Australian Qualification Framework Level 8 in their specialty"
+        },
+        {
+          "type": "minimum four years full-time equivalent (FTE) post-registration experience as a registered nurse including two years (FTE) of current advanced nursing practice"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-nurse-practitioner",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "119502A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in nursing",
+        "2 years full-time (or equivalent) post registration professional practice"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nutrition and Dietetics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "0101100",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1.5 years : Full time or part time equivalent 3 Trimesters and 1 Semester",
+      "annual_tuition_fee": {
+        "amount": 41550,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "OET"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "listening": 7.0,
+          "reading": 7.0,
+          "writing": 7.0,
+          "speaking": 7.0
+        },
+        "OET": {
+          "overall": "B",
+          "listening": "B",
+          "reading": "B",
+          "writing": "B",
+          "speaking": "B"
+        }
+      },
+      "academic_requirements": {
+        "Academic Admission requirements (Band 8)": {
+          "minimum_degree": "Bachelor degree in a human bioscience area",
+          "minimum_gpa": 65,
+          "additional_requirements": [
+            "Biochemistry and Human Physiology content"
+          ]
+        }
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-nutrition-and-dietetics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "079124B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-professional-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 41000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            6.5,
+            6.5,
+            6.5,
+            6.5
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of an APAC-accredited 4th year qualification in psychology",
+        "Provisional Registration with the Psychology Board of Australia"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-professional-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "079106D",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall band minimum score": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-project-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "24 months part-time",
+      "annual_tuition_fee": {
+        "amount": 16260,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "completion": "within the last 10 years"
+        },
+        {
+          "type": "Professional project management experience",
+          "duration": "at least 2 years"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-project-management-accelerated-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Health",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "070834M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 41700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Bachelor degree in a cognate discipline",
+        "Equivalent prior learning, including at least five years relevant professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-public-health",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Screen Production",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "117362B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": "any country"
+        },
+        {
+          "type": "Equivalent prior learning",
+          "experience": "at least 5 years relevant professional experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-screen-production",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Social Work (Qualifying)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "116686A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "bands": [
+            7.0,
+            7.0,
+            7.0,
+            7.0
+          ]
+        },
+        "PTE": {
+          "overall": 65,
+          "scores": [
+            65,
+            65,
+            65,
+            65
+          ]
+        },
+        "TOEFL iBT": {
+          "total": 94,
+          "sections": [
+            24,
+            24,
+            27,
+            23
+          ]
+        }
+      },
+      "academic_requirements": {
+        "minimum_3-year_Bachelor_degree_in_related_field": true,
+        "additional_studies_in_social_sciences": true
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-social-work-qualifying",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Supply Chain and Logistics Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "0100465",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40050,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5,
+          "no individual band less than": 6
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": null
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-supply-chain-and-logistics-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Early Childhood)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "098287C",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average level": 7.5,
+          "speaking and listening": 8.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "Bachelor degree or equivalent",
+          "country": null
+        },
+        {
+          "qualification": "Equivalent prior learning including at least five years relevant professional experience",
+          "country": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-early-childhood",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Primary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup",
+        "South West"
+      ],
+      "cricos_code": "098289A",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average": 7.5,
+          "speaking and listening": 8
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "from": "Australia, Canada, Ireland, New Zealand, the UK or the USA"
+        },
+        {
+          "type": "Undergraduate degree taught in English from a South African University"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-primary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "098288B",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37700,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "average": 7.5,
+          "speaking and listening": 8
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "equivalent qualification": true
+        },
+        {
+          "type": "Equivalent prior learning including at least five years relevant professional experience"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-secondary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Technology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus",
+        "Joondalup"
+      ],
+      "cricos_code": "108005J",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall_band": 6.5,
+          "individual_bands": [
+            6.0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Minimum three-year Bachelor degree or equivalent",
+        "Background in tertiary mathematics and physics (equivalent to MAT1250, MAT1251, SCP1111)",
+        "English competency requirements may be satisfied through completion of one of the following: IELTS Academic Overall band minimum score of 6.5 (no individual band less than 6.0)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ecu.edu.au/degrees/courses/master-of-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

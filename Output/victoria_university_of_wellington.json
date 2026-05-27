@@ -1,0 +1,5018 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T09:55:54.858603Z",
+    "university_name": "Victoria University of Wellington",
+    "source": "https://www.wgtn.ac.nz/",
+    "total_programs": 132
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Commerce with Honours [BCom(Hons)]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/bachelor-of-commerce-with-honours/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Midwifery",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years trimester",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage (not specified)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/degrees/bachelor-of-midwifery/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Actuarial Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18175,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "An appropriate Bachelor’s degree with a major in Actuarial Science, Finance, Statistics or a related field, with the equivalent of at least a B+ average standard in the relevant subject."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-actuarial-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Actuarial Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-actuarial-science/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Actuarial Science [MActSc]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-actuarial-science/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Linguistics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field, or equivalent",
+        "English language proficiency: IELTS (Academic) with an overall score of at least 6.5 and no band less than 6.0, or TOEFL (iBT) with a total score of at least 90 and a minimum of 24 in writing"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-applied-linguistics/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Statistics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March to June",
+        "July to October",
+        "November to February"
+      ],
+      "course_duration": "1 year full-time or up to 3 years part-time",
+      "annual_tuition_fee": {
+        "amount": 18175.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in relevant subject",
+        "Minimum GPA or percentage: unknown",
+        "IB Diploma points: unknown",
+        "A-Levels grades: unknown"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-applied-statistics/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Architecture",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "International Baccalaureate Diploma with a minimum of 28 points",
+        "A Levels: ABB or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-architecture/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Architecture (Professional)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Te Aro, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 trimesters / 2 years full-time. Or up to 4 years for part-time domestic students.",
+      "annual_tuition_fee": {
+        "amount": 12297,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in Architecture or Graduate Diploma in Designed Environments (Architecture), or an approved alternative."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-architecture-professional/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters (full-time) or 6 trimesters (part-time)",
+      "annual_tuition_fee": {
+        "amount": 18429.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor’s degree in Computer Science or a related subject with at least a B average",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-artificial-intelligence/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "A minimum of 7.5 in IELTS (with no band less than 6.5) or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-artificial-intelligence/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Bachelor’s degree in Computer Science or a related subject with at least a B average in the relevant final year courses.",
+        "To be accepted by the Head of School as capable of proceeding with the proposed course of study."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-artificial-intelligence/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Arts",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-arts-120-points/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Climate Change Science and Policy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "3 trimesters full-time or normally 6 trimesters for part-time domestic students",
+      "annual_tuition_fee": {
+        "amount": 18330.0,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average in a relevant subject",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-climate-change-science-and-policy/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Climate Change Science and Policy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with at least a B average or equivalent in a relevant subject",
+        "Examples of relevant subjects include: climate science, earth science, environmental science, environmental studies, geography (especially physical geography), law, political science, and public policy"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-climate-change-science-and-policy/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Climate Change Science and Policy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-climate-change-science-and-policy/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Immunology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Biomedical Science or equivalent",
+        "Minimum GPA of 3.0/4.0 or higher"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-clinical-immunology/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Immunology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Biomedical Science or equivalent",
+        "Minimum GPA of B average"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-clinical-immunology/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Immunology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "No intake for 2026"
+      ],
+      "course_duration": "3 trimesters (1 year full-time)",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in relevant subject",
+        "Workplace and research experience"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-clinical-immunology/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Commerce",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum GPA of 3.0 out of 4.0, or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-commerce/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Commerce",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 3"
+      ],
+      "course_duration": "3-4 trimesters full-time, or normally 6 trimesters for part-time domestic students",
+      "annual_tuition_fee": {
+        "amount": 17297.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor of Commerce degree, with an average grade of at least B+ in the relevant subject"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-commerce/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-communication/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-communication/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18204,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "A Bachelor’s degree with at least a B average or equivalent in a relevant subject."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-communication/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Computer Science",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with at least a B average, or extensive professional experience",
+        "To be accepted by the Head of School as having adequate preparation in Computer Science"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-computer-science/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Computer Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters full-time or normally 6 trimesters for part-time domestic students",
+      "annual_tuition_fee": {
+        "amount": 18429.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A Bachelor's degree with at least a B average, or extensive professional experience",
+        "International students: A minimum IELTS score of 6.5 (with no band less than 6.0)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-computer-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Conservation Biology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree or equivalent",
+        "Minimum GPA: 3.0 (B+)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-conservation-biology/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Construction",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A minimum of a Bachelor's degree with a GPA of at least 3.0 or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-construction/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Construction",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-construction/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Construction",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Te Aro, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18429,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A Bachelor of Building Science, Bachelor of Construction, or Bachelor of Architectural Studies or equivalent",
+        "with at least a B average"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-construction/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Criminology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average in a relevant subject"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-criminology/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Data Science",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "A completed Bachelor's degree from a recognized university, or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-data-science/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Data Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "5-6 trimesters (2 years)",
+      "annual_tuition_fee": {
+        "amount": 12297.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with a major in Data Science, Computer Science, or Statistics",
+        "Candidates with a major in Data Science or a double major in Computer Science and Statistics may be exempted Part 1 (60 points) and can complete the degree in 3 trimesters (12 months)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-data-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Design",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Te Aro, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Flexible: Apply now and start studying once your application is accepted."
+      ],
+      "course_duration": "3 trimesters / 12 months of full-time study",
+      "annual_tuition_fee": {
+        "amount": 11787.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor’s or Honours degree in Design, or appropriate practical, professional, or academic experience."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-design/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Design Technology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A Bachelor of Design Innovation (BDI) degree in Media Design, Game Design, or Animation and Visual Effects, or an equivalent qualification",
+        "A suitable portfolio of work"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-design-technology/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Design [MDes]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A Bachelor of Design or Bachelor of Design with Honours degree",
+        "or a design diploma at the discretion of the Head of School",
+        "or appropriate practical, professional, or academic experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-design/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Development Studies",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-development-studies/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Development Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "3 trimesters full-time or 6 trimesters part-time",
+      "annual_tuition_fee": {
+        "amount": 18530,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A Bachelor's degree with an average grade of B or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-development-studies/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Drug Discovery and Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-drug-discovery-and-development/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Drug Discovery and Development",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-drug-discovery-and-development/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Drug Discovery and Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18530,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in relevant subject",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-drug-discovery-and-development/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington",
+        "online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "November",
+        "February"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in Education, Psychology or a related discipline",
+        "or an approved teacher education degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-education-and-related-qualifications/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education [MEd]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-education-and-related-qualifications/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education [MEd]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-education-and-related-qualifications/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-engineering/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "3 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 18429.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B+ average in a relevant subject"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-engineering-practice/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Science",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-science/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18530.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average in a relevant subject",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Science [MEnvSc]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with at least a B average in a relevant subject such as Environmental Science, Earth Science, Chemistry, Biology, Physics, or Mathematics",
+        "To be accepted by the head of school as capable of proceeding with the proposed course of study"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-science/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 trimesters",
+      "annual_tuition_fee": {
+        "amount": 12364,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in relevant subject with a B+ average or extensive practical experience",
+        "Postgraduate Diploma in Environmental Studies and achieved a B grade or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-studies/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Studies",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-studies/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            6.0,
+            7.0
+          ]
+        },
+        "TOEFL": {
+          "score": 90
+        }
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university",
+        "English language proficiency (e.g., IELTS or TOEFL)",
+        "Other requirements may apply"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-environmental-studies/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Fine Arts (Creative Practice)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn",
+        "Te Whare Ngangahau—Theatre and Performance Studies",
+        "Miramar Creative Centre",
+        "Te Aro campus",
+        "Te Auaha building"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18705,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in a relevant subject",
+        "Extensive experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-fine-arts-creative-practice/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Global Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum GPA of 3.0 out of 4.0, or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-global-business/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Global Business",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum GPA of 3.0 out of 4.0, or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-global-business/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Global Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 3"
+      ],
+      "course_duration": "3 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 29779.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree in any discipline with at least a B average."
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-global-business/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-health/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses and online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "3 trimesters full-time (or normally 6 if studied by part-time domestic students)",
+      "annual_tuition_fee": {
+        "amount": 18505.0,
+        "currency": "NZD",
+        "period": null
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "null"
+      },
+      "academic_requirements": [
+        "Bachelor's degree in a relevant subject with at least a B average"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-health/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-health/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Indigenous Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of a Bachelor's degree or equivalent",
+        "a minimum GPA of 3.0 or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-indigenous-studies/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information Studies [MIS]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree or equivalent in a relevant field",
+        "English language proficiency (e.g. IELTS, TOEFL, PTE)",
+        "International Baccalaureate Diploma with a minimum score of 24 points"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-information-studies/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Intercultural Communication and Applied Translation",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree or equivalent in a relevant field",
+        "English language proficiency (e.g. IELTS, TOEFL, PTE)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-intercultural-communication-and-applied-translation/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Intercultural Communication and Applied Translation",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average in a relevant subject and advanced study in a language other than English",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-intercultural-communication-and-applied-translation/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Relations",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 64
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field from a recognised university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-international-relations/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Relations",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in any discipline, or equivalent qualification",
+        "A minimum GPA of 3.0 on a 4-point scale (or equivalent)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-international-relations/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Relations",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "12 months for full-time students and 24 months for part-time students",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Appropriate Bachelor's degree or extensive practical, professional or scholarly experience"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-international-relations/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Trade",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea",
+        "Kelburn"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2",
+        "Trimester 3"
+      ],
+      "course_duration": "3 trimesters full-time or 6 trimesters part-time",
+      "annual_tuition_fee": {
+        "amount": 18184,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-international-trade/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Trade",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 35100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-international-trade/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Landscape Architecture",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Te Aro, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 trimesters (2 years full-time) or up to 4 years for part-time domestic students",
+      "annual_tuition_fee": {
+        "amount": 12297.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in Landscape Architecture, Architectural Studies, or an approved alternative.",
+        "Minimum GPA/percentage: unknown",
+        "IB Diploma points: unknown",
+        "A-Levels grades: unknown"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-landscape-architecture/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Laws [LLM]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Law or a related field from a recognised university",
+        "A minimum GPA of 3.0 out of 4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-laws/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Laws [LLM]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Law or a related field",
+        "A minimum GPA of 3.0 on a 4-point scale"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-laws/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Laws [LLM]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "2-3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 13097,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Bachelor's degree in Law or a postgraduate degree in Law with Honours"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-laws/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Linguistics",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in linguistics or a related field, or equivalent",
+        "English language proficiency: IELTS (Academic) with an overall score of at least 6.5 and no band less than 6.0, or TOEFL (iBT) with a total score of at least 90 and a minimum of 24 in writing"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-linguistics/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Migration Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-migration-studies-and-related-programmes/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Migration Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "+ -2 more"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in relevant subject"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-migration-studies-and-related-programmes/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Museum and Heritage Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field, or equivalent",
+        "A minimum GPA of 3.0 (B average) on the Victoria University of Wellington grading scale"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-museum-and-heritage-practice/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Music Therapy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in music or a related field",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-music-therapy/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Natural Hazard Science and Policy",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent, or a Graduate Diploma in a relevant field",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-natural-hazard-science-and-policy/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing Practice",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 trimesters, within 5 years",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0 with no individual score of less than 7.0"
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with an average grade of at least B+ in the final year of study",
+        "To have been accepted by the associate dean as capable of proceeding with the proposed course of study"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-nursing-practice/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington Regional Hospital campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 trimesters full time, clinical practice",
+      "annual_tuition_fee": {
+        "amount": 12347.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree with an average grade of at least B+ in the final year of study"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-nursing-practice/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington Regional Hospital campus",
+        "online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July",
+        "November"
+      ],
+      "course_duration": "4 trimesters",
+      "annual_tuition_fee": {
+        "amount": 12347,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a New Zealand tertiary institution",
+        "Registered nurse with a current practising certificate from the Nursing Council of New Zealand"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-nursing-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Political Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "12 months full-time or 24 months part-time",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Appropriate Bachelor’s degree at or around GPA 6 or above",
+        "Extensive relevant experience"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-political-science/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea Campus",
+        "online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 3",
+        "Trimester 1"
+      ],
+      "course_duration": "3 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 28923,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with a B- range average or above"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree in any field from a recognised university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1 (March)",
+        "Trimester 3 (November)"
+      ],
+      "course_duration": "2 years full-time, or 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree in any field, or equivalent",
+        "A minimum GPA of 3.0 (B average) on a 4-point scale"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-accounting/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Business Analysis",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-business-analysis/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Business Analysis",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses and online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "4 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 29679,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor's degree",
+          "average": "B-"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-professional-business-analysis/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum of 45 points in approved courses at 400- or 500-level"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-public-management/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Pipitea Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 trimesters",
+      "annual_tuition_fee": {
+        "amount": 29779,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree and two years' work experience in the public sector, or extensive work experience",
+        "Direct graduate entry: Individuals must have a Bachelor's degree from a New Zealand university with a GPA average of A- or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-public-management/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Renewable Energy",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree in a relevant area with at least a B+ average",
+        "Examples of relevant areas include: chemistry, physics, environmental sciences, any engineering discipline, or an energy-related area"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-renewable-energy/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Renewable Energy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "A completed Bachelor of Engineering with Honours from Victoria University of Wellington"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-renewable-energy/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Renewable Energy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1: February",
+        "Trimester 3: August"
+      ],
+      "course_duration": "3 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 18429.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B+ average in the relevant subjects"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-renewable-energy/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science by coursework and thesis",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "4–5 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 12364.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree or equivalent in relevant subject",
+        "Minimum GPA of B+ or higher"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-by-coursework-and-thesis/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science by coursework and thesis [MSc]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-by-coursework-and-thesis/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science by thesis",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses and online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 trimesters (full-time) or 5-6 trimesters (part-time)",
+      "annual_tuition_fee": {
+        "amount": 11856.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with Honours or equivalent in relevant subject",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-by-thesis/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science by thesis [MSc]",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-by-thesis/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science in Society",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-in-society/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Secondary School Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A Bachelor's degree with a B average or a postgraduate qualification",
+        "To be in a middle or senior management position in a secondary school",
+        "To be nominated by or have the support of your principal",
+        "To be endorsed by a panel of principals and academic staff of the University as having the intellectual and interpersonal capabilities and potential to excel in a leadership role"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-secondary-school-leadership/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Secondary School Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "6 trimesters part-time study for domestic students",
+      "annual_tuition_fee": {
+        "amount": 16379.0,
+        "currency": "NZD",
+        "period": null
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with a B average or a postgraduate qualification",
+        "hold a management position in a secondary school",
+        "principal's nomination"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-secondary-school-leadership/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Software Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-software-development/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Space Science and Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-space-science-and-practice/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Space Science and Practice",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-space-science-and-practice/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Space Science and Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 18530,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with a B average in a relevant subject",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-space-science-and-practice/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Strategic Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum GPA of 3.0 out of 4.0 in the last two years of study"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-strategic-studies/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Strategic Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn, Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Appropriate Bachelor's degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-strategic-studies/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Strategic Studies",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-strategic-studies/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of TESOL",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Victoria University of Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field, or equivalent",
+        "A minimum GPA of 3.0 (B average) on the Victoria University of Wellington grading scale"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-tesol/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of TESOL",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses and online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July",
+        "November"
+      ],
+      "course_duration": "3–4 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379,
+        "currency": "NZD",
+        "period": "for the full programme"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with at least a B average in a relevant subject",
+        "two years of related professional experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-tesol/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of TESOL",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in any field, or equivalent",
+        "A minimum GPA of 3.0 on a 4-point scale, or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-tesol/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching and Learning (Primary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with a grade point average of 6.5 or above",
+        "International students: please contact Philippa Nicoll Antipas, Master of Teaching and Learning programme director for international students"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-teaching-and-learning-primary/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching and Learning (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 7.0,
+        "TOEFL": 90,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "A Bachelor's degree with a grade point average of 6.5 or above",
+        "One teaching subject in your degree(s) as a major or at a postgraduate level"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-teaching-and-learning-secondary/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching and Learning (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington campuses"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 trimesters",
+      "annual_tuition_fee": {
+        "amount": 16379.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A Bachelor's degree with a grade point average of 6.5 or above",
+        "International Baccalaureate Diploma points (not specified)",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-teaching-and-learning-secondary/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Urban and Regional Planning",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Te Aro campus (Wellington)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 2",
+        "Trimester 1"
+      ],
+      "course_duration": "4 trimesters, 2 years full-time. Or up to 4 years for part-time domestic students.",
+      "annual_tuition_fee": {
+        "amount": 12297,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree with a B average or above",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-urban-and-regional-planning/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Urban and Regional Planning",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-urban-and-regional-planning/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Urban and Regional Planning [MURPlan]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A Bachelor’s degree in a relevant discipline from a tertiary institution outside New Zealand, or an equivalent qualification",
+        "An average grade of at least B"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-urban-and-regional-planning/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of User Experience Design",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-user-experience-design/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Overview",
+      "course_level": null,
+      "campus_location": [],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum GPA of 3.0 or higher",
+        "Completion of an overseas high school equivalent to NZQA Level 7",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-indigenous-studies/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.4,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Overview",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average in the last two years of secondary education",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/bachelor-of-arts-with-honours/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Overview",
+      "course_level": null,
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average in the final year of study, or equivalent.",
+        "Completion of an overseas high school qualification, or equivalent."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-public-policy/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Overview",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus",
+        "Te Aroha Maori Culture Centre"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-philosophy-politics-and-economics/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Overview",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus",
+        "Te Aroha"
+      ],
+      "cricos_code": "00163M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum GPA of 3.0 or higher from a recognized university",
+        "Completion of an overseas high school with a minimum average grade of B+ (80%)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-science-in-society/overview",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "People",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-conservation-biology/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "People",
+      "course_level": null,
+      "campus_location": [],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-landscape-architecture/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.4,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "People",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus",
+        "Te Aroha Maori Culture Centre"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-design-innovation/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "People",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus",
+        "Te Aro Campus"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-engineering-practice/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "People",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus",
+        "Te Aroha"
+      ],
+      "cricos_code": "00163M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-political-science/people",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Requirements",
+      "course_level": null,
+      "campus_location": [],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-landscape-architecture/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.4,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Requirements",
+      "course_level": null,
+      "campus_location": [
+        "Kelburn Campus"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average (65%) in the final year of study",
+        "Completion of an overseas high school or equivalent qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-architecture-professional/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Requirements",
+      "course_level": null,
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum GPA of 3.0 or higher from a recognized university",
+        "Completion of an overseas high school equivalent to New Zealand NCEA Level 3 with a B average"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-architecture/requirements",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Study",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Kelburn Campus"
+      ],
+      "cricos_code": "00163E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, with no band less than 6.0",
+        "TOEFL": "88 overall, with a minimum of 24 in writing"
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "Completion of a foundation programme, or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-applied-linguistics/study",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Study",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Wellington"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-artificial-intelligence/study",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Study",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": null,
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-drug-discovery-and-development/study",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    }
+  ]
+}

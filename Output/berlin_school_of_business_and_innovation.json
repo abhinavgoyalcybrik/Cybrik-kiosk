@@ -1,0 +1,1210 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T06:25:42.939264Z",
+    "university_name": "Berlin School of Business and Innovation",
+    "source": "https://www.berlinsbi.com/",
+    "total_programs": 29
+  },
+  "programs": [
+    {
+      "program_course_name": "BA Top Up Degree",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "BSBI Campus Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "1 year (full-time)",
+      "annual_tuition_fee": {
+        "amount": 11000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma": null,
+        "A-Levels": null,
+        "Completion of overseas high school/bachelor equivalent": null,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-hons-comic-and-concept-art",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc Hons International Business and Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/bsc-hons-internationale-wirtschaft-und-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (BA) Hons in Photography",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "3/4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-hons-photography",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts in Animation",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": 24,
+        "A-Levels grades": [
+          "BCC",
+          "BBC"
+        ],
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-hons-animation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts in Economics and Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "Minimum GPA": 3.0,
+        "IB Diploma points": 28,
+        "A-Levels grades": [
+          "BCC",
+          "BBC"
+        ],
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-wirtschaft-und-betriebswirtschaft",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business in Tourism and Hotel Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-hons-tourismus-und-gastronomie-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Game Design",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "1 year (full-time)",
+      "annual_tuition_fee": {
+        "amount": 11000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma": "24 points",
+        "A-Levels": "BBC or equivalent",
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/de/studienprogramme/bachelorstudiengaenge/ba-hons-game-design",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA in Fashion and Luxury Brand Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "18 months",
+      "annual_tuition_fee": {
+        "amount": 13920,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Person Test of English (Academic)"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "min": 6.0
+        },
+        "Person Test of English (Academic)": {
+          "min": 56
+        }
+      },
+      "academic_requirements": [
+        "Successful completion of a bachelor’s degree or equivalent from a recognised university/institution",
+        "Minimum age: 21 years old"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-of-arts-ma-in-fashion-and-luxury-brand-management-chichester",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MBA en Gestión Marítima y Naviera",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/master-profesional",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MBA in Maritime and Shipping Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/master-profesional/mba-en-gestion-maritima-y-naviera",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MBA in Maritime and Shipping Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "18 months",
+      "annual_tuition_fee": {
+        "amount": 13920,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "Person Test of English (Academic)"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": [
+            5.5
+          ]
+        },
+        "Person Test of English (Academic)": {
+          "score": 56,
+          "band": [
+            51
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Successful completion of a bachelor’s degree or equivalent from a recognised university/institution",
+        "Consideration will also be given to applicants with a minimum of 3 years of relevant managerial experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-of-business-administration-mba-in-maritime-and-shipping-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Cyber Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "May",
+        "October"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 13920,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Graduates with a bachelor's degree in a STEM field",
+        "Career changers aiming to enter the thriving cyber security industry",
+        "IT professionals looking to specialise in security"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-cybersecurity-with-roehampton",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Data Analytics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA": 3.0,
+        "IB Diploma points": 28,
+        "A-Levels grades": [
+          "B",
+          "C"
+        ],
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-profesional-en-data-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Digital Marketing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 18000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-marketing-digital",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "To be confirmed"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": {
+        "Min age": "21",
+        "Undergraduate degree or equivalent": null,
+        "3+ years work experience (if no degree)": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-artificial-intelligence",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Digital Marketing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Coming soon"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "MOI letter accepted"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)",
+        "Students applying for the dual programme award with the university of Chichester can must have an undergraduate degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-digital-marketing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Engineering Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin",
+        "Hamburg",
+        "Barcelona",
+        "Madrid",
+        "Paris"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 22000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.0 or equivalent",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-engineering-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Fashion and Luxury Brand Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Coming soon"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "MOI letter accepted"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)",
+        "Students applying for the dual programme award with the university of Chichester can must have an undergraduate degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-fashion-and-luxury-brand-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Finance & Investment",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "October"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "MOI letter accepted"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)**"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-finance-and-investment",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Global MBA",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "May",
+        "June",
+        "October"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 18000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-global-mba",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Information Technology Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Próximamente"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 18000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "MOI letter accepted"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)**"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-information-technology-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in International Health Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "June",
+        "October"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-international-health-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Logistics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "October"
+      ],
+      "course_duration": "18 Months",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "MOI letter accepted"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Min age: 21",
+        "Undergraduate degree or equivalent",
+        "3+ years work experience (if no degree)",
+        "Students applying for the dual programme award with the university of Chichester can must have an undergraduate degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/programmes/postgraduate/master-in-logistics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Fashion Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-gestion-de-moda-y-marcas-de-lujo",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master's in Logistics and Supply Chain Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-logistica",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Masteres Profesionales",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Barcelona",
+        "Madrid",
+        "Berlín",
+        "Hamburgo",
+        "París"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum GPA: 3.0",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/masteres-profesionales",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Máster Profesional",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 50
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-global-mba",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Máster en Finanzas e Inversiones",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-finanzas-e-inversiones",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Máster en Gestión de Tecnología de la Información",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.berlinsbi.com/es/programas/cursos-de-posgrado/master-en-gestion-de-la-tecnologia-de-la-informacion",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

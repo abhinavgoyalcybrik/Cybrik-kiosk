@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T08:23:50.358667Z",
+    "university_name": "Academy Ex",
+    "source": "https://www.academyex.com/",
+    "total_programs": 5
+  },
+  "programs": [
+    {
+      "program_course_name": "Master Of Contemporary Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree or equivalent from a recognised university",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.academyex.com/courses/master/master-of-contemporary-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business and Technology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "14 months full-time",
+      "annual_tuition_fee": {
+        "amount": 28695,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Proof of identity",
+        "English language proficiency (e.g. academic IELTS or PTE)",
+        "Qualifications & work experience (e.g. an academic transcript, graduating certificate, or CV)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-technological-futures-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Change & Organisational Resilience",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "14-18 months",
+      "annual_tuition_fee": {
+        "amount": 44880,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "International Baccalaureate Diploma with a minimum of 24 points",
+        "A-Levels or equivalent qualifications"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-change-and-organisational-resilience",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Technological Futures",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "June"
+      ],
+      "course_duration": "Flexible study",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree or equivalent",
+        "Minimum GPA requirement not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/mtf-landing-page",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master's in Teaching & Learning | Contemporary Education",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "February"
+      ],
+      "course_duration": "14-18 months",
+      "annual_tuition_fee": {
+        "amount": 44488.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Proof of previous study and work experience",
+        "English language proficiency (e.g. academic IELTS or PTE)",
+        "Qualifications & work experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-contemporary-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    }
+  ]
+}

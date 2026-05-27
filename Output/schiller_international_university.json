@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:19:35.163262Z",
+    "university_name": "Schiller International University",
+    "source": "https://www.schiller.edu/",
+    "total_programs": 12
+  },
+  "programs": [
+    {
+      "program_course_name": "BS in Business Analytics",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Madrid",
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 26757,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-business-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc in Computer Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 17610,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school or equivalent",
+        "Minimum GPA: Not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc in International Hospitality & Tourism Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 17610,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-international-hospitality-and-tourism-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science in International Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "May",
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 17610,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-international-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science in International Marketing Degree | BSc",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 17610,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-international-marketing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MS in Data Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Jun 8, 2026",
+        "Sep 28, 2026"
+      ],
+      "course_duration": "12 months (Flexible)",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-science-in-data-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MS in Digital Marketing and E-commerce",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized institution",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-science-in-digital-marketing-and-e-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MS in Global Finance",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "12 months (Flexible)",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "TOEFL",
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "TOEFL": 80,
+        "IELTS": 6.5
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-science-in-global-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MS in Sustainability Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "12 months (Flexible)",
+      "annual_tuition_fee": {
+        "amount": 770,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-science-in-sustainability-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (MBA)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Madrid",
+        "Paris",
+        "Heidelberg",
+        "Tampa"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "June",
+        "September"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-business-administration-mba",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "One Year Online MBA | Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "June",
+        "September"
+      ],
+      "course_duration": "12 months (Flexible)",
+      "annual_tuition_fee": {
+        "amount": 11160,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": {
+        "International Baccalaureate Diploma": "28 points",
+        "A-Levels": "3 A-levels with grades AAA in relevant subjects",
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/master-of-business-administration-mba-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Online Bachelor of Science in International Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 Years (Full Time)",
+      "annual_tuition_fee": {
+        "amount": 8850,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum GPA or percentage",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.schiller.edu/programs/bachelor-of-science-in-international-business-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

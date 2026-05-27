@@ -1,0 +1,370 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-19T06:14:24.994561Z",
+    "university_name": "Curtin University",
+    "source": "https://www.curtin.edu.au/",
+    "total_programs": 8
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor Of Advanced Biomedical Sciences Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-ug-bachelor-of-advanced-biomedical-sciences-honours--bh-advbscv2",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of Business Administration In International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 3.0 out of 4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-business-administration-in-international-business--mc-busduv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-international-business--mc-intbusv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of International Business And Entrepreneurship",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-international-business-and-entrepreneurship--mc-mibev1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of International Relations",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "IB Diploma",
+          "points": "24"
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-international-relations--mc-intrelv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of International Relations And National Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-international-relations-and-national-security--mc-intrnsv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of International Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-pg-master-of-international-security--mc-intsecv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of Philosophy International Health",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Curtin University Malaysia",
+        "Curtin Singapore"
+      ],
+      "cricos_code": "00301J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://handbook.curtin.edu.au/courses/course-research-master-of-philosophy-international-health--mr-inthlv1",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    }
+  ]
+}

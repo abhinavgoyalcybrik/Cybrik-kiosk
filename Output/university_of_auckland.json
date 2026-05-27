@@ -1,0 +1,2592 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:10:26.028227Z",
+    "university_name": "University of Auckland",
+    "source": "https://www.auckland.ac.nz/",
+    "total_programs": 65
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor Advanced Science Honours Bachelor Of Music.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": 28,
+        "A-Levels grades": "B, B, C",
+        "completion of overseas high school/bachelor equivalent": true,
+        "foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-advanced-science-honours-bachelor-of-music.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Engineering Honours Bachelor Laws Honours.Html",
+      "course_level": null,
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a recognised Bachelor's degree",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Engineering Honours Bachelor Laws.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Engineering Honours Bachelor Property.Html",
+      "course_level": null,
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to New Zealand NCEA Level 3",
+        "Minimum GPA: 7.0/10"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-property.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Of Advanced Science Honours Bachelor Of Engineering Honours.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognized university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-advanced-science-honours-bachelor-of-engineering-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Of Advanced Science Honours Bachelor Of Global Studies.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognized university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-advanced-science-honours-bachelor-of-global-studies.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Of Advanced Science Honours Bachelor Of Laws.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-advanced-science-honours-bachelor-of-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Property Bachelor Laws Honours.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognized university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-property-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Property Bachelor Laws.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognized university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-property-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Property Bachelor Science.Html",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognized university",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-property-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.0",
+        "Completion of overseas high school equivalent to New Zealand NCEA Level 3"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/students/academic-information/graduation/what-to-wear/bachelors-masters-degree-regalia.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Commerce Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 54150,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Minimum grade requirements: GPE 3.9",
+        "Your most recent year of full-time study (or equivalent) of bachelors degree study from a New Zealand University or one year’s successful study as part of an acceptable sub-degree or bachelors-level qualification from a New Zealand non-university tertiary institution."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-commerce.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Engineering (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 65260,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS Academic"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS Academic": {
+          "score_required": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "IB",
+          "score_required": 36,
+          "subject_requirements": "Mathematics and Physics at HL level"
+        },
+        {
+          "qualification": "GCE A Level/CIE",
+          "score_required": "ABB",
+          "subject_requirements": "Mathematics and Physics"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-engineering-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Fine Arts Conjoint BA/BFA",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester One",
+        "Semester Two"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 50595,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS Academic"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS Academic": {
+          "score": 6.0,
+          "bands": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-fine-arts.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Global Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a NZQA-approved NCEA Level 3 qualification",
+        "IB Diploma with a minimum total score of 24 points",
+        "Completion of an overseas high school or bachelor's degree equivalent to a New Zealand bachelor's degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-global-studies.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Health Sciences Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "February"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48171,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "bands": [
+            6,
+            0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "One year successful bachelor-degree level study at a recognised university (or similar institution) overseas.",
+        "Minimum grade requirements: GPE 5.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-health-sciences.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47118,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Laws Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (No bands less than 5.5)"
+      },
+      "academic_requirements": [
+        "Minimum grade requirements: GPE 3.9",
+        "Prior tertiary study requirements: Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Music Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (No bands less than 5.5)"
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.9",
+        "Completion of overseas high school equivalent to NZ NCEA Level 3"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-music.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts/Bachelor of Science Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce / Bachelor of Global Studies Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 58667,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3 with a minimum B average",
+        "IB Diploma points: 28",
+        "A-Levels grades: AAB"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-global-studies.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Engineering (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 62500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "academic": {
+            "score": 6.5
+          }
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3",
+        "Minimum GPA: 5.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-engineering-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Health Sciences Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48171,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "bands": [
+            6,
+            0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-health-sciences.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47218,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47218,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3 with a minimum B average",
+        "IB Diploma points: 28"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Music Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.9"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-music.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Property Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 54150,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3",
+        "Minimum GPA: 3.9"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-property.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce/Bachelor of Science Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-commerce-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication/Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 82706.8,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-communication-bachelor-of-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": 12578.4,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 6"
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-communication-bachelor-of-laws--honours-.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Design/Bachelor of Fine Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11427.75,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6
+        }
+      },
+      "academic_requirements": {
+        "NCEA rank score": "210",
+        "CIE rank score": "230",
+        "IB rank score": "28"
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-design-bachelor-of-fine-arts.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Teaching)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a recognised Bachelor's degree",
+        "Minimum GPA requirement: N/A"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/arts/current-students/planning-your-study/teaching-programmes/Bachelor-of-Education-Teaching-Year1-Feb-Start.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Teaching) Primary",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "University of Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a relevant Bachelor's degree from a recognised university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/arts/current-students/planning-your-study/teaching-programmes/Bachelor-of-education-teaching-Primary2.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Teaching) Primary",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 7.0,
+        "TOEFL": 90,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree from a recognised university",
+        "Minimum GPA of 5.0 out of 9.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/arts/current-students/planning-your-study/teaching-programmes/Bachelor-of-education-teaching-Primary1.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours)/Bachelor of Global Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        },
+        "PTE": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-global-studies.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours)/Bachelor of Music",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "February"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score_required": 6.5
+        }
+      },
+      "academic_requirements": [
+        "One year successful bachelor-degree level study at a recognised university (or similar institution) overseas",
+        "Minimum grade requirements: GPE 5.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-music.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours)/Bachelor of Science Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3 with a minimum B average",
+        "IB Diploma points: 28",
+        "A-Levels grades: AAA"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-engineering-honours-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Studies / Bachelor of Health Sciences Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 58667,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS Academic"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS Academic": {
+          "score_required": 6.5,
+          "bands_required": "No bands less than 6.0"
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "GCE A Level",
+          "score_required": "ABB"
+        },
+        {
+          "qualification": "Tertiary qualifications",
+          "requirements": "One year successful bachelor-degree level study at a recognised university (or similar institution) overseas."
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-global-studies-bachelor-of-health-sciences.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Studies/Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a recognised overseas high school or equivalent",
+        "Minimum GPA: N/A"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-global-studies-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Studies/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "Minimum GPA of B+ average or higher across all Law courses at the completion of LLB Part II",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-global-studies-bachelor-laws-hons.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Studies/Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a NZQA-approved NCEA Level 3 qualification",
+        "IB Diploma with a minimum of 24 points",
+        "Completion of an overseas high school or bachelor's degree equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-global-studies-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Sciences/Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47218,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score_required": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Successful bachelor-degree level study at a recognised university (or similar institution) overseas",
+        "Minimum grade requirements: GPE 5.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-health-sciences-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Sciences/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47218,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-health-sciences-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Sciences/Bachelor of Science Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48671,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "bands": [
+            6,
+            0
+          ]
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-health-sciences-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47118,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-of-music-bachelor-of-laws--honours-.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music/Bachelor of Laws Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47218,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Minimum GPA: 3.9",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-laws-bachelor-music.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music/Bachelor of Science Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 53124,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score_required": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Grade Point Equivalent (GPE) of 3.9",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-music-bachelor-science.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology (BPsych)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/new-programmes/bachelor-of-psychology-bpsych.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science capstone courses",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum GPA of 3.0 or equivalent",
+        "Completion of a Bachelor's degree in a relevant field"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/science/study-with-us/study-options/courses-at-the-faculty-of-science/bachelor-of-science-capstone-courses.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science/Bachelor of Laws (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester One",
+        "Semester Two"
+      ],
+      "course_duration": "5.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47221,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "academic": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-science-bachelor-laws-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science/Bachelor of Laws Conjoint",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "City",
+        "Grafton"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "academic": {
+            "band": 6.5
+          }
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-science-bachelor-laws.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bridge to Law School",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "University of Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to NCEA Level 3",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/law/study-with-us/bachelor-of-laws/bridge-to-law-school/programme.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Conjoint degrees with Law",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "6 years",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree from a recognised university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/law/study-with-us/bachelor-of-laws/conjoint-degrees.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLB",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a B average in the last two years of secondary education",
+        "Completion of an overseas high school or bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/law/study-with-us/bachelor-of-laws/undergraduate-courses.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLB Honours",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Law or a related field from a recognized university",
+        "A minimum GPA of 3.0 out of 4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/law/study-with-us/bachelor-of-laws/undergraduate-courses/honours-courses.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Biomedical Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90
+      },
+      "academic_requirements": [
+        "A bachelor's degree with a minimum B+ average or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/fmhs/study-with-us/study-options/masters-programme-schedules/mbiomedsc.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Creative Arts Therapy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree or equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/new-programmes/master-of-creative-arts-therapy.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Global Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 34100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university, or equivalent",
+        "A minimum GPA of 3.0 out of 4.0, or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/arts/study-with-us/study-options/global-studies/master-of-global-studies-courses.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Quarter Two",
+        "Quarter Four"
+      ],
+      "course_duration": "15 months, 180-point programme studied over five quarters",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79
+      },
+      "academic_requirements": [
+        "Minimum GPA or percentage",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-international-business-mintbus.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 7.0,
+        "TOEFL": 90,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "A bachelor's degree in nursing or a related field",
+        "A minimum GPA of 3.5/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/fmhs/study-with-us/study-options/masters-programme-schedules/mnurs.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Health",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in a relevant field with a minimum B+ average or equivalent",
+        "Completion of a Graduate Diploma in Public Health or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/fmhs/study-with-us/study-options/masters-programme-schedules/mph.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching and Learning (Early Childhood)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 67420.95,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7"
+      },
+      "academic_requirements": [
+        "A bachelor's degree or equivalent, with a minimum GPA of 5",
+        "Completion of an overseas high school/bachelor equivalent",
+        "Meeting the Teaching Council Matatū Aotearoa English Language requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/new-programmes/master-of-teaching-and-learning-early-childhood.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Masters",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "University of Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree from a recognised university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/postgraduate-study-options/how-programmes-are-structured/masters.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0
+        },
+        "TOEFL": {
+          "score": 90
+        },
+        "PTE": {
+          "score": 65
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma": {
+          "points": 28
+        },
+        "A-Levels": {
+          "grades": [
+            "B",
+            "C"
+          ]
+        },
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/fmhs/study-with-us/study-options/masters-programme-schedules/schedule.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate study in Fine Arts",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Auckland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor's degree in Fine Arts or a related field",
+        "A minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.auckland.ac.nz/en/study/study-options/undergraduate-study-options/conjoint-programmes/bachelor-arts-bachelor-fine-arts-honours.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

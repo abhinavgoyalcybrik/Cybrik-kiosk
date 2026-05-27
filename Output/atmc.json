@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T08:24:41.609679Z",
+    "university_name": "ATMC",
+    "source": "https://www.atmc.ac.nz/",
+    "total_programs": 3
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Applied Arts (BAA) Digital Media",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Auckland CBD"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July",
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 with no band less than 5.5"
+      },
+      "academic_requirements": [
+        "over 18 years of age",
+        "hold a National Certificate of Educational Achievement (NCEA) 3 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://atmc.ac.nz/programme/bachelor-of-applied-arts-baa-digital-media-level-7",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Applied Arts (BAA) Film Production",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Auckland CBD"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July",
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "You must be over 18 years of age and hold a National Certificate of Educational Achievement (NCEA) 3 or equivalent."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://atmc.ac.nz/programme/bachelor-of-applied-arts-baa-film-production-level-7",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Applied Management (BAM) - Level 7",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Auckland CBD"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July",
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6 with no band less than 5.5"
+      },
+      "academic_requirements": [
+        "over 18 years of age",
+        "hold a National Certificate of Educational Achievement (NCEA) 3 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://atmc.ac.nz/programme/bachelor-of-applied-management-bam-level-7",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

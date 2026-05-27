@@ -29,7 +29,7 @@ export default function ComparisonModal({
 
   const getValue = (course: CourseCatalogApiItem, path: string) => {
     const parts = path.split(".");
-    let val = course;
+    let val: any = course;
     for (const part of parts) {
       if (part === "location") {
         return `${course.university.city}, ${course.university.country}`;

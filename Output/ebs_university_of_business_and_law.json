@@ -1,0 +1,845 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:00:23.577811Z",
+    "university_name": "EBS University of Business and Law",
+    "source": "https://www.ebs.edu/en",
+    "total_programs": 21
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor in Business Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Campus Rheingau"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Spring",
+        "Fall"
+      ],
+      "course_duration": "6 semesters, full-time",
+      "annual_tuition_fee": {
+        "amount": 8750,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "Cambridge certificate",
+        "Pearson"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "Cambridge certificate": null,
+        "Pearson": null
+      },
+      "academic_requirements": [
+        "Very good knowledge of English",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Business Psychology & Coaching specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/business-psychology-coaching-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Entrepreneurship & Innovation specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/entrepreneurship-innovation-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Finance and FinTech specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Minimum GPA: 3.0 (on a 4-point scale)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/finance-and-fintech-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Marketing & Sales specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/marketing-sales-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Real Estate Management specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Minimum GPA: 3.0 (on a 4-point scale)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/real-estate-management-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Business Studies: Strategy & Consulting specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA: 3.0 (on a 4-point scale)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/strategy-consulting-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor in Law, Politics and Economics",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Campus Rheingau"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Fall Term",
+        "August"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8750,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Minimum GPA or percentage",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-law-school/programmes/study-law/bachelor-in-law-politics-and-economics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma Programme": {
+          "points": 28
+        },
+        "A-Levels": {
+          "grades": [
+            "B",
+            "C"
+          ]
+        },
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-law-school/studienprogramme/bachelor-in-law-politics-and-economics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Analytics & AI specialisation",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/bachelor-in-business-studies/business-analytics-and-ai-specialisation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Oestrich-Winkel"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business/real-estate",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business Analytics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Campus Rheingau - Schloss"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Fall term",
+        "Spring term"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 9975,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "TOEFL",
+        "IELTS",
+        "Duolingo English Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "TOEFL": 95,
+        "IELTS": 7,
+        "Duolingo English Test": 125
+      },
+      "academic_requirements": [
+        "A bachelor’s degree and transcripts in any field of study with at least 180 ECTS or an equivalent recognised qualification from an equally recognised institution",
+        "Accelerated Track (60 ECTS): A bachelor’s degree and transcripts with at least 240 ECTS or an equivalent recognised qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/master-in-business-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business mit Spezialisierung in Coaching and Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Oestrich-Winkel"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 Semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 40000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business/coaching-und-leadership",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business mit Spezialisierung in Digital Transformation",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Oestrich-Winkel"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 Semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 35000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business/digital-transformation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business mit Spezialisierung in Real Estate Investment & Finance",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Oestrich-Winkel"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "requirements": "from a recognized university"
+        },
+        {
+          "type": "GPA",
+          "requirements": "minimum 3.0 out of 4.0"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business/real-estate-investment-und-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Business mit Spezialisierung in Sustainable Finance",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 Semesters (1,5 Jahre)",
+      "annual_tuition_fee": {
+        "amount": 38000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "TOEFL",
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "TOEFL": 90,
+        "IELTS": 6.5
+      },
+      "academic_requirements": [
+        "Bachelor's degree or equivalent",
+        "Minimum GPA: 3.0 (on a scale of 1-4)",
+        "English language proficiency test results"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business/sustainable-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Finance",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Campus Rheingau"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Spring",
+        "Fall"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 8950,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "TOEFL",
+        "IELTS",
+        "Duolingo English Test"
+      ],
+      "minimum_english_language_score_requirements": {
+        "TOEFL": 95,
+        "IELTS": 7,
+        "Duolingo English Test": 125
+      },
+      "academic_requirements": [
+        "Bachelor's degree and transcripts in any field of study with at least 180 ECTS",
+        "Accelerated Track: Bachelor's degree and transcripts with at least 240 ECTS"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/master-in-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Campus Rheingau"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "spring",
+        "fall"
+      ],
+      "course_duration": "4 semesters (120 ECTS)",
+      "annual_tuition_fee": {
+        "amount": 7950,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor’s degree and transcripts in any field of study with at least 180 ECTS",
+        "Accelerated Track (60 ECTS): A bachelor’s degree and transcripts with at least 240 ECTS"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/master-in-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Real Estate",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Fall (20.08.2026)"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 7950,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Bachelor's degree in a relevant field",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/en/ebs-business-school/study-programmes/master-in-real-estate",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin",
+        "Munich"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA": 3.0,
+        "IB Diploma points": 28,
+        "A-Levels grades": [
+          "B",
+          "C"
+        ],
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business-for-legal-professionals",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Campus Rheingau"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90,
+        "PTE": 58
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.ebs.edu/ebs-business-school/studienprogramme/master-in-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

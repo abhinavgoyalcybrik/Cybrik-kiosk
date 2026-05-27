@@ -13,12 +13,23 @@ import {
 } from "./types";
 import { resolveUniversityLogoUrl } from "./universityLogo";
 
-const API_BASE_URL =
-	process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+const DEFAULT_API_BASE_URL = "/api";
+
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? DEFAULT_API_BASE_URL;
 
 function normalizeBaseUrl(value: string): string {
 	const trimmed = value.trim();
-	return trimmed.replace(/\/+$/, "");
+	if (!trimmed) {
+		return DEFAULT_API_BASE_URL;
+	}
+
+	// Allow values like https://<host>/shortlist while still targeting API on the same host.
+	try {
+		const parsed = new URL(trimmed);
+		return parsed.origin;
+	} catch {
+		return trimmed.replace(/\/+$/, "");
+	}
 }
 
 function createApiUrlCandidates(endpoint: string): string[] {
@@ -29,16 +40,11 @@ function createApiUrlCandidates(endpoint: string): string[] {
 	const hasApiSuffixInBase = /\/api$/i.test(baseUrl);
 
 	const candidates: string[] = [];
-	candidates.push(`${baseUrl}${normalizedEndpoint}`);
-
-	if (normalizedEndpoint.startsWith("/api/")) {
-		const endpointWithoutApiPrefix = normalizedEndpoint.replace(/^\/api/, "");
-		candidates.push(`${baseUrl}${endpointWithoutApiPrefix}`);
-	}
-
 	if (hasApiSuffixInBase && normalizedEndpoint.startsWith("/api/")) {
 		const endpointWithoutApiPrefix = normalizedEndpoint.replace(/^\/api/, "");
 		candidates.push(`${baseUrl}${endpointWithoutApiPrefix}`);
+	} else {
+		candidates.push(`${baseUrl}${normalizedEndpoint}`);
 	}
 
 	if (!hasApiSuffixInBase && !normalizedEndpoint.startsWith("/api/")) {

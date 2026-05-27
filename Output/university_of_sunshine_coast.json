@@ -1,0 +1,3844 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T05:57:32.586050Z",
+    "university_name": "University of Sunshine Coast",
+    "source": "https://www.usc.edu.au/",
+    "total_programs": 91
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor Degrees Undergraduate Programs",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0
+        },
+        "TOEFL": {
+          "score": 72
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school or equivalent",
+        "Minimum GPA: 4.5"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Animal Ecology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "085714G",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-animal-ecology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022806B",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 28500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 550
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: 3.5/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-arts/arts-majors-and-minors",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "026637D",
+      "intakes": [
+        "Semester 1"
+      ],
+      "course_duration": "1 year full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 17498,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Applicants must have completed a Bachelor of Arts, or a related degree, from a recognised higher education institution",
+        "with at least eight courses in the area of study of their thesis topic"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-arts-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts / Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022805C",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 28500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-arts-bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts / Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "022808M",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 13468,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school equivalent to Year 12 in Australia",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-arts-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Behavioural Science (Psychology)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "110837F",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-behavioural-science-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Behavioural Science (Psychology) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "110838E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 9536,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "A completed Australian Psychology Accreditation Council (APAC)-accredited qualifying psychology degree",
+        "A minimum Grade Point Average of 5.00 (on a 7-point scale) in second- and third-year psychology courses"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-behavioural-science-psychology-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Behavioural Science (Psychology) / Bachelor of Counselling",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "110839D",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 30500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-behavioural-science-psychology-bachelor-of-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "066285C",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10519,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-biomedical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Accelerated)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "2 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 13885,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-biomedical-science-accelerated",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14734,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Business Administration)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Digital Futures)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14734,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-digital-futures",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Economics and Finance)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Online"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-economics-and-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "01595D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1 year full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 28750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Students must have completed a Bachelor of Business, or a related degree, from a recognised higher education institution",
+        "Potential applicants should have sustained a minimum GPA of 5.0 over the final two years of their undergraduate degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Human Resource Management)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-human-resource-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Marketing)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-marketing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Small Business Management)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022807A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: null",
+        "IB Diploma points: null",
+        "A-Levels grades: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business/bachelor-of-business-small-business-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business / Bachelor of Behavioural Science (Psychology)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": [
+            5.5,
+            5.5
+          ]
+        },
+        "TOEFL": {
+          "score": 72
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "requirement": "Completion of overseas high school equivalent to Australian Year 12",
+          "percentage": null
+        },
+        {
+          "requirement": "IB Diploma points: 24",
+          "points": 24
+        },
+        {
+          "requirement": "A-Levels grades: AAB or higher",
+          "grades": [
+            "A",
+            "B",
+            "A"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-bachelor-of-behavioural-science-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business / Bachelor of Commerce (Accounting)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "065673K",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-bachelor-of-commerce-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business / Bachelor of Creative Industries",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "0101332",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14834,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 5.5)"
+      },
+      "academic_requirements": [
+        "Minimum completion of overseas high school equivalent to Australian Year 12",
+        "Further studies, for example, a semester or more at college or university"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-bachelor-of-creative-industries",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business / Bachelor of Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "0101885",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": null,
+        "foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business / Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022809K",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 13468,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: N/A"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-business-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce (Accounting)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "076978B",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 28500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-commerce-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "01595D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15816,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Minimum GPA of 5.0 over the final two years of undergraduate degree",
+        "Completion of Bachelor of Commerce or Bachelor of Business from a recognised higher education institution"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-commerce-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "058396G",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-communication",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: 4.0/7 (or equivalent)",
+        "IB Diploma points: 24"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-communication/communication-majors-and-minors",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "096506B",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A level of achievement in the intended area of study will need to be demonstrated.",
+        "GPA Requirement: A cumulative GPA of at least 5.0 in the 200 and 300 level courses of the major area of the discipline the student wishes to study."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-communication-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Counselling",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "074094K",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 13468,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage (not specified)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative Industries",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "080099K",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15434,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-creative-industries",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative Industries",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 or equivalent",
+        "Minimum GPA: N/A"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-creative-industries/creative-industries-majors-and-minors",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative Industries (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "096507A",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "1 year full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a three year Bachelor's degree from a recognised higher education institution with a major in Creative Industries or equivalent",
+        "Minimum English language requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-creative-industries-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 72
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-behavioural-science-psychology-bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "059490A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology and Justice (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "0100647",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 28500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a three-year bachelor's degree in Criminology and Justice or related field, or equivalent from a recognised higher education institution",
+        "Recommended prior study: CRM307 Crime Research Methods or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-criminology-and-justice-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Design",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: 4.0/5.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-design/design-majors-and-minors",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Design",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            0,
+            5
+          ]
+        },
+        "TOEFL": {
+          "score": 72
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-design",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 72,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-prosthetics-and-orthotics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "078425G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 60,
+          "band": null
+        },
+        "PTE": {
+          "score": 50,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-engineering-civil-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil) (Honours) / Bachelor of Environmental Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "123456",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60,
+        "PTE": 50
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA: 3.5/4.0 or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-engineering-civil-honours-bachelor-of-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil) (Honours) / Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "5 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 8336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Applicants must not have undertaken more than one year of bachelor level study.",
+        "Recommended Prior Study: Maths Methods and/or Specialist Maths; and Physics or Chemistry"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-of-engineering-master-of-engineering/bachelor-of-engineering-civil-honours-master-of-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electrical and Electronic) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": "0100794",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-engineering-electrical-and-electronic-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electrical and Electronic) (Honours) / Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "5 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 8336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Applicants must not have undertaken more than one year of bachelor level study.",
+        "Recommended Prior Study: Maths Methods and/or Specialist Maths; and Physics or Chemistry"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-of-engineering-master-of-engineering/bachelor-of-engineering-electrical-and-electronic-honours-master-of-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechanical) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "090700D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-engineering-mechanical-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechanical) (Honours) / Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "5 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 8336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Applicants must not have undertaken more than one year of bachelor level study.",
+        "Recommended Prior Study: Maths Methods and/or Specialist Maths; and Physics or Chemistry"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-of-engineering-master-of-engineering/bachelor-of-engineering-mechanical-honours-master-of-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechatronic) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": "0100795",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-engineering-mechatronic-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechatronic) (Honours) / Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "5 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 8336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Applicants must not have undertaken more than one year of bachelor level study.",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-of-engineering-master-of-engineering/bachelor-of-engineering-mechatronic-honours-master-of-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "088625F",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 12485,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-environmental-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "066283E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9536,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "088888E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11502,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-health-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Human Services",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "057534K",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 13468,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-human-services",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information and Communications Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "048930F",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 28500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12 with good grades",
+        "Further studies, for example, a semester or more at college or university, can also be considered for entry and may give you credit transfer towards a degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-information-and-communications-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of International Sport Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14234,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-international-sport-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC",
+            "BBC"
+          ]
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        },
+        {
+          "type": "Foundation program requirements"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws / Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            0,
+            1,
+            2
+          ]
+        },
+        "TOEFL": {
+          "score": 72
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school equivalent to Year 12 in Australia",
+        "Minimum GPA or percentage: N/A",
+        "IB Diploma points: N/A",
+        "A-Levels grades: N/A"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-laws-bachelor-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws / Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online",
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        },
+        "PTE": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-laws-bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws / Bachelor of Commerce (Accounting)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school equivalent to Year 12 in Australia",
+        "Minimum GPA or percentage: N/A"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-laws-bachelor-of-commerce-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws / Bachelor of Criminology and Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: N/A"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-laws-bachelor-of-criminology-and-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Medical Laboratory Science (Pathology)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2",
+        "Trimester 3"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10728,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": null,
+        "minimum GPA or percentage": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-medical-laboratory-science-pathology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 29250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma Programme (IBDP)": {
+          "points": null
+        },
+        "A-Levels": {
+          "grades": null
+        },
+        "Completion of overseas high school/bachelor equivalent": {
+          "requirements": null
+        },
+        "Foundation program requirements": {
+          "requirements": null
+        }
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-music",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing Science (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 5336,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": {
+        "English language requirements": "GPA of 5.0 over the second and third year of the degree program",
+        "AQF Level 7 Bachelor of Nursing Science award (or equivalent)": true,
+        "Registered with Australian Health Practitioner Regulation Agency (AHPRA)": true
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-nursing-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nutrition",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "061658G",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10519,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-nutrition",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Occupational Therapy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "077418D",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10519,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "English (Units 3 and 4, C); plus one of Biology, Chemistry, Physics, Psychology, Health or Physical Education (Units 3 and 4, C)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-occupational-therapy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Physiotherapy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "119078A",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10519,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 or equivalent",
+        "Minimum entry threshold: 96.00*"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-physiotherapy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "090558E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2",
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 13468,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 5.5 in the developing and graduate level (200/300 coded) PSY courses"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-psychology-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Recreation and Outdoor Environmental Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "094768G",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 14451,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-recreation-and-outdoor-environmental-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "022804D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 12485,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Fraser Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "028850E",
+      "intakes": [
+        "Semester 1",
+        "Semester 2"
+      ],
+      "course_duration": "1 year full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 9536,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        "Completed a Bachelor of Science (AQF Level 7) from a recognised higher education institution or equivalent",
+        "A high level of achievement in the intended area of study must be demonstrated, and a grade point average of 5 or higher achieved across second and third year level courses that have been undertaken"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Urban Design and Town Planning (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "095999F",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11502,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-urban-design-and-town-planning-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Early Childhood Education",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Adelaide"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/bachelor-of-education-studies-early-childhood",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Arts",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Fraser Coast"
+      ],
+      "cricos_code": "026642G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 32500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree (AQF Level 7)",
+          "requirements": {
+            "GPA": 5.0
+          }
+        },
+        {
+          "type": "Permanent Resident (visa status) of New Zealand",
+          "requirements": null
+        },
+        {
+          "type": "Resident or Citizen of any other country",
+          "requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration / Master of International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Online"
+      ],
+      "cricos_code": "088887F",
+      "intakes": [
+        "Session 2",
+        "Session 3",
+        "Session 6",
+        "Session 7"
+      ],
+      "course_duration": "2 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 16317,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A three-year Bachelor’s degree from a recognised higher education institution, or equivalent",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-business-administration-master-of-international-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Creative Arts",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Caboolture",
+        "Fraser Coast",
+        "Gympie",
+        "Moreton Bay"
+      ],
+      "cricos_code": "041913G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 32500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree (AQF Level 7) with a Grade Point Average of 5.0 or higher on a seven point scale from a recognised higher education institution"
+        },
+        {
+          "type": "Bachelor Honours degree (AQF Level 8) Class IIB from a recognised higher education institution"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-creative-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Dietetics (Sports Nutrition)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": "116690E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9536,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 7.0
+        }
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate human science Bachelor degree from a recognised higher education institution, or equivalent.",
+        "The undergraduate degree must include: Nutritional biochemistry underpinned by chemistry, Human physiology, Exercise physiology, Human nutrition."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-dietetics-sports-nutrition",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 2368.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A four year Bachelor’s degree from a recognised higher education institution in the education discipline",
+        "Graduate Diploma in Education (Secondary)",
+        "Master of Teaching"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": "01595D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma": {
+          "points": 24
+        },
+        "A-Levels": {
+          "grades": [
+            "B",
+            "C"
+          ]
+        },
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-civil-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": "115031D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Applicants must hold a three-year bachelor's degree (or equivalent) in any Engineering or related discipline from a recognised higher education institution.",
+        "Applicants from a non-English speaking background should refer to the English language requirements for further information."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-engineering-project-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Promotion",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Session 2",
+        "Session 5",
+        "Session 6"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "requirement": "A three-year Bachelor's degree (AQF Level 7)",
+          "equivalence": "from a recognised higher education institution"
+        },
+        {
+          "requirement": "Applicants with a Bachelor degree in a relevant discipline",
+          "equivalence": "may be eligible to receive reduced volume of learning"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-health-promotion",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information and Communications Technology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Sunshine Coast",
+        "Adelaide"
+      ],
+      "cricos_code": "092873M",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2",
+        "Trimester 3"
+      ],
+      "course_duration": "2 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 75
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas bachelor degree or equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-information-and-communications-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Online"
+      ],
+      "cricos_code": "077420K",
+      "intakes": [
+        "Session 2",
+        "Session 3",
+        "Session 6",
+        "Session 7"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 16417,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "A Temporary Resident (visa status) of Australia",
+        "A Permanent Resident (visa status) of New Zealand",
+        "A Resident or Citizen of any other country"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-international-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Mechanical Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay",
+        "Online"
+      ],
+      "cricos_code": "115026A",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Applicants must hold a three-year bachelor's degree (or equivalent) in Mechanical Engineering or relevant engineering discipline from a recognised higher education institution."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-mechanical-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Mental Health and Neuroscience",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1.5 years full-time or equivalent part-time",
+      "annual_tuition_fee": {
+        "amount": 21500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Examples of relevant disciplines include science, medical science, nursing, medicine, psychology, health science, pharmacy, counselling, occupational therapy, paramedicine, speech pathology, social work.",
+        "Completion of an overseas high school or bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-mental-health-and-neuroscience",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": "084975E",
+      "intakes": [
+        "Trimester 1"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 32675,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Successful completion of an APAC accredited four-year degree or fourth year in Psychology with Honours Class 2 Division I from a recognised higher education institution.",
+        "Applicants must be eligible for provisional registration as a psychologist with the Psychology Board of Australia via the Australian Health Practitioner Regulation Agency (AHPRA)."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-professional-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Psychology (Clinical)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Successful completion of an APAC accredited four-year degree or fourth year in Psychology."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-psychology-clinical",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Renewable Energy Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Moreton Bay"
+      ],
+      "cricos_code": "115030E",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Applicants must hold a three-year bachelor's degree (or equivalent) in Electrical and Electronic Engineering, Electrical Engineering, Electronics Engineering, or relevant engineering discipline from a recognised higher education institution."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-renewable-energy-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Fraser Coast"
+      ],
+      "cricos_code": "026640J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 32500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "a Bachelor degree (AQF Level 7) with a Grade Point Average of 5.0 or higher on a seven point scale from a recognised higher education institution",
+        "a record of qualifications and/or professional research experience deemed to be equivalent to the standard of (a) or (b) as may be approved by the Research Degrees Committee, or the Chairperson acting on behalf of the Committee"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent from a recognised institution",
+        "Minimum GPA of 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/postgraduate-degrees/master-of-nursing-clinical-leadership",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Study Abroad",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "026639B",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 60
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/study-abroad",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Study Abroad (Full Year)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Sunshine Coast",
+        "Moreton Bay"
+      ],
+      "cricos_code": "056828D",
+      "intakes": [
+        "Trimester 1",
+        "Trimester 2"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15750,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: Not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.usc.edu.au/study/courses-and-programs/bachelor-degrees-undergraduate-programs/study-abroad-full-year",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:11:30.629288Z",
+    "university_name": "Karlshochschule International University",
+    "source": "https://www.karlshochschule.de/en",
+    "total_programs": 34
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor's degree programs",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 100
+      },
+      "academic_requirements": [
+        "General or subject-specific higher education entrance qualification",
+        "Foreign educational certificate recognized as equivalent",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/application-admission-bachelors-degree-programs.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "No NC required!",
+        "International Baccalaureate Diploma points: unknown",
+        "A-Levels grades: unknown",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/business-psychology.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/business-psychology-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology (B.A.) | Change & Transformation Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/business-psychology-b-a-change-and-transformation-management.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology (B.A.) | International Human Resource Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language 1",
+        "English as a Foreign Language 2"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language 1": null,
+        "English as a Foreign Language 2": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/de/bachelor/business-psychology-b-a-international-human-resource-management.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology (B.A.) | Market and Consumer Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/business-psychology-b-a-market-and-consumer-psychology.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computer Science (B.Sc.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English (German + other language courses)"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/computer-science-b-sc.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Globalization, Governance & Trade",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized university",
+        "Minimum GPA: 3.0/4.0 or equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations/specialization-globalization-governance-trade.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Human Resources & Diversity",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized university",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations/specialization-human-resources-diversity.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Bachelor’s degree programs"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-business-intercultural-diverse-and-inclusive-management-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business (B.A.) | International Marketing",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "February"
+      ],
+      "course_duration": "6 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-business-international-marketing-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business (B.A.) | Logistics",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Chemnitz"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 Semester",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language 1.1",
+        "English as a Foreign Language 1.2"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language 1.1": null,
+        "English as a Foreign Language 1.2": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/de/bachelor/international-business-b-a-logistics.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business | Logistics",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Chemnitz"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-business-b-a-international-logistics.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business | Sustainability Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "A-Levels grades: AAB or higher",
+        "IB Diploma points: 28 or higher",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-business-sustainability-management-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business | Sustainability Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 550,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to German Abitur",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/de/bachelor/international-business-sustainability-management.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "End of September"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-relations-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations (B.A.) | Development Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Minimum GPA or percentage: unknown",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-relations-development-studies-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations (B.A.) | Human Rights & International Law",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 550,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/de/bachelor/international-relations-human-rights-and-international-law.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations (B.A.) | International Security",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 Semester (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English as a Foreign Language"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English as a Foreign Language": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/de/bachelor/international-relations-international-security.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations | Human Rights & International Law",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/international-relations-human-rights-international-law-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized university",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-in-management-m-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Social TransFormation - Politics, Philosophy & Economics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-in-social-transformation-politics-philosophy-economics-m-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master specializations",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semester",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Bachelor’s degree or equivalent",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master specializations",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Bachelor's degree from a recognized university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/politics-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics (B.A.) | Activism and Political Change",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "February"
+      ],
+      "course_duration": "6 semesters (3 years full-time)",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/politics-activism-and-political-change-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics (B.A.) | Political Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Bachelor’s degree programs"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/politics-political-communication-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics | Sustainable Development",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "February"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Bachelor’s degree programs"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/politics-sustainable-development-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics, Philosophy and Economics - PPE (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Karlsruhe",
+        "Chemnitz",
+        "Potsdam"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "July"
+      ],
+      "course_duration": "6 semesters",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English + other language courses"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "EU: Sept. 1, non-EU: July 15 or later, depending on the visa process of the home country",
+        "Bachelor’s degree programs"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/bachelor-programs/politics-philosophy-and-economics-ppe-b-a.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PreMaster",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Winter semester"
+      ],
+      "course_duration": "2 semesters",
+      "annual_tuition_fee": {
+        "amount": 375,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in management, business or economics",
+        "30 ECTS in management, business or economics (applies to the Master’s in Management)",
+        "Political and social sciences, economics, philosophy or related fields (applies to the Master’s in Social Transformation)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/premaster-ready-for-the-next-step.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Specialization Brands & Stories",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semester",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor’s degree",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations/specialization-brands-stories.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Specialization Digital Media",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree or equivalent",
+        "Minimum GPA: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations/specialization-digital-media.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Sustainability & Urban Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Karlsruhe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree or equivalent from a recognized institution",
+        "Minimum GPA: 3.0/4.0 (or equivalent)",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.karlshochschule.de/en/master-programs/master-specializations/specialization-sustainability-urban-development.html",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

@@ -148,6 +148,14 @@ class CourseFee(models.Model):
     scholarship_notes = models.TextField(blank=True)
     fee_notes = models.TextField(blank=True)
 
+    def save(self, *args, **kwargs):
+        """
+        Keep estimated_total_cost in sync with tuition + living cost.
+        """
+        if self.estimated_total_tuition is not None and self.estimated_total_living_cost is not None:
+            self.estimated_total_cost = self.estimated_total_tuition + self.estimated_total_living_cost
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return f"Fees for {self.course.title}"
 

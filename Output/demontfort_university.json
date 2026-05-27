@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:44:38.948512Z",
+    "university_name": "DeMontFort University",
+    "source": "https://www.dmu.ac.uk/",
+    "total_programs": 4
+  },
+  "programs": [
+    {
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/executive-mba/executive-master-of-business-administration-mba.aspx",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Executive Master Of Business Administration Mba.Aspx"
+    },
+    {
+      "program_course_name": "Master of Business Administration MBA (Global)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months",
+      "annual_tuition_fee": {
+        "amount": 20300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with 5.5 in each band"
+      },
+      "academic_requirements": [
+        "Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification",
+        "Professional qualification deemed to be of equivalent standing will be considered on an individual basis."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/master-of-business-administration-global-mba/master-of-business-administration-mba-global.aspx",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Chemistry (enhanced undergraduate degree)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 25500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A minimum of a UK Honours degree (2:1 or above) in Chemistry or a related subject",
+        "A minimum of a UK Honours degree (2:1 or above) in a relevant science subject"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/current-students/graduations/gown-hood-hire/guidelines-for-ordering-academic-dress/master-of-chemistry-enhanced-undergraduate-degree.aspx",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Pharmacy (enhanced undergraduate degree)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A minimum of a good second class honours degree in a relevant subject",
+        "A minimum of a good second class honours degree from a recognised university, plus relevant work experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/current-students/graduations/gown-hood-hire/guidelines-for-ordering-academic-dress/master-of-pharmacy-enhanced-undergraduate-degree.aspx",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    }
+  ]
+}

@@ -1,0 +1,3186 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-21T08:50:13.564695Z",
+    "university_name": "james cook university",
+    "source": "https://www.jcu.edu.au/",
+    "total_programs": 82
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Advanced Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "092515M",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43647,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-advanced-science?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Singapore"
+      ],
+      "cricos_code": "010346B",
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Minimum English language requirements: Band 1",
+        "You’re an international student if you intend to study on a student visa, are not a citizen of Australia or New Zealand, are not an Australian permanent resident, or don’t hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-arts?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11667.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "JCU Online",
+        "Singapore"
+      ],
+      "cricos_code": "010346B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "English language proficiency requirements of 'Band 1' – Schedule II of the JCU Admissions Policy",
+        "Completion of overseas high school equivalent to Australian Year 12"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://handbook.jcu.edu.au/course/current/115710?_MANUAL",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville Bebegu Yumba",
+        "Cairns Nguma-bada",
+        "JCU Online"
+      ],
+      "cricos_code": "085456J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.0 Years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 Bachelor Degree in an arts discipline or qualifications recognised by the Division as equivalent.",
+        "with an overall GPA of at least 5.0."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://handbook.jcu.edu.au/course/2026/10109",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU Cairns",
+        "JCU Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 25300.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 Bachelor Degree in an arts discipline or qualifications recognised by the Division as equivalent.",
+        "with an overall GPA of at least 5.0."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/course-and-subject-handbook/courses/undergraduate-courses/bachelor-of-arts-honours-end-on",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts - Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 13690,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 in Australia or equivalent",
+        "Minimum ATAR/Selection Rank: 59.00"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-arts-bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts - Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "5 years full-time, 10 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15850,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 in Australia",
+        "Minimum ATAR score: 66.5"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-arts-bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts - Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Non-school leavers can have their qualifications and work experience assessed to obtain an equivalent score",
+        "Minimum ATAR of 66.5"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-arts-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Sciences",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": "013347K",
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42477,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2"
+      },
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": null,
+        "English language requirements": {
+          "IELTS": "Band 2"
+        }
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-biomedical-sciences?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Sciences (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 37400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 bachelor degree in a discipline cognate to the proposed area of research.",
+        "Achievement of an overall grade point average of 5.0 (i.e. credit average) across their undergraduate degree and/or a grade point average of 5.0 in the final year of their undergraduate degree, with credits or better in specific discipline areas."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/course-and-subject-handbook/courses/undergraduate-courses/bachelor-of-biomedical-sciences-honours-end-on",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15910,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent qualification",
+        "Minimum GPA/percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "JCU Brisbane",
+        "JCU Online"
+      ],
+      "cricos_code": "026830C, OS, Distance Education",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "Applicants of non-English speaking backgrounds must meet the English language proficiency requirements of 'Band 1' – Schedule II of the JCU Admissions Policy.",
+        "Recommended knowledge: English (Units 3/4,C), Mathematical Methods (Units 3/4,C)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://handbook.jcu.edu.au/course/current/20510",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Singapore",
+        "Brisbane"
+      ],
+      "cricos_code": "026830C",
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 35646,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-business?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU Townsville",
+        "JCU Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 bachelor degree in business (or qualifications recognised by the Division as equivalent); and",
+        "Achievement of an overall grade point average of 5.0 (i.e. credit average) across their undergraduate degree."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/course-and-subject-handbook/courses/undergraduate-courses/bachelor-of-business-honours-end-on",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business - Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "4 years and 2 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 16110,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Minimum ATAR of 66.5",
+        "English (Units 3/4,C)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-business-bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business - Bachelor of Psychological Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years and 2 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 11860,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 or equivalent",
+        "Minimum ATAR/ATAR rank: 64"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-business-bachelor-of-psychological-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15650,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 in Australia or equivalent",
+        "Minimum ATAR score: 59"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-commerce",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Dental Surgery",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 11460,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-dental-surgery",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Dental Surgery (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0 in all components within 2 years prior to applying for registration"
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 bachelor degree in dentistry from this, or another university, within the previous 5 years;",
+        "achievement of an overall grade point average of 5.0 (i.e. credit average) across their undergraduate degree and/or a grade point average of 5.0 in the Level 4 of their undergraduate degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/course-and-subject-handbook/courses/undergraduate-courses/bachelor-of-dental-surgery-honours-end-on",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Early Childhood Education)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "March",
+        "July",
+        "September"
+      ],
+      "course_duration": "4 to 5 years part time (Online block study periods)",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-education-early-childhood-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "081941F",
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3.5 to 4 years full time (On campus, trimester study periods)",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "English language requirements: If your native language is not English, you must meet the minimum English language requirements for this course",
+        "View the international entry requirements for this course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-education-primary?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Secondary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "081942E",
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3.5 to 4 years full time (On campus, trimester study periods)",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "English language requirements: If your native language is not English, you must meet the minimum English language requirements for this course",
+        "View the international entry requirements for this course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-education-secondary?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "085458G",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42477,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 1
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "International Baccalaureate Diploma with a minimum score of 24 points"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-engineering-honours?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours) - Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "5 years full-time, 10 years part-time",
+      "annual_tuition_fee": {
+        "amount": 8660,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        "Minimum ATAR of 70",
+        "Recommended Knowledge: English (Units 3/4,C) and Mathematical Methods (Units 3/4,C)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours) - Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8490,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-engineering-honours-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science and Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10430,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Minimum ATAR of 63",
+        "Recommended Knowledge: English (Units 3/4,C), Chemistry (Units 3/4,C), and General Maths or Mathematical Methods (Units 3/4, C)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-environmental-science-and-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Exercise Science-Bachelor of Exercise Physiology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years and 2 trimesters full-time",
+      "annual_tuition_fee": {
+        "amount": 13030,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "You’re an international student if you intend to study on a student visa, are not a citizen of Australia or New Zealand, are not an Australian permanent resident, or don’t hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-exercise-science-bachelor-of-exercise-physiology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online",
+        "Townsville",
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9430,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "You’re an international student if you intend to study on a student visa, are not a citizen of Australia or New Zealand, are not an Australian permanent resident, or don’t hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Singapore",
+        "Brisbane"
+      ],
+      "cricos_code": "010438J",
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36999,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "You're an international student if you intend to study on a student visa, are not a citizen of Australia or New Zealand, are not an Australian permanent resident, or don't hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-information-technology?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville Bebegu Yumba",
+        "Cairns Nguma-bada",
+        "JCU Brisbane",
+        "JCU Online",
+        "Singapore"
+      ],
+      "cricos_code": "010438J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "Applicants of non-English speaking backgrounds must meet the English language proficiency requirements of 'Band 1' – Schedule II of the JCU Admissions Policy."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://handbook.jcu.edu.au/course/current/103110",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville Bebegu Yumba",
+        "Cairns Nguma-bada",
+        "JCU Online"
+      ],
+      "cricos_code": "102134, Distance Education",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2"
+      },
+      "academic_requirements": [
+        "Applicants of non-English speaking backgrounds must meet the English language proficiency requirements"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://handbook.jcu.edu.au/course/current/118610",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU Cairns",
+        "JCU Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2 – Schedule II of the JCU Admissions Policy"
+      },
+      "academic_requirements": [
+        "Completion of an AQF Level 7 bachelor degree in a law or law-related discipline, within the previous five years;",
+        "Achievement of an overall grade point average of 5.0 (i.e. credit average) across their bachelor degree, with credits or better in law;"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/course-and-subject-handbook/courses/undergraduate-courses/bachelor-of-laws-honours-end-on",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Marine Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": "056552E",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47355,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": null,
+        "foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-marine-science?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Medicine, Bachelor of Surgery",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "043052K",
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": 71383,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "English language requirements: Band 3b",
+        "Special entry requirements apply"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-medicine-bachelor-of-surgery?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing Science [Pre-Registration]",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Mackay",
+        "Mount Isa",
+        "Emerald"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 5920,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        "You're an international student if you intend to study on a student visa, are not a citizen of Australia or New Zealand, are not an Australian permanent resident, or don't hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-nursing-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing Science [Pre-Registration]",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "010441C",
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38365,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-nursing-science?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing Science [Pre-Registration] [Mixed]",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 5920,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "You’re a domestic student if you are a citizen of Australia or New Zealand, are an Australian permanent resident, or hold an Australian permanent humanitarian visa."
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-nursing-science-ext",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Occupational Therapy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8870.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 in Australia",
+        "Minimum ATAR: 70"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-occupational-therapy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Pharmacy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Mackay"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of Year 12 in Australia",
+        "Minimum ATAR 76"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-pharmacy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Physiotherapy",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years and 1 trimester",
+      "annual_tuition_fee": {
+        "amount": 8920,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-physiotherapy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10580,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": null
+        },
+        {
+          "type": "A-Levels",
+          "grades": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-psychological-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Science (Honours) [End-on]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree that includes an APAC-approved three-year sequence in psychology, completed in the past 10 years with a 5.5 GPA",
+        "APAC-approved bridging degree that includes foundational competencies, completed in the past 10 years with a 5.5 GPA"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-psychological-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Singapore"
+      ],
+      "cricos_code": "076290A",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42477,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-science?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8960,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science - Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "5 years full-time, 10 years part-time",
+      "annual_tuition_fee": {
+        "amount": 13760,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-science-bachelor-of-laws",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Work",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "010351E",
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 3c"
+      },
+      "academic_requirements": [
+        "Minimum English language requirements: Band 3c",
+        "International students must meet the minimum English language requirements for this course."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-social-work?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Speech Pathology (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "4 years full-time, 6 years part-time",
+      "annual_tuition_fee": {
+        "amount": 9940,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum ATAR of 70",
+        "English (Units 3/4,C) plus one of Biology, Chemistry, Physics, Psychology or Health (Units 3/4,C)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-speech-pathology-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Veterinary Science (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 12270,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "English, Mathematical Methods, Chemistry (Units 3/4,C)",
+        "Recommended Knowledge: Biology (Units 3/4,C)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/bachelor-of-veterinary-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/engage/business-and-industry/master-classes-and-short-courses",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Master Classes And Short Courses"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "1.5 years full-time / 3 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in a cognate discipline",
+        "AQF level 8 degree",
+        "4 year managerial experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration [2-Year]",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Townsville",
+        "Brisbane"
+      ],
+      "cricos_code": "107829K",
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39148,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2"
+      },
+      "academic_requirements": [
+        "Completion of an AQF level 7 bachelor degree; or equivalent",
+        "English language requirements: Band 2 (if native language is not English)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-business-administration-2-year?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Data Science (Professional)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36491,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree",
+        "minimum five years relevant industry experience in IT or Data Science/Data Analytics"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-data-science-professional",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "1.5 years full-time (Brisbane), 2 years part-time (Online)",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 degree plus 2 years' professional work experience in education",
+        "AQF level 7 degree in education",
+        "AQF level 8 qualification with minimum 2 years as professional educator"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education - Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 29570,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2"
+      },
+      "academic_requirements": [
+        "Completion of an AQF level 7 bachelor degree",
+        "English language requirements: Band 2"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-education-master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering (Professional)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 36491,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a four-year Bachelor of Engineering at AQF Level 7 (or equivalent) in any discipline",
+        "Completion of three years of the Bachelor of Engineering at Xi’an University of Technology (XUT) approved under the JCU-XUT Articulation Schedule only"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-engineering-professional",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34170,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 8 bachelor degree in engineering or allied discipline",
+        "or an AQF level 7 bachelor degree in engineering or allied discipline, plus at least two years relevant work experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-engineering-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Global Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Cairns"
+      ],
+      "cricos_code": "098478G",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36999,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree; or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-global-development?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Guidance and Counselling",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "1 year and 1 trimester (full-time)",
+      "annual_tuition_fee": {
+        "amount": 4900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor in cognate discipline",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-guidance-and-counselling",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Professional Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "JCU campuses or study centres"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "3 years part-time",
+      "annual_tuition_fee": {
+        "amount": 30446,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Registration as a nurse, medical doctor or other health professional in Australia",
+        "AQF level 7 bachelor degree in relevant discipline plus 2 years experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-health-professional-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information Technology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane",
+        "Singapore"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 32168,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        {
+          "type": "AQF level 7 bachelor degree; or equivalent"
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information Technology - Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in Information Technology",
+        "completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-information-technology-master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Tourism and Hospitality Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "AQF level 7 bachelor degree in any discipline; or equivalent"
+        },
+        {
+          "type": "Completion of an overseas high school/bachelor equivalent"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-international-tourism-and-hospitality-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Tourism and Hospitality Management - Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in a business or tourism-related discipline; or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-international-tourism-and-hospitality-management-master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Lifestyle Medicine",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in a health discipline",
+        "current registration as a health professional"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-lifestyle-medicine",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Marine Biology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": "107243C",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48992,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 1"
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in science with a minimum GPA of 5.0, or equivalent",
+        "English language requirements: Band 1 (if native language is not English)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-marine-biology?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Medical Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 31190,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "AQF level 7 Biomedical Science or Medical Laboratory Science degree; or equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-medical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00117J",
+      "intakes": [
+        "January",
+        "March",
+        "May",
+        "July",
+        "September",
+        "October"
+      ],
+      "course_duration": "24 months part-time",
+      "annual_tuition_fee": {
+        "amount": 3128,
+        "currency": "AUD",
+        "period": "per subject"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 3a",
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "qualification": "AQF Level 7 Bachelor of Nursing or equivalent"
+        },
+        {
+          "registration": "Registration as a Registered Nurse (Division 1) or Registered Midwife with the Australian Health Practitioner Regulation Agency (AHPRA)"
+        },
+        {
+          "experience": "Completed a minimum of one year of full-time clinical experience, or the part-time equivalent"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://online.jcu.edu.au/online-courses/master-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Philosophy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns",
+        "Singapore"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "October"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree with conditions",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-philosophy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Philosophy (Indigenous)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "October"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": [
+        "AQF level 7 bachelor degree with conditions"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-philosophy-indigenous",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in non-accounting discipline; or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-professional-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting - Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Cairns",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "2 years full-time, 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 33133,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of an AQF level 7 bachelor degree in a business discipline other than accounting from this or another University",
+        "Other qualifications and/or experience recognised by the Deputy Vice-Chancellor of the Academy as equivalent to the above"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-professional-accounting-master-of-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 8 bachelor honours degree accredited by the Australian Psychology Accreditation Council with GPA of 5.0 or above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-professional-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Psychology (Clinical)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Singapore"
+      ],
+      "cricos_code": "019793F",
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46111,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 3c"
+      },
+      "academic_requirements": [
+        "Class 1 or 2A honours from AQF Level 8 bachelor honours degree accredited by the Australian Psychological Society",
+        "Must hold Provisional registration as a psychologist in Australia"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-psychology-clinical",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Health - Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Townsville"
+      ],
+      "cricos_code": "040171E",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42477,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 2"
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in a Health Sciences discipline; or equivalent",
+        "English language requirements: Band 2 (if native language is not English)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-public-health-master-of-business-administration?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Public Health - Master of Global Development",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time / 4 years part-time",
+      "annual_tuition_fee": {
+        "amount": 10980,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of an AQF level 7 bachelor degree in a relevant health discipline; or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-public-health-master-of-global-development",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Rural Generalist Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online",
+        "Townsville"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "May",
+        "September"
+      ],
+      "course_duration": "1 year and 1 trimester or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "AQF level 7 or AQF level 8 bachelor degree in a relevant health discipline, completed more than 2 years prior to admission"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-rural-generalist-practice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "1 year and 1 trimester full-time / 2 years and 2 trimesters part-time",
+      "annual_tuition_fee": {
+        "amount": 9870,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "AQF Level 7 bachelor degree in science with minimum GPA of 5.0; or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Science (Professional)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8110,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "AQF Level 7 bachelor degree in science with minimum GPA of 5.0",
+          "country": "International"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-science-professional",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Social Work (Professional Qualifying)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "070091A",
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Band 3c"
+      },
+      "academic_requirements": [
+        "AQF level 7 bachelor degree in a relevant discipline other than Social Work",
+        "Minimum of 1 year full-time study in social and behavioural sciences"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-social-work-professional-qualifying?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching and Learning (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Townsville",
+        "Cairns"
+      ],
+      "cricos_code": "095676C",
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34649,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5",
+        "TOEFL": "79-93"
+      },
+      "academic_requirements": [
+        "AQF Level 7 bachelor degree which includes subjects in two teaching areas appropriate to curriculum in Australian secondary schools",
+        "English language requirements: If your native language is not English, you must meet the minimum English language requirements for this course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.jcu.edu.au/courses/master-of-teaching-and-learning-secondary?international",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

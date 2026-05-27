@@ -1,0 +1,3247 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-19T09:34:22.915257Z",
+    "university_name": "Federation University Australia",
+    "source": "https://www.federation.edu.au/",
+    "total_programs": 85
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Adult and Vocational Education and Training",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Certificate IV in Training and Assessment (TAE40122)",
+        "industry qualification at Certificate III level or above",
+        "at least four years of industry experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dpv5-bachelor-of-adult-and-vocational-education-and-training",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Mt Helen",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Previous higher education studies with results at a pass level",
+        "Successful completion of a relevant VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhm5-bachelor-of-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Creative Arts) (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no bands less than 6.0"
+      },
+      "academic_requirements": [
+        "A Bachelor or Arts program with a sequence in the relevant discipline",
+        "Distinction average in upper-level discipline-specific courses and no less than a Distinction in upper-level discipline-specific courses (giving a Grade Point Average (GPA) of at least 6.0)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhs8.ca-bachelor-of-arts-creative-arts-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no bands less than 6.0"
+      },
+      "academic_requirements": [
+        "A Bachelor or Arts program with a sequence in the relevant discipline with Distinction average in upper-level discipline-specific courses and no less than a Distinction in upper-level discipline-specific courses (giving a Grade Point Average (GPA) of at least 6.0)",
+        "English language requirements: Academic IELTS of 6.0 overall with no bands less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhs8.hu-bachelor-of-arts-humanities-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Social Sciences) (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no bands less than 6.0"
+      },
+      "academic_requirements": [
+        "A Bachelor or Arts program with a sequence in the relevant discipline with Distinction average in upper-level discipline-specific courses and no less than a Distinction in upper-level discipline-specific courses (giving a Grade Point Average (GPA) of at least 6.0)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhs8.ss-bachelor-of-arts-social-sciences-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Overall IELTS band score of 6.0, with no band less than 6.0 or equivalent",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsb5-bachelor-of-biomedical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Gippsland Partnership Program)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Units 3 and 4: a study score of at least 20 in any Mathematics or at least 20 in any Science",
+        "Units 3 and 4: a study score of at least 20 in any English"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsb5.gpp-bachelor-of-biomedical-science-gippsland-partnership-program",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of a relevant VET qualification at Certificate III level or higher",
+        "Previous higher education studies with results at a pass level or above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbu5-bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Accounting)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbu5.acc-bachelor-of-business-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business (Marketing and Management)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbu5.mm-bachelor-of-business-marketing-and-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business Transformation (Accounting)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 25320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbk5.acc-bachelor-of-business-transformation-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business Transformation (Management)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24300.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Completion of a Foundation program"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbk5.man-bachelor-of-business-transformation-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Community and Human Services",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Ballarat",
+        "Berwick",
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5"
+      },
+      "academic_requirements": [
+        "Previous higher education studies with results at a pass level",
+        "Successful completion of a relevant VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhc5-bachelor-of-community-and-human-services",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology & Criminal Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of a relevant VET qualification at Certificate III level or higher",
+        "Minimum of 5 years' relevant work experience in a justice- or community and human services-related field, completed within the last 10 years"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhk5-bachelor-of-criminology-and-criminal-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Digital Transformation (IT)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dix5-bachelor-of-digital-transformation-it",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Early Childhood Education",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24300.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/duk5-bachelor-of-early-childhood-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Early Childhood Education)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Federation University Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "October",
+        "January",
+        "April",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "Speaking": 7.5,
+          "Listening": 7.5,
+          "Reading": 6.5,
+          "Writing": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Successful completion of a relevant Australian diploma within the past two years",
+        "Minimum IELTS score: Speaking 7.5, Listening 7.5, Reading 6.5 and Writing 6.5"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtk5-bachelor-of-education-early-childhood-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Early Childhood and Primary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Satisfactory completion of at least one year of tertiary study in a relevant field",
+        "Meets the VCE Maths and English requirement benchmarks"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dty5-bachelor-of-education-early-childhood-and-primary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Satisfactory completion of at least one year of tertiary study in a relevant field",
+        "Successful completion of a TAFE qualification Certificate IV in a cognate or appropriate area, such as Community Services, Education Support, Children's Services, or Nursing"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtz5-bachelor-of-education-primary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Successful completion of an undergraduate degree in any field",
+        "Previous university study (including single subjects) with a pass average and meets the VCE maths and English requirement benchmarks or literacy and/or numeracy test"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtc5-bachelor-of-education-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Civil Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Completion of a Foundation program"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/den8.civ-bachelor-of-engineering-civil-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Electrical Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Mt Helen",
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "September",
+        "March",
+        "April",
+        "July",
+        "September"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Completion of a Diploma of Engineering (Higher Education) at Federation University Australia",
+        "Completion of a cognate certificate IV in engineering in addition to a pathway mathematics unit “Introduction to Technical Maths” by Federation University Australia’s Foundation Access Studies (FAST) course",
+        "Completion of a cognate Diploma or Advanced Diploma in Engineering at a TAFE provider",
+        "Completion of Federation University Australia’s Foundation Access Studies (FAST) course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/den8.eie-bachelor-of-engineering-electrical-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mechanical Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Units 3 and 4: a study score of at least 20 in any English",
+        "Completion of a Diploma of Engineering (Higher Education) at Federation University Australia",
+        "Completion of a cognate certificate IV in engineering in addition to a pathway mathematics unit “Introduction to Technical Maths” by Federation University Australia’s Foundation Access Studies (FAST) course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/den8.mec-bachelor-of-engineering-mechanical-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Mining Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Mt Helen (on campus)",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Completion of a Diploma or Advanced Diploma in Engineering at a TAFE provider",
+        "Completion of Federation University Australia’s Foundation Access Studies (FAST) course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/den8.min-bachelor-of-engineering-mining-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering Technology (Civil Engineering)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dex5.civ-bachelor-of-engineering-technology-civil-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Exercise and Sport Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Previous higher education studies with results at a pass level",
+        "Successful completion of a relevant VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dpk5-bachelor-of-exercise-and-sport-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Food and Nutrition",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Federation University Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "13 July",
+        "5 October",
+        "25 January",
+        "19 April",
+        "12 July",
+        "4 October"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Applicants will have completed the equivalent of overseas high school/bachelor degree",
+        "Overall IELTS band score of 6.0, with no band less than 6.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dfn5-bachelor-of-food-and-nutrition",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of IT (Business Analysis)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Successful completion of overseas high school/bachelor equivalent",
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dit5.ba-bachelor-of-information-technology-business-analysis",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of IT (Business Information Systems)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 24500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 5.5",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dct5.bis-bachelor-of-information-technology-business-information-systems",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of IT (Cybersecurity)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of overseas high school equivalent",
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dit5.cs-bachelor-of--information-technology-cybersecurity",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of IT – Industry-Ready Degree",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 25000.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 5.5",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dct5.nsm-bachelor-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 24500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 5.5"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 5.5",
+        "Previous higher education studies with results at a pass level",
+        "Successful completion of a relevant VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dct5.sd-bachelor-of-information-technology-software-development",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology (AI & Data Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Successful completion of overseas high school/bachelor equivalent",
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dit5.ads-bachelor-of-information-technology-ai-and-data-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology (Networking and Security)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 24500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": [
+        "Units 1 and 2: satisfactory completion in two units (any study combination) of Maths: General Mathematics, Maths: Mathematical Methods or Maths: Specialist Mathematics",
+        "Units 3 and 4: a study score of at least 20 in any Mathematics",
+        "Units 3 and 4: a study score of at least 20 in any English"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dct5.ns-bachelor-of-information-technology-networking-and-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology (Professional Practice)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Units 1 and 2: satisfactory completion in two units (any study combination) of Maths: General Mathematics, Maths: Mathematical Methods or Maths: Specialist Mathematics",
+        "Units 3 and 4: any Mathematics",
+        "Units 3 and 4: a study score of at least 20 in any English"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dib5-bachelor-of-information-technology-professional-practice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology (Software Application Development)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick (on campus)",
+        "Mt Helen (on campus)",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of overseas high school/bachelor equivalent",
+        "Compulsory: Overall Academic IELTS band score of 6.0, with no band less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dit5.sad-bachelor-of-information-technology-software-application-development",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Midwifery",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7.0,
+          "listening": 7,
+          "reading": 7,
+          "speaking": 7,
+          "writing": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "GPA",
+          "value": null
+        },
+        {
+          "type": "IB Diploma points",
+          "value": null
+        },
+        {
+          "type": "A-Levels grades",
+          "value": null
+        },
+        {
+          "type": "completion of overseas high school/bachelor equivalent",
+          "value": true
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dho5-bachelor-of-midwifery",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Music Theatre and Acting",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Camp St"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no bands less than 6.0"
+      },
+      "academic_requirements": [
+        "Units 3 and 4: a study score of at least 20 in any English",
+        "Previous higher education studies with results at a pass level, including any 'single subjects of study', or successful completion of a tertiary preparatory program",
+        "Successful completion of a relevant VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dmt5-bachelor-of-music-theatre-and-acting",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dnn5-bachelor-of-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing/Bachelor of Midwifery",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Gippsland (on campus)",
+        "Mt Helen (on campus)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Previous higher education studies with results at a pass level, including any 'single subjects of study'",
+        "Completion of a Diploma of Nursing (in the last 10 years) from Federation University, TAFE Gippsland or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhl5-bachelor-of-nursingbachelor-of-midwifery",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Occupational Therapy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7, with no band less than 7"
+      },
+      "academic_requirements": [
+        "Successful completion of a cognate AQF level 7 bachelor’s degree with a GPA 5.0 and above",
+        "Successful completion of any AQF level 7 bachelor’s degree with a GPA 5.5 and above",
+        "Completion of 8 units in a Bachelor of Nursing, Bachelor of Education (Early Childhood Education), Bachelor of Education (Early Childhood & Primary), or Bachelor of Community and Human Services from Federation University (or other cognate courses) with a GPA 6.0 and above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dot8-bachelor-of-occupational-therapy-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Physiotherapy",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Gippsland (on campus)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0 or greater"
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": null
+        },
+        {
+          "type": "A-Levels",
+          "grades": null
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent",
+          "requirements": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dpy5-bachelor-of-physiotherapy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick (on campus)",
+        "Federation University Online",
+        "Gippsland (on campus)",
+        "Mt Helen (on campus)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "13 July 2026",
+        "20 July 2026",
+        "5 October 2026",
+        "25 January 2027",
+        "1 March 2027",
+        "19 April 2027",
+        "12 July 2027",
+        "19 July 2027",
+        "4 October 2027"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0, with no band less than 6.5"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS score of 7.0, with no band less than 6.5",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhy5-bachelor-of-psychological-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Science (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0, with no band less than 6.5"
+      },
+      "academic_requirements": [
+        "Completion of a three-year sequence in psychology and qualified for an APAC accredited undergraduate degree (or overseas equivalent as determined by the Australian Psychological Society);",
+        "OR Completion of a three-year undergraduate degree that is not APAC accredited and completion of a psychology sequence in a higher level, APAC accredited psychology degree (e.g., AQF 8 Graduate Diploma)."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhy8-bachelor-of-psychological-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsi5-bachelor-of-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Advanced)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Units 3 and 4: a study score of at least 30 in two units (any study combination) of Specialist Maths or Maths Methods, or at least 30 in one of Biology, Chemistry, Environmental Science, Geography, Physics or Psychology.",
+        "Units 3 and 4: a study score of at least 30 in any English"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsc5.adv-bachelor-of-science-advanced",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Environmental Science)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 28120.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsc5.env-bachelor-of-science-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Environmental Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (no band less than 6.0)"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsi5.es-bachelor-of-science-environmental-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Honours)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Completion of a three-year undergraduate science degree",
+        "Student GPA of 6.0 or higher (on a GPA scale of 7.0 max)",
+        "Applicants must have the support of a supervisor, and a proposed research project"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsz8-bachelor-of-science-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Veterinary Bioscience)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0"
+      },
+      "academic_requirements": [
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0",
+        "Previous higher education studies with results at a pass level"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsi5.vb-bachelor-of-science-veterinary-bioscience",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Secondary Education",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "Speaking": 7.5,
+          "Listening": 7.5,
+          "Reading": 6.5,
+          "Writing": 6.5
+        }
+      },
+      "academic_requirements": [
+        {
+          "IB Diploma points": null,
+          "A-Levels grades": null,
+          "completion of overseas high school/bachelor equivalent": true,
+          "foundation program requirements": null
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtn5-bachelor-of-secondary-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Secondary Education (Applied Teaching)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 7.0,
+          "speaking": 7.5,
+          "listening": 7.5,
+          "reading": 6.5,
+          "writing": 6.5
+        }
+      },
+      "academic_requirements": [
+        "Completion of an industry qualification at a Certificate level III or above",
+        "6-8 years work experience in the same industry as qualification"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtn5.at-bachelor-of-secondary-education-applied-teaching",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Secondary Education (Health and Physical Education Teaching)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Units 1 and 2: satisfactory completion in two units (any study combination) of Maths: General Mathematics, Maths: Mathematical Methods or Maths: Specialist Mathematics",
+        "Units 3 and 4: a study score of at least 30 in English (EAL) or at least 25 in English other than EAL"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtn5.hpe-bachelor-of-secondary-education-health-and-physical-education-teaching",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Work",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an overseas high school or equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsw5-bachelor-of-social-work",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Speech Pathology (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dst8-bachelor-of-speech-pathology-honours",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Sport, Physical and Outdoor Education",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Successful completion of the Federation University Foundation Access Studies (FAST) course or equivalent",
+        "Previous university study with a pass average and meets the VCE maths and English requirement benchmarks or literacy and/or numeracy test",
+        "Successful completion of an undergraduate degree in any field"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dso5-bachelor-of-sport-physical-and-outdoor-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Visual Arts",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Camp St"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no bands less than 6.0"
+      },
+      "academic_requirements": [
+        "Units 3 and 4: a study score of at least 20 in any English",
+        "Previous higher education studies with results at a pass level, including any 'single subjects of study', or successful completion of a tertiary preparatory program such as the FedUni Foundation Access Studies Program (FAST)",
+        "Successful completion of a VET qualification at Certificate III level or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dqm5-bachelor-of-visual-arts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhw9-master-of-social-work-qualifying",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Dhw9 Master Of Social Work Qualifying"
+    },
+    {
+      "program_course_name": "Master of Applied Cyber Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Mt Helen",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "20 July 2026",
+        "1 March 2027",
+        "19 July 2027"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "successful completion of a degree that is the equivalent of a bachelor's degree",
+        "not necessarily in an IT-related discipline"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dcq9-master-of-applied-cyber-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Anytime during the year (2026)",
+        "01 January 2026"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "Academic IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "possess a degree that is the equivalent to an AQF Bachelor degree with Honours with first class or second class, first division",
+        "possess a Masters degree with a relevant research component that is equivalent to a Masters degree from Federation University and an equivalent result as outlined above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dsa9-master-of-applied-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Data Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Mt Helen",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of an undergraduate degree at AQF level 7 in an area of science, mathematics, statistics, engineering, information technology or business",
+        "Applicants will be required to demonstrate previous studies in introductory mathematics and at least one information technology course in their undergraduate degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dcx9-master-of-data-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Digital Business Transformation",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree or equivalent in any field",
+        "Minimum GPA: 2.0/4.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbt9-master-of-digital-business-transformation",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Technology (Civil)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Candidates must possess a three-year Bachelor of Engineering Science, Bachelor of Engineering Technology or Bachelor of Engineering degree ONLY in Civil Engineering",
+        "Places will be allocated based on academic performance in the applicant’s undergraduate course"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dez9.civ-master-of-engineering-technology-civil",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Technology (Mechanical)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Candidates must possess a three-year Bachelor of Engineering Science, Bachelor of Engineering Technology or Bachelor of Engineering degree",
+        "Places will be allocated based on academic performance in the applicant’s undergraduate degree"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dez9.mec-master-of-engineering-technology-mechanical",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Technology (Mining)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34300.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in a relevant field or equivalent",
+        "Minimum GPA: 2.5/4.0 (or equivalent)",
+        "IB Diploma points: 24-26"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dez9.min-master-of-engineering-technology-mining",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Forensic Cyber Security",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": [
+        "Completion of an overseas high school or bachelor equivalent qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dfq9-master-of-forensic-cyber-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "An applicant must have successfully completed a three year (minimum) Bachelor level qualification in a related health cognate discipline area."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9-master-of-health",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Advanced Nursing)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Federation University Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "13 July",
+        "25 January",
+        "19 April",
+        "12 July",
+        "4 October"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall; with 6.5 in Reading, 6.5 in Listening, 6.0 in Writing and 6.0 in Speaking"
+      },
+      "academic_requirements": [
+        "successful completion of a three-year Bachelor level qualification (or equivalent) from a health cognate discipline",
+        "having undertaken Honours, or post-graduate study to level of Graduate Diploma"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.nr-master-of-health-advanced-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Child and Family Health Nursing)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March",
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Hold current registration with the Australian Health Practitioner Regulation Agency (AHPRA) as both a Registered Nurse and a Midwife",
+        "Meet recency of practice requirements as per the Nursing and Midwifery Board of Australia"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.cfh-master-of-health-child-and-family-health-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Mental Health Nursing)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor of Nursing (or equivalent)"
+        },
+        {
+          "type": "current and satisfactory registration with AHPRA as a Registered Nurse"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.mh-master-of-health-mental-health-nursing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Neonatal Care)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Ballarat",
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "An applicant must have successfully completed a three year (minimum) Bachelor level qualification in Nursing or Midwifery (or equivalent)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.nc-master-of-health-neonatal-care",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Perinatal and Infant Mental Health)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Prospective students interested in applying for this course will need to demonstrate a relevant Bachelor or post graduate qualification in a health related discipline.",
+        "Registration with AHPRA or discipline related professional body.",
+        "Demonstration of recent practice in health care settings."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.pim-master-of-health-perinatal-and-infant-mental-health",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health (Workplace Health and Safety)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of a Graduate Certificate or Graduate Diploma (Workplace Health and Safety) from Federation University (or equivalent); OR other university qualifications and appropriate industrial experience and demonstrated academic standard to meet the requirements."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dhn9.wh-master-of-health-workplace-health-and-safety",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Maintenance and Reliability Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "20 July",
+        "1 March",
+        "19 July"
+      ],
+      "course_duration": "2 years part-time (180 credit points = 1 EFTSL)",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no individual band less than 6.0"
+      },
+      "academic_requirements": [
+        "Applicants should have a Bachelor of Engineering degree with honours",
+        "or have completed the Graduate Diploma in Engineering Maintenance Management with an average result of 50%",
+        "In certain circumstances, applicants with a Bachelor of Engineering pass degree or other appropriate degree together with honours-equivalent work experience may be admitted"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/gmr9-master-of-maintenance-and-reliability-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing (Nurse Practitioner)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Ballarat",
+        "Berwick",
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "1.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "overall": 7,
+          "listening": 7,
+          "reading": 7,
+          "writing": 7,
+          "speaking": 7
+        }
+      },
+      "academic_requirements": [
+        {
+          "requirement": "Current general registration as a RN in Australia (without conditions)",
+          "evidence": "copy of Registration details"
+        },
+        {
+          "requirement": "A minimum of 2 years full time equivalent (FTE) experience as a RN in a specified clinical field",
+          "evidence": "CV providing detail of previous experience"
+        },
+        {
+          "requirement": "A minimum of 2 years FTE experience in current advanced nursing practice in the clinical field",
+          "evidence": "CV detailing employment history with mention of classification, employment fractions and activities of advanced nursing practice in the last 6 years"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dnp9-master-of-nursing-nurse-practitioner",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Philosophy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Camp St",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Anytime during the year (2026)",
+        "01 January 2026"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "have graduated with or qualified for a four year Honours Bachelor degree, or Degree with Honours, at least second class honours level",
+        "hold qualifications and/or have demonstrated skills, experience, research, or publications which are assessed as being at least equivalent to the qualifications above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/def9-master-of-philosophy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Philosophy",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree or equivalent",
+        "Minimum GPA: 2.5/4.0 (or equivalent)",
+        "IB Diploma points: 24-26"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/din9-master-of-philosophy",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Philosophy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Camp St",
+        "Gippsland",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Anytime during the year (2026)",
+        "1 January 2026"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 26900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "have graduated with or qualified for a four year Honours Bachelor degree, or Degree with Honours, at least second class honours level",
+        "hold qualifications and/or have demonstrated skills, experience, research, or publications which are assessed as being at least equivalent to the qualifications above"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/ded9-master-of-philosophy",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree or equivalent in any field",
+        "A minimum GPA of 2.0 out of 4.0 or equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dbx9-master-of-professional-accounting",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berwick",
+        "Mt Helen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "March"
+      ],
+      "course_duration": "1 year full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0 with no individual band less than 7.0"
+      },
+      "academic_requirements": [
+        "Completion of an APAC accredited fourth year degree in psychology (Honours or Graduate Diploma) with a credit average within the last 10 years",
+        "Satisfies the personal qualities assessment via referee reports and interview"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dym9-master-of-professional-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Psychology (Clinical)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00103D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 29200.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree or equivalent in any field",
+        "Minimum GPA: 2.0/4.0 (or equivalent)",
+        "English language proficiency: IELTS, TOEFL or PTE"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dyl9-master-of-psychology-clinical",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Speech Pathology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Ballarat",
+        "Gippsland"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "8.0"
+      },
+      "academic_requirements": [
+        "Successful completion of a Bachelor degree (or equivalent)",
+        "Relevant work experience is preferable and highly recommended",
+        "English language requirements: IELTS minimum score of 8.0 in all components"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dst9-master-of-speech-pathology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Ballarat (flexible)",
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "Speaking": 8.0,
+          "Listening": 8.0,
+          "Reading": 7.0,
+          "Writing": 7.0
+        }
+      },
+      "academic_requirements": [
+        "A 3 year Bachelor degree or equivalent (with two approved specialised teaching areas)",
+        "English language requirements: IELTS score: Speaking 8.0, Listening 8.0, Reading 7.0, and Writing 7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dtz9-master-of-teaching-secondary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Ballarat"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "2.5 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "Speaking": 8.0,
+          "Listening": 8.0,
+          "Reading": 7.0,
+          "Writing": 7.0
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree or equivalent",
+          "duration": "3 years"
+        },
+        {
+          "type": "IELTS score: Speaking 8.0, Listening 8.0, Reading 7.0, and Writing 7.0"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/duz9-master-of-teaching-secondary",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Technology (Software Engineering)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0, with no band less than 6.0"
+      },
+      "academic_requirements": [
+        "Successful completion of a degree that is the equivalent of a Bachelor degree",
+        "Overall Academic IELTS band score of 6.0, with no band less than 6.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.federation.edu.au/courses/dcg9.se-master-of-technology-software-engineering",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    }
+  ]
+}

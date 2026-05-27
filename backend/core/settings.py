@@ -26,7 +26,13 @@ SECRET_KEY = 'django-insecure-d^&o#)on_9bj8@2qt)bnk@=&*y5aie0)xkuz0(^azw$qiba^gu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "192.168.1.64", "192.168.1.119"]
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "192.168.1.64",
+    "192.168.1.142",
+    "nimbly-acuteness-zips.ngrok-free.dev",
+]
 
 
 # Application definition
@@ -57,6 +63,13 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'https://nimbly-acuteness-zips.ngrok-free.dev',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://nimbly-acuteness-zips.ngrok-free.dev',
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -128,3 +141,20 @@ STATIC_URL = 'static/'
 
 # CRM webhook endpoint used for WhatsApp lead forwarding.
 CRM_WEBHOOK_URL = os.getenv("CRM_WEBHOOK_URL", "")
+
+# Crawler correction API endpoint used by Django admin "Compare with crawler".
+# Example: http://127.0.0.1:8010/recrawl-course
+CRAWLER_CORRECTION_ENDPOINT = os.getenv(
+    "CRAWLER_CORRECTION_ENDPOINT",
+    "local",
+)
+
+# When CRAWLER_CORRECTION_ENDPOINT is "local", admin calls crawler directly.
+CRAWLER_SOURCE_ROOT = os.getenv(
+    "CRAWLER_SOURCE_ROOT",
+    "/home/cybrik001/Crawl4ai/Crawl4ai/crawl4ai/university_scraper",
+)
+CRAWLER_LOCAL_PYTHON = os.getenv(
+    "CRAWLER_LOCAL_PYTHON",
+    "/home/cybrik001/Crawl4ai/Crawl4ai/.venv/bin/python",
+)

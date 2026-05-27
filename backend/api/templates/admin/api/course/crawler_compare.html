@@ -1,0 +1,91 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+  <div id="content-main">
+    <h1>Crawler Compare: {{ course.title }}</h1>
+    <p>
+      Course ID: {{ course.id }}<br/>
+      University: {{ course.university.name }}
+    </p>
+
+    <form method="post" style="margin-bottom: 16px;">
+      {% csrf_token %}
+      <input type="hidden" name="action" value="compare" />
+      <fieldset class="module aligned">
+        {{ form.as_p }}
+      </fieldset>
+      <div class="submit-row">
+        <input type="submit" value="Fetch Comparison" class="default" />
+        <a href="{% url 'admin:api_course_change' course.id %}" class="button">Back To Course</a>
+      </div>
+    </form>
+
+    {% if comparison_rows %}
+      <h2>Field Comparison</h2>
+      <table class="adminlist" style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th style="text-align:left; padding:6px;">Apply</th>
+            <th style="text-align:left; padding:6px;">Field</th>
+            <th style="text-align:left; padding:6px;">Current</th>
+            <th style="text-align:left; padding:6px;">Crawler Proposed</th>
+            <th style="text-align:left; padding:6px;">Edit Proposed</th>
+            <th style="text-align:left; padding:6px;">Changed</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in comparison_rows %}
+            <tr>
+              <td style="padding:6px;">
+                <input
+                  type="checkbox"
+                  name="apply_field_{{ row.key }}"
+                  {% if row.changed %}checked{% endif %}
+                  form="apply-form"
+                />
+              </td>
+              <td style="padding:6px;">{{ row.label }}</td>
+              <td style="padding:6px;">{{ row.current|default:"" }}</td>
+              <td style="padding:6px;">{{ row.proposed|default:"" }}</td>
+              <td style="padding:6px;">
+                {% if row.editor_type == "boolean" %}
+                  <select name="value_{{ row.key }}" form="apply-form">
+                    <option value="true" {% if row.proposed|lower == "true" %}selected{% endif %}>True</option>
+                    <option value="false" {% if row.proposed|lower == "false" %}selected{% endif %}>False</option>
+                  </select>
+                {% else %}
+                  <input
+                    type="{% if row.editor_type == 'number' %}number{% else %}text{% endif %}"
+                    step="any"
+                    name="value_{{ row.key }}"
+                    value="{{ row.proposed|default:'' }}"
+                    form="apply-form"
+                    style="width: 98%;"
+                  />
+                {% endif %}
+              </td>
+              <td style="padding:6px; font-weight:700; color:{% if row.changed %}#b42318{% else %}#2e7d32{% endif %};">
+                {% if row.changed %}Yes{% else %}No{% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <form method="post" id="apply-form" style="margin-top: 16px;">
+        {% csrf_token %}
+        <input type="hidden" name="action" value="apply" />
+        <input type="hidden" name="crawler_endpoint" value="{{ form.crawler_endpoint.value|default:'' }}" />
+        <input type="hidden" name="correct_course_url" value="{{ form.correct_course_url.value|default:'' }}" />
+        <input type="hidden" name="match_existing_source_url" value="{{ form.match_existing_source_url.value|default:'' }}" />
+        <input type="hidden" name="overwrite_existing_fields" value="{% if form.overwrite_existing_fields.value %}on{% endif %}" />
+        <input type="hidden" name="full_sync_all_sections" value="{% if form.full_sync_all_sections.value or form.full_sync_all_sections.value == None %}on{% endif %}" />
+        <input type="hidden" name="corrected_payload" value="{{ corrected_payload_json|escape }}" />
+
+        <div class="submit-row">
+          <input type="submit" value="Apply Changes To Course" class="default" />
+        </div>
+      </form>
+    {% endif %}
+  </div>
+{% endblock %}

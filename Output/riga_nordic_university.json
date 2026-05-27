@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T05:58:15.733213Z",
+    "university_name": "Riga Nordic University",
+    "source": "https://www.rnu.lv/en",
+    "total_programs": 16
+  },
+  "programs": [
+    {
+      "program_course_name": "Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Riga, Latvia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.1 years full-time or 2 years",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/masters-degree/business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Administration (Global BBA)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "IB Diploma points",
+        "Secondary School Leaving Certificate from another system"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration-global-bba",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Administration in Tourism",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration-in-tourism",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business communication",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration/business-communication",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computer systems",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 – 2 years",
+      "annual_tuition_fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "English language proficiency level B2"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English language proficiency level B2": null
+      },
+      "academic_requirements": [
+        "First cycle academic higher education in the field of computer science",
+        "For studies in English – English language proficiency level B2.",
+        "First cycle professional higher education in another field of science and at least 2 years of work experience in computer science and informatics or electrical engineering, electronics, information and communication technologies. Entrance examination is mandatory to take."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/masters-degree/computer-systems",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Digital technologies in tourism",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration-in-tourism/digital-technologies-in-tourism",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Information Systems",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga, Latvia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.5/4.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/information-systems",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master's programmes",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90
+      },
+      "academic_requirements": [
+        "Bachelor's degree or equivalent",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/masters-degree",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Music Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga, Latvia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/music-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Music Management",
+      "course_level": null,
+      "campus_location": [],
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration/music-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.2,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Organizational Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: not specified"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/masters-degree/organizational-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Programming of unmanned systems",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/programming-unmanned-systems",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Restaurant and club business management",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration-in-tourism/restaurant-and-club-business-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Tourism and hospitality management",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/studies/study-programs/bachelor/business-administration-in-tourism/tourism-and-hospitality-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "WEB Master – Design, Layout & Programming",
+      "course_level": null,
+      "campus_location": [
+        "Riga"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "June"
+      ],
+      "course_duration": "1-3 months",
+      "annual_tuition_fee": {
+        "amount": 80.0,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://rnu.lv/en/course/web-master-design-layout-programming",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    }
+  ]
+}

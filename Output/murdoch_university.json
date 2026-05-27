@@ -1,0 +1,1827 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T05:36:46.680811Z",
+    "university_name": "Murdoch University",
+    "source": "https://www.murdoch.edu.au/",
+    "total_programs": 42
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Agricultural Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "0102135",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Total score of 24 or higher (International Baccalaureate Diploma)",
+        "Aggregate of 6 points from: A maximum of the best three A-level subjects; OR A combination of A-level and AS-level subjects",
+        "Successful completion of a Certificate IV or higher (VET course studied at school)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1391",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "079364G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34160,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Evidence of completing year 11 and 12 in Australia at any Level (International Applicants Only)",
+        "Successful completion of a Diploma or Advanced Diploma",
+        "Certificate IV AQF level 4: Successful completion of a Certificate IV. Evidence of completing year 11 and 12 in Australia at any Level (Domestic Applicants Only), OR STAT Written English score of 140 or higher (145 if prior to May 2010)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1356",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Murdoch"
+      ],
+      "cricos_code": "117500H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Total score of 24 or higher. Higher level (HL): 3 or better. Standard Level (SL): 4 or better.",
+        "Minimum academic requirement: A successful experience based entry application that demonstrates relevant aptitude and ability in a related learning area."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1419",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "079326C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "IB Diploma",
+          "requirement": "Total score of 24 or higher"
+        },
+        {
+          "type": "A Levels",
+          "requirement": "Aggregate of 6 points from: A maximum of the best three A-level subjects; OR A combination of A-level and AS-level subjects At least two A-level subjects are included in the calculation AS-level subject attempted at A-level is not eligible to be included A-level grades (A*=6, A=5, B=4, C=3, D=2, E=1) AS-level grades (A=2.5, B=2, C=1.5, D=1, E=0.5)"
+        },
+        {
+          "type": "International Baccalaureate (IB) Diploma",
+          "requirement": "Total score of 24 or higher"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1367",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "095508G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Successful completion of a Certificate IV or higher.",
+        "Minimum English requirement: Evidence of completing year 11 and 12 in Australia at any Level (Domestic Applicants Only), OR STAT Written English score of 140 or higher (145 if prior to May 2010).",
+        "International Baccalaureate (IB) Diploma: Minimum academic requirement: Total score of 24 or higher.",
+        "Minimum English requirement: Higher level (HL): 3 or better. Standard Level (SL): 4 or better."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1342",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Creative Media",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "095510C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Total score of 24 or higher (International Baccalaureate Diploma)",
+        "Minimum English requirement: Higher level (HL): 3 or better. Standard Level (SL): 4 or better."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1343",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "095504A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Successful completion of one of the following: Murdoch University Preparation Course (MUPC) with a final mark of 50% or higher in all subjects.",
+        "Murdoch University Preparation Course (MUPC) - (Accelerated Entry) with a final mark of 50% or higher in all subjects.",
+        "Foundation Studies Course with a final mark of 50% or higher in all subjects."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1345",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Data Analytics",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "106085J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Total score of 24 or higher (International Baccalaureate (IB) Diploma)",
+        "Minimum English requirement: Higher level (HL): 3 or better, Standard Level (SL): 4 or better"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1420",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary Teaching)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "110543J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "IB Diploma",
+          "points": 24
+        },
+        {
+          "type": "A Levels",
+          "grades": [
+            "C in English Language",
+            "C in English Literature"
+          ]
+        },
+        {
+          "type": "Overseas Year 12",
+          "minimum academic requirement": null,
+          "minimum english requirement": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1404",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering Honours",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "110888F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/honours/h1287",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Forensic Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Murdoch"
+      ],
+      "cricos_code": "117501G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Total score of 24 or higher (International Baccalaureate Diploma)",
+        "Minimum of 6 points taken from the best 2 or 3 subjects where A*=6, A=5, B=4, C=3, D=2, E=1 (GCE A Levels)",
+        "Please refer to the information under the country of study (Overseas Year 12)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1418",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Security",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "097990K",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34160,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Successful completion of a Diploma or Advanced Diploma.",
+        "Evidence of completing year 11 and 12 in Australia at any Level (International Applicants Only).",
+        "Evidence of completing a minimum of 2 years of studies at TAFE or an RTO (International Applicants Only)."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1363",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health Science / Master of Clinical Chiropractic",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "118305C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42125,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        {
+          "IB Diploma": "24 or higher"
+        },
+        {
+          "A-Levels": "Aggregate of 6 points from:A maximum of the best three A-level subjects; ORA combination of A-level and AS-level subjects"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1422",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "102605M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 550
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "country": "Overseas Year 12",
+          "requirement": "Total score of 24 or higher"
+        },
+        {
+          "country": "GCE A Levels",
+          "requirement": "Aggregate of 6 points from: A maximum of the best three A-level subjects; OR A combination of A-level and AS-level subjects At least two A-level subjects are included in the calculation AS-level subject attempted at A-level is not eligible to be included A-level grades (A*=6, A=5, B=4, C=3, D=2, E=1)AS-level grades (A=2.5, B=2, C=1.5, D=1, E=0.5)"
+        },
+        {
+          "country": "International Baccalaureate (IB) Diploma",
+          "requirement": "Total score of 24 or higher"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1390",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "006942E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Successful completion of one of the following: Murdoch University Preparation Course (MUPC) with a minimum average final mark of 78% or higher and a minimum score of 70% in “Introduction to Academic Communication”",
+        "Murdoch University Preparation Course (MUPC) - (Accelerated Entry) with minimum average final mark of 78% or higher and a minimum score of 70% in “Introduction to Academic Communication”",
+        "Foundation Studies Course with a minimum average final mark of 78% or higher and a minimum score of 70% in “Introduction to Academic Communication”",
+        "English for Academic Purposes with a final mark of 75%"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1395",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws (LLB) - Graduate Entry",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "093251M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree in any discipline",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1340",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws / Bachelor of Criminology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "095505M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        },
+        "PTE": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "test_name": "Murdoch University Preparation Course (MUPC)",
+          "minimum_score": "50%"
+        },
+        {
+          "test_name": "Murdoch University Preparation Course (MUPC) - (Accelerated Entry)",
+          "minimum_score": "50%"
+        },
+        {
+          "test_name": "Foundation Studies",
+          "minimum_score": "50%"
+        },
+        {
+          "test_name": "English for Academic Purposes",
+          "minimum_score": "65%"
+        },
+        {
+          "test_name": "OnTrack Flex, OnTrack Sprint or K-Track at Murdoch University",
+          "minimum_score": null
+        },
+        {
+          "test_name": "An enabling or bridging course at another Australian university",
+          "minimum_score": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1346",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "South Street",
+        "Mandurah"
+      ],
+      "cricos_code": "116844C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 42500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Overseas Year 12",
+          "requirement": null
+        },
+        {
+          "type": "IB Diploma",
+          "requirement": "Total score of 24 or higher"
+        },
+        {
+          "type": "GCE A Levels",
+          "requirement": "Minimum of 6 points taken from the best 2 or 3 subjects where A*=6, A=5, B=4, C=3, D=2, E=1 (AS Levels are equivalent to half points e.g. A=2.5, B=2 etc.) or higher"
+        },
+        {
+          "type": "VET course studied at school",
+          "requirement": "Minimum academic requirement: Successful completion of a Certificate IV or higher"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1417",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": null,
+      "cricos_code": "115634K",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        {
+          "program_name": "International Baccalaureate (IB) Diploma",
+          "minimum_academic_requirement": "Total score of 24 or higher"
+        },
+        {
+          "program_name": "GCE A Levels",
+          "minimum_academic_requirement": "Aggregate of 6 points from: A maximum of the best three A-level subjects; OR A combination of A-level and AS-level subjects At least two A-level subjects are included in the calculation AS-level subject attempted at A-level is not eligible to be included"
+        },
+        {
+          "program_name": "Overseas Year 12",
+          "minimum_academic_requirement": null
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1413",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology / Bachelor of Criminology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "095507J",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41160,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 550
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "IB Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1416",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Environmental and Conservation Sciences)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "106431G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate (IB) Diploma",
+          "minimum_score": 24
+        },
+        {
+          "type": "GCE A Levels",
+          "minimum_score": "6 points"
+        },
+        {
+          "type": "Overseas Year 12",
+          "minimum_score": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1399",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Mathematical Science)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "112643M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36730,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Total score of 24 or higher. (International Baccalaureate (IB) Diploma)",
+        "A Levels: D in one of the following: English Language, English Literature, Knowledge and Inquiry.",
+        "AS Level: C in one of the following: English Language, English Literature, Knowledge and Inquiry."
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1410",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Physical Sciences)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "112644K",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum academic requirement: Total score of 24 or higher. (International Baccalaureate (IB) Diploma)",
+        "Minimum English requirement: Higher level (HL): 3 or better. Standard Level (SL): 4 or better."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1411",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science / Doctor of Veterinary Medicine",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "108256A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 68400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Minimum GPA or percentage: No direct entry"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1402",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Sport and Exercise Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Perth campus"
+      ],
+      "cricos_code": "095513M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "country": "International Baccalaureate (IB) Diploma",
+          "requirement": "Total score of 24 or higher"
+        },
+        {
+          "country": "GCE A Levels",
+          "requirement": "Aggregate of 6 points from:A maximum of the best three A-level subjects; ORA combination of A-level and AS-level subjects"
+        },
+        {
+          "country": "VET course studied at school",
+          "requirement": "Successful completion of a Certificate IV or higher"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/undergraduate/b1348",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Psychology (Professional)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "085584A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 39680,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "recognised and accredited undergraduate psychology degree",
+        "Honours in Psychology (with at least 2A Honours)",
+        "Graduate Diploma in Psychology (with a distinction average)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1238",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Biosecurity",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00125B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10792,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1248",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Exercise Physiology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "106086H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 65595,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1325",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "096751M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1277",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Counselling",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "056251G",
+      "intakes": [
+        "Semester 2, 2026"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39760,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1143",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Creative Arts Therapies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "0101329",
+      "intakes": [
+        "Semester 2, 2026"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38940,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 4.0/7"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1300",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Criminology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "103447A",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1314",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "108655H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 22400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1330",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "081028F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 44560,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1210",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Food Science (Industry Practice)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "114430H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43630,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1371",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Food Security",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "103444D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 44560,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/m1311",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Administration, Policy and Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "093385G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of an undergraduate degree in a relevant field",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1267",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Care Management (Specialisation)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "112641B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38940,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of an overseas bachelor degree or equivalent",
+        "Minimum GPA: 3.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1358",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Renewable and Sustainable Energy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Perth"
+      ],
+      "cricos_code": "094590F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 22400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 2.7/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1268",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Sustainable Development",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "072141B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1214",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Primary)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00125B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 4736,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree or equivalent",
+        "Minimum GPA: 5.0/7.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1390",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching (Secondary)",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": "00125B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.75 years full-time",
+      "annual_tuition_fee": {
+        "amount": 4736,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor's degree in a non-Education field relevant to teaching",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.murdoch.edu.au/course/postgraduate/m1391",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    }
+  ]
+}

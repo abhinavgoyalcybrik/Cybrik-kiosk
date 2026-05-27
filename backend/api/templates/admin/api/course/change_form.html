@@ -1,0 +1,10 @@
+{% extends "admin/change_form.html" %}
+
+{% block object-tools-items %}
+  {{ block.super }}
+  {% if crawler_compare_url %}
+    <li>
+      <a href="{{ crawler_compare_url }}" class="historylink">Compare With Crawler</a>
+    </li>
+  {% endif %}
+{% endblock %}

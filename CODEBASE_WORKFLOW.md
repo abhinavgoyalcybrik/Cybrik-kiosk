@@ -728,7 +728,7 @@ python -m venv venv
 source venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver
+python manage.py runserver 8003
 ```
 
 ### Frontend Setup
@@ -738,7 +738,7 @@ npm install
 npm run dev  # Runs on http://localhost:3000
 ```
 
-### Backend runs on: `http://localhost:8000`
+### Backend runs on: `http://localhost:8003`
 ### Frontend runs on: `http://localhost:3000`
 ### CORS is configured to allow frontend requests
 

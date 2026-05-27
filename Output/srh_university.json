@@ -1,0 +1,959 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-22T07:28:07.692022Z",
+    "university_name": "SRH University",
+    "source": "https://www.srh-university.de/",
+    "total_programs": 25
+  },
+  "programs": [
+    {
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/master/international-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "B"
+    },
+    {
+      "program_course_name": "Bachelor International Business Administration",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin",
+        "Hamburg",
+        "Heidelberg",
+        "Cologne",
+        "Leipzig",
+        "Munich"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "April",
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 6900,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5
+      },
+      "academic_requirements": [
+        "A-Levels: BBB",
+        "IB Diploma: 28 points",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor Supply Chain Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leipzig",
+        "Cologne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "April",
+        "October"
+      ],
+      "course_duration": "3 years full-time or 3.5 years with International Experience Track",
+      "annual_tuition_fee": {
+        "amount": 6900,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5
+      },
+      "academic_requirements": [
+        "General higher education or university of applied sciences entrance qualification",
+        "Minimum GPA/percentage: unknown",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration-supply-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Global Hospitality Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Dresden"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 620,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "General Certificate of Education (GCE) A-Levels": "3 H2 passes",
+        "International Baccalaureate Diploma Programme (IBDP)": "24 points",
+        "completion of overseas high school/bachelor equivalent": true,
+        "foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/internationales-hotelmanagement-vollzeit/x",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Betriebswirtschaftslehre",
+      "course_level": null,
+      "campus_location": [
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        null
+      ],
+      "course_duration": "7 Semester",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": {
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/bwl-international-marketing-management/optionen",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Psychology (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin",
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "April",
+        "October"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 6900,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Minimum GPA: 2.5/4.0",
+        "IB Diploma points: 28-30",
+        "A-Levels grades: BBB-BCC"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration-business-psychology/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Digital Marketing (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin",
+        "Hamburg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 5100,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration-digital-marketing/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/master/international-business-and-engineering/e",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "E"
+    },
+    {
+      "program_course_name": "Healthcare Management Bachelor degree (B.A.)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "April",
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 7500,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "General higher education or university of applied sciences entrance qualification",
+        "Proof of English*",
+        "Copy of your identity card or passport*"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration-healthcare-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business & Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Dresden",
+        "Hamburg",
+        "Munich"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time (120 ECTS) or 1.5 years full-time (90 ECTS)",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90
+      },
+      "academic_requirements": {
+        "Bachelor Certificate and full transcript": {
+          "3-year degree in Business/Management": null,
+          "3-year degree in another area + min. 6 months of relevant work experience in business/management": null,
+          "4-year degree in business/management": null,
+          "4-year degree in another area + min. 12 months of relevant work experience in business/management": null
+        }
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-business-and-leadership/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business - Healthcare Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin",
+        "Munich"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time (90 ECTS) or 2 years full-time (120 ECTS)",
+      "annual_tuition_fee": {
+        "amount": 5750,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Bachelor Certificate and full transcript": {
+          "3-year degree in Business/Healthcare OR 4-year degree in another area + min. 12 months of relevant work experience in healthcare management": null,
+          "4-year degree in Business/Healthcare OR 4-year degree in another area + min. 6 months of relevant work experience in healthcare management": null
+        }
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-business-healthcare-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Administration",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bremen"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 690,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/bwl-internationales-logistikmanagement/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Administration - Business Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/international-business-administration-business-psychology/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Administration - Finance, B.A.",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Heidelberg",
+        "Munich"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "October",
+        "April"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 690,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Certificate of general university entrance qualification or a certificate of entrance qualification for universities of applied sciences",
+        "Vocationally qualified applicants without a university entrance qualification who have completed at least two years of vocational training and have at least three years’ professional experience may also be eligible to study on a specific programme by passing an aptitude test."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/bachelor/international-business-administration-finance/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Administration - Supply Chain Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leipzig",
+        "Berlin",
+        "Köln"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80,
+        "PTE": 55
+      },
+      "academic_requirements": {
+        "Minimum GPA": 3.0,
+        "IB Diploma points": 28,
+        "A-Levels grades": [
+          "B",
+          "C"
+        ],
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/international-business-administration-supply-chain-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Healthcare Management",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1-semester PreMaster programme or 2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "B2 First Cambridge",
+        "CAE",
+        "PCE",
+        "Duolingo Certificate",
+        "IELTS (academic)",
+        "Linguaskill",
+        "Password Skills Plus Test",
+        "Pearson English Test Academic (PTE-A)",
+        "TOEIC",
+        "TOEFL iBT/TOEFL iBT Home Edition"
+      ],
+      "minimum_english_language_score_requirements": {
+        "B2 First Cambridge": "grade A or B",
+        "CAE": "grade A, B, or C",
+        "PCE": "grade A, B, or C",
+        "Duolingo Certificate": "110",
+        "IELTS (academic)": "6.5 / IELTS (indicator) online: 6.5",
+        "Linguaskill": "176 (all four skills required)",
+        "Password Skills Plus Test": "6.5",
+        "Pearson English Test Academic (PTE-A)": "59 (in total)",
+        "TOEIC": "785 (Listening/Reading 785, Speaking 160, Writing 150)",
+        "TOEFL iBT/TOEFL iBT Home Edition": "87"
+      },
+      "academic_requirements": {
+        "minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-business-healthcare-management/b/master-international-business-healthcare-management-admission-requirements-in-detail",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Sustainability Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin",
+        "Dresden"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3-4 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 750,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "120 ECTS (4 semesters)": {
+          "Bachelor Certificate and full transcript": {
+            "3-year degree in Business/Management OR": null,
+            "3-year degree in another area + min. 6 months of work experience in business/management related to sustainability field": null
+          }
+        },
+        "90 ECTS (3 semesters)": {
+          "Bachelor Certificate and full transcript": {
+            "4-year degree in Business/Management OR": null,
+            "4-year degree in another area + min. 12 months of work experience in business/management related to sustainability field": null
+          }
+        }
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-business-sustainability-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business and Engineering",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "1st April",
+        "1st October"
+      ],
+      "course_duration": "4 semesters or 3 semesters full-time",
+      "annual_tuition_fee": {
+        "amount": 840,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor’s degree (final grade of at least 2.5 | German system) in business engineering, engineering, natural sciences, economics, finance, business administration, or computer science"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-business-and-engineering/e",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Management - Creative Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 6950,
+        "currency": "EUR",
+        "period": "per semester"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 90
+      },
+      "academic_requirements": {
+        "Bachelor's degree": null,
+        "GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-management-creative-leadership/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Mittelstandsmanagement",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "SRH University"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 weeks",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/master/internationales-management-und-entrepreneurship/b/sales-coaching-future-ways-of-learning",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Relations",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 840,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/international-relations/l",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Internationales Hotelmanagement DUAL",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Dresden"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 69000,
+        "currency": "EUR",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        }
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma Programme (IBDP)": {
+          "points": 24
+        },
+        "A-Levels": {
+          "grades": [
+            "BCC"
+          ]
+        },
+        "completion of overseas high school/bachelor equivalent": true,
+        "foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/bachelor/internationales-hotelmanagement-dual/x",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master International Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Berlin"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "April",
+        "October"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 8400,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "English"
+      ],
+      "minimum_english_language_score_requirements": {
+        "English": null
+      },
+      "academic_requirements": [
+        "Bachelor's degree in a relevant field",
+        "Minimum GPA: 2.5/4.0 (US system)",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/en/master/international-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Business - Healthcare Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Gera"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 650,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Bachelor-Zeugnis und vollständiges Transcript": null,
+        "3 jähriger Bachelor-Abschluss in Wirtschaft/Gesundheitswesen ODER 3 jähriger Bachelor-Abschluss in einem anderen Bereich und mindestens 6 Monate relevante Berufserfahrung im Gesundheitsmanagement": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/master/international-business-healthcare-management/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of International Management and Entrepreneurship",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Heidelberg"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 69000,
+        "currency": "EUR",
+        "period": "per month"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 80
+      },
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null,
+        "Completion of overseas high school/bachelor equivalent": true,
+        "Foundation program requirements": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.srh-university.de/de/master/internationales-management-und-entrepreneurship/b",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}
