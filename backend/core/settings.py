@@ -30,8 +30,11 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "192.168.1.64",
-    "192.168.1.142",
+    "192.168.1.86",
     "nimbly-acuteness-zips.ngrok-free.dev",
+    "10.213.179.88",
+    "192.168.1.96",
+    "magical-advertising-genealogy-sci.trycloudflare.com"
 ]
 
 
@@ -64,12 +67,15 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'https://nimbly-acuteness-zips.ngrok-free.dev',
+    'http://10.213.179.88'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'https://nimbly-acuteness-zips.ngrok-free.dev',
+    'http://10.213.179.88',
+    "http://192.168.1.86"
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -152,9 +158,9 @@ CRAWLER_CORRECTION_ENDPOINT = os.getenv(
 # When CRAWLER_CORRECTION_ENDPOINT is "local", admin calls crawler directly.
 CRAWLER_SOURCE_ROOT = os.getenv(
     "CRAWLER_SOURCE_ROOT",
-    "/home/cybrik001/Crawl4ai/Crawl4ai/crawl4ai/university_scraper",
+    "/Users/abhinavgoyal9729/Crawl4ai/crawl4ai/university_scraper",
 )
 CRAWLER_LOCAL_PYTHON = os.getenv(
     "CRAWLER_LOCAL_PYTHON",
-    "/home/cybrik001/Crawl4ai/Crawl4ai/.venv/bin/python",
+    "/Users/abhinavgoyal9729/Crawl4ai/crawl4ai/university_scraper/.venv/bin/python",
 )

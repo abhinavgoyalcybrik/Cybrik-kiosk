@@ -1,0 +1,3355 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-26T11:50:19.090643Z",
+    "university_name": "RMIT University",
+    "source": "https://www.rmit.edu.au",
+    "total_programs": 73
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Accounting/Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-accountingbachelor-of-laws-bp352",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama",
+      "work_experience_required": false,
+      "english_waiver_available": false,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      }
+    },
+    {
+      "program_course_name": "Bachelor of Applied Science (Aviation)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47040,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 75
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "Completion of an Australian Diploma or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-applied-science-aviation-bp070",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Applied Science (Aviation)/Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 52920,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-applied-science-aviationbachelor-of-business-bp284",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Arts (Music Industry)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 40320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-arts-music-industry-bp047",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Aviation (Pilot Training)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City",
+        "Bendigo",
+        "Point Cook"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 69120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-aviation-pilot-training-bp345",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in a relevant field with a minimum GPA of 60%",
+        "Completion of an overseas high school or bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-biomedical-science-bp231",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in a relevant field",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-biomedical-science-honours-bh130",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Osteopathy)/Master of Clinical Osteopathy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3+2 years",
+      "annual_tuition_fee": {
+        "amount": 37400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a recognised Bachelor degree or equivalent",
+        "Minimum GPA: 2.0/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/applying-to-rmit/local-student-applications/access-rmit/bachelor-plus-masters",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical Science (Osteopathy)/Master of Clinical Osteopathy (3+2 package)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-biomedical-science-bp231/bachelor-of-biomedical-science-bp231-osteopathy-plan",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-business-bp343",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology and Criminal Justice",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-criminology-and-criminal-justice-bp023",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology and Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        },
+        {
+          "type": "Foundation program requirements"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-criminology-and-psychology-bp295",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Cyber Security",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "completion of a foundation program"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-cyber-security-bp355",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36480,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-education-bp320",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Aerospace Engineering) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47040,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-engineering-aerospace-engineering-honours-bh078",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Biomedical Engineering) (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47040,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-engineering-biomedical-engineering-honours-bh069",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Engineering (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47040,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-engineering-honours-bh126",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 75
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-environmental-science-bp192",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science/Bachelor of Sustainability and Environment",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41280,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-environmental-sciencebachelor-of-sustainability-and-environment-bp193",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Fashion Sustainability",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Brunswick"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 47040,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        },
+        {
+          "type": "Foundation program requirements"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-fashion-sustainability-bp326",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Graphic Design",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-graphic-design-bp115",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Health and Biomedical Sciences (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree or equivalent in a relevant field",
+        "Minimum GPA: 2.0/4.0"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-health-and-biomedical-sciences-honours-bh058",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Industrial Design (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City",
+        "Brunswick"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma Programme (IB)",
+          "points": null
+        },
+        {
+          "type": "A-Levels",
+          "grades": null
+        },
+        {
+          "type": "Completion of overseas high school/bachelor equivalent",
+          "requirements": null
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-industrial-design-honours-bh104",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of International Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Completion of a foundation program"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-international-studies-bp332",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laboratory Medicine (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-laboratory-medicine-honours-bh129",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Landscape Architectural Design",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "Completion of an Australian Diploma or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-landscape-architectural-design-bp256",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        {
+          "type": "International Baccalaureate Diploma Programme (IB)",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "BCC"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-laws-bp335",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Business",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 75
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-lawsbachelor-of-business-bp346",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Commerce",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA: 3.0/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-lawsbachelor-of-commerce-bp358",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Laws/Bachelor of Professional Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 45120,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-lawsbachelor-of-professional-communication-bp360",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Medical Radiation",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46680,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "English language proficiency: IELTS (6.5 overall), TOEFL (79-93), PTE (58-64)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-medical-radiation-bp321",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Medical Radiation (Nuclear Medicine – Industry Practice)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "3.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "completion of a bachelor degree or higher"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-medical-radiation-bp321/embedded-student-model-bachelor-of-medical-radiation-nuclear-bp321ni",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Pharmaceutical Sciences",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "completion of a recognised foundation program"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-pharmaceutical-sciences-bp311",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Pharmaceutical Sciences (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 46080,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-pharmaceutical-sciences-honours-bh121",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Pharmacy (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 48000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-pharmacy-honours-bh102",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Professional Communication",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 41280,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-professional-communication-bp354",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-psychology-bp154",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-psychology-honours-bh000",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 60
+        },
+        "PTE": {
+          "score": 50
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Completion of overseas high school/bachelor equivalent"
+        },
+        {
+          "type": "Foundation program requirements"
+        }
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-science-bp350",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Biotechnology)/Bachelor of Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City",
+        "Bundoora"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA or percentage: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-science-biotechnologybachelor-of-biomedical-science-bp293",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Science (Psychology)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.0
+        },
+        "TOEFL": {
+          "score": 75
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to Australian Year 12",
+        "Minimum GPA: null"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-social-science-psychology-bp112",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Work (Honours)/Bachelor of Social Science (Psychology)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent",
+        "Foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-social-work-honoursbachelor-of-social-science-psychology-bh106",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Software Engineering (Professional)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "A minimum GPA of 3.0 out of 4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-software-engineering-professional-bp096",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Sustainability and Environment",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-sustainability-and-environment-bp362",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Urban and Regional Planning (Honours)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Melbourne City"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": {
+          "score": null
+        },
+        "PTE": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of overseas high school equivalent to an Australian Year 12 qualification",
+        "Minimum GPA or percentage: unknown"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/honours-degrees/bachelor-of-urban-and-regional-planning-honours-bh108",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Executive Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe",
+        "RMIT Global"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor degree in any field, or equivalent",
+        "A minimum of 3 years relevant work experience"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/executive-master-of-business-administration-mc162",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Analytics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38100.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in any field, or equivalent",
+        "Completion of a recognised overseas high school qualification, or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-analytics-mc242",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Architecture",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "A minimum GPA of 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-architecture-mc163",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "minimum_gpa": null,
+          "completion_of_overseas_high_school_equivalent": true
+        },
+        {
+          "type": "Foundation program",
+          "requirements": "Completion of a Foundation program"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-artificial-intelligence-mc271",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Arts (Arts Management)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe",
+        "RMIT Global"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37320.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "duration": "3 years"
+        },
+        {
+          "type": "Postgraduate diploma or graduate certificate",
+          "duration": "1 year"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-arts-arts-management-mc280",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Biotechnology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree in any field",
+        "Minimum GPA: 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-biotechnology-mc111",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 54200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "duration": "3 years"
+        },
+        {
+          "type": "GPA of 2.7 or higher"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-business-administration-mc199",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Analytics and AI Strategy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe",
+        "RMIT Global"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in any field, or equivalent",
+        "A minimum GPA of 2.7 out of 4.0 (or equivalent)",
+        "English language proficiency: IELTS 6.5 (no band less than 6.0), TOEFL 79 (no section score less than 19), PTE 58"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-business-analytics-and-ai-strategy-mc274",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Osteopathy",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 43200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 94,
+          "band": null
+        },
+        "PTE": {
+          "score": 65,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field",
+        "Minimum GPA: 2.5/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-clinical-osteopathy-mc284",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Clinical Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37320,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 7
+        },
+        "TOEFL": {
+          "score": 94
+        },
+        "PTE": {
+          "score": 65
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree in Psychology or related field",
+          "percentage": null,
+          "GPA": null
+        },
+        {
+          "type": "Completion of an overseas high school/bachelor equivalent",
+          "percentage": null,
+          "GPA": null
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-clinical-psychology-mc002",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe",
+        "RMIT Global"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in a relevant field, or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-communication-mc248",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Cyber Security",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree in any field",
+        "Minimum GPA: 2.7/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-cyber-security-mc159",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Energy Efficient and Sustainable Building",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 3"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree in any field",
+        "Minimum GPA: 2.7/4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-energy-efficient-and-sustainable-building-mc209",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Engineering (Management)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree in a relevant field",
+          "minimum_gpa": null
+        },
+        {
+          "type": "International Baccalaureate Diploma",
+          "minimum_points": 24
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-engineering-management-mc226",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Fine Art",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            0.5
+          ]
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in any field or equivalent",
+        "Completion of a recognised overseas high school qualification or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-fine-art-mc266",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Food Science and Technology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in a relevant field, or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-food-science-and-technology-mc237",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Interior Design",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in a related field or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-interior-design-mc275",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Justice and Criminology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Europe",
+        "RMIT Global"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "minimum_gpa": null,
+          "completion_of_equivalent_degree": true
+        },
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "B3",
+            "C4"
+          ]
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-justice-and-criminology-mc223",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Laboratory Medicine",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            0.5
+          ]
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "minimum_gpa": null
+        },
+        {
+          "type": "IB Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "B2C1"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-laboratory-medicine-mc158",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Landscape Architecture",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in a relevant field, or equivalent; A minimum GPA of 2.7/4.0 (or equivalent); Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-landscape-architecture-mc172",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Mental Health Nursing",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 7.0,
+        "TOEFL": 94,
+        "PTE": 65
+      },
+      "academic_requirements": [
+        "Completion of a Bachelor degree in any field, or equivalent",
+        "Minimum GPA of 2.5 out of 4.0"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-mental-health-nursing-mc268",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Photography",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor degree in a related field or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-photography-mc270",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "Semester 3"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "duration": "3 years"
+        },
+        {
+          "type": "Postgraduate diploma or graduate certificate",
+          "duration": "1 year"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-project-management-mc210",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching Practice (Primary Education)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 37300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 7
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree in any field",
+        "Minimum GPA: 2.5/4.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-teaching-practice-primary-education-mc219",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Teaching Practice (Secondary Education)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 7
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Completion of a bachelor degree in any discipline",
+        "Minimum GPA: 2.5 out of 4.0"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-teaching-practice-secondary-education-mc220",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Translating and Interpreting",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Melbourne"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            0.5
+          ]
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        {
+          "type": "Bachelor degree",
+          "minimum_gpa": null
+        },
+        {
+          "type": "International Baccalaureate Diploma",
+          "points": 24
+        },
+        {
+          "type": "A-Levels",
+          "grades": [
+            "B3, B3, C"
+          ]
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-translating-and-interpreting-mc214",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Urban Design",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 39400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "band": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree in a relevant field or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-urban-design-mc193",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Urban Planning and Environment",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "RMIT Australia",
+        "RMIT Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 79
+        },
+        "PTE": {
+          "score": 58
+        }
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.0 or equivalent; Completion of a bachelor degree in any field"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-urban-planning-and-environment-mc221",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

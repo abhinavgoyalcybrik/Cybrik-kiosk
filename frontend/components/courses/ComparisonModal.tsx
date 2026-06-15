@@ -29,7 +29,7 @@ export default function ComparisonModal({
 
   const getValue = (course: CourseCatalogApiItem, path: string) => {
     const parts = path.split(".");
-    let val: any = course;
+    let value: unknown = course;
     for (const part of parts) {
       if (part === "location") {
         return `${course.university.city}, ${course.university.country}`;
@@ -43,9 +43,19 @@ export default function ComparisonModal({
       if (part === "intake_labels") {
         return course.intake_labels?.join(", ") || "TBA";
       }
-      val = val?.[part];
+      if (typeof value !== "object" || value === null || !(part in value)) {
+        value = undefined;
+        break;
+      }
+      value = (value as Record<string, unknown>)[part];
     }
-    return val ?? "N/A";
+    if (Array.isArray(value)) {
+      return value.join(", ");
+    }
+    if (typeof value === "string" || typeof value === "number") {
+      return String(value);
+    }
+    return "N/A";
   };
 
   return (

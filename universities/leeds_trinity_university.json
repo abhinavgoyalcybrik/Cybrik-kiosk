@@ -1,0 +1,3052 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-26T08:12:31.665890Z",
+    "university_name": "Leeds Trinity University",
+    "source": "https://www.leedstrinity.ac.uk/",
+    "total_programs": 78
+  },
+  "programs": [
+    {
+      "program_course_name": "AI in Teaching and Learning: Implementation and Collaboration Lab",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "June"
+      ],
+      "course_duration": "One day",
+      "annual_tuition_fee": {
+        "amount": 118.8,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": {
+        "Minimum GPA or percentage": null,
+        "IB Diploma points": null,
+        "A-Levels grades": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/cpd-and-short-courses/ai-in-teaching-and-learning-implementation-and-collaboration-lab",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Advanced Practice in Speech, Language and Communication Needs",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year part-time",
+      "annual_tuition_fee": {
+        "amount": 12300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "bands": [
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ]
+        },
+        "TOEFL": {
+          "score": 90
+        }
+      },
+      "academic_requirements": [
+        "A bachelor's degree or equivalent in a relevant subject",
+        "Minimum GPA of 3.0 (or equivalent)",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/advanced-practice-in-speech-language-and-communication-needs",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSE English Language or English Literature at grade C or 4 (or higher)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/film",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Grade C or above/grade 4 or higher in English Language or English Literature"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/business-and-marketing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Business Management",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27990,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "GCSEs in English Language or English Literature and Maths at grade C or 4 (or higher)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/business-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Criminology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 88,
+        "PTE": 54
+      },
+      "academic_requirements": [
+        "Minimum of 104 UCAS tariff points",
+        "A-Levels: BBC or equivalent",
+        "International Baccalaureate Diploma: 28 points"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/criminology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Early Childhood Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": {
+        "UCAS tariff": "96",
+        "GCSE English Language or English Literature": "grade C or 4 (or higher)"
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/early-childhood-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Games Design",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)",
+        "Leeds City campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 21400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 72,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum of 112 UCAS tariff points",
+        "A-Levels: AAB-BBB",
+        "IB Diploma: 28-30 points"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/games-design",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Photography",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSE English Language or English Literature at grade C or above is required"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/photography",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA (Hons) Working with Children, Young People and Families",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 72,
+          "band": null
+        },
+        "PTE": {
+          "score": 50,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "96 UCAS tariff points",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/working-with-children-young-people-and-families",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BA Joint (Hons) Criminology and Sociology",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        },
+        "PTE": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum of 104 UCAS tariff points",
+        "A-Levels: BBB or equivalent",
+        "IB Diploma: 28 points or equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/criminology-and-sociology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc (Hons) - Sport and Exercise Sciences",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSEs in English Language or English Literature, Maths and Science at grade C/4 (or higher)",
+        "UCAS tariff: 104",
+        "If you do not have a GCSE in Science but have studied Sport at Level 3 and that qualification has some Science content, we may be able to consider your application."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/sport-and-exercise-sciences",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc (Hons) Accounting and Finance",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a B in Mathematics and English at A-level",
+        "GCSEs at grade C/4 or above in English Language and Mathematics",
+        "Equivalent qualifications such as IB Diploma points (28-30)",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/accounting-and-finance",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc (Hons) Computer Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSEs at grade C or 4 (or higher) are required in English Language or English Literature and Maths."
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc (Hons) Health and Social Care",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27990,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "GCSE English Language or English Literature",
+          "grade": "C/4 or above"
+        }
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/health-and-social-care",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "BSc (Hons) Sports Therapy and Rehabilitation",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null
+        },
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum UCAS tariff points: 104",
+        "International Baccalaureate Diploma: 28-30 points"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/sports-therapy-and-rehabilitation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Biomedical Science",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27990,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "bands": {
+            "reading": 6.5,
+            "listening": 6.5,
+            "speaking": 6.5,
+            "writing": 6.5
+          }
+        },
+        "TOEFL": null
+      },
+      "academic_requirements": {
+        "IB Diploma points": null,
+        "A-Levels grades": {
+          "Biology or Chemistry": "grade B or higher"
+        },
+        "completion of overseas high school/bachelor equivalent": null,
+        "foundation program requirements": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/biomedical-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Broadcast and Digital Journalism",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSE English Language or English Literature at grade C/4 or higher is required",
+        "UCAS tariff: 112"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/broadcast-and-digital-journalism",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computer Science with Artificial Intelligence",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSEs at grade C or 4 (or higher) in English Language or English Literature and Maths"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/computer-science-with-artificial-intelligence",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computer Science with Cyber Security",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSEs at grade C or 4 (or higher) in English Language or English Literature and Maths",
+        "UCAS tariff: 112"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/computer-science-with-cyber-security",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computer Science with Games Development",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27990,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "GCSEs at grade C or 4 (or higher) in English Language or English Literature and Maths",
+        "UCAS tariff: 112"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/computer-science-with-games-development",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Criminology and Law",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 19400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 72,
+          "band": null
+        },
+        "PTE": {
+          "score": 50,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum GPA: 3.0",
+        "Completion of overseas high school equivalent to A-Levels"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/criminology-and-law",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Criminology with Police Studies",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 17400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 72,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum of 104 UCAS tariff points",
+        "A-Levels: BBB or equivalent",
+        "International Baccalaureate Diploma: 28 points"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/criminology-with-police-studies",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Digital Marketing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (2:2 or above) in any discipline",
+        "Alternatively, applicants without a degree but with subsequent work-related experience (at least three years at management level) will be considered"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/digital-marketing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Education, Mental Health and SEND",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27990,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        {
+          "qualification": "GCSE English Language or English Literature",
+          "grade": "C or 4 (or higher)"
+        }
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/education-mental-health-and-send",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "English and Creative Writing",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum of 104 UCAS tariff points",
+        "A-Levels: BBB or equivalent",
+        "International Baccalaureate Diploma: 28 points"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/english-and-creative-writing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Forensic Psychology Practitioner",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January",
+        "May"
+      ],
+      "course_duration": "2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 12450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null
+      },
+      "academic_requirements": [
+        "A BPS-accredited undergraduate degree in Psychology and;",
+        "A BPS-accredited Master's degree in Forensic Psychology, or equivalent (Stage 1)."
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/forensic-psychology-practitioner",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/health-and-wellbeing-in-the-workplace",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Health And Wellbeing In The Workplace"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/inclusive-leadership",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Inclusive Leadership"
+    },
+    {
+      "program_course_name": "LLB Law",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "GCSE English Language or English Literature at grade C or 4 (or higher)"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/law",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Law",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Non-law graduates with a minimum of a 2:1 honours degree",
+        "Law graduates with a minimum of a 2:2 honours degree"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/law-llm",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Legal Practice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Applicants with overseas qualifications require a degree in law from their jurisdiction at the equivalent of a 2:2 classification."
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/legal-practice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Childhood and Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "A good BA or BSc degree (usually 2:2 or above) in a relevant area",
+        "For international students, English language requirements and academic requirements by country can be found on the International Applicant pages"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/childhood-and-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Creative Writing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 16400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a second-class honours degree in any subject",
+        "International Baccalaureate Diploma with a minimum score of 28 points",
+        "GCSEs at grade C/4 or above (or equivalent) in English Language and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/creative-writing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Criminology and Criminal Justice",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5
+        },
+        "TOEFL": {
+          "score": 88
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree with a minimum GPA of 3.0 or equivalent",
+        "A completed overseas high school diploma or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/criminology-and-criminal-justice",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January/April"
+      ],
+      "course_duration": "2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 14250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A minimum of a second-class honours degree in any subject",
+        "A relevant professional qualification and/or experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Family Support",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 14400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A UK honours degree at 2:2 or above in a relevant subject",
+        "Or equivalent qualifications and/or experience"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/family-support",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA International Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time (includes summer break), 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (2:2 or above) in any discipline",
+        "Alternatively, we will consider applicants with significant professional/business experience (at least six years at management level)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/international-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Journalism",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September 2026"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        },
+        "PTE": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A bachelor's degree in any subject",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/journalism",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Mental Health in Children and Young People",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September 2026"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 21500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.5,
+          "band": [
+            6.0,
+            6.5
+          ]
+        },
+        "TOEFL": {
+          "score": 88
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree with a minimum GPA of 3.0 or equivalent",
+        "Completion of an overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/mental-health-in-children-and-young-people",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Social Work",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 90,
+          "band": null
+        },
+        "PTE": {
+          "score": 65,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "International Baccalaureate Diploma: 28 points",
+        "A-Levels: BBB",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/social-work",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MA Teaching English to Speakers of Other Languages (TESOL)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September 2026"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 15600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A bachelor's degree or equivalent qualification, and/or relevant professional experience",
+        "English language proficiency: IELTS (6.5 overall with no less than 6.0 in each band), TOEFL (iBT 88 overall with no less than 22 in writing and 20 in speaking)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/tesol",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MBA",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 20000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "A bachelor degree from a recognised university",
+        "Minimum GPA of 3.0 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/mba",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Business Analytics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time (with summer break), 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (with no less than 5.5 in any component)"
+      },
+      "academic_requirements": {
+        "International Baccalaureate Diploma Programme": "28 points",
+        "A-Levels": "BCC or equivalent",
+        "Honours degree (2:2 or above) in any discipline": null,
+        "Applicants without a degree but with subsequent work-related experience (at least three years at management level)": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/business-analytics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Construction Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time (including a summer break)",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (2:2 or above) in a relevant built environment subject",
+        "Alternatively, we will consider applicants from disciplines unrelated to construction who possess equivalent professional experience"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/construction-project-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Data Science and Artificial Intelligence",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 24500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "A bachelor degree with a minimum GPA of 3.0 or equivalent",
+        "A bachelor degree in a relevant field with a minimum GPA of 2.7 or equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/data-science-and-artificial-intelligence",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Financial Technology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (minimum 2:2) in any discipline",
+        "Applicants with significant professional/business experience (at least three years at management level) will be considered following a short interview"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/financial-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Forensic Psychology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September 2026"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 16500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "A BPS-accredited Psychology degree",
+        "Minimum GPA or percentage: not specified"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/forensic-psychology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Health and Wellbeing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "A bachelor degree with a minimum GPA of 3.0 or equivalent",
+        "A completed overseas high school diploma or bachelor's degree"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/health-and-wellbeing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Project Management",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 16 months full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 16300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (2:2 or above) in any discipline.",
+        "For more information on meeting English language requirements and academic requirements by country, visit our International Applicants page."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/project-management",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc Psychology (Conversion)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 16400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A minimum of a second-class honours degree in any subject",
+        "Applicants with relevant work experience will be considered"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/psychology-conversion",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MSc in Computer Science",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "1 year full-time, 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": 18300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 88
+      },
+      "academic_requirements": [
+        "An honours degree (2:2 or above) in a STEM/Computing related subject",
+        "An honours degree (2:2 or above) in an unrelated subject area plus previous employment or substantial work experience in the industry",
+        "Bachelor’s degree without honours (studied for 3 years) in STEM or computing related subject plus at least 1 year of professional experience in the industry"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/computer-science",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "NPQ for SENCO",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds Trinity University's Horsforth or City Centre campuses"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January"
+      ],
+      "course_duration": "18 months",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Minimum GPA or percentage"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/cpd-and-short-courses/npq-for-senco",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "NPQ for Senior Leadership",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Leeds City campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "TBC"
+      ],
+      "course_duration": "18 months",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "completion of overseas high school/bachelor equivalent",
+        "foundation program requirements"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/cpd-and-short-courses/npq-for-senior-leadership",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Nursing (Adult)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 21500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 88,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum of 112 UCAS tariff points",
+        "GCSEs at grade C/4 or above in English Language and Mathematics",
+        "International Baccalaureate Diploma: 28 points"
+      ],
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-adult",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Nursing (Child)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 21450.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 88,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum of 112 UCAS tariff points",
+        "GCSEs at grade C/4 or above in English Language and Mathematics",
+        "A-Levels: DDD (or equivalent)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-child",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Nursing (Learning Disabilities)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 21450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 88,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of 112 UCAS tariff points",
+        "GCSEs: English Language and Mathematics at grade C/4 or above",
+        "BTEC Extended Diploma: DMM",
+        "International Baccalaureate: 28 points"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-learning-disabilities",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Nursing (Mental Health)",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 21400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 88,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of 112 UCAS tariff points",
+        "GCSEs at grade C/4 or above in English Language and Mathematics",
+        "International Baccalaureate Diploma: 28 points"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/nursing-mental-health",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Business Studies",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "component": [
+            5.5
+          ]
+        },
+        "TOEFL": {
+          "score": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum English Language entry requirements: IELTS Academic 6.0 (with no less than 5.5 in any component) or equivalent",
+        "Advanced level qualifications (or equivalent) in Business.",
+        "Experience of observing the teaching in a secondary school in this country."
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Computer Science with ICT",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 21500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "Academic": {
+            "overall": 6.0,
+            "component": {
+              "reading": null,
+              "writing": null,
+              "speaking": null,
+              "listening": null
+            }
+          }
+        },
+        "TOEFL": {
+          "iBT": {
+            "overall": 80,
+            "component": {
+              "reading": null,
+              "writing": null,
+              "speaking": null,
+              "listening": null
+            }
+          }
+        }
+      },
+      "academic_requirements": [
+        "A bachelor degree (or equivalent) with a significant proportion in Computer Science",
+        "Minimum IELTS Academic 6.0 (with no less than 5.5 in any component)"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-computer-science-with-ict",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE English",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually a 2:2 or above) with a significant proportion in English",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-english",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Geography",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually 2:2 or above) with a significant proportion in Geography",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-geography",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE History",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually a 2:2 or above) with a significant proportion in History",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-history",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Mathematics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 (with no less than 5.5 in any component)",
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum English Language entry requirements: IELTS Academic 6.0 (with no less than 5.5 in any component) or equivalent",
+        "Advanced level qualifications (or equivalent) in Mathematics"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-mathematics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Modern Foreign Languages",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "Minimum English Language entry requirements: IELTS Academic 6.0 (with no less than 5.5 in any component) or equivalent",
+        "Advanced level qualifications (or equivalent) in Modern Foreign Languages"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-modern-foreign-languages-german-spanish-and-french",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Primary (3-7)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "An undergraduate honours degree (usually a 2:2 or above) or equivalent",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature, Science and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-primary-3-7",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Primary (5-11)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "An undergraduate honours degree or equivalent (2:2 or above)",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature, Science and Mathematics"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-primary-5-11",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Religious Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 15500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually a 2:2 or above) with a significant proportion in Religious Education",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-religious-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Science with Biology",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 21500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually a 2:2 or above) with a significant proportion in Biology",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-science-with-biology",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Science with Chemistry",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 14400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "A good honours degree (usually a 2:2 or above) with a significant proportion in Chemistry",
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-science-with-chemistry",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "PGCE Science with Physics",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 14300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 6.0,
+          "component": null
+        },
+        "TOEFL": {
+          "score": null,
+          "component": null
+        }
+      },
+      "academic_requirements": [
+        "GCSE Grade 4 (or C or accepted equivalent) in English Language or English Literature and Mathematics",
+        "Minimum IELTS Academic 6.0 (with no less than 5.5 in any component)",
+        "Advanced level qualifications (or equivalent) in Physics"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate/pgce-science-with-physics",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Policing and Investigation",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18450,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": null,
+          "band": null
+        },
+        "TOEFL": {
+          "score": null,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "Minimum UCAS tariff: 104",
+        "GCSE English"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/policing-and-investigation",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/postgraduate",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Postgraduate"
+    },
+    {
+      "program_course_name": "Primary Education (Early Years 3-7) with QTS",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 15200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 100,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a grade C or above in GCSE English Language and Mathematics",
+        "A minimum of a grade B or above in A-levels (or equivalent)",
+        "Completion of an overseas high school/bachelor's degree equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/primary-education-early-years-3-7-with-qts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Primary Education (Later Years 5-11) with QTS",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)",
+        "Leeds City campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18250,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": {
+          "score": 7.0,
+          "band": null
+        },
+        "TOEFL": {
+          "score": 100,
+          "band": null
+        }
+      },
+      "academic_requirements": [
+        "A minimum of a grade C in GCSE English and Mathematics",
+        "A minimum of 112 UCAS tariff points from Level 3 qualifications"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/primary-education-later-years-5-11-with-qts",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Professional Policing",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Leeds City Campus"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 10400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.0,
+        "TOEFL": 72
+      },
+      "academic_requirements": [
+        "A-Levels: BBC",
+        "IB Diploma: 28 points",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/professional-policing",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Sports Journalism",
+      "course_level": "Undergraduate",
+      "campus_location": [
+        "Main Campus (Horsforth)"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "TOEFL": null
+      },
+      "academic_requirements": [
+        "GCSE English Language or English Literature at grade C or 4 (or higher)"
+      ],
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate/sports-journalism",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.leedstrinity.ac.uk/courses/undergraduate",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Undergraduate"
+    }
+  ]
+}

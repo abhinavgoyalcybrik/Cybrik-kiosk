@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-27T05:08:26.194867Z",
+    "university_name": "Academy Ex",
+    "source": "https://www.academyex.com/",
+    "total_programs": 13
+  },
+  "programs": [
+    {
+      "program_course_name": "Applied Innovation Micro-credential",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "10 weeks",
+      "annual_tuition_fee": {
+        "amount": 450.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "English language proficiency (if English is not your first language)"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/innovation-for-impact-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Disruptive Technologies short course",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "10 weeks full-time",
+      "annual_tuition_fee": {
+        "amount": 450.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "English language proficiency"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/disruptive-technologies-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Entrepreneurship Micro-Credential",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "May"
+      ],
+      "course_duration": "10 weeks",
+      "annual_tuition_fee": {
+        "amount": 450.0,
+        "currency": "NZD",
+        "period": "per course"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "English language proficiency (if English is not your first language)"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": false,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": false,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/entrepreneurship-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Health Leadership Micro-credential",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "June",
+        "July",
+        "August"
+      ],
+      "course_duration": "10 weeks",
+      "annual_tuition_fee": {
+        "amount": 0.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": true,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": false,
+        "lor_required": false,
+        "number_of_lors": null,
+        "resume_required": false,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": false,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/health-leadership-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.62,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Leadership in the Age of Disruption Micro-Credential",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "5 weeks",
+      "annual_tuition_fee": {
+        "amount": 450.0,
+        "currency": "NZD",
+        "period": "per course"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "Proof of previous study and work experience"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/leadership-in-the-age-of-disruption",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Leading Beyond Sustainability",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "June",
+        "October"
+      ],
+      "course_duration": "8 weeks",
+      "annual_tuition_fee": {
+        "amount": 360.0,
+        "currency": "NZD",
+        "period": "per course"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Completion of overseas high school/bachelor equivalent",
+        "Foundation program requirements"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/leading-beyond-sustainability-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "source_reference": {
+        "primary_source": "https://www.academyex.com/courses/master/master-of-contemporary-education",
+        "pdf_sources": []
+      },
+      "annual_tuition_fee": null,
+      "confidence_score": 0.0,
+      "extraction_method": "ollama",
+      "program_course_name": "Master Of Contemporary Education"
+    },
+    {
+      "program_course_name": "Master of Business and Technology",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "14 months full-time",
+      "annual_tuition_fee": {
+        "amount": 28695.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum GPA or percentage",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-technological-futures-online",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Change & Organisational Resilience",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "14-18 months",
+      "annual_tuition_fee": {
+        "amount": 500.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "International Baccalaureate Diploma with a minimum of 24 points",
+        "Bachelor's degree from a recognised institution"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-change-and-organisational-resilience",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Technological Futures",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "14-18 months",
+      "annual_tuition_fee": {
+        "amount": 44880.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "International Baccalaureate Diploma with a minimum of 24 points",
+        "Bachelor's degree or equivalent from a recognised university"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-technological-futures",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master's in Teaching & Learning | Contemporary Education",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "February"
+      ],
+      "course_duration": "14-18 months",
+      "annual_tuition_fee": {
+        "amount": 5000.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Minimum GPA or percentage",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/master/master-of-contemporary-education",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "The Internet of Things for Sustainability Micro-credential",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "10 weeks full-time",
+      "annual_tuition_fee": {
+        "amount": 2000.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "Proof of previous study and work experience"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": true,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": false,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": false,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/the-internet-of-things-for-sustainability-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Understanding Software Development Processes and Tools in the Age of AI",
+      "course_level": "Postgraduate",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "August"
+      ],
+      "course_duration": "12 weeks",
+      "annual_tuition_fee": {
+        "amount": 675.0,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": null,
+        "PTE": null
+      },
+      "academic_requirements": [
+        "Qualifications & work experience",
+        "English language proficiency"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://academyex.com/courses/micro-credential/understanding-software-development-processes-and-tools-micro-credential",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.88,
+      "extraction_method": "ollama"
+    }
+  ]
+}

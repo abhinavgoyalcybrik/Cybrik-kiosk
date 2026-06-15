@@ -496,6 +496,7 @@ def import_programs() -> None:
                 )
             recreated_intakes += len(intake_entries)
 
+            CourseFee.objects.filter(course=course).delete()
             if fee_amount is not None:
                 CourseFee.objects.create(
                     course=course,

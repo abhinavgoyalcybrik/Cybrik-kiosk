@@ -484,17 +484,9 @@ print(json.dumps(result))
         if not stdout:
             raise ValueError("Local crawler returned empty response.")
 
-        json_candidate = stdout
-        if not json_candidate.startswith("{"):
-            lines = [line.strip() for line in stdout.splitlines() if line.strip()]
-            for line in reversed(lines):
-                if line.startswith("{") and line.endswith("}"):
-                    json_candidate = line
-                    break
-
         try:
-            data = json.loads(json_candidate)
-        except json.JSONDecodeError:
+            data = self._extract_json_from_stdout(stdout)
+        except ValueError:
             raise ValueError(f"Local crawler returned invalid JSON: {stdout[:500]}")
 
         if isinstance(data, dict) and isinstance(data.get("corrected_program"), dict):
@@ -855,10 +847,14 @@ print(json.dumps(result))
         for field_key, model_attr in academic_field_map.items():
             if not should_apply(field_key):
                 continue
-            academic_requirement_obj.__setattr__(
+            setattr(
+                academic_requirement_obj,
                 model_attr,
-                assign_if_allowed(getattr(academic_requirement_obj, model_attr), corrected_program.get(field_key)),
-                field_key,
+                assign_if_allowed(
+                    getattr(academic_requirement_obj, model_attr),
+                    corrected_program.get(field_key),
+                    field_key,
+                ),
             )
         if should_apply("min_cgpa"):
             v = corrected_program.get("min_cgpa")
@@ -1132,6 +1128,28 @@ print(json.dumps(result))
             return getattr(model_obj, relation_name)
         except ObjectDoesNotExist:
             return None
+
+    def _extract_json_from_stdout(self, stdout: str) -> dict:
+        """Extract the first valid JSON object from subprocess stdout.
+
+        Handles multiline JSON and log lines that appear before the payload.
+        """
+        text = stdout.strip()
+        # Fast path: entire output is valid JSON.
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            pass
+        # Scan for the first '{' and use raw_decode so surrounding log noise is ignored.
+        start = text.find("{")
+        if start != -1:
+            try:
+                obj, _ = json.JSONDecoder().raw_decode(text, start)
+                if isinstance(obj, dict):
+                    return obj
+            except json.JSONDecodeError:
+                pass
+        raise ValueError(f"No JSON object found in crawler output: {text[:300]}")
 
     def _parse_duration_months(self, duration_value):
         if duration_value is None:

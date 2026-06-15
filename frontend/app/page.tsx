@@ -1,5 +1,9 @@
-import { redirect } from "next/navigation";
+import KioskExperience from "@/components/kiosk/KioskExperience";
 
 export default function HomePage() {
-  redirect("/shortlist");
+  return (
+    <main className="kiosk-page">
+      <KioskExperience />
+    </main>
+  );
 }

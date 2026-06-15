@@ -1,0 +1,808 @@
+Created At: 2026-06-15T09:45:44Z
+Completed At: 2026-06-15T09:45:45Z
+File Path: `file:///Users/abhinavgoyal9729/cybrik-edugraph/frontend/components/kiosk/KioskExperience.tsx`
+Total Lines: 2467
+Total Bytes: 75247
+Showing lines 1 to 800
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: "use client";
+2: 
+3: import Image from "next/image";
+4: import { AnimatePresence, motion } from "framer-motion";
+5: import { startTransition, useEffect, useEffectEvent, useMemo, useState } from "react";
+6: 
+7: import {
+8:   completeKioskHandoff,
+9:   getKioskDeviceId,
+10:   loadKioskRecommendations,
+11:   primeKioskCatalog,
+12:   resendKioskOtp,
+13:   saveKioskProfile,
+14:   startKioskSession,
+15:   verifyKioskOtp,
+16: } from "@/lib/kiosk/service";
+17: import {
+18:   COUNTRY_OPTIONS,
+19:   ENGLISH_EXAM_OPTIONS,
+20:   FIELD_OPTIONS,
+21:   INITIAL_KIOSK_PROFILE,
+22:   INTAKE_OPTIONS,
+23:   INTAKE_YEAR_OPTIONS,
+24:   STUDY_GOAL_OPTIONS,
+25:   WORK_EXPERIENCE_OPTIONS,
+26:   type KioskHandoffReceipt,
+27:   type KioskProfile,
+28:   type KioskRecommendation,
+29:   type KioskRecommendationBundle,
+30:   type KioskScreen,
+31:   type KioskSessionState,
+32:   type KioskSortMode,
+33: } from "@/lib/kiosk/types";
+34: 
+35: const COUNTRY_CODE = "+91";
+36: const AUTO_RESET_MS = 28_000;
+37: const SESSION_IDLE_MS = 150_000;
+38: const LOGO_SRC = "/cybrik-logo.png";
+39: 
+40: type FlashMessage = {
+41:   tone: "success" | "warning" | "neutral";
+42:   text: string;
+43: } | null;
+44: 
+45: function countFilledProfileFields(profile: KioskProfile): number {
+46:   let filled = 0;
+47:   if (profile.fullName.trim()) filled += 1;
+48:   if (profile.email.trim()) filled += 1;
+49:   if (profile.studyGoal) filled += 1;
+50:   if (profile.academicTrack) filled += 1;
+51:   if (profile.preferredCountries.length > 0) filled += 1;
+52:   if (profile.preferredFields.length > 0) filled += 1;
+53:   if (profile.intakeSeason) filled += 1;
+54:   if (profile.intakeYear) filled += 1;
+55:   if (profile.academicScore.trim()) filled += 1;
+56:   if (profile.englishExam) filled += 1;
+57:   if (
+58:     profile.englishExam &&
+59:     profile.englishExam !== "None yet" &&
+60:     profile.englishScore.trim()
+61:   ) {
+62:     filled += 1;
+63:   }
+64:   if (profile.budgetMaxLakhs > 0) filled += 1;
+65:   if (!profile.hasWorkExperience || profile.workExperienceYears.trim()) filled += 1;
+66:   return filled;
+67: }
+68: 
+69: function isProfileReady(profile: KioskProfile): boolean {
+70:   const englishReady =
+71:     !profile.englishExam ||
+72:     profile.englishExam === "None yet" ||
+73:     Boolean(profile.englishScore.trim());
+74: 
+75:   return Boolean(
+76:     profile.fullName.trim() &&
+77:       profile.studyGoal &&
+78:       profile.academicTrack &&
+79:       profile.preferredCountries.length > 0 &&
+80:       profile.preferredFields.length > 0 &&
+81:       profile.intakeSeason &&
+82:       profile.intakeYear &&
+83:       profile.academicScore.trim() &&
+84:       englishReady
+85:   );
+86: }
+87: 
+88: function formatSeconds(seconds: number): string {
+89:   if (seconds <= 0) {
+90:     return "0:00";
+91:   }
+92:   const mins = Math.floor(seconds / 60);
+93:   const secs = seconds % 60;
+94:   return `${mins}:${String(secs).padStart(2, "0")}`;
+95: }
+96: 
+97: function formatPhoneInput(phone: string): string {
+98:   if (!phone) {
+99:     return "";
+100:   }
+101:   if (phone.length <= 5) {
+102:     return `${COUNTRY_CODE} ${phone}`;
+103:   }
+104:   return `${COUNTRY_CODE} ${phone.slice(0, 5)} ${phone.slice(5, 10)}`;
+105: }
+106: 
+107: function parseFirstIntakeLabel(label: string): number {
+108:   const normalized = label.toLowerCase();
+109:   if (normalized.includes("jan") || normalized.includes("feb") || normalized.includes("mar")) {
+110:     return 1;
+111:   }
+112:   if (normalized.includes("apr") || normalized.includes("may") || normalized.includes("jun")) {
+113:     return 2;
+114:   }
+115:   if (normalized.includes("jul") || normalized.includes("aug") || normalized.includes("sep")) {
+116:     return 3;
+117:   }
+118:   if (normalized.includes("oct") || normalized.includes("nov") || normalized.includes("dec")) {
+119:     return 4;
+120:   }
+121:   return 99;
+122: }
+123: 
+124: function toggleArrayItem(values: string[], value: string, limit = 4): string[] {
+125:   if (values.includes(value)) {
+126:     return values.filter((item) => item !== value);
+127:   }
+128:   if (values.length >= limit) {
+129:     return values;
+130:   }
+131:   return [...values, value];
+132: }
+133: 
+134: function getProfileSummary(profile: KioskProfile): string {
+135:   const level = profile.studyGoal === "postgraduate" ? "Postgrad" : "Undergrad";
+136:   const track = profile.academicTrack || "Open field";
+137:   const exam =
+138:     profile.englishExam && profile.englishExam !== "None yet" && profile.englishScore
+139:       ? `${profile.englishExam} ${profile.englishScore}`
+140:       : profile.englishExam === "None yet"
+141:         ? "English score pending"
+142:         : "English profile open";
+143:   const scoreMode = profile.scoreMode === "cgpa" ? "/ 10" : "%";
+144:   const score = profile.academicScore ? `${profile.academicScore} ${scoreMode}` : "score pending";
+145:   return `${level} · ${track}\n${score} · ${exam}`;
+146: }
+147: 
+148: function getProvisionalMatches(profileCompletion: number, profile: KioskProfile): number {
+149:   const base =
+150:     10 +
+151:     Math.round(profileCompletion / 4) +
+152:     profile.preferredCountries.length * 3 +
+153:     profile.preferredFields.length * 4;
+154:   return Math.max(12, Math.min(48, base));
+155: }
+156: 
+157: function getNumericScore(profile: KioskProfile): number {
+158:   if (profile.academicScore.trim()) {
+159:     const parsed = Number(profile.academicScore);
+160:     if (Number.isFinite(parsed)) {
+161:       return parsed;
+162:     }
+163:   }
+164:   return profile.scoreMode === "cgpa" ? 8.2 : 82;
+165: }
+166: 
+167: function getNumericEnglishScore(profile: KioskProfile): number {
+168:   if (profile.englishScore.trim()) {
+169:     const parsed = Number(profile.englishScore);
+170:     if (Number.isFinite(parsed)) {
+171:       return parsed;
+172:     }
+173:   }
+174:   return 7.5;
+175: }
+176: 
+177: function getDisplayScore(profile: KioskProfile): string {
+178:   const value = getNumericScore(profile);
+179:   return profile.scoreMode === "cgpa"
+180:     ? `${value.toFixed(1)} / 10`
+181:     : `${Math.round(value)}%`;
+182: }
+183: 
+184: function getBudgetDisplay(profile: KioskProfile): string {
+185:   if (profile.budgetMaxLakhs <= 25) {
+186:     return `${profile.budgetMaxLakhs} or below`;
+187:   }
+188:   const min = Math.max(15, profile.budgetMaxLakhs - 10);
+189:   return `${min} - ${profile.budgetMaxLakhs}`;
+190: }
+191: 
+192: function getExamChipLabel(profile: KioskProfile): string {
+193:   if (!profile.englishExam) {
+194:     return "No exam chosen";
+195:   }
+196:   if (profile.englishExam === "None yet") {
+197:     return "Exam pending";
+198:   }
+199:   return `${profile.englishExam} ${profile.englishScore || getNumericEnglishScore(profile).toFixed(1)}`;
+200: }
+201: 
+202: export default function KioskExperience() {
+203:   const [screen, setScreen] = useState<KioskScreen>("attract");
+204:   const [phoneInput, setPhoneInput] = useState("");
+205:   const [otpInput, setOtpInput] = useState("");
+206:   const [profile, setProfile] = useState<KioskProfile>(INITIAL_KIOSK_PROFILE);
+207:   const [session, setSession] = useState<KioskSessionState | null>(null);
+208:   const [bundle, setBundle] = useState<KioskRecommendationBundle | null>(null);
+209:   const [shortlistIds, setShortlistIds] = useState<number[]>([]);
+210:   const [selectedRecommendationId, setSelectedRecommendationId] = useState<number | null>(null);
+211:   const [sortMode, setSortMode] = useState<KioskSortMode>("best_match");
+212:   const [countryFilter, setCountryFilter] = useState("All");
+213:   const [busyAction, setBusyAction] = useState<
+214:     null | "send_otp" | "verify_otp" | "resend_otp" | "matching" | "handoff"
+215:   >(null);
+216:   const [matchProgress, setMatchProgress] = useState(12);
+217:   const [handoffReceipt, setHandoffReceipt] = useState<KioskHandoffReceipt | null>(null);
+218:   const [resetAt, setResetAt] = useState<number | null>(null);
+219:   const [flashMessage, setFlashMessage] = useState<FlashMessage>(null);
+220:   const [clockMs, setClockMs] = useState(() => Date.now());
+221: 
+222:   const profileCompletion = useMemo(() => {
+223:     return Math.round((countFilledProfileFields(profile) / 12) * 100);
+224:   }, [profile]);
+225: 
+226:   const provisionalMatches = useMemo(() => {
+227:     return getProvisionalMatches(profileCompletion, profile);
+228:   }, [profile, profileCompletion]);
+229: 
+230:   const countryCounts = useMemo(() => {
+231:     const counts = new Map<string, number>();
+232:     for (const item of bundle?.recommendations ?? []) {
+233:       counts.set(item.country, (counts.get(item.country) ?? 0) + 1);
+234:     }
+235:     return Array.from(counts.entries()).sort((left, right) => right[1] - left[1]);
+236:   }, [bundle]);
+237: 
+238:   const filteredRecommendations = useMemo(() => {
+239:     const items = [...(bundle?.recommendations ?? [])];
+240:     const filtered =
+241:       countryFilter === "All"
+242:         ? items
+243:         : items.filter((item) => item.country === countryFilter);
+244: 
+245:     filtered.sort((left, right) => {
+246:       if (sortMode === "lowest_cost") {
+247:         const leftCost = left.tuitionValue ?? Number.POSITIVE_INFINITY;
+248:         const rightCost = right.tuitionValue ?? Number.POSITIVE_INFINITY;
+249:         return leftCost - rightCost;
+250:       }
+251: 
+252:       if (sortMode === "fastest_intake") {
+253:         return parseFirstIntakeLabel(left.intakeLabel) - parseFirstIntakeLabel(right.intakeLabel);
+254:       }
+255: 
+256:       return right.score - left.score;
+257:     });
+258: 
+259:     return filtered;
+260:   }, [bundle, countryFilter, sortMode]);
+261: 
+262:   const activeRecommendationId =
+263:     selectedRecommendationId !== null &&
+264:     filteredRecommendations.some((item) => item.id === selectedRecommendationId)
+265:       ? selectedRecommendationId
+266:       : filteredRecommendations[0]?.id ?? null;
+267: 
+268:   const selectedRecommendation =
+269:     filteredRecommendations.find((item) => item.id === activeRecommendationId) ?? null;
+270: 
+271:   const resendSecondsRemaining = session
+272:     ? Math.max(0, Math.ceil((session.resendAvailableAt - clockMs) / 1000))
+273:     : 0;
+274: 
+275:   const sessionSecondsRemaining = session
+276:     ? Math.max(0, Math.ceil((session.expiresAt - clockMs) / 1000))
+277:     : 0;
+278: 
+279:   const autoResetSeconds = resetAt
+280:     ? Math.max(0, Math.ceil((resetAt - clockMs) / 1000))
+281:     : 0;
+282: 
+283:   const applyResetState = (message?: FlashMessage) => {
+284:     setScreen("attract");
+285:     setPhoneInput("");
+286:     setOtpInput("");
+287:     setProfile(INITIAL_KIOSK_PROFILE);
+288:     setSession(null);
+289:     setBundle(null);
+290:     setShortlistIds([]);
+291:     setSelectedRecommendationId(null);
+292:     setSortMode("best_match");
+293:     setCountryFilter("All");
+294:     setBusyAction(null);
+295:     setMatchProgress(12);
+296:     setHandoffReceipt(null);
+297:     setResetAt(null);
+298:     setFlashMessage(message ?? null);
+299:   };
+300: 
+301:   const resetExperience = useEffectEvent((message?: FlashMessage) => {
+302:     applyResetState(message);
+303:   });
+304: 
+305:   useEffect(() => {
+306:     primeKioskCatalog();
+307:   }, []);
+308: 
+309:   useEffect(() => {
+310:     if (!session && !resetAt) {
+311:       return;
+312:     }
+313:     const intervalId = window.setInterval(() => {
+314:       setClockMs(Date.now());
+315:     }, 1000);
+316:     return () => window.clearInterval(intervalId);
+317:   }, [resetAt, session]);
+318: 
+319:   useEffect(() => {
+320:     if (!flashMessage) {
+321:       return;
+322:     }
+323:     const timeoutId = window.setTimeout(() => {
+324:       setFlashMessage(null);
+325:     }, 3200);
+326:     return () => window.clearTimeout(timeoutId);
+327:   }, [flashMessage]);
+328: 
+329:   useEffect(() => {
+330:     if (screen === "attract") {
+331:       return;
+332:     }
+333: 
+334:     let timeoutId = window.setTimeout(() => {
+335:       resetExperience({
+336:         tone: "neutral",
+337:         text: "Session timed out. Kiosk is ready for the next student.",
+338:       });
+339:     }, SESSION_IDLE_MS);
+340: 
+341:     const bumpActivity = () => {
+342:       window.clearTimeout(timeoutId);
+343:       timeoutId = window.setTimeout(() => {
+344:         resetExperience({
+345:           tone: "neutral",
+346:           text: "Session timed out. Kiosk is ready for the next student.",
+347:         });
+348:       }, SESSION_IDLE_MS);
+349:     };
+350: 
+351:     window.addEventListener("pointerdown", bumpActivity, true);
+352:     window.addEventListener("keydown", bumpActivity, true);
+353: 
+354:     return () => {
+355:       window.clearTimeout(timeoutId);
+356:       window.removeEventListener("pointerdown", bumpActivity, true);
+357:       window.removeEventListener("keydown", bumpActivity, true);
+358:     };
+359:   }, [screen]);
+360: 
+361:   useEffect(() => {
+362:     if (screen !== "matching") {
+363:       return;
+364:     }
+365: 
+366:     const intervalId = window.setInterval(() => {
+367:       setMatchProgress((current) => {
+368:         if (current >= 94) {
+369:           return current;
+370:         }
+371:         return Math.min(94, current + Math.max(3, Math.round((94 - current) * 0.18)));
+372:       });
+373:     }, 220);
+374: 
+375:     return () => window.clearInterval(intervalId);
+376:   }, [screen]);
+377: 
+378:   useEffect(() => {
+379:     if (screen !== "handoff" || resetAt === null) {
+380:       return;
+381:     }
+382:     const timeoutId = window.setTimeout(() => {
+383:       resetExperience({
+384:         tone: "neutral",
+385:         text: "Kiosk reset complete. Ready for the next walk-in.",
+386:       });
+387:     }, Math.max(0, resetAt - Date.now()));
+388:     return () => window.clearTimeout(timeoutId);
+389:   }, [resetAt, screen]);
+390: 
+391:   useEffect(() => {
+392:     if (screen !== "phone" && screen !== "otp") {
+393:       return;
+394:     }
+395: 
+396:     const onKeyDown = (event: KeyboardEvent) => {
+397:       if (/^\d$/.test(event.key)) {
+398:         event.preventDefault();
+399:         if (screen === "phone") {
+400:           setPhoneInput((current) =>
+401:             current.length < 10 ? `${current}${event.key}` : current
+402:           );
+403:         } else {
+404:           setOtpInput((current) =>
+405:             current.length < 6 ? `${current}${event.key}` : current
+406:           );
+407:         }
+408:       }
+409: 
+410:       if (event.key === "Backspace") {
+411:         event.preventDefault();
+412:         if (screen === "phone") {
+413:           setPhoneInput((current) => current.slice(0, -1));
+414:         } else {
+415:           setOtpInput((current) => current.slice(0, -1));
+416:         }
+417:       }
+418: 
+419:       if (event.key === "Escape" && screen === "otp") {
+420:         event.preventDefault();
+421:         setScreen("phone");
+422:         setOtpInput("");
+423:       }
+424:     };
+425: 
+426:     window.addEventListener("keydown", onKeyDown);
+427:     return () => window.removeEventListener("keydown", onKeyDown);
+428:   }, [screen]);
+429: 
+430:   const setProfileField = <Field extends keyof KioskProfile>(
+431:     field: Field,
+432:     value: KioskProfile[Field]
+433:   ) => {
+434:     setProfile((current) => ({
+435:       ...current,
+436:       [field]: value,
+437:     }));
+438:   };
+439: 
+440:   const handlePhoneNumpad = (key: string) => {
+441:     if (busyAction) {
+442:       return;
+443:     }
+444:     if (key === "clear") {
+445:       setPhoneInput("");
+446:       return;
+447:     }
+448:     if (key === "backspace") {
+449:       setPhoneInput((current) => current.slice(0, -1));
+450:       return;
+451:     }
+452:     setPhoneInput((current) => (current.length < 10 ? `${current}${key}` : current));
+453:   };
+454: 
+455:   const handleOtpNumpad = (key: string) => {
+456:     if (busyAction) {
+457:       return;
+458:     }
+459:     if (key === "clear") {
+460:       setOtpInput("");
+461:       return;
+462:     }
+463:     if (key === "backspace") {
+464:       setOtpInput((current) => current.slice(0, -1));
+465:       return;
+466:     }
+467:     setOtpInput((current) => (current.length < 6 ? `${current}${key}` : current));
+468:   };
+469: 
+470:   const handleSendOtp = async () => {
+471:     if (phoneInput.length !== 10) {
+472:       setFlashMessage({
+473:         tone: "warning",
+474:         text: "Enter a valid 10-digit WhatsApp number to continue.",
+475:       });
+476:       return;
+477:     }
+478: 
+479:     try {
+480:       setBusyAction("send_otp");
+481:       const nextSession = await startKioskSession(phoneInput, getKioskDeviceId());
+482:       setSession(nextSession);
+483:       setProfile((current) => ({
+484:         ...current,
+485:         phone: nextSession.phone,
+486:       }));
+487:       setOtpInput("");
+488:       setScreen("otp");
+489:       setFlashMessage({
+490:         tone: "success",
+491:         text: "OTP sent. Continue with the 6-digit verification code.",
+492:       });
+493:     } catch (error) {
+494:       setFlashMessage({
+495:         tone: "warning",
+496:         text:
+497:           error instanceof Error
+498:             ? error.message
+499:             : "Could not start the kiosk session.",
+500:       });
+501:     } finally {
+502:       setBusyAction(null);
+503:     }
+504:   };
+505: 
+506:   const handleVerifyOtp = async () => {
+507:     if (!session) {
+508:       setFlashMessage({
+509:         tone: "warning",
+510:         text: "This session is no longer active. Start again.",
+511:       });
+512:       setScreen("phone");
+513:       return;
+514:     }
+515: 
+516:     if (otpInput.length !== 6) {
+517:       setFlashMessage({
+518:         tone: "warning",
+519:         text: "Enter the full 6-digit code.",
+520:       });
+521:       return;
+522:     }
+523: 
+524:     try {
+525:       setBusyAction("verify_otp");
+526:       const result = await verifyKioskOtp(session.sessionId, otpInput);
+527:       setSession(result.session);
+528:       setProfile((current) => ({
+529:         ...current,
+530:         phone: result.session.phone,
+531:         ...result.profilePrefill,
+532:       }));
+533:       setScreen("profile");
+534:       setFlashMessage({
+535:         tone: "success",
+536:         text: "Number verified. Build the student profile to generate matches.",
+537:       });
+538:     } catch (error) {
+539:       setFlashMessage({
+540:         tone: "warning",
+541:         text:
+542:           error instanceof Error
+543:             ? error.message
+544:             : "Could not verify the code.",
+545:       });
+546:     } finally {
+547:       setBusyAction(null);
+548:     }
+549:   };
+550: 
+551:   const handleResendOtp = async () => {
+552:     if (!session) {
+553:       return;
+554:     }
+555: 
+556:     try {
+557:       setBusyAction("resend_otp");
+558:       const nextSession = await resendKioskOtp(session.sessionId);
+559:       setSession(nextSession);
+560:       setOtpInput("");
+561:       setFlashMessage({
+562:         tone: "success",
+563:         text: "A fresh OTP has been issued for this session.",
+564:       });
+565:     } catch (error) {
+566:       setFlashMessage({
+567:         tone: "warning",
+568:         text:
+569:           error instanceof Error
+570:             ? error.message
+571:             : "Could not resend the code right now.",
+572:       });
+573:     } finally {
+574:       setBusyAction(null);
+575:     }
+576:   };
+577: 
+578:   const handleGenerateMatches = async () => {
+579:     if (!session) {
+580:       setFlashMessage({
+581:         tone: "warning",
+582:         text: "Verify the phone number first.",
+583:       });
+584:       setScreen("phone");
+585:       return;
+586:     }
+587: 
+588:     if (!isProfileReady(profile)) {
+589:       setFlashMessage({
+590:         tone: "warning",
+591:         text: "Complete the core profile fields before matching.",
+592:       });
+593:       return;
+594:     }
+595: 
+596:     try {
+597:       setBusyAction("matching");
+598:       setMatchProgress(14);
+599:       setScreen("matching");
+600:       await saveKioskProfile(session.sessionId, profile);
+601:       const nextBundle = await loadKioskRecommendations(session.sessionId, profile);
+602:       setMatchProgress(100);
+603: 
+604:       window.setTimeout(() => {
+605:         startTransition(() => {
+606:           setBundle(nextBundle);
+607:           setSelectedRecommendationId(nextBundle.recommendations[0]?.id ?? null);
+608:           setShortlistIds([]);
+609:           setSortMode("best_match");
+610:           setCountryFilter("All");
+611:         });
+612:         setScreen("results");
+613:         setFlashMessage({
+614:           tone: "success",
+615:           text: `${nextBundle.totalPrograms} programs ranked for ${profile.fullName || "this student"}.`,
+616:         });
+617:       }, 220);
+618:     } catch (error) {
+619:       setScreen("profile");
+620:       setFlashMessage({
+621:         tone: "warning",
+622:         text:
+623:           error instanceof Error
+624:             ? error.message
+625:             : "Could not generate matches right now.",
+626:       });
+627:     } finally {
+628:       setBusyAction(null);
+629:     }
+630:   };
+631: 
+632:   const handleToggleShortlist = (recommendationId: number) => {
+633:     setShortlistIds((current) =>
+634:       current.includes(recommendationId)
+635:         ? current.filter((item) => item !== recommendationId)
+636:         : [...current, recommendationId]
+637:     );
+638:   };
+639: 
+640:   const handleSendKit = async () => {
+641:     if (!session || !bundle) {
+642:       return;
+643:     }
+644: 
+645:     try {
+646:       setBusyAction("handoff");
+647:       const receipt = await completeKioskHandoff(
+648:         session.sessionId,
+649:         shortlistIds,
+650:         bundle.recommendations
+651:       );
+652:       setHandoffReceipt(receipt);
+653:       setScreen("handoff");
+654:       setResetAt(Date.now() + AUTO_RESET_MS);
+655:       setFlashMessage({
+656:         tone: "success",
+657:         text: "WhatsApp handoff queued. The kiosk will reset automatically.",
+658:       });
+659:     } catch (error) {
+660:       setFlashMessage({
+661:         tone: "warning",
+662:         text:
+663:           error instanceof Error
+664:             ? error.message
+665:             : "Could not finish the handoff.",
+666:       });
+667:     } finally {
+668:       setBusyAction(null);
+669:     }
+670:   };
+671: 
+672:   return (
+673:     <div className="kiosk-shell-page">
+674:       {flashMessage ? (
+675:         <div className={`k-toast k-toast-${flashMessage.tone}`}>{flashMessage.text}</div>
+676:       ) : null}
+677: 
+678:       <AnimatePresence mode="wait">
+679:         <motion.div
+680:           key={screen}
+681:           className="kiosk-device"
+682:           initial={{ opacity: 0, y: 14 }}
+683:           animate={{ opacity: 1, y: 0 }}
+684:           exit={{ opacity: 0, y: -12 }}
+685:           transition={{ duration: 0.22, ease: [0.22, 0.8, 0.3, 1] }}
+686:         >
+687:           {screen === "attract" ? (
+688:             <IdleScreen onStart={() => setScreen("phone")} />
+689:           ) : null}
+690: 
+691:           {screen === "phone" ? (
+692:             <PhoneScreen
+693:               phoneInput={phoneInput}
+694:               busy={busyAction === "send_otp"}
+695:               onDigit={handlePhoneNumpad}
+696:               onSend={handleSendOtp}
+697:             />
+698:           ) : null}
+699: 
+700:           {screen === "otp" && session ? (
+701:             <OtpScreen
+702:               session={session}
+703:               otpInput={otpInput}
+704:               resendSecondsRemaining={resendSecondsRemaining}
+705:               sessionSecondsRemaining={sessionSecondsRemaining}
+706:               busy={busyAction === "verify_otp" || busyAction === "resend_otp"}
+707:               onDigit={handleOtpNumpad}
+708:               onBack={() => {
+709:                 setScreen("phone");
+710:                 setOtpInput("");
+711:               }}
+712:               onResend={handleResendOtp}
+713:               onVerify={handleVerifyOtp}
+714:             />
+715:           ) : null}
+716: 
+717:           {screen === "profile" ? (
+718:             <ProfileScreen
+719:               profile={profile}
+720:               session={session}
+721:               profileCompletion={profileCompletion}
+722:               provisionalMatches={provisionalMatches}
+723:               onChange={setProfileField}
+724:               onToggleCountry={(value) =>
+725:                 setProfile((current) => ({
+726:                   ...current,
+727:                   preferredCountries: toggleArrayItem(
+728:                     current.preferredCountries,
+729:                     value,
+730:                     4
+731:                   ),
+732:                 }))
+733:               }
+734:               onToggleField={(value) =>
+735:                 setProfile((current) => ({
+736:                   ...current,
+737:                   preferredFields: toggleArrayItem(
+738:                     current.preferredFields,
+739:                     value,
+740:                     3
+741:                   ),
+742:                 }))
+743:               }
+744:               onContinue={handleGenerateMatches}
+745:             />
+746:           ) : null}
+747: 
+748:           {screen === "matching" ? (
+749:             <MatchingScreen
+750:               profile={profile}
+751:               progress={matchProgress}
+752:             />
+753:           ) : null}
+754: 
+755:           {screen === "results" && bundle ? (
+756:             <ResultsScreen
+757:               profile={profile}
+758:               profileCompletion={profileCompletion}
+759:               totalPrograms={bundle.totalPrograms}
+760:               filteredRecommendations={filteredRecommendations}
+761:               selectedRecommendation={selectedRecommendation}
+762:               shortlistIds={shortlistIds}
+763:               countryFilter={countryFilter}
+764:               countryCounts={countryCounts}
+765:               sortMode={sortMode}
+766:               handoffBusy={busyAction === "handoff"}
+767:               onChangeCountryFilter={setCountryFilter}
+768:               onChangeSortMode={setSortMode}
+769:               onPickRecommendation={setSelectedRecommendationId}
+770:               onToggleShortlist={handleToggleShortlist}
+771:               onSendKit={handleSendKit}
+772:             />
+773:           ) : null}
+774: 
+775:           {screen === "handoff" && handoffReceipt ? (
+776:             <HandoffResultScreen
+777:               receipt={handoffReceipt}
+778:               autoResetSeconds={autoResetSeconds}
+779:               onDone={() =>
+780:                 applyResetState({
+781:                   tone: "neutral",
+782:                   text: "Kiosk reset complete. Ready for the next walk-in.",
+783:                 })
+784:               }
+785:             />
+786:           ) : null}
+787:         </motion.div>
+788:       </AnimatePresence>
+789:     </div>
+790:   );
+791: }
+792: 
+793: function KioskFrame({
+794:   label,
+795:   children,
+796:   bg,
+797: }: {
+798:   label: string;
+799:   children: React.ReactNode;
+800:   bg?: string;
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
