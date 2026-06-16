@@ -1,0 +1,1546 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-04T14:35:02.823123Z",
+    "university_name": "Victoria University",
+    "source": "http://www.vu.edu.au/",
+    "total_programs": 53
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Architectural Design  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-architectural-design-nbad",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Arts",
+      "course_level": null,
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": null,
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-child-and-adolescent-mental-health-hmch",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.6,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Biomedical and Exercise Science  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "142221C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-biomedical-and-exercise-science-hbes",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Bachelor",
+      "campus_location": "Sydney",
+      "cricos_code": "092820B",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 18400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/undergraduate-courses-vu-sydney/bachelor-of-business",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Online"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": null,
+      "available_scholarships": false,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-business-administration-bmpf",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "3 years",
+      "annual_tuition_fee": {
+        "amount": 17500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/bachelor-of-business",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Chiropractic Science  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 9537,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-chiropractic-science-hbcs",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Community Development  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-community-development-abcd",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Cyber Security",
+      "course_level": "Bachelor",
+      "campus_location": "Brisbane",
+      "cricos_code": "105067H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years (6 semesters of study)",
+      "annual_tuition_fee": {
+        "amount": 18400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Senior Secondary Certificate (VCE or equivalent) including Units 3 and 4: a study score of at least 25 in English (EAL) or at least 20 in any other English; and a study score of at least 20 in any Mathematics. OR Completion of an Australian Diploma or Advanced Diploma (or equivalent); PLUS IELTS (or equivalent): Overall score of six (with no band less than 6.0 in Listening, Reading, Writing and Speaking).",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Overall score (no band less than) 6.0"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Completion of an Australian Senior Secondary Certificate (VCE or equivalent) including Units 3 and 4: a study score of at least 25 in English (EAL) or at least 20 in any other English; and a study score of at least 20 in any Mathematics. OR Completion of an Australian Diploma or Advanced Diploma (or equivalent); PLUS IELTS (or equivalent): Overall score of six (with no band less than 6.0 in Listening, Reading, Writing and Speaking).. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/bachelor-of-cyber-security",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-brisbane/study-at-vu-brisbane/vu-brisbane-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Cyber Security",
+      "course_level": "Bachelor",
+      "campus_location": "Sydney",
+      "cricos_code": "105067H",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years (6 semesters of study)",
+      "annual_tuition_fee": {
+        "amount": 18400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/undergraduate-courses-vu-sydney/bachelor-of-cyber-security",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Cyber Security  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-cyber-security-nbcs",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Data Science  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-data-science-nbds",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Early Childhood Education",
+      "course_level": "Bachelor",
+      "campus_location": "Sydney",
+      "cricos_code": "115485G",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years (6 semesters of study)",
+      "annual_tuition_fee": {
+        "amount": 33800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "entry requirements for India students (CBSE/ICSE/IB/State board scores)",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "CAE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall (no band less than 6.0)",
+        "PTE": "60"
+      },
+      "india_qualification": "Indian equivalent: entry requirements for India students (CBSE/ICSE/IB/State board scores). Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/undergraduate-courses-vu-sydney/bachelor-of-early-childhood-education-vu-sydney",
+        "subpages": {
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/international-applicants/entry-requirements-for-international-students",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/courses/credit-for-skills-past-study/applying-for-credit-advanced-standing"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Early Childhood Education and Leadership",
+      "course_level": "Bachelor",
+      "campus_location": "Sydney",
+      "cricos_code": "115486F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years (8 semesters of study)",
+      "annual_tuition_fee": {
+        "amount": 33800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/undergraduate-courses-vu-sydney/bachelor-of-early-childhood-education-and-leadership-vu-sydney",
+        "subpages": {
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/courses/credit-for-skills-past-study/applying-for-credit-advanced-standing"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Early Childhood Education and Leadership",
+      "course_level": "Bachelor",
+      "campus_location": "Brisbane",
+      "cricos_code": "115486F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 years (8 semesters of study)",
+      "annual_tuition_fee": {
+        "amount": 16900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "entry requirements for India students (CBSE/ICSE/IB/State board scores)",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "CAE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall (no band less than 6.0)",
+        "PTE": "60"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: entry requirements for India students (CBSE/ICSE/IB/State board scores). Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/bachelor-of-early-childhood-education-and-leadership-vu-brisbane",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/international-applicants/entry-requirements-for-international-students",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/courses/credit-for-skills-past-study/applying-for-credit-advanced-standing"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Education (Primary)  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "012801C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-education-primary-ebpe",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Bachelor",
+      "campus_location": "Sydney",
+      "cricos_code": "093390M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 36800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Senior Secondary Certificate (VCE or equivalent) including Units 3 and 4: a study score of at least 25 in English (EAL) or at least 20 in any other English; and a study score of at least 20 in any Mathematics. International students must also meet the IELTS requirement.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 6.0"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Completion of an Australian Senior Secondary Certificate (VCE or equivalent) including Units 3 and 4: a study score of at least 25 in English (EAL) or at least 20 in any other English; and a study score of at least 20 in any Mathematics. International students must also meet the IELTS requirement.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/undergraduate-courses-vu-sydney/bachelor-of-information-technology",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "3 years",
+      "annual_tuition_fee": {
+        "amount": 18400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE",
+        "TOEFL"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/bachelor-of-information-technology",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "343351C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 300,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-nursing-hbnb",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Nutritional ScienceMaster of Dietetics  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "011121C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-nutritional-science-master-of-dietetics-hcnd",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Outdoor Leadership  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-outdoor-leadership-sbol",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Paramedicine  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "343031C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-paramedicine-hbpd",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Psychological Studies  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-psychological-studies-abpa",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Science  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-science-nbsc",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Science (Osteopathy)/Master of Health Science (Osteopathy)",
+      "course_level": "Master",
+      "campus_location": "City Campus, St Albans Campus",
+      "cricos_code": "243051C",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4.5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 4738,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Minimum ATAR of 65.30 or equivalent academic achievements and work experience; completion of an Australian Senior Secondary Certificate including Units 3 and 4 with a study score of at least 25 in English (EAL) or 20 in any other English, plus a study score of at least 20 in one of Biology, Chemistry, Mathematics or Physics.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "OET",
+        "PTE",
+        "TOEFL",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "7.0 overall with no band below 7.0",
+        "OET": "B in each of the four components (listening, reading, writing and speaking)",
+        "PTE Academic": "65 overall with a minimum score of 65 in each of the four communicative skills",
+        "TOEFL iBT": "94 total score with at least 24 for listening, 24 for reading, 27 for writing, and 23 for speaking",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "VU Early Entry scholarships",
+        "VU Thrive Grant",
+        "VU Access Scholarships",
+        "Moondani Balluk student grants"
+      ],
+      "india_qualification": "Indian equivalent: Minimum ATAR of 65.30 or equivalent academic achievements and work experience; completion of an Australian Senior Secondary Certificate including Units 3 and 4 with a study score of at least 25 in English (EAL) or 20 in any other English, plus a study score of at least 20 in one of Biology, Chemistry, Mathematics or Physics.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-science-osteopathy-master-of-health-science-osteopathy-hcop",
+        "subpages": {
+          "fees": "https://www.vu.edu.au/study-at-vu/fees-scholarships/course-tuition-fees/commonwealth-supported-students",
+          "scholarships": "https://www.vu.edu.au/study-at-vu/fees-scholarships/scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/admissions-at-vu/atar-profile",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/apply-to-vu"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Speech and Language SciencesMaster of Speech Pathology  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": "011051C",
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-speech-and-language-sciences-master-of-speech-pathology-hcsp",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Sport Science (Human Movement)Bachelor of Sport Management  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-sport-science-human-movement-bachelor-of-sport-management-sbhs",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Bachelor of Youth WorkBachelor of Sport Management  Victoria University",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": null,
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/bachelor-of-youth-work-bachelor-of-sport-management-ebys",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "ETED  Postgraduate",
+      "course_level": null,
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 27000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/graduate-diploma-in-block-teaching-egbl",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Graduate Diploma in Early Childhood Education",
+      "course_level": "Master",
+      "campus_location": "Brisbane",
+      "cricos_code": "113431D",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "2 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 33800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Bachelor degree (or equivalent). Applicants with a Bachelor's degree from countries other than Australia, New Zealand, the United Kingdom, United States of America, Canada or the Republic of Ireland will be required to complete IELTS: Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "ISPLR",
+        "TOEFL",
+        "PTE",
+        "CAE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5",
+        "PTE": "60"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Completion of an Australian Bachelor degree (or equivalent). Applicants with a Bachelor's degree from countries other than Australia, New Zealand, the United Kingdom, United States of America, Canada or the Republic of Ireland will be required to complete IELTS: Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/graduate-diploma-in-early-childhood-education-vu-brisbane",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/international-applicants/entry-requirements-for-international-students",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/courses/credit-for-skills-past-study/applying-for-credit-advanced-standing"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma in Early Childhood Education",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Bachelor degree (or equivalent). Applicants with a Bachelor's degree from countries other than Australia, New Zealand, the United Kingdom, United States of America, Canada or the Republic of Ireland will be required to complete IELTS: Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "ISPLR",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5"
+      },
+      "india_qualification": "Indian equivalent: Completion of an Australian Bachelor degree (or equivalent). Applicants with a Bachelor's degree from countries other than Australia, New Zealand, the United Kingdom, United States of America, Canada or the Republic of Ireland will be required to complete IELTS: Overall 7.0 with Listening 7.5, Reading 6.5, Writing 6.5, Speaking 7.5.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/graduate-diploma-in-early-childhood-education",
+        "subpages": {
+          "requirements": "https://www.vu.edu.au/about-vu/our-uni/admissions-process-at-vu",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/how-to-apply/international-applicants/entry-requirements-for-international-students"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master Of Mental Health Nursing Hmmn",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "1-2 years full-time, depending on part-time or online study options",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-mental-health-nursing-hmmn",
+        "subpages": {
+          "fees": "https://online.vu.edu.au/fees",
+          "how_to_apply": "https://www.vu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.4,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Information Technology",
+      "course_level": "Master",
+      "campus_location": "Brisbane",
+      "cricos_code": "083015F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 76400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-applied-information-technology",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-brisbane/study-at-vu-brisbane/vu-brisbane-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Information Technology",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "083015F",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 76400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-applied-information-technology",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Information Technology  Victoria University",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 34500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-applied-information-technology-nmit",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Global)",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "105070B",
+      "intakes": [
+        "February",
+        "July",
+        "November"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 81600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-business-administration-global-vu-sydney",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Global)",
+      "course_level": "Master",
+      "campus_location": "Brisbane",
+      "cricos_code": "105070B",
+      "intakes": null,
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 38800,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-business-administration-global",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-brisbane/study-at-vu-brisbane/vu-brisbane-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Global)",
+      "course_level": "Master",
+      "campus_location": [
+        "Melbourne",
+        "Sydney",
+        "Brisbane"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "July",
+        "September"
+      ],
+      "course_duration": "1.5 years full-time or 3 years part-time (with credit for prior study)",
+      "annual_tuition_fee": {
+        "amount": 33500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Bachelor degree (or equivalent) in any discipline OR Completion of an Australian Graduate Diploma (or equivalent) in a similar discipline",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "VU Early Entry scholarships",
+        "VU Thrive Grant",
+        "VU Access Scholarships",
+        "Moondani Balluk student grants"
+      ],
+      "india_qualification": "Indian equivalent: Completion of an Australian Bachelor degree (or equivalent) in any discipline OR Completion of an Australian Graduate Diploma (or equivalent) in a similar discipline. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-business-administration-global-bmag",
+        "subpages": {
+          "fees": "https://www.vu.edu.au/study-at-vu/fees-scholarships/course-tuition-fees/full-fee-paying-students",
+          "scholarships": "https://www.vu.edu.au/study-at-vu/fees-scholarships/scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/admissions-at-vu",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/apply-to-vu"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Analytics",
+      "course_level": "Master",
+      "campus_location": "Brisbane",
+      "cricos_code": "105072M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 38200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-business-analytics",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-brisbane/study-at-vu-brisbane/vu-brisbane-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Analytics",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "105072M",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 38200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-business-analytics",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Counselling  Victoria University",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "12 \n Year",
+      "annual_tuition_fee": {
+        "amount": 29000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-counselling-ampe",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "117853E",
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 67600,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-education-vu-sydney",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "VU Brisbane"
+      ],
+      "cricos_code": "117853E",
+      "intakes": [
+        "February",
+        "April",
+        "July",
+        "September"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 16900,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [],
+      "minimum_english_language_score_requirements": {},
+      "academic_requirements": null,
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-education-vu-brisbane",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Enterprise Resource Planning",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "103278B",
+      "intakes": null,
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 76400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-enterprise-resource-planning",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Enterprise Resource Planning",
+      "course_level": "Master",
+      "campus_location": "Brisbane",
+      "cricos_code": "103278B",
+      "intakes": null,
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 76400,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-brisbane/courses-at-vu-brisbane/master-of-enterprise-resource-planning",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-brisbane/study-at-vu-brisbane/vu-brisbane-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Enterprise Resource Planning  Victoria University",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "1.5 years",
+      "annual_tuition_fee": {
+        "amount": 34500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-enterprise-resource-planning-bmen",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of International Community Development",
+      "course_level": "Master",
+      "campus_location": "Melbourne City Campus",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "2 years full-time",
+      "annual_tuition_fee": {
+        "amount": 27000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Bachelor degree (or equivalent) in any discipline OR Completion of an Australian Graduate Diploma (or equivalent) in a similar discipline",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "VU Early Entry scholarships",
+        "VU Thrive Grant",
+        "VU Access Scholarships",
+        "Moondani Balluk student grants"
+      ],
+      "india_qualification": "Indian equivalent: Completion of an Australian Bachelor degree (or equivalent) in any discipline OR Completion of an Australian Graduate Diploma (or equivalent) in a similar discipline. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-international-community-development-amcd",
+        "subpages": {
+          "fees": "https://www.vu.edu.au/study-at-vu/fees-scholarships/course-tuition-fees/full-fee-paying-students",
+          "scholarships": "https://www.vu.edu.au/study-at-vu/fees-scholarships/scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/admissions-at-vu",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/apply-to-vu"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Marketing  Victoria University",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "1.5 years",
+      "annual_tuition_fee": {
+        "amount": 34500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-marketing-bmkt",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of Mental Health  VU Online",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "2 years",
+      "annual_tuition_fee": {
+        "amount": 2870,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-mental-health-hmmh",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "103277C",
+      "intakes": [
+        "February",
+        "July",
+        "November"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 38200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-professional-accounting",
+        "subpages": {
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting  Victoria University",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [],
+      "course_duration": "1.5 years",
+      "annual_tuition_fee": {
+        "amount": 17399,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": null,
+      "academic_requirements": null,
+      "available_scholarships": null,
+      "internship_work_placement_opportunities": null,
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-professional-accounting-bmaq",
+        "pdf_sources": []
+      },
+      "confidence_score": 0.35,
+      "extraction_method": "ollama_fallback"
+    },
+    {
+      "program_course_name": "Master of Sport and Exercise Science",
+      "course_level": "Master",
+      "campus_location": "Melbourne",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 34500,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Completion of an Australian Bachelor degree (or equivalent) in a similar discipline OR Completion of an Australian Graduate Certificate (or equivalent) in a similar discipline OR Applicants without an undergraduate qualification may be admitted to the Graduate Certificate (in the same discipline) based on approved work experience.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "CAE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 6.0",
+        "PTE": "60"
+      },
+      "available_scholarships": [
+        "VU Early Entry scholarships",
+        "VU Thrive Grant",
+        "VU Access Scholarships",
+        "Moondani Balluk student grants"
+      ],
+      "india_qualification": "Indian equivalent: Completion of an Australian Bachelor degree (or equivalent) in a similar discipline OR Completion of an Australian Graduate Certificate (or equivalent) in a similar discipline OR Applicants without an undergraduate qualification may be admitted to the Graduate Certificate (in the same discipline) based on approved work experience.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/courses/master-of-sport-and-exercise-science-smes",
+        "subpages": {
+          "fees": "https://www.vu.edu.au/study-at-vu/fees-scholarships/course-tuition-fees/full-fee-paying-students",
+          "scholarships": "https://www.vu.edu.au/study-at-vu/fees-scholarships/scholarships",
+          "requirements": "https://www.vu.edu.au/study-at-vu/how-to-apply/international-applicants/entry-requirements-for-international-students",
+          "how_to_apply": "https://www.vu.edu.au/study-at-vu/apply-to-vu"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Supply Chain Management",
+      "course_level": "Master",
+      "campus_location": "Sydney",
+      "cricos_code": "105071A",
+      "intakes": [
+        "February",
+        "July",
+        "November"
+      ],
+      "course_duration": "4 semesters of study",
+      "annual_tuition_fee": {
+        "amount": 38200,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "Entry into the Master of Supply Chain Management requires you to have completed: an Australian Bachelor degree (or equivalent) in any discipline OR an Australian Graduate Diploma (or equivalent) in a similar discipline PLUS IELTS (or equivalent), with an overall score of 6.5 (with no band less than 6.0 in Listening, Reading, Writing and Speaking).",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "Overall score 6.5 (no band less than 6.0)"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Entry into the Master of Supply Chain Management requires you to have completed: an Australian Bachelor degree (or equivalent) in any discipline OR an Australian Graduate Diploma (or equivalent) in a similar discipline PLUS IELTS (or equivalent), with an overall score of 6.5 (with no band less than 6.0 in Listening, Reading, Writing and Speaking).. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.vu.edu.au/vu-sydney/courses-at-vu-sydney/postgraduate-courses-vu-sydney/master-of-supply-chain-management",
+        "subpages": {
+          "fees": "https://www.vu.edu.au/vu-sydney/current-students-at-vu-sydney/fees-vu-sydney",
+          "scholarships": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/vu-sydney-scholarships",
+          "how_to_apply": "https://www.vu.edu.au/vu-sydney/study-at-vu-sydney/how-to-apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

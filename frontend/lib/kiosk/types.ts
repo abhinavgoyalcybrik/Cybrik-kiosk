@@ -5,6 +5,8 @@ export type KioskScreen =
   | "profile"
   | "matching"
   | "results"
+  | "detail"
+  | "documents"
   | "handoff";
 
 export type KioskSortMode = "best_match" | "lowest_cost" | "fastest_intake";
@@ -91,6 +93,25 @@ export type KioskHandoffReceipt = {
   deliveredDocuments: string[];
   etaMinutes: number;
   sentTo: string;
+};
+
+export type KioskDocumentStatus = "ready" | "action_needed";
+
+export type KioskDocument = {
+  id: string;
+  title: string;
+  subtitle: string;
+  status: KioskDocumentStatus;
+};
+
+export type KioskCostBreakdown = {
+  estimateLakhs: number;
+  budgetCapLakhs: number;
+  axisMaxLakhs: number;
+  capPct: number;
+  estimatePct: number;
+  overBudget: boolean;
+  scholarshipLakhs: number;
 };
 
 export const COUNTRY_OPTIONS = [

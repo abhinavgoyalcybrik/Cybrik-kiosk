@@ -227,6 +227,19 @@ class CourseAdmin(admin.ModelAdmin):
         ConsultantRuleInline,
     )
 
+    def changelist_view(self, request, extra_context=None):
+        university_filter_id = request.GET.get("university__id__exact")
+        if university_filter_id and not University.objects.filter(pk=university_filter_id).exists():
+            cleaned_query = request.GET.copy()
+            cleaned_query.pop("university__id__exact", None)
+            redirect_url = request.path
+            encoded_query = cleaned_query.urlencode()
+            if encoded_query:
+                redirect_url = f"{redirect_url}?{encoded_query}"
+            return HttpResponseRedirect(redirect_url)
+
+        return super().changelist_view(request, extra_context=extra_context)
+
     fieldsets = (
         ("Program Basics", {
             "fields": (

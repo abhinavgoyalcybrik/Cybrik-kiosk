@@ -1,0 +1,2475 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-12T02:44:09.124002Z",
+    "university_name": "De Mont Fort University",
+    "source": "https://www.dmu.ac.uk",
+    "total_programs": 63
+  },
+  "programs": [
+    {
+      "program_course_name": "Accounting and Finance MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/accounting-and-finance-msc-degree/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Advertising and Public Relations Management MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/advertising-public-relations-management-msc-degree/advertising-and-public-relations-management-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Applied Computing CertHE",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 6525,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 48; A Level: DD; BTEC Extended Diploma: PPP; T Levels: Merit; Access to HE: Pass; GCSEs: English and maths at grade 4/C or equivalent",
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "5.5 overall"
+      },
+      "india_qualification": "Indian equivalent: UCAS points: 48; A Level: DD; BTEC Extended Diploma: PPP; T Levels: Merit; Access to HE: Pass; GCSEs: English and maths at grade 4/C or equivalent. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/applied-computing-certhe/applied-computing.aspx",
+        "subpages": {},
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Architecture MArch",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "Two years full-time, three years part-time",
+      "annual_tuition_fee": {
+        "amount": 16800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a 2:2 or above in architecture from an ARB/RIBA Part 1 accredited course or exemption from it. Applicants with a lower second-class degree (2:2) will be expected to have completed a minimum of nine months professional experience.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a 2:2 or above in architecture from an ARB/RIBA Part 1 accredited course or exemption from it. Applicants with a lower second-class degree (2:2) will be expected to have completed a minimum of nine months professional experience.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/architecture-march-degree/architecture-march-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Artificial Intelligence MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/artificial-intelligence-msc/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Artificial Intelligence MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months (September start), 18 months (January start)",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "The equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: The equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/artificial-intelligence-msc/artificial-intelligence-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Automotive Engineering BEng/MEng (Hons)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "3 years full-time for BEng, 4 years full-time for MEng",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 112 BEng / 120 MEng; A Level: BBC / BBB with one at grade C or above in Mathematics or Physics; BTEC: DMM",
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "india_qualification": "Indian equivalent: UCAS points: 112 BEng / 120 MEng; A Level: BBC / BBB with one at grade C or above in Mathematics or Physics; BTEC: DMM. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/automotive-engineering/automotive-engineering.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Business Management BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "London",
+      "cricos_code": null,
+      "intakes": [
+        "October"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 16800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A typical offer is 112 UCAS points. You need to study at least two subjects at A Level or equivalent (e.g., BTEC).",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: A typical offer is 112 UCAS points. You need to study at least two subjects at A Level or equivalent (e.g., BTEC).. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/london/study/courses/business-management-ba-hons.aspx",
+        "subpages": {
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/london/study/apply/how-to-apply.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Computing MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months full-time (September start), 18 months full-time (January start)",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree at 2:2 or above in a relevant subject. Relevant subjects include but are not limited to: Business Information Systems, Information Technology, Computing, Data and Information Systems, Information and Communication Technology, Management of Information Systems, Software Engineering, Computer Systems and Networks Engineering, Business Administration, Electronic Engineering with Computer Systems, Computer Systems Engineering, Accounting and Financial Information Systems, Geographical Information Systems, Digital Strategy/Digital Innovation, Computer Systems (Cyber Security), Computer Applications, Computer Science.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree at 2:2 or above in a relevant subject. Relevant subjects include but are not limited to: Business Information Systems, Information Technology, Computing, Data and Information Systems, Information and Communication Technology, Management of Information Systems, Software Engineering, Computer Systems and Networks Engineering, Business Administration, Electronic Engineering with Computer Systems, Computer Systems Engineering, Accounting and Financial Information Systems, Geographical Information Systems, Digital Strategy/Digital Innovation, Computer Systems (Cyber Security), Computer Applications, Computer Science.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/computing/computing-msc-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Concept and Comic Arts BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intake_month": "",
+      "duration_years": 3,
+      "tuition_fees_per_year": null,
+      "language_requirements": {
+        "ielts_overall_band_score": null,
+        "ielts_listening_band_score": null,
+        "ielts_speaking_band_score": null,
+        "ielts_writing_band_score": null
+      },
+      "english_language_equivalency": [],
+      "additional_requirements": [
+        {
+          "requirement_type": "Academic",
+          "details": "A-levels or equivalent qualifications"
+        }
+      ],
+      "course_highlights": [
+        "Full-time course with block mode delivery",
+        "Opportunity for a paid placement year",
+        "Award-winning Careers Team support",
+        "Access to professional digital studio and drawing facilities",
+        "DMU Global international experience programme"
+      ],
+      "career_outlook": {
+        "job_roles": [
+          "Graphic Designer",
+          "Illustrator",
+          "Animator"
+        ],
+        "industries": [
+          "Publishing",
+          "Advertising",
+          "Film & Television"
+        ]
+      },
+      "course_structure": [
+        {
+          "year_1": [
+            "Visual Narrative",
+            "World Building",
+            "Professional Practice Comics"
+          ]
+        },
+        {
+          "year_2": [
+            "Character Building",
+            "Dissertation",
+            "Personal Project - Planning and Pre-Production"
+          ]
+        },
+        {
+          "year_3": [
+            "Personal Project - Production and Post-Production"
+          ]
+        }
+      ],
+      "assessment_methods": [
+        {
+          "method_type": "Portfolio",
+          "description": "Regular presentations of work in progress for formative feedback, final summative assessments by portfolio"
+        },
+        {
+          "method_type": "Reflective Practice",
+          "description": "Evidence of reflective practice to support completed work"
+        }
+      ],
+      "additional_notes": [
+        "Course information is subject to change and may vary for your intake.",
+        "Exact modules may differ based on current academic session."
+      ],
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/concept-and-comic-art-ba/concept-comic-art-ba-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Contour Fashion Innovation MA/MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "1 year full-time or equivalent part-time study",
+      "annual_tuition_fee": {
+        "amount": 9500,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/contour-fashion-innovation-ma-degree/contour-fashion-innovation-module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Cosmetic Science MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 17800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "2:2 or equivalent in chemistry, chemical engineering, pharmacy, pharmaceutical science (or equivalent) or a portfolio of professional and / or academic qualifications of equivalent standing to an Honours degree.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: 2:2 or equivalent in chemistry, chemical engineering, pharmacy, pharmaceutical science (or equivalent) or a portfolio of professional and / or academic qualifications of equivalent standing to an Honours degree.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/cosmetic-science-msc/cosmetic-science.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Creative Design",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/technology/undergraduate/creative-design.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Data Analytics MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months (September start), 18 months (January start)",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/data-analytics-msc-degree/data-analytics-msc-degrees.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Digital Design MA/MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 100,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/digital-design-ma-degree/digital-design-ma-degree-additional-costs.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Economics MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "TBC"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree with a minimum pass of 2:2, or equivalent overseas qualification, preferably in a business-related subject containing some evidence of quantitative ability.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree with a minimum pass of 2:2, or equivalent overseas qualification, preferably in a business-related subject containing some evidence of quantitative ability.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/economics-msc/economics-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Electronic Engineering MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/electronic-engineering/electronic-engineering-msc-module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Electronic Engineering MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months (September start), 16 months (January start)",
+      "annual_tuition_fee": {
+        "amount": 18100,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/electronic-engineering/electronic-engineering-msc-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Energy and Sustainable Development MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months (September start), 16 months (January start)",
+      "annual_tuition_fee": {
+        "amount": 18100,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject or five years’ work experience in an appropriate field. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject or five years’ work experience in an appropriate field. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/energy-and-sustainable-development/energy-and-sustainable-development-msc-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Engineering Management MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months full-time, 24 months part-time",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Equivalent of a British Honours degree (2:2 minimum) in an engineering-related subject. Significant relevant work experience may be considered.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Equivalent of a British Honours degree (2:2 minimum) in an engineering-related subject. Significant relevant work experience may be considered.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/engineering-management/engineering-management-msc-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Fashion Management with Marketing MA/MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months full-time (September intake), 16 months full-time (January intake)",
+      "annual_tuition_fee": {
+        "amount": 16800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Equivalent or above of a 2:2 UK bachelor’s honours degree in a relevant subject such as fashion, design, or business. Non-standard applicants will be considered on an individual basis.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall with no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Equivalent or above of a 2:2 UK bachelor’s honours degree in a relevant subject such as fashion, design, or business. Non-standard applicants will be considered on an individual basis.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/fashion-management-with-marketing-ma-degree/fashion-management-with-marketing-ma-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Fashion Management with Marketing MA/MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/fashion-management-with-marketing-ma-degree/fashion-management-with-marketing-ma-degree-additional-costs.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Fashion and Textiles BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 1000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/arts-design-humanities/undergraduate/fashion-and-textiles.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Financial Technology (FinTech), AI and Business Analytics MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 18450,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will hold an undergraduate degree in accounting, finance, banking, economics, computing, mathematics or any other business-related subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will hold an undergraduate degree in accounting, finance, banking, economics, computing, mathematics or any other business-related subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/financial-technology-msc/financial-technology-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Forensic Science BSc (Hons)/MSci",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "3 years full-time or 4 years with placement for MSci",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A Level: BBC / BBB from at least two A levels with a science subject (from Biology, Chemistry, Physics or Applied Sciences) at grade C or above; BTEC: DMM / DDM in Science",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: A Level: BBC / BBB from at least two A levels with a science subject (from Biology, Chemistry, Physics or Applied Sciences) at grade C or above; BTEC: DMM / DDM in Science. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/forensic-science/forensic-science-bsc-msci-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Global Arts Management (Level 6 Top-Up) BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "240 appropriate credits from level 4 and 5; Year two (Level 5) of a management or business - related degree course OR HND course in management business",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: 240 appropriate credits from level 4 and 5; Year two (Level 5) of a management or business - related degree course OR HND course in management business. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/global-arts-management-top-up/global-arts-management-level-6-top-up-ba-hons.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Global MBA with Responsible Leadership",
+      "course_level": "Master",
+      "campus_location": "London",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "October"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 20900,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "2:2 UK equivalent undergraduate degree; Additional entry requirements apply to this course Full entry requirements",
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 6.0"
+      },
+      "india_qualification": "Indian equivalent: 2:2 UK equivalent undergraduate degree; Additional entry requirements apply to this course Full entry requirements. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/london/study/courses/global-mba-with-responsible-leadership.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/london/study/fees-and-funding.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/london/study/apply/how-to-apply.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Health Psychology MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 17300,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants are usually expected to possess (or be predicted to obtain) a 2:2 award or higher from a BPS-accredited psychology course. We will consider applications from students with a non-psychology undergraduate degrees who possess a 2:1 or above and can demonstrate significant experience in a health context and/or knowledge of health practices, policies and systems.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: Applicants are usually expected to possess (or be predicted to obtain) a 2:2 award or higher from a BPS-accredited psychology course. We will consider applications from students with a non-psychology undergraduate degrees who possess a 2:1 or above and can demonstrate significant experience in a health context and/or knowledge of health practices, policies and systems.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/health-psychology-mscpg-dippg-cert/health-psychology.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "History with Mandarin BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "3 years full-time, 4 years with placement, 6 years part-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 112; A Level: BBC; BTEC: DMM. Contextual Offer: Minimum of one to two grade reduction from typical offer.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: UCAS points: 112; A Level: BBC; BTEC: DMM. Contextual Offer: Minimum of one to two grade reduction from typical offer.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/history-with-modern-languages-ba-degree/history-with-modern-languages-ba-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Human Resource Management MA/PG Dip",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/human-resource-management-ma-full-time/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Information Systems Management MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/information-systems-management/modules.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business Management MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "October",
+        "February",
+        "April"
+      ],
+      "course_duration": "12 months (October start), 16 months (February and April starts)",
+      "annual_tuition_fee": {
+        "amount": 18450,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/international-business-and-management-msc-degree/international-business-and-management-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Business and Sustainability Management MSc",
+      "course_level": "Master",
+      "campus_location": "London",
+      "cricos_code": null,
+      "intakes": [
+        "October",
+        "February",
+        "April"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "2:2 UK equivalent undergraduate degree; Additional entry requirements apply to this course. Full entry requirements not specified.",
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "india_qualification": "Indian equivalent: 2:2 UK equivalent undergraduate degree; Additional entry requirements apply to this course. Full entry requirements not specified.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/london/study/courses/international-business-and-sustainability-management-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/london/study/fees-and-funding.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/london/study/apply/how-to-apply.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Film Production MA/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/international-film-production/international-film-production-ma-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "International Tourism and Hospitality Management BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "3 years full-time, 4 yrs with placement. 6 yrs part-time.",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A Level: BBC; BTEC: DMM",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: A Level: BBC; BTEC: DMM. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/international-tourism-and-hospitality-management/international-tourism-hospitality-management.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Criminal Justice",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 18450,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants are expected to have background knowledge of law or a discipline related to the LLM (usually an undergraduate degree or professional qualifications). Applicants will normally hold a degree with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. A degree in law is preferred but is not essential.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with 5.5 in each band",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants are expected to have background knowledge of law or a discipline related to the LLM (usually an undergraduate degree or professional qualifications). Applicants will normally hold a degree with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. A degree in law is preferred but is not essential.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-criminal-justice/llm-criminal-justice.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM International Commercial Law & Practice",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-international-commercial-law-practice/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Medical Law, Ethics & Practice",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-medical-law-ethics-and-practice/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Medical Law, Ethics and Practice (Distance Learning)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "Two years part-time",
+      "annual_tuition_fee": {
+        "amount": 8500,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants are expected to have background knowledge of law or a discipline related to the LLM (usually an undergraduate degree or professional qualifications). Applicants will normally hold a degree with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. A degree in law is preferred but is not essential.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with 5.5 in each band",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants are expected to have background knowledge of law or a discipline related to the LLM (usually an undergraduate degree or professional qualifications). Applicants will normally hold a degree with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. A degree in law is preferred but is not essential.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-medical-law-ethics-and-practice/llm-medical-law-ethics-and-practice.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM Sustainability, Social Justice and Human Rights Law",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-sustainability-social-justice-human-rights/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "LLM in Legal Professional Practice (SQE Preparation Course)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time, two years part-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold a undergraduate law degree at 2:2 or above (or equivalent). Alternatively, an undergraduate degree in any subject at 2:2 or above, plus a Graduate Diploma in Law (GDL).",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with 5.5 in each band",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold a undergraduate law degree at 2:2 or above (or equivalent). Alternatively, an undergraduate degree in any subject at 2:2 or above, plus a Graduate Diploma in Law (GDL).. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/llm-sqe/llm-sqe.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Management, Law and Humanities of Sport MA",
+      "course_level": "Master",
+      "campus_location": [
+        "Leicester",
+        "Milan",
+        "Neuchâtel"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A good honours degree or equivalent and a high level of fluency in written and spoken English. At least two to three years’ work experience.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: A good honours degree or equivalent and a high level of fluency in written and spoken English. At least two to three years’ work experience.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/management-law-and-humanities-of-sport-ma-degree/management-law-and-humanities-of-sport-ma-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Marketing.Aspx",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/business-law/postgraduate/marketing.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/business-law/postgraduate/mba.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Global) MBA",
+      "course_level": "Master",
+      "campus_location": "Dubai",
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "1 year full-time or 2 years part-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Equivalent of a British Honours degree (2:2 minimum) in a relevant subject. Professional qualifications deemed to be of equivalent standing will be considered on an individual basis.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: Equivalent of a British Honours degree (2:2 minimum) in a relevant subject. Professional qualifications deemed to be of equivalent standing will be considered on an individual basis.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/dubai/study-at-dmu-dubai/postgraduate-courses/mba.aspx",
+        "subpages": {
+          "requirements": "https://admissionsdubai.dmu.ac.uk",
+          "how_to_apply": "https://www.dmu.ac.uk/dubai/study-at-dmu-dubai/apply.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration MBA (Global)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/master-of-business-administration-global-mba/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Masters in Community and Criminal Justice Leadership MA/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Online learning",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "Two years part-time",
+      "annual_tuition_fee": {
+        "amount": 17800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You need to demonstrate that you can work at Master’s level which can be achieved through having a bachelor’s degree, at 2:2 or above, or by having a range of academic and work experience.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: You need to demonstrate that you can work at Master’s level which can be achieved through having a bachelor’s degree, at 2:2 or above, or by having a range of academic and work experience.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/community-and-criminal-justice-leadership/community-criminal-justice-leadership.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Masters of Public Health (MPH)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 25000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A 2:1 honours degree or above, or equivalent in any subject. Or, a 2:2 honours degree along with relevant work experience*.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: A 2:1 honours degree or above, or equivalent in any subject. Or, a 2:2 honours degree along with relevant work experience*.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/public-health-mph/public-health-mph.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Mechatronics and Robotics BEng/MEng (Hons)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "4 years full-time, 5 years with placement",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 120 for MEng; A Level: BBB with one at grade C or above in either Mathematics or Physics; BTEC: DMM in an Engineering of Physics based BTEC Extended Diploma",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: UCAS points: 120 for MEng; A Level: BBB with one at grade C or above in either Mathematics or Physics; BTEC: DMM in an Engineering of Physics based BTEC Extended Diploma. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/mechatronics-beng-degree/mechatronics-beng-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Mechatronics and Robotics BEng/Meng",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/mechatronics-beng-degree/mechatronics-beng-modules.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Mental Health and Wellbeing MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 17300,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants are usually expected to have (or be predicted to obtain) a 2:2 honours degree award or higher from a BPS-accredited psychology course. Applications will also be considered from students who hold a 2:1 honours degree from a relevant but non-psychology based course.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: Applicants are usually expected to have (or be predicted to obtain) a 2:2 honours degree award or higher from a BPS-accredited psychology course. Applications will also be considered from students who hold a 2:1 honours degree from a relevant but non-psychology based course.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/mental-health-and-wellbeing/mental-health-and-wellbeing.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Pharmaceutical Quality by Design MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 17800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "A good honours degree (minimum 2:2 or equivalent) in a chemical, biological or physical science, including (though not exclusive to) chemistry, biology, chemical engineering, engineering, pharmacy, pharmaceutical science, or physics (or equivalent). Alternatively, we will accept a portfolio of professional and/or academic qualifications of equivalent standing to an honours degree.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with no less than 6.0 in each band",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: A good honours degree (minimum 2:2 or equivalent) in a chemical, biological or physical science, including (though not exclusive to) chemistry, biology, chemical engineering, engineering, pharmacy, pharmaceutical science, or physics (or equivalent). Alternatively, we will accept a portfolio of professional and/or academic qualifications of equivalent standing to an honours degree.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/pharmaceutical-quality-by-design-mscpg-dippg-cer/pharmaceutical-quality-by-design.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Pharmacy with Preparatory Year MPharm (Hons)",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 96; A Level: CCC including Biology or Chemistry at grade C and one of the following also at grade C: Biology, Chemistry, Maths, Further Maths, Statistics, Physics or Psychology. BTEC: MMM in Applied Science with specific units studied.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: UCAS points: 96; A Level: CCC including Biology or Chemistry at grade C and one of the following also at grade C: Biology, Chemistry, Maths, Further Maths, Statistics, Physics or Psychology. BTEC: MMM in Applied Science with specific units studied.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/pharmacy-mpharm-year-zero/pharmacy-mpharm-year-zero.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Politics with Mandarin BA (Hons)",
+      "course_level": "Bachelor",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 9790,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "UCAS points: 112; A Level: BBC; BTEC: DMM. Contextual Offer: Minimum of one to two grade reduction from typical offer.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "india_qualification": "Indian equivalent: UCAS points: 112; A Level: BBC; BTEC: DMM. Contextual Offer: Minimum of one to two grade reduction from typical offer.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/politics-with-mandarin/politics-with-mandarin.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/study/fees-funding/undergraduate-tuition-fees.aspx",
+          "requirements": "https://www.dmu.ac.uk/international/en/english-language-learning/cell.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Project Management MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September",
+        "January"
+      ],
+      "course_duration": "12 months (September entry), 16 months (January entry)",
+      "annual_tuition_fee": {
+        "amount": 18450,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. Work experience is desirable but not essential.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification, or an equivalent professional qualification. Work experience is desirable but not essential.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/project-management-msc-degree/project-management-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Project Management with Sustainability MSc",
+      "course_level": "Master",
+      "campus_location": "London",
+      "cricos_code": null,
+      "intakes": [
+        "October",
+        "February",
+        "April"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 19000,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification or a minimum of five years of managerial work experience or equivalent. A professional qualification or other deemed to be of equivalent standing will be considered on an individual basis.",
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5"
+      },
+      "india_qualification": "Indian equivalent: Applicants will normally hold an undergraduate degree in any subject with a minimum pass of 2:2, or equivalent overseas qualification or a minimum of five years of managerial work experience or equivalent. A professional qualification or other deemed to be of equivalent standing will be considered on an individual basis.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/london/study/courses/project-management-with-sustainability.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/london/study/fees-and-funding.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/london/study/apply/how-to-apply.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Software Engineering MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/software-engineering/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Software Engineering MSc/PG Dip/PG Cert",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent of a British Honours degree (2:2 minimum) in a relevant subject. We are happy to consider equivalent qualifications from anywhere in the world.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/software-engineering/software-engineering-msc-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Sports History and Culture MA",
+      "course_level": "Master",
+      "campus_location": "Online/distance learning",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time, two years part-time",
+      "annual_tuition_fee": {
+        "amount": 16800,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "You should have the equivalent or above of a 2:2 UK bachelor’s honours degree in a relevant subject such as history, other humanities-based subjects, sports studies or sociology. We welcome applications from a wide sector and all non-standard applications will be carefully considered.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall with 5.5 in each band",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: You should have the equivalent or above of a 2:2 UK bachelor’s honours degree in a relevant subject such as history, other humanities-based subjects, sports studies or sociology. We welcome applications from a wide sector and all non-standard applications will be carefully considered.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/sports-history-and-culture-ma-degree/sports-history-and-culture-ma-degree.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Sports History and Culture MA",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/sports-history-and-culture-ma-degree/sports-history-and-culture-ma-degree-additional-costs.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Sustainable Textile Technologies MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/sustainable-textile-technologies-degree/module-details.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Tac.Aspx",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time or null",
+      "annual_tuition_fee": {
+        "amount": 18780,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/january-start/tac.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Visual Effects and Virtual Production MSc",
+      "course_level": "Master",
+      "campus_location": "Leicester",
+      "cricos_code": null,
+      "intakes": [
+        "September"
+      ],
+      "course_duration": "One year full-time",
+      "annual_tuition_fee": {
+        "amount": 18600,
+        "currency": "GBP",
+        "period": "per year"
+      },
+      "academic_requirements": "The equivalent of a British Honours degree (2:2 minimum) in a relevant subject. Applications are welcome from candidates whose primary study or professional practice has been in media, technology or a related discipline.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Global Access Scholarship",
+        "Global Partnerships Scholarship"
+      ],
+      "india_qualification": "Indian equivalent: The equivalent of a British Honours degree (2:2 minimum) in a relevant subject. Applications are welcome from candidates whose primary study or professional practice has been in media, technology or a related discipline.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/visual-effects-and-virtual-production/visual-effects-and-virtual-production-msc.aspx",
+        "subpages": {
+          "fees": "https://www.dmu.ac.uk/Study/fees-funding/index.aspx",
+          "scholarships": "https://www.dmu.ac.uk/international/en/fees-and-scholarships/international-scholarships.aspx",
+          "requirements": "https://www.dmu.ac.uk/International/en/english-language-learning/CELL.aspx",
+          "how_to_apply": "https://www.dmu.ac.uk/Study/applying/index.aspx"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

@@ -1,0 +1,3849 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-02T10:42:28.884984Z",
+    "university_name": "Charles Sturt University",
+    "source": "http://www.csu.edu.au/",
+    "total_programs": 95
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Accounting",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Port Macquarie, Sydney, Melbourne]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-accounting",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Agricultural Business Management",
+      "course_level": "Bachelor",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-agricultural-business-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Agricultural Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-agricultural-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Agriculture",
+      "course_level": "Bachelor",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or 6 years part-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-agriculture",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Animal Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-animal-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Border Management",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-border-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Sydney, Melbourne]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": "3 years full-time or equivalent part-time study",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-business",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Business Studies",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Port Macquarie]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-business-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Communication",
+      "course_level": "Bachelor",
+      "campus_location": "Bathurst",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-communication",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Criminology",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-criminology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Dental Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Dubbo, Orange, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "5 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-dental-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Educational Studies",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-educational-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Emergency Management",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-emergency-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Environmental Science and Management",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-environmental-science-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Equine Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-equine-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Food Science and Nutrition",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-food-science-nutrition",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Geospatial Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-geospatial-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Studies (with specialisations)",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state boards",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state boards. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-information-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology",
+      "course_level": "Bachelor",
+      "campus_location": "[Port Macquarie, Sydney, Melbourne]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-information-technology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Islamic Studies",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-islamic-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Medical Laboratory Science (Pathology)",
+      "course_level": "Bachelor",
+      "campus_location": "Wagga Wagga",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "3 years full-time or part-time equivalent",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-medical-laboratory-science-pathology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Nursing",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Port Macquarie, Wagga Wagga, Dubbo, Bathurst]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or equivalent part-time study (based on the provided information and typical nursing programs)",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-nursing",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Occupational Therapy",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Port Macquarie]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-occupational-therapy",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Oral Health (Therapy and Hygiene)",
+      "course_level": "Bachelor",
+      "campus_location": "[Holmesglen, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-oral-health-therapy-hygiene",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Paramedicine",
+      "course_level": "Bachelor",
+      "campus_location": "[Port Macquarie, Bathurst]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-paramedicine",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Physiotherapy",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Port Macquarie, Orange]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 12000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-physiotherapy",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Policing",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-policing",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Policing (Investigations)",
+      "course_level": "Bachelor",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-policing-investigations",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Psychology",
+      "course_level": "Bachelor",
+      "campus_location": "[Bathurst, Port Macquarie]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "4 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-psychology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Social Science (Psychology)",
+      "course_level": "Bachelor",
+      "campus_location": "[Bathurst, Port Macquarie]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-social-science-psychology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Theology",
+      "course_level": "Bachelor",
+      "campus_location": [
+        "Canberra",
+        "Sydney",
+        "Hong Kong"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-theology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Veterinary Biology/ Bachelor of Veterinary Science",
+      "course_level": "Bachelor",
+      "campus_location": "Wagga Wagga",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "6 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-veterinary-biology-bachelor-veterinary-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Viticulture",
+      "course_level": "Bachelor",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "4 years full-time or 6 years part-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-viticulture",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Wine Science",
+      "course_level": "Bachelor",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "4 years full-time or part-time over 6 years",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/bachelor-wine-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Executive Masters in International Police Leadership",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/executive-masters-international-police-leadership",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Accounting",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 127,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-accounting",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Adult Language, Literacy and Numeracy",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 10000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-adult-language-literacy-numeracy",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Applied Business",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-applied-business",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-pathways/atar-and-adjustment-factors",
+          "how_to_apply": "https://study.csu.edu.au/apply/start-your-application"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Classical Arabic",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-classical-arabic",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Critical Care Paramedicine",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-paramedicine",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Customs Administration",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-customs-administration",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Cyber Security",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "May",
+        "July",
+        "August",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-cyber-security",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Financial Crime",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-financial-crime",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Intelligence Analysis",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-intelligence-analysis",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Investigations",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-investigations",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Islamic Studies",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-islamic-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Leadership and Management (Policing and Security)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-leadership-management-policing-security",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Mathematics",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-mathematics",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Organisational Coaching and Leadership",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-organisational-coaching-leadership",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Professional Information Technology",
+      "course_level": null,
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-professional-information-technology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.4,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Project Management",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "March",
+        "May",
+        "July",
+        "August",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-project-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Psychology",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": "2 years part-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-psychology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Terrorism and Security Studies",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "2 years part-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-terrorism-security-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma of Theological Studies",
+      "course_level": "Master",
+      "campus_location": "Canberra, United Theological College",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/graduate-diploma-theological-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Ageing and Health",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-ageing-health",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Agricultural Science (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-agricultural-science",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Agriculture (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Wagga Wagga, Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "1.5 years full-time or accelerated completion option available",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-agriculture",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Applied Business (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-applied-business",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Arts (Theological Studies)",
+      "course_level": "Master",
+      "campus_location": "Canberra, United Theological College",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "entry requirements for India students (CBSE/ICSE/IB/State board scores)",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: entry requirements for India students (CBSE/ICSE/IB/State board scores). Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-arts-theological-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (Computing)",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-business-administration-computing",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-pathways/atar-and-adjustment-factors",
+          "how_to_apply": "https://study.csu.edu.au/apply/start-your-application"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-business-administration",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Data Analytics",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": null,
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-of-business-data-analytics",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Classical Arabic",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-classical-arabic",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-pathways/atar-and-adjustment-factors",
+          "how_to_apply": "https://study.csu.edu.au/apply/start-your-application"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Cloud Computing and Virtualisation",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-cloud-computing-virtualisation",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Communication (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-communication",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Critical Care Paramedicine",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-paramedicine",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Customs Administration",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-customs-administration",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Cyber Security",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "May",
+        "July",
+        "August",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-cyber-security",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education (Teacher Librarianship)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-education-teacher-librarianship",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Education (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-education",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Emergency Management",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-emergency-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Environmental Management (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-environmental-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Financial Crime",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-financial-crime",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Management and Leadership",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-health-management-leadership",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Health Professional Practice (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-health-professional-practice-specialisations",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Human Resource Management (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-human-resource-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Inclusive Education",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-inclusive-education",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information Studies (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-information-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Intelligence Analysis",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March",
+        "July",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-intelligence-analysis",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Investigations",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-investigations",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Islamic Studies",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": null,
+      "minimum_english_language_score_requirements": null,
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-islamic-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Leadership and Management (Policing and Security)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-leadership-management-policing-security",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Networking and Systems Administration",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-networking-systems-administration",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Nursing (Pre-registration)",
+      "course_level": "Master",
+      "campus_location": "Wagga Wagga",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "under two years full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-nursing-pre-registration",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-professional-accounting",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Accounting (Professional Practice)",
+      "course_level": "Master",
+      "campus_location": "[Melbourne, Sydney]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 127100,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-professional-accounting-professional-practice",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Professional Information Technology (with specialisations)",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-professional-information-technology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-pathways/atar-and-adjustment-factors",
+          "how_to_apply": "https://study.csu.edu.au/apply/start-your-application"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Project Management",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "March",
+        "May",
+        "July",
+        "August",
+        "November"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "entry requirements for India students (CBSE/ICSE/IB/State board scores)",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: entry requirements for India students (CBSE/ICSE/IB/State board scores). Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-project-management",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Psychological Practice (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Albury-Wodonga, Bathurst, Canberra, Dubbo, Goulburn, Orange, Parramatta, Port Macquarie, Wagga Wagga]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-psychological-practice",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Social Work (Professional Qualifying)",
+      "course_level": "Master",
+      "campus_location": "[Sydney]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-social-work-professional-qualifying",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Social and Organisational Leadership (with specialisations)",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma or equivalent state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma or equivalent state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-social-organisational-leadership",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Terrorism and Security Studies",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "July"
+      ],
+      "course_duration": "3 years full-time or equivalent part-time study",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-terrorism-security-studies",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Theology",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": [
+        "Scholarships for International students"
+      ],
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/master-theology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-pathways/atar-and-adjustment-factors",
+          "how_to_apply": "https://study.csu.edu.au/apply/start-your-application"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate Diploma of Psychology",
+      "course_level": "Master",
+      "campus_location": "[Online]",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": null,
+      "annual_tuition_fee": {
+        "amount": 95000,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "academic_requirements": "CBSE/ICSE/IB Diploma and Indian state board scores",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: CBSE/ICSE/IB Diploma and Indian state board scores. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://study.csu.edu.au/courses/postgraduate-diploma-psychology",
+        "subpages": {
+          "fees": "https://study.csu.edu.au/apply/fees",
+          "scholarships": "https://study.csu.edu.au/apply/scholarships-grants",
+          "requirements": "https://study.csu.edu.au/apply/admission-profile",
+          "how_to_apply": "https://study.csu.edu.au/apply"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

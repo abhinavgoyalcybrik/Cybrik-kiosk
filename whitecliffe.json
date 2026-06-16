@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-09T05:48:52.702234Z",
+    "university_name": "Whitecliffe",
+    "source": "https://www.whitecliffe.ac.nz/",
+    "total_programs": 2
+  },
+  "programs": [
+    {
+      "program_course_name": "Postgraduate Diploma in Creative Arts Therapy",
+      "course_level": "Master",
+      "campus_location": "Manukau Campus, Christchurch Campus, Wellington Campus",
+      "cricos_code": null,
+      "intakes": [
+        "February"
+      ],
+      "course_duration": "1 Year",
+      "annual_tuition_fee": {
+        "amount": 27000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants must hold an undergraduate diploma or degree qualification equivalent to NZQF Level 7. Provide evidence of academic writing ability that reflects the potential for successful study at the graduate level.",
+      "accepted_english_language_tests": [
+        "TOEFL",
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "TOEFL": "625"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Applicants must hold an undergraduate diploma or degree qualification equivalent to NZQF Level 7. Provide evidence of academic writing ability that reflects the potential for successful study at the graduate level.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.whitecliffe.ac.nz/qualification/postgraduate-diploma-in-creative-arts-therapy",
+        "subpages": {
+          "scholarships": "https://www.whitecliffe.ac.nz/apply/scholarships",
+          "how_to_apply": "https://www.whitecliffe.ac.nz/apply/prepare"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate Diploma in Information Technology",
+      "course_level": "Master",
+      "campus_location": "Auckland City Symonds Street, Wellington, Christchurch",
+      "cricos_code": null,
+      "intakes": [
+        "March"
+      ],
+      "course_duration": "1 year full-time or part-time options",
+      "annual_tuition_fee": {
+        "amount": 24000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "Applicants must have a recognised Bachelor degree in Information Technology (or equivalent) with a B average in the final year or a Bachelor Honours degree in Information Technology (or equivalent), or a Bachelor’s degree in Information Technology (or equivalent) followed by relevant professional experience, or demonstrated equivalent practical, professional and/or scholarly experience – entry at the discretion of the Programme Head.",
+      "accepted_english_language_tests": [
+        "IELTS"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Applicants must have a recognised Bachelor degree in Information Technology (or equivalent) with a B average in the final year or a Bachelor Honours degree in Information Technology (or equivalent), or a Bachelor’s degree in Information Technology (or equivalent) followed by relevant professional experience, or demonstrated equivalent practical, professional and/or scholarly experience – entry at the discretion of the Programme Head.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.whitecliffe.ac.nz/qualification/postgraduate-diploma-in-information-technology",
+        "subpages": {
+          "scholarships": "https://www.whitecliffe.ac.nz/apply/scholarships",
+          "how_to_apply": "https://www.whitecliffe.ac.nz/apply/prepare"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

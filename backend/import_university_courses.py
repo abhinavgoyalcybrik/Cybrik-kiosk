@@ -3,10 +3,12 @@ Import attached university course JSON exports into the Django database.
 
 Run with:
     cd backend && python import_university_courses.py
+    cd backend && python import_university_courses.py ../universities/deakin_university.json
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -25,12 +27,13 @@ from api.models import (  # noqa: E402
     CourseFee,
     CourseIntake,
     EnglishRequirement,
+    GalleryImage,
     University,
 )
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_ROOT = REPO_ROOT.parent
+UNIVERSITIES_DIR = REPO_ROOT / "universities"
 SOURCE_FILE_NAMES = [
     "acap_college_university.json",
     "curtin_university.json",
@@ -42,7 +45,6 @@ SOURCE_FILE_NAMES = [
     "melbourne_polytechnic.json",
     "rmit_university.json",
 ]
-SOURCE_FILES = [DATA_ROOT / file_name for file_name in SOURCE_FILE_NAMES]
 
 UNIVERSITY_DEFAULTS = {
     "ACAP College University": {
@@ -78,6 +80,39 @@ UNIVERSITY_DEFAULTS = {
         "ownership_type": "Public",
     },
 }
+
+UNIVERSITY_NAME_ALIASES = {
+    "Royal Melbourne Institute of Technology": "RMIT University",
+}
+
+
+def resolve_source_files(json_paths: list[str] | None = None) -> list[Path]:
+    if json_paths:
+        resolved_paths = []
+        for raw_path in json_paths:
+            candidate = Path(raw_path).expanduser()
+            if not candidate.is_absolute():
+                candidate = REPO_ROOT / candidate
+            resolved_paths.append(candidate.resolve())
+        return resolved_paths
+
+    return [UNIVERSITIES_DIR / file_name for file_name in SOURCE_FILE_NAMES]
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Import university JSON exports into Django DB.",
+    )
+    parser.add_argument(
+        "json_paths",
+        nargs="*",
+        help="Repo-relative or absolute paths to university JSON files.",
+    )
+    return parser.parse_args()
+
+
+def canonicalize_university_name(name: str) -> str:
+    return UNIVERSITY_NAME_ALIASES.get(name, name)
 
 
 def normalize_whitespace(value: object) -> str:
@@ -438,6 +473,32 @@ def build_admissions_notes(program: dict[str, object]) -> str:
     return "\n".join(notes)
 
 
+def upsert_course(
+    university: University,
+    title: str,
+    defaults: dict[str, object],
+) -> tuple[Course, bool, int]:
+    matching_courses = list(
+        Course.objects.select_for_update()
+        .filter(university=university, title=title)
+        .order_by("id")
+    )
+
+    if not matching_courses:
+        return Course.objects.create(university=university, title=title, **defaults), True, 0
+
+    primary_course = matching_courses[0]
+    duplicate_course_ids = [course.id for course in matching_courses[1:]]
+    if duplicate_course_ids:
+        Course.objects.filter(id__in=duplicate_course_ids).delete()
+
+    for field_name, value in defaults.items():
+        setattr(primary_course, field_name, value)
+    primary_course.save(update_fields=list(defaults.keys()))
+
+    return primary_course, False, len(duplicate_course_ids)
+
+
 def load_payload(json_path: Path) -> tuple[dict[str, object], list[dict[str, object]]]:
     with json_path.open(encoding="utf-8") as file:
         payload = json.load(file)
@@ -451,11 +512,38 @@ def load_payload(json_path: Path) -> tuple[dict[str, object], list[dict[str, obj
     return metadata, programs
 
 
+def get_or_merge_university(
+    source_university_name: str,
+    university_defaults: dict[str, object],
+) -> University:
+    canonical_name = canonicalize_university_name(source_university_name)
+    university, _ = University.objects.update_or_create(
+        name=canonical_name,
+        defaults=university_defaults,
+    )
+
+    if source_university_name == canonical_name:
+        return university
+
+    alias_university = (
+        University.objects.filter(name=source_university_name).exclude(id=university.id).first()
+    )
+    if alias_university is None:
+        return university
+
+    Course.objects.filter(university=alias_university).update(university=university)
+    GalleryImage.objects.filter(university=alias_university).update(university=university)
+    alias_university.delete()
+
+    return university
+
+
 def import_university_courses(json_path: Path) -> str:
     metadata, programs = load_payload(json_path)
-    university_name = normalize_whitespace(metadata.get("university_name"))
+    source_university_name = normalize_whitespace(metadata.get("university_name"))
+    university_name = canonicalize_university_name(source_university_name)
 
-    if not university_name:
+    if not source_university_name:
         raise ValueError(f"Missing university name in {json_path.name}.")
 
     university_defaults = UNIVERSITY_DEFAULTS.get(
@@ -470,15 +558,16 @@ def import_university_courses(json_path: Path) -> str:
         },
     )
 
-    university, _ = University.objects.update_or_create(
-        name=university_name,
-        defaults=university_defaults,
+    university = get_or_merge_university(
+        source_university_name=source_university_name,
+        university_defaults=university_defaults,
     )
 
     campus_values = set()
     scholarship_available = False
     created_courses = 0
     updated_courses = 0
+    deduplicated_courses = 0
     created_fees = 0
     created_academic = 0
     updated_academic = 0
@@ -505,32 +594,34 @@ def import_university_courses(json_path: Path) -> str:
         scholarship_available = scholarship_available or bool(program.get("available_scholarships"))
 
         with transaction.atomic():
-            course, created = Course.objects.update_or_create(
+            course_defaults = {
+                "degree_level": infer_degree_level(title, program.get("course_level")),
+                "field_of_study": infer_field_of_study(title),
+                "specialization": "",
+                "department": "",
+                "faculty": "",
+                "duration_months": parse_duration_months(program.get("course_duration")),
+                "mode": "Part-time"
+                if "part-time" in normalize_whitespace(program.get("course_duration")).lower()
+                else "Full-time"
+                if normalize_whitespace(program.get("course_duration")).lower()
+                else "",
+                "campus": normalize_campus_location(program.get("campus_location")),
+                "course_url": extract_source_url(program.get("source_reference")),
+                "course_summary": normalize_whitespace(program.get("course_duration")),
+                "admissions_notes": build_admissions_notes(program),
+            }
+            course, created, duplicate_count = upsert_course(
                 university=university,
                 title=title,
-                defaults={
-                    "degree_level": infer_degree_level(title, program.get("course_level")),
-                    "field_of_study": infer_field_of_study(title),
-                    "specialization": "",
-                    "department": "",
-                    "faculty": "",
-                    "duration_months": parse_duration_months(program.get("course_duration")),
-                    "mode": "Part-time"
-                    if "part-time" in normalize_whitespace(program.get("course_duration")).lower()
-                    else "Full-time"
-                    if normalize_whitespace(program.get("course_duration")).lower()
-                    else "",
-                    "campus": normalize_campus_location(program.get("campus_location")),
-                    "course_url": extract_source_url(program.get("source_reference")),
-                    "course_summary": normalize_whitespace(program.get("course_duration")),
-                    "admissions_notes": build_admissions_notes(program),
-                },
+                defaults=course_defaults,
             )
 
             if created:
                 created_courses += 1
             else:
                 updated_courses += 1
+            deduplicated_courses += duplicate_count
 
             CourseIntake.objects.filter(course=course).delete()
             intake_entries = parse_intake_entries(program.get("intakes"))
@@ -607,6 +698,7 @@ def import_university_courses(json_path: Path) -> str:
     print(f"Courses in DB: {total_courses}")
     print(f"Courses created: {created_courses}")
     print(f"Courses updated: {updated_courses}")
+    print(f"Duplicate course rows removed: {deduplicated_courses}")
     print(f"Course fees upserted: {created_fees}")
     print(f"Academic requirements created: {created_academic}")
     print(f"Academic requirements updated: {updated_academic}")
@@ -620,11 +712,13 @@ def import_university_courses(json_path: Path) -> str:
     return university_name
 
 
-def main() -> None:
+def main(json_paths: list[str] | None = None) -> None:
+    source_files = resolve_source_files(json_paths)
+    prune_missing_universities = not json_paths
     imported_files = 0
     imported_university_names = set()
 
-    for json_path in SOURCE_FILES:
+    for json_path in source_files:
         if not json_path.exists():
             print(f"Skipping missing file: {json_path.name}")
             continue
@@ -633,9 +727,11 @@ def main() -> None:
         imported_university_names.add(university_name)
         imported_files += 1
 
-    stale_universities = University.objects.exclude(name__in=imported_university_names)
-    deleted_stale_universities = stale_universities.count()
-    stale_universities.delete()
+    deleted_stale_universities = 0
+    if prune_missing_universities:
+        stale_universities = University.objects.exclude(name__in=imported_university_names)
+        deleted_stale_universities = stale_universities.count()
+        stale_universities.delete()
 
     print(f"\nDone. Processed {imported_files} university file(s).")
     print(f"Stale universities removed: {deleted_stale_universities}")
@@ -644,4 +740,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    main(args.json_paths)

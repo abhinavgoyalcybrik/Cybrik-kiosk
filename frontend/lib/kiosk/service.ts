@@ -5,6 +5,8 @@ import type { CourseCatalogApiItem, CourseCardItem } from "@/lib/types";
 import { resolveUniversityLogoUrl } from "@/lib/universityLogo";
 
 import type {
+  KioskCostBreakdown,
+  KioskDocument,
   KioskHandoffReceipt,
   KioskOtpVerifyResponse,
   KioskProfile,
@@ -13,6 +15,21 @@ import type {
   KioskSessionStartResponse,
   KioskSessionState,
 } from "./types";
+
+const INR_PER_UNIT: Record<string, number> = {
+  CAD: 6.1,
+  USD: 8.3,
+  GBP: 10.6,
+  AUD: 5.5,
+  NZD: 5.0,
+  EUR: 9.0,
+  INR: 1,
+};
+
+function convertToLakhs(amount: number, currency: string): number {
+  const rate = INR_PER_UNIT[currency] ?? 7;
+  return (amount * rate) / 100000;
+}
 
 const OTP_EXPIRY_MS = 5 * 60 * 1000;
 const RESEND_COOLDOWN_MS = 30 * 1000;
@@ -673,4 +690,51 @@ export async function completeKioskHandoff(
     etaMinutes: 15,
     sentTo: formatDisplayPhone(record.session.phone),
   };
+}
+
+export function buildCostBreakdown(
+  recommendation: KioskRecommendation,
+  budgetMaxLakhs: number
+): KioskCostBreakdown {
+  const currency = recommendation.tuitionLabel.split(" ")[0] ?? "";
+  const estimateLakhs =
+    recommendation.tuitionValue !== null
+      ? Math.round(convertToLakhs(recommendation.tuitionValue, currency) * 1.18)
+      : Math.round(budgetMaxLakhs * 1.1);
+
+  const axisMaxLakhs = Math.max(estimateLakhs, budgetMaxLakhs) * 1.3;
+  const capPct = Math.min(100, (budgetMaxLakhs / axisMaxLakhs) * 100);
+  const estimatePct = Math.min(100, (estimateLakhs / axisMaxLakhs) * 100);
+
+  return {
+    estimateLakhs,
+    budgetCapLakhs: budgetMaxLakhs,
+    axisMaxLakhs: Math.round(axisMaxLakhs),
+    capPct,
+    estimatePct,
+    overBudget: estimateLakhs > budgetMaxLakhs,
+    scholarshipLakhs: Math.max(2, Math.round(estimateLakhs * 0.18)),
+  };
+}
+
+export function buildDocumentChecklist(profile: KioskProfile): KioskDocument[] {
+  return [
+    { id: "sop", title: "SOP", subtitle: "Statement of Purpose · 850 words", status: "ready" },
+    { id: "lor1", title: "LOR 1", subtitle: "Recommendation · Academic referee", status: "ready" },
+    {
+      id: "lor2",
+      title: "LOR 2",
+      subtitle: profile.hasWorkExperience ? "Recommendation · Manager" : "Recommendation · Academic referee",
+      status: "ready",
+    },
+    { id: "resume", title: "Resume", subtitle: "ATS-friendly, 1 page", status: "ready" },
+    { id: "financial", title: "Financial letter", subtitle: "For visa & I-20 / CAS", status: "ready" },
+    { id: "transcript", title: "Transcript", subtitle: "Upload from your college", status: "action_needed" },
+  ];
+}
+
+export function buildSopPreview(profile: KioskProfile, recommendation: KioskRecommendation): string {
+  const track = profile.academicTrack || recommendation.fieldOfStudy;
+  const uniShort = recommendation.university.split(" ").slice(-1)[0] || recommendation.university;
+  return `"${track} isn't a field I stumbled into — it's the work I've spent the last few years building toward. A graduate degree at ${uniShort} is how I close the gap between what I've learned and what I want to build next…"`;
 }

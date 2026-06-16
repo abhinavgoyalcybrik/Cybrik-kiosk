@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-09T06:27:25.433312Z",
+    "university_name": "Auckland institute of Studies",
+    "source": "https://www.ais.ac.nz/",
+    "total_programs": 9
+  },
+  "programs": [
+    {
+      "program_course_name": "Bachelor of Business (BBus)",
+      "course_level": "Bachelor",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "36 months full-time",
+      "annual_tuition_fee": {
+        "amount": 22000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "A minimum of 14 NCEA credits in each of 3 subjects at Level 3, and a minimum of 14 numeracy credits at Level 1 or higher, and a minimum of 8 literacy credits at Level 2 or higher; or Successful tertiary study; or Equivalent overseas qualification",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: A minimum of 14 NCEA credits in each of 3 subjects at Level 3, and a minimum of 14 numeracy credits at Level 1 or higher, and a minimum of 8 literacy credits at Level 2 or higher; or Successful tertiary study; or Equivalent overseas qualification. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.ais.ac.nz/study/business/bachelor-of-business",
+        "subpages": {
+          "fees": "https://www.ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://www.ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://www.ais.ac.nz/study/english-language",
+          "how_to_apply": "https://www.ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Bachelor of Information Technology (BIT)",
+      "course_level": "Bachelor",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 24360,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "A minimum of 14 NCEA credits in each of 3 subjects at Level 3 including 9 credits in mathematics, and a minimum of 14 numeracy credits at Level 1 or higher, and a minimum of 8 literacy credits at Level 2 or higher; or Successful tertiary study, including mathematics at a level equivalent to 9 credits at Level 3; or Successful completion of a Level 4 qualification in Computing; or Equivalent overseas qualification",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: A minimum of 14 NCEA credits in each of 3 subjects at Level 3 including 9 credits in mathematics, and a minimum of 14 numeracy credits at Level 1 or higher, and a minimum of 8 literacy credits at Level 2 or higher; or Successful tertiary study, including mathematics at a level equivalent to 9 credits at Level 3; or Successful completion of a Level 4 qualification in Computing; or Equivalent overseas qualification. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.ais.ac.nz/study/information-technology/7-300-bachelor-of-information-technology",
+        "subpages": {
+          "fees": "https://www.ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://www.ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://www.ais.ac.nz/study/english-language",
+          "how_to_apply": "https://www.ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma in Business (GDBus)",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 22000,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "Bachelor degree at least equivalent to New Zealand pass standard; IELTS 6.0 academic (with no band less than 5.5) / TOEFL* iBT 60 (with a writing score of 18) / PToE academic score of 50 with no band lower than 42",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Bachelor degree at least equivalent to New Zealand pass standard; IELTS 6.0 academic (with no band less than 5.5) / TOEFL* iBT 60 (with a writing score of 18) / PToE academic score of 50 with no band lower than 42. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://ais.ac.nz/study/business/2-400-graduate-diploma-in-business",
+        "subpages": {
+          "fees": "https://ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://ais.ac.nz/study/english-language",
+          "how_to_apply": "https://ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Graduate Diploma in Information Technology (GDIT)",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 24750,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "Bachelor degree at least equivalent to New Zealand pass standard; or appropriate mix of lesser qualification and work experience for special admission by the Academic Board",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.0 overall, no band below 5.5",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Bachelor degree at least equivalent to New Zealand pass standard; or appropriate mix of lesser qualification and work experience for special admission by the Academic Board. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://ais.ac.nz/study/information-technology/7-400-graduate-diploma-in-information-technology",
+        "subpages": {
+          "fees": "https://ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://ais.ac.nz/study/english-language",
+          "how_to_apply": "https://ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (MBA)",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": 38940,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "A degree or equivalent professional qualification as approved by the Academic Board of AIS; and at least two years relevant work experience as approved by the Academic Board of AIS. Hold a Bachelor of Commerce or Bachelor of Business degree (recognised by Academic Board as being at least equivalent to New Zealand pass standard) or other qualification approved by the Academic Head of Business Administration Programmes.",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: A degree or equivalent professional qualification as approved by the Academic Board of AIS; and at least two years relevant work experience as approved by the Academic Board of AIS. Hold a Bachelor of Commerce or Bachelor of Business degree (recognised by Academic Board as being at least equivalent to New Zealand pass standard) or other qualification approved by the Academic Head of Business Administration Programmes.. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://ais.ac.nz/mba",
+        "subpages": {
+          "fees": "https://ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://ais.ac.nz/study/english-language",
+          "how_to_apply": "https://ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Business Administration (MBA)",
+      "course_level": "Master",
+      "campus_location": null,
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "March",
+        "May",
+        "July",
+        "September",
+        "October"
+      ],
+      "course_duration": "18 months full-time",
+      "annual_tuition_fee": {
+        "amount": null,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": null,
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "source_reference": {
+        "primary_source": "https://www.ais.ac.nz/study/business-administration/4-700-master-of-business-administration",
+        "subpages": {
+          "fees": "https://www.ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://www.ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://www.ais.ac.nz/study/english-language",
+          "how_to_apply": "https://www.ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 0.8,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master of Information Technology",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "16 months full-time",
+      "annual_tuition_fee": {
+        "amount": 38940,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "Bachelor degree, graduate diploma or postgraduate diploma or equivalent in information technology, computer science or related field of study",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: Bachelor degree, graduate diploma or postgraduate diploma or equivalent in information technology, computer science or related field of study. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://ais.ac.nz/study/information-technology/7.600-master-of-information-technology",
+        "subpages": {
+          "fees": "https://ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://ais.ac.nz/study/english-language",
+          "how_to_apply": "https://ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate Diploma in Business Administration (PGDBA)",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "January",
+        "March",
+        "May",
+        "July",
+        "September",
+        "October"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 25960,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "IELTS 6.5 academic (with no band less than 6.0) / TOEFL* iBT 79 (with a writing score of 21) / PToE academic score of 58 with no band lower than 50 / NZCEL L5; hold an undergraduate degree or equivalent qualification and have completed a minimum of two years’ equivalent full-time relevant work experience",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "PTE": "58"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: IELTS 6.5 academic (with no band less than 6.0) / TOEFL* iBT 79 (with a writing score of 21) / PToE academic score of 58 with no band lower than 50 / NZCEL L5; hold an undergraduate degree or equivalent qualification and have completed a minimum of two years’ equivalent full-time relevant work experience. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://www.ais.ac.nz/study/business-administration/4-450-postgraduate-diploma-in-business-administration",
+        "subpages": {
+          "fees": "https://www.ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://www.ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://www.ais.ac.nz/study/english-language",
+          "how_to_apply": "https://www.ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Postgraduate Diploma in Information Technology",
+      "course_level": "Master",
+      "campus_location": "Auckland",
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "12 months full-time",
+      "annual_tuition_fee": {
+        "amount": 25960,
+        "currency": "NZD",
+        "period": "per year"
+      },
+      "academic_requirements": "A Bachelor’s degree or equivalent in Information Technology, Computer Science or related field of study; or A Graduate Diploma or equivalent in Information Technology, Computer Science or related field of study",
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE",
+        "Duolingo"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": "6.5 overall, no band below 6.0",
+        "TOEFL": "79 (with a writing score of 21)",
+        "PTE": "58 with no band lower than 50"
+      },
+      "available_scholarships": true,
+      "india_qualification": "Indian equivalent: A Bachelor’s degree or equivalent in Information Technology, Computer Science or related field of study; or A Graduate Diploma or equivalent in Information Technology, Computer Science or related field of study. Indian students should provide transcripts from a recognised Indian university or board (CBSE/ICSE/State board) showing the equivalent standard.",
+      "source_reference": {
+        "primary_source": "https://ais.ac.nz/study/information-technology/7-500-postgraduate-diploma-in-information-technology",
+        "subpages": {
+          "fees": "https://ais.ac.nz/study/study-at-ais/fees-free",
+          "scholarships": "https://ais.ac.nz/study/study-at-ais/ais-scholarships",
+          "requirements": "https://ais.ac.nz/study/english-language",
+          "how_to_apply": "https://ais.ac.nz/study/study-at-ais/apply-now"
+        },
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

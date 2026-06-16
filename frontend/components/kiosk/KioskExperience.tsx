@@ -5,6 +5,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { startTransition, useEffect, useEffectEvent, useMemo, useState } from "react";
 
 import {
+  buildCostBreakdown,
+  buildDocumentChecklist,
+  buildSopPreview,
   completeKioskHandoff,
   getKioskDeviceId,
   loadKioskRecommendations,
@@ -23,6 +26,7 @@ import {
   INTAKE_YEAR_OPTIONS,
   STUDY_GOAL_OPTIONS,
   WORK_EXPERIENCE_OPTIONS,
+  type KioskDocument,
   type KioskHandoffReceipt,
   type KioskProfile,
   type KioskRecommendation,
@@ -768,6 +772,33 @@ export default function KioskExperience() {
               onChangeSortMode={setSortMode}
               onPickRecommendation={setSelectedRecommendationId}
               onToggleShortlist={handleToggleShortlist}
+              onSendKit={handleSendKit}
+              onOpenDetail={(id) => {
+                setSelectedRecommendationId(id);
+                setScreen("detail");
+              }}
+              onOpenDocuments={() => setScreen("documents")}
+            />
+          ) : null}
+
+          {screen === "detail" && selectedRecommendation ? (
+            <ProgramDetailScreen
+              profile={profile}
+              recommendation={selectedRecommendation}
+              shortlisted={shortlistIds.includes(selectedRecommendation.id)}
+              onBack={() => setScreen("results")}
+              onToggleShortlist={() => handleToggleShortlist(selectedRecommendation.id)}
+              onOpenDocuments={() => setScreen("documents")}
+            />
+          ) : null}
+
+          {screen === "documents" && bundle ? (
+            <DocumentsScreen
+              profile={profile}
+              shortlistIds={shortlistIds}
+              recommendations={bundle.recommendations}
+              handoffBusy={busyAction === "handoff"}
+              onBack={() => setScreen("results")}
               onSendKit={handleSendKit}
             />
           ) : null}
@@ -1944,6 +1975,8 @@ function ResultsScreen({
   onPickRecommendation,
   onToggleShortlist,
   onSendKit,
+  onOpenDetail,
+  onOpenDocuments,
 }: {
   profile: KioskProfile;
   profileCompletion: number;
@@ -1960,6 +1993,8 @@ function ResultsScreen({
   onPickRecommendation: (value: number) => void;
   onToggleShortlist: (value: number) => void;
   onSendKit: () => void;
+  onOpenDetail: (id: number) => void;
+  onOpenDocuments: () => void;
 }) {
   const shortlistCount = shortlistIds.length;
   const handoffPreviewCount =
@@ -2094,12 +2129,14 @@ function ResultsScreen({
             <div className="h2" style={{ color: "#fff", fontSize: 40, marginTop: 4 }}>
               {handoffPreviewCount} programs
             </div>
-            <div
-              className="small"
-              style={{ color: "rgba(255,255,255,0.7)", fontSize: 21, marginTop: 2 }}
+            <button
+              type="button"
+              className="small link-reset"
+              style={{ color: "rgba(255,255,255,0.7)", fontSize: 21, marginTop: 2, textDecoration: "underline" }}
+              onClick={onOpenDocuments}
             >
-              6 documents ready
-            </div>
+              6 documents ready · review →
+            </button>
             <button
               type="button"
               className="btn btn-green btn-full"
@@ -2166,6 +2203,7 @@ function ResultsScreen({
                 sortLabel={sortLabelMap[sortMode]}
                 onSelect={() => onPickRecommendation(item.id)}
                 onToggleShortlist={() => onToggleShortlist(item.id)}
+                onOpenDetail={() => onOpenDetail(item.id)}
               />
             ))}
           </div>
@@ -2190,6 +2228,7 @@ function ProgramCard({
   sortLabel,
   onSelect,
   onToggleShortlist,
+  onOpenDetail,
 }: {
   recommendation: KioskRecommendation;
   selected: boolean;
@@ -2197,6 +2236,7 @@ function ProgramCard({
   sortLabel: string;
   onSelect: () => void;
   onToggleShortlist: () => void;
+  onOpenDetail: () => void;
 }) {
   return (
     <div
@@ -2284,14 +2324,25 @@ function ProgramCard({
           type="button"
           className="blue-text link-reset"
           style={{ fontWeight: 700, fontSize: 22 }}
-          onClick={onSelect}
+          onClick={() => {
+            onSelect();
+            onOpenDetail();
+          }}
         >
           {selected ? `${sortLabel} ✓` : "View details →"}
         </button>
       </div>
 
       <div style={{ display: "flex", gap: 16 }}>
-        <button type="button" className="btn btn-blue" style={{ flex: 1 }} onClick={onSelect}>
+        <button
+          type="button"
+          className="btn btn-blue"
+          style={{ flex: 1 }}
+          onClick={() => {
+            onSelect();
+            onOpenDetail();
+          }}
+        >
           Apply Now
         </button>
         <button
@@ -2304,6 +2355,327 @@ function ProgramCard({
         </button>
       </div>
     </div>
+  );
+}
+
+function ProgramDetailScreen({
+  profile,
+  recommendation,
+  shortlisted,
+  onBack,
+  onToggleShortlist,
+  onOpenDocuments,
+}: {
+  profile: KioskProfile;
+  recommendation: KioskRecommendation;
+  shortlisted: boolean;
+  onBack: () => void;
+  onToggleShortlist: () => void;
+  onOpenDocuments: () => void;
+}) {
+  const cost = buildCostBreakdown(recommendation, profile.budgetMaxLakhs);
+  const statCards: Array<[string, string]> = [
+    ["Tuition / yr", recommendation.tuitionLabel],
+    ["Intake", recommendation.intakeLabel],
+    ["Duration", recommendation.duration],
+    ["Success chance", recommendation.successLabel],
+  ];
+
+  const fitReasons =
+    recommendation.reasons.length > 0
+      ? recommendation.reasons
+      : ["Strong overall alignment with your stated profile"];
+
+  return (
+    <KioskFrame label="SUB · PROGRAM DETAIL">
+      <TopBar
+        small
+        right={
+          <button type="button" className="blue-text link-reset" style={{ fontWeight: 700, fontSize: 24 }} onClick={onBack}>
+            ← Back to results
+          </button>
+        }
+      />
+
+      <div style={{ flex: 1, display: "flex", gap: 48, padding: "4px 64px 44px", minHeight: 0, overflowY: "auto" }}>
+        <div style={{ flex: "1 1 58%", display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", gap: 24, alignItems: "flex-start" }}>
+            <div className="uni-logo uni-logo-lg">▲</div>
+            <div style={{ flex: 1 }}>
+              <div className="small" style={{ fontSize: 22 }}>{recommendation.location}</div>
+              <div className="h1" style={{ fontSize: 52, marginTop: 6 }}>{recommendation.university}</div>
+              <div className="title" style={{ fontSize: 30, color: "var(--ink-2)", fontWeight: 600, marginTop: 6 }}>
+                {recommendation.title}
+              </div>
+              <div style={{ marginTop: 14 }}>
+                <span className="tag tag-prime">Prime</span>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 18, marginTop: 30 }}>
+            {statCards.map(([label, value]) => (
+              <div key={label} className="card" style={{ padding: "22px 22px" }}>
+                <div className="eyebrow" style={{ fontSize: 16 }}>{label}</div>
+                <div className="h3" style={{ fontSize: 28, marginTop: 8 }}>{value}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="h3" style={{ fontSize: 32, marginTop: 32 }}>Why you&apos;re a strong fit</div>
+          <div className="card" style={{ padding: 30, marginTop: 16 }}>
+            {fitReasons.map((reason, index) => (
+              <div
+                key={reason}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 16,
+                  padding: "15px 0",
+                  borderBottom: index < fitReasons.length - 1 ? "1.5px solid var(--line)" : "none",
+                }}
+              >
+                <span
+                  style={{
+                    width: 38,
+                    height: 38,
+                    borderRadius: 10,
+                    background: "var(--green-tint)",
+                    color: "var(--green-d)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontWeight: 800,
+                    fontSize: 24,
+                    flexShrink: 0,
+                  }}
+                >
+                  ✓
+                </span>
+                <span className="body" style={{ fontSize: 26, color: "var(--navy)" }}>{reason}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div style={{ flex: "1 1 42%", display: "flex", flexDirection: "column", gap: 24 }}>
+          <div className="card" style={{ padding: 32, display: "flex", alignItems: "center", gap: 28 }}>
+            <Ring pct={recommendation.score} size={180} stroke={16} color="var(--green)">
+              <div className="h1" style={{ fontSize: 56 }}>{recommendation.score}%</div>
+              <div className="small" style={{ fontSize: 18 }}>match</div>
+            </Ring>
+            <div>
+              <div className="title" style={{ fontSize: 28 }}>
+                {recommendation.score >= 85 ? "Excellent match" : recommendation.score >= 65 ? "Strong match" : "Growing match"}
+              </div>
+              <div className="body" style={{ fontSize: 24, marginTop: 6 }}>
+                Based on your academics, English score, and budget profile.
+              </div>
+            </div>
+          </div>
+
+          <div className="card" style={{ padding: 30, flex: 1 }}>
+            <div className="h3" style={{ fontSize: 30 }}>Cost vs. your budget</div>
+            <div style={{ position: "relative", paddingTop: 40, marginTop: 24 }}>
+              <div className="bar bar-blue" style={{ height: 30 }}>
+                <span style={{ width: `${cost.estimatePct}%` }} />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  left: `${cost.capPct}%`,
+                  top: 18,
+                  bottom: -30,
+                  borderLeft: "3px dashed var(--orange)",
+                }}
+              >
+                <span
+                  className="small"
+                  style={{ position: "absolute", top: -24, left: 8, color: "var(--orange)", fontWeight: 700, fontSize: 19, whiteSpace: "nowrap" }}
+                >
+                  your cap ₹{cost.budgetCapLakhs}L
+                </span>
+              </div>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", marginTop: 44 }}>
+              <span className="small">₹0</span>
+              <span className="title" style={{ fontSize: 24 }}>
+                est. ₹{cost.estimateLakhs}L all-in / yr
+              </span>
+              <span className="small">₹{cost.axisMaxLakhs}L</span>
+            </div>
+            <div className="card-tint" style={{ padding: 22, marginTop: 26 }}>
+              <div className="small" style={{ fontSize: 23 }}>
+                💡 Scholarships worth up to <b style={{ color: "var(--green-d)" }}>₹{cost.scholarshipLakhs}L</b>{" "}
+                available — we&apos;ll include them in your kit.
+              </div>
+            </div>
+          </div>
+
+          <div style={{ display: "flex", gap: 16 }}>
+            <button
+              type="button"
+              className={`btn btn-lg ${shortlisted ? "btn-green" : "btn-outline"}`}
+              style={{ flex: 1 }}
+              onClick={onToggleShortlist}
+            >
+              {shortlisted ? "Shortlisted" : "♡ Shortlist"}
+            </button>
+            <button type="button" className="btn btn-ghost btn-lg" style={{ flex: 1 }} onClick={onOpenDocuments}>
+              View documents
+            </button>
+            <button type="button" className="btn btn-blue btn-lg" style={{ flex: 1.6 }} onClick={onOpenDocuments}>
+              Apply now →
+            </button>
+          </div>
+        </div>
+      </div>
+    </KioskFrame>
+  );
+}
+
+function DocumentsScreen({
+  profile,
+  shortlistIds,
+  recommendations,
+  handoffBusy,
+  onBack,
+  onSendKit,
+}: {
+  profile: KioskProfile;
+  shortlistIds: number[];
+  recommendations: KioskRecommendation[];
+  handoffBusy: boolean;
+  onBack: () => void;
+  onSendKit: () => void;
+}) {
+  const shortlisted =
+    shortlistIds.length > 0
+      ? recommendations.filter((item) => shortlistIds.includes(item.id))
+      : recommendations.slice(0, 3);
+  const documents: KioskDocument[] = buildDocumentChecklist(profile);
+  const readyCount = documents.filter((doc) => doc.status === "ready").length;
+  const actionCount = documents.length - readyCount;
+  const sopProgram = shortlisted[0] ?? recommendations[0] ?? null;
+
+  return (
+    <KioskFrame label="SUB · SHORTLIST & DOCUMENTS">
+      <TopBar
+        small
+        right={
+          <button type="button" className="blue-text link-reset" style={{ fontWeight: 700, fontSize: 24 }} onClick={onBack}>
+            ← Back to results
+          </button>
+        }
+      />
+
+      <div style={{ flex: 1, display: "flex", gap: 44, padding: "4px 64px 44px", minHeight: 0, overflowY: "auto" }}>
+        <div style={{ flex: "1 1 56%", display: "flex", flexDirection: "column" }}>
+          <div className="h1" style={{ fontSize: 48 }}>Your shortlist &amp; documents</div>
+
+          <div className="eyebrow" style={{ margin: "26px 0 14px" }}>
+            ♡ {shortlisted.length} shortlisted program{shortlisted.length === 1 ? "" : "s"}
+          </div>
+          <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+            {shortlisted.map((item) => (
+              <div key={item.id} className="card" style={{ flex: 1, minWidth: 220, padding: 20, display: "flex", alignItems: "center", gap: 14 }}>
+                <div className="uni-logo">▲</div>
+                <div>
+                  <div className="title" style={{ fontSize: 23 }}>{item.university}</div>
+                  <div className="status status-green" style={{ fontSize: 19 }}>
+                    <span className="dot dot-green" />
+                    {item.score}%
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="eyebrow" style={{ margin: "28px 0 14px" }}>
+            {readyCount} documents ready{actionCount > 0 ? ` · ${actionCount} needs you` : ""}
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, flex: 1 }}>
+            {documents.map((doc) => {
+              const ok = doc.status === "ready";
+              return (
+                <div
+                  key={doc.id}
+                  className="card"
+                  style={{ padding: "18px 24px", display: "grid", gridTemplateColumns: "52px 1fr auto auto", alignItems: "center", gap: 18 }}
+                >
+                  <div
+                    style={{
+                      width: 52,
+                      height: 52,
+                      borderRadius: 12,
+                      background: ok ? "var(--blue-tint)" : "var(--orange-tint)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      color: ok ? "var(--blue)" : "var(--orange)",
+                      fontWeight: 800,
+                      fontSize: 20,
+                    }}
+                  >
+                    PDF
+                  </div>
+                  <div>
+                    <div className="title" style={{ fontSize: 26 }}>{doc.title}</div>
+                    <div className="small" style={{ fontSize: 20 }}>{doc.subtitle}</div>
+                  </div>
+                  <span
+                    className="chip"
+                    style={{
+                      background: ok ? "var(--green-tint)" : "var(--orange-tint)",
+                      color: ok ? "var(--green-d)" : "var(--orange)",
+                      borderColor: "transparent",
+                      fontSize: 19,
+                    }}
+                  >
+                    <span className="dot" style={{ background: ok ? "var(--green)" : "var(--orange)" }} />
+                    {ok ? "Ready" : "Action needed"}
+                  </span>
+                  <span className="blue-text" style={{ fontWeight: 700, fontSize: 22 }}>
+                    {ok ? "Open" : "Upload"} ›
+                  </span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div style={{ flex: "1 1 44%", display: "flex", flexDirection: "column" }}>
+          <div className="body" style={{ fontSize: 27, color: "var(--ink-2)", marginTop: 8 }}>
+            Drafted by Cybrik AI. Tap any document to read, edit, or regenerate before sending.
+          </div>
+
+          <div className="card" style={{ padding: 30, marginTop: 24, background: "var(--bg-2)", flex: 1 }}>
+            <div className="eyebrow" style={{ marginBottom: 14 }}>Preview · SOP</div>
+            <div className="body" style={{ fontSize: 26, lineHeight: 1.55, color: "var(--ink-2)" }}>
+              {sopProgram ? buildSopPreview(profile, sopProgram) : "Build a profile and pick a program to preview your SOP."}
+            </div>
+            <div style={{ display: "flex", gap: 14, marginTop: 26, flexWrap: "wrap" }}>
+              <button type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>↻ Regenerate</button>
+              <button type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>✎ Edit tone</button>
+              <button type="button" className="btn btn-outline" style={{ fontSize: 23, padding: "16px 24px" }}>Open full document</button>
+            </div>
+          </div>
+
+          <div style={{ display: "flex", gap: 16, marginTop: 24 }}>
+            <button type="button" className="btn btn-outline btn-lg" style={{ flex: 1 }}>↑ Upload transcript</button>
+            <button
+              type="button"
+              className="btn btn-green btn-lg"
+              style={{ flex: 1.4 }}
+              disabled={handoffBusy}
+              onClick={onSendKit}
+            >
+              {handoffBusy ? "Preparing handoff..." : "Send all to WhatsApp →"}
+            </button>
+          </div>
+        </div>
+      </div>
+    </KioskFrame>
   );
 }
 
