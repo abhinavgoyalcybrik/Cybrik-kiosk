@@ -9,8 +9,7 @@
     {
       "program_course_name": "Bachelor of Applied Arts (BAA) Digital Media - Level 7",
       "course_level": "Bachelor",
-      "campus_location": null,
-      "cricos_code": null,
+      "campus_location": "Auckland",
       "intakes": [
         "February",
         "July"
@@ -46,8 +45,7 @@
     {
       "program_course_name": "Bachelor of Applied Arts (Film Production) - Level 7",
       "course_level": "Bachelor",
-      "campus_location": null,
-      "cricos_code": null,
+      "campus_location": "Auckland",
       "intakes": [
         "February",
         "July"
@@ -81,8 +79,7 @@
     {
       "program_course_name": "Bachelor of Applied Management (BAM) - Level 7",
       "course_level": "Bachelor",
-      "campus_location": null,
-      "cricos_code": null,
+      "campus_location": "Auckland",
       "intakes": [
         "February",
         "July"
