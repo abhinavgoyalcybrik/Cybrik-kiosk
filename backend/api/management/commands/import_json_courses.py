@@ -131,11 +131,7 @@ class Command(BaseCommand):
                     self.stdout.write(f'  University exists: {university_name}')
 
                 with transaction.atomic():
-                    existing_courses = Course.objects.filter(university=university)
-                    deleted_courses = existing_courses.count()
-                    if deleted_courses:
-                        existing_courses.delete()
-                        self.stdout.write(f'  Removed {deleted_courses} old course(s) for {university_name}')
+                    seen_course_ids = set()
 
                     # Import courses
                     for program in programs:
@@ -177,6 +173,7 @@ class Command(BaseCommand):
 
                             if course_created:
                                 course_count += 1
+                            seen_course_ids.add(course.id)
 
                             # Create or update course fee
                             CourseFee.objects.update_or_create(
@@ -248,7 +245,15 @@ class Command(BaseCommand):
                         except Exception as e:
                             self.stdout.write(self.style.WARNING(f'  ⊘ Error creating course "{title}": {str(e)}'))
                             continue
-                
+
+                    # Remove courses that are no longer present in the source JSON,
+                    # without touching rows that were matched above (preserves human_verified).
+                    stale_courses = Course.objects.filter(university=university).exclude(id__in=seen_course_ids)
+                    stale_count = stale_courses.count()
+                    if stale_count:
+                        stale_courses.delete()
+                        self.stdout.write(f'  Removed {stale_count} stale course(s) for {university_name}')
+
             except json.JSONDecodeError as e:
                 self.stdout.write(self.style.ERROR(f'✗ Invalid JSON in {json_file.name}: {str(e)}'))
             except Exception as e:

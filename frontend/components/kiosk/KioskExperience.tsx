@@ -311,6 +311,51 @@ export default function KioskExperience() {
   }, []);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("demo") !== "results") return;
+    fetch("/api/courses/")
+      .then((r) => r.json())
+      .then((data) => {
+        const courses = (data.courses ?? []) as Array<{
+          course_id: number;
+          title: string;
+          university: string | { name: string; country?: string; city?: string };
+          degree_level: string;
+          field_of_study: string;
+          tuition_fee: number | null;
+          tuition_currency: string;
+          duration_months: number | null;
+          intake_labels: string[];
+          ielts_overall: number | null;
+          course_url: string;
+        }>;
+        const recs: KioskRecommendation[] = courses.map((c) => ({
+          id: c.course_id,
+          title: c.title,
+          university: typeof c.university === "object" ? c.university.name : c.university,
+          logoUrl: null,
+          location: typeof c.university === "object" ? (c.university.city ?? "") : "",
+          country: typeof c.university === "object" ? (c.university.country ?? "") : "",
+          degreeLevel: c.degree_level,
+          fieldOfStudy: c.field_of_study,
+          tuitionLabel: c.tuition_fee ? `${c.tuition_currency ?? "AUD"} ${c.tuition_fee.toLocaleString()}` : "TBC",
+          tuitionValue: c.tuition_fee,
+          duration: c.duration_months ? `${c.duration_months} months` : "TBC",
+          intakeLabel: (c.intake_labels ?? []).join(", ") || "TBC",
+          intakeList: c.intake_labels ?? [],
+          ielts: c.ielts_overall ? `${c.ielts_overall}` : "TBC",
+          score: 80,
+          successLabel: "High",
+          reasons: [],
+        }));
+        setBundle({ source: "live_catalog", totalPrograms: recs.length, profileSignalChips: [], recommendations: recs });
+        setScreen("results");
+      })
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
     if (!session && !resetAt) {
       return;
     }

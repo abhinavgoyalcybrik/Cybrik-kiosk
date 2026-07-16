@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-16T05:54:13.163975Z",
+    "university_name": "Coventry University",
+    "source": "https://www.coventry.ac.uk/",
+    "total_programs": 3
+  },
+  "programs": [
+    {
+      "program_course_name": "Cloud Computing",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "CU London"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 38400.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 79,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.0",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": true,
+      "waiver_conditions": "English language proficiency test results may be waived if the student has completed a degree in English from a recognized institution.",
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": false,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": "Please attach a copy of your passport and proof of financial support."
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": true,
+      "source_reference": {
+        "primary_source": "https://www.coventry.ac.uk/cul/course-structure/undergraduate/cloud-computing-bsc-hons",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "MBA Master of Business Administration",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Coventry University"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "3 years full-time",
+      "annual_tuition_fee": {
+        "amount": 34500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "Minimum GPA of 3.0",
+        "Completion of overseas high school/bachelor equivalent"
+      ],
+      "work_experience_required": true,
+      "min_work_experience_months": null,
+      "english_waiver_available": false,
+      "waiver_conditions": null,
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": true,
+        "number_of_lors": 2,
+        "resume_required": true,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": null
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.coventry.ac.uk/course-structure/pg/cbl/masters-in-business-administration",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    },
+    {
+      "program_course_name": "Master in Management (MiM)",
+      "course_level": "Postgraduate",
+      "campus_location": [
+        "Coventry University"
+      ],
+      "cricos_code": null,
+      "intakes": [
+        "February",
+        "July"
+      ],
+      "course_duration": "1 year full-time",
+      "annual_tuition_fee": {
+        "amount": 21500.0,
+        "currency": "AUD",
+        "period": "per year"
+      },
+      "accepted_english_language_tests": [
+        "IELTS",
+        "TOEFL",
+        "PTE"
+      ],
+      "minimum_english_language_score_requirements": {
+        "IELTS": 6.5,
+        "TOEFL": 88,
+        "PTE": 58
+      },
+      "academic_requirements": [
+        "A bachelor degree with a minimum GPA of 3.0 or equivalent",
+        "A completed overseas high school/bachelor equivalent"
+      ],
+      "work_experience_required": false,
+      "min_work_experience_months": null,
+      "english_waiver_available": true,
+      "waiver_conditions": "English language proficiency test results may be waived for students who have studied in English for at least two years.",
+      "document_requirements": {
+        "sop_required": true,
+        "lor_required": false,
+        "number_of_lors": null,
+        "resume_required": false,
+        "portfolio_required": false,
+        "gre_required": false,
+        "gmat_required": false,
+        "passport_required": true,
+        "financial_documents_required": true,
+        "document_notes": ""
+      },
+      "available_scholarships": true,
+      "internship_work_placement_opportunities": false,
+      "source_reference": {
+        "primary_source": "https://www.coventry.ac.uk/course-structure/pg/cbl/master-in-management-mim",
+        "pdf_sources": []
+      },
+      "confidence_score": 1.0,
+      "extraction_method": "ollama"
+    }
+  ]
+}

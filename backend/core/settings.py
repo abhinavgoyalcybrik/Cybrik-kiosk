@@ -23,8 +23,12 @@ ALLOWED_HOSTS = [
     "10.213.179.88",
     "192.168.1.96",
     "magical-advertising-genealogy-sci.trycloudflare.com",
+<<<<<<< HEAD
     "192.168.1.105",
     "unexpired-bronzing-shredding.ngrok-free.dev"
+=======
+    "192.168.1.119"
+>>>>>>> c75dc4b (WIP: local changes)
 ]
 
 INSTALLED_APPS = [
@@ -56,7 +60,11 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:3000',
     'https://nimbly-acuteness-zips.ngrok-free.dev',
     'http://10.213.179.88',
+<<<<<<< HEAD
     'http://192.168.1.105'
+=======
+    'http://192.168.1.119'
+>>>>>>> c75dc4b (WIP: local changes)
 ]
 
 CSRF_TRUSTED_ORIGINS = [
