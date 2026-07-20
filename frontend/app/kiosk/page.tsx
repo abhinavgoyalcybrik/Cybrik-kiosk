@@ -1,9 +1,5 @@
-import KioskExperience from "@/components/kiosk/KioskExperience";
+import { redirect } from "next/navigation";
 
 export default function KioskPage() {
-  return (
-    <main className="kiosk-page">
-      <KioskExperience />
-    </main>
-  );
+  redirect("/");
 }

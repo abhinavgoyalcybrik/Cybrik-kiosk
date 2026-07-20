@@ -1,5 +1,5 @@
-import { PortalExperience } from "@/components/signal/PortalExperience";
+import { redirect } from "next/navigation";
 
 export default function PortalPage() {
-  return <PortalExperience />;
+  redirect("/");
 }

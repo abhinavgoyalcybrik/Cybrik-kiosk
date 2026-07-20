@@ -1,5 +1,5 @@
-import { SignalLaunch } from "@/components/signal/SignalLaunch";
+import KioskExperience from "@/components/kiosk/KioskExperience";
 
 export default function HomePage() {
-  return <SignalLaunch />;
+  return <KioskExperience />;
 }

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { startTransition, useEffect, useEffectEvent, useMemo, useState } from "react";
 import { SourceBadge } from "@/components/signal/SourceBadge";
+import { PassportKioskExplorer } from "./PassportKioskExplorer";
 
 import {
   buildCostBreakdown,
@@ -204,7 +205,9 @@ function getExamChipLabel(profile: KioskProfile): string {
   return `${profile.englishExam} ${profile.englishScore || getNumericEnglishScore(profile).toFixed(1)}`;
 }
 
-export default function KioskExperience() {
+export default PassportKioskExplorer;
+
+export function LegacyKioskExperience() {
   const [screen, setScreen] = useState<KioskScreen>("attract");
   const [phoneInput, setPhoneInput] = useState("");
   const [otpInput, setOtpInput] = useState("");
