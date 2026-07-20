@@ -398,6 +398,8 @@ Expected: FAIL because drawer region does not expose `data-open` state.
 :root { --passport-ink:#171237; --passport-violet:#634CFF; --passport-lime:#C4FF4D; --passport-sky:#26B4F6; --passport-coral:#FF6D8F; --passport-mango:#FFE19B; --passport-canvas:#F7F6FF; }
 .passport-kiosk { min-height:100dvh; color:var(--passport-ink); background:var(--passport-canvas); }
 .passport-grid { display:grid; grid-template-columns:minmax(220px,.2fr) minmax(0,.56fr) minmax(240px,.24fr); gap:16px; }
+.signal-source { display:inline-flex; align-items:center; gap:7px; min-height:32px; padding:7px 10px; border:1px solid #d9d4f7; border-radius:999px; color:#554e81; background:#fff; font:700 .65rem/1 var(--font-kiosk-mono),monospace; }
+.signal-source-dot { width:7px; height:7px; border-radius:50%; background:var(--passport-lime); }.signal-source.is-demo .signal-source-dot { background:var(--passport-violet); }
 .university-ticket { display:grid; grid-template-columns:8px 1fr auto; border-radius:16px; background:#fff; }
 .university-ticket::before { content:""; grid-row:1/-1; background:var(--ticket-tone); border-radius:16px 0 0 16px; }
 .tone-canada { --ticket-tone:var(--passport-violet); }.tone-australia { --ticket-tone:var(--passport-sky); }.tone-united-kingdom { --ticket-tone:var(--passport-coral); }
