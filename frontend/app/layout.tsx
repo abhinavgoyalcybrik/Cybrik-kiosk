@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import "./passport-kiosk.css";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-kiosk-sans",

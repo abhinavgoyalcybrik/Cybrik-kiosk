@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { startTransition, useEffect, useEffectEvent, useMemo, useState } from "react";
+import { SourceBadge } from "@/components/signal/SourceBadge";
+import { PassportKioskExplorer } from "./PassportKioskExplorer";
 
 import {
   buildCostBreakdown,
@@ -203,7 +205,9 @@ function getExamChipLabel(profile: KioskProfile): string {
   return `${profile.englishExam} ${profile.englishScore || getNumericEnglishScore(profile).toFixed(1)}`;
 }
 
-export default function KioskExperience() {
+export default PassportKioskExplorer;
+
+export function LegacyKioskExperience() {
   const [screen, setScreen] = useState<KioskScreen>("attract");
   const [phoneInput, setPhoneInput] = useState("");
   const [otpInput, setOtpInput] = useState("");
@@ -703,7 +707,7 @@ export default function KioskExperience() {
       setResetAt(Date.now() + AUTO_RESET_MS);
       setFlashMessage({
         tone: "success",
-        text: "WhatsApp handoff queued. The kiosk will reset automatically.",
+        text: "Handoff preview prepared. This kiosk demo does not send WhatsApp.",
       });
     } catch (error) {
       setFlashMessage({
@@ -803,6 +807,7 @@ export default function KioskExperience() {
 
           {screen === "results" && bundle ? (
             <ResultsScreen
+              source={bundle.source}
               profile={profile}
               profileCompletion={profileCompletion}
               totalPrograms={bundle.totalPrograms}
@@ -1689,12 +1694,14 @@ function ProfileScreen({
                 </div>
                 <div className="k-formstack">
                   <input
+                    aria-label="Student full name"
                     className="k-input"
                     value={profile.fullName}
                     onChange={(event) => onChange("fullName", event.target.value)}
                     placeholder="Student full name"
                   />
                   <input
+                    aria-label="Student email address"
                     className="k-input"
                     value={profile.email}
                     onChange={(event) => onChange("email", event.target.value)}
@@ -1710,6 +1717,7 @@ function ProfileScreen({
                 </div>
                 <div className="k-formstack">
                   <select
+                    aria-label="Preferred intake season"
                     className="k-input"
                     value={profile.intakeSeason}
                     onChange={(event) => onChange("intakeSeason", event.target.value)}
@@ -1721,6 +1729,7 @@ function ProfileScreen({
                     ))}
                   </select>
                   <select
+                    aria-label="Preferred intake year"
                     className="k-input"
                     value={profile.intakeYear}
                     onChange={(event) => onChange("intakeYear", event.target.value)}
@@ -1928,6 +1937,7 @@ function SliderField({
           />
         ) : null}
         <input
+          aria-label={label}
           type="range"
           className="k-slider"
           min={min}
@@ -2015,7 +2025,8 @@ function MatchingScreen({
   );
 }
 
-function ResultsScreen({
+export function ResultsScreen({
+  source,
   profile,
   profileCompletion,
   totalPrograms,
@@ -2034,6 +2045,7 @@ function ResultsScreen({
   onOpenDetail,
   onOpenDocuments,
 }: {
+  source: "live_catalog" | "demo_catalog";
   profile: KioskProfile;
   profileCompletion: number;
   totalPrograms: number;
@@ -2068,10 +2080,7 @@ function ResultsScreen({
         tag="AI Admission Assistant"
         right={
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div className="k-pill-ghost">
-              <span className="dot dot-green" />
-              Live updates
-            </div>
+            <SourceBadge source={source} />
             <div className="status status-green" style={{ fontSize: 24 }}>
               Profile {profileCompletion}%
             </div>
@@ -2191,7 +2200,7 @@ function ResultsScreen({
               style={{ color: "rgba(255,255,255,0.7)", fontSize: 21, marginTop: 2, textDecoration: "underline" }}
               onClick={onOpenDocuments}
             >
-              6 documents ready · review →
+              6 document previews · review →
             </button>
             <button
               type="button"
@@ -2200,7 +2209,7 @@ function ResultsScreen({
               disabled={handoffBusy}
               onClick={onSendKit}
             >
-              {handoffBusy ? "Preparing handoff..." : "Send kit to WhatsApp →"}
+              {handoffBusy ? "Preparing preview..." : "Prepare handoff preview →"}
             </button>
           </div>
         </div>
@@ -2702,7 +2711,7 @@ function DocumentsScreen({
 
         <div style={{ flex: "1 1 44%", display: "flex", flexDirection: "column" }}>
           <div className="body" style={{ fontSize: 27, color: "var(--ink-2)", marginTop: 8 }}>
-            Drafted by Cybrik AI. Tap any document to read, edit, or regenerate before sending.
+            Preview mode only. Document actions are not connected to uploads, generation, or delivery.
           </div>
 
           <div className="card" style={{ padding: 30, marginTop: 24, background: "var(--bg-2)", flex: 1 }}>
@@ -2711,14 +2720,14 @@ function DocumentsScreen({
               {sopProgram ? buildSopPreview(profile, sopProgram) : "Build a profile and pick a program to preview your SOP."}
             </div>
             <div style={{ display: "flex", gap: 14, marginTop: 26, flexWrap: "wrap" }}>
-              <button type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>↻ Regenerate</button>
-              <button type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>✎ Edit tone</button>
-              <button type="button" className="btn btn-outline" style={{ fontSize: 23, padding: "16px 24px" }}>Open full document</button>
+              <button disabled type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>Regenerate unavailable</button>
+              <button disabled type="button" className="btn btn-ghost" style={{ fontSize: 23, padding: "16px 24px" }}>Edit unavailable</button>
+              <button disabled type="button" className="btn btn-outline" style={{ fontSize: 23, padding: "16px 24px" }}>Preview only</button>
             </div>
           </div>
 
           <div style={{ display: "flex", gap: 16, marginTop: 24 }}>
-            <button type="button" className="btn btn-outline btn-lg" style={{ flex: 1 }}>↑ Upload transcript</button>
+            <button disabled type="button" className="btn btn-outline btn-lg" style={{ flex: 1 }}>Upload unavailable</button>
             <button
               type="button"
               className="btn btn-green btn-lg"
@@ -2726,7 +2735,7 @@ function DocumentsScreen({
               disabled={handoffBusy}
               onClick={onSendKit}
             >
-              {handoffBusy ? "Preparing handoff..." : "Send all to WhatsApp →"}
+              {handoffBusy ? "Preparing preview..." : "Prepare handoff preview →"}
             </button>
           </div>
         </div>
@@ -2745,7 +2754,7 @@ function HandoffResultScreen({
   onDone: () => void;
 }) {
   return (
-    <KioskFrame label="06 · WHATSAPP HANDOFF">
+    <KioskFrame label="06 · HANDOFF PREVIEW">
       <TopBar />
 
       <div className="stage" style={{ gap: 100, alignItems: "center" }}>
@@ -2766,22 +2775,21 @@ function HandoffResultScreen({
             ✓
           </div>
           <div className="h1" style={{ marginTop: 30 }}>
-            Sent to your
+            Handoff preview
             <br />
-            WhatsApp!
+            prepared.
           </div>
           <div className="body" style={{ fontSize: 31, marginTop: 20, maxWidth: 620 }}>
-            Everything&apos;s on its way to{" "}
-            <b style={{ color: "var(--navy)" }}>{receipt.sentTo}</b>. A counsellor will call you
-            within {receipt.etaMinutes} minutes.
+            Your selected routes are staged for review at{" "}
+            <b style={{ color: "var(--navy)" }}>{receipt.sentTo}</b>. Nothing has been sent from this demo.
           </div>
 
           <div style={{ marginTop: 40, maxWidth: 620 }}>
             {[
-              ["Lead saved to partner CRM", 1],
-              ["Documents packaged", 1],
-              ["Delivered on WhatsApp", 1],
-              ["Counsellor notified", receipt.crmStatus === "sent" ? 1 : 0],
+              ["Route shortlist staged", 1],
+              ["Document preview prepared", 1],
+              ["WhatsApp delivery", 0],
+              ["Counsellor notification", 0],
             ].map(([text, done], index) => (
               <div
                 key={text}
@@ -2802,7 +2810,7 @@ function HandoffResultScreen({
                     color: done ? "var(--green-d)" : "var(--blue)",
                   }}
                 >
-                  {done ? "✓ done" : "◌ sending…"}
+                  {done ? "✓ preview" : "not sent"}
                 </span>
               </div>
             ))}
@@ -2857,16 +2865,16 @@ function HandoffResultScreen({
                 </div>
                 <div className="status status-green" style={{ fontSize: 19 }}>
                   <span className="dot dot-green" />
-                  online
+                  preview
                 </div>
               </div>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 14, marginTop: 20 }}>
               {[
-                `Hi 👋 Here are your ${receipt.deliveredPrograms} program matches.`,
-                "📎 cybrik-matches.pdf",
-                `📎 ${receipt.deliveredDocuments.join(", ")}`,
-                "Reply YES to begin your applications.",
+                `Preview includes ${receipt.deliveredPrograms} program matches.`,
+                "Document package is illustrative only.",
+                `Planned assets: ${receipt.deliveredDocuments.join(", ")}`,
+                "Live delivery needs a connected advisor handoff.",
               ].map((message) => (
                 <div
                   key={message}
@@ -2892,4 +2900,3 @@ function HandoffResultScreen({
     </KioskFrame>
   );
 }
-
