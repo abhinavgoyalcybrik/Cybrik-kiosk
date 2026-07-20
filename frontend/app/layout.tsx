@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import "./signal.css";
+import "./passport-kiosk.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-kiosk-sans",

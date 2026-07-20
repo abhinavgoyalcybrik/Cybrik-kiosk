@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   completeKioskHandoff,
   getKioskDeviceId,
@@ -10,33 +10,19 @@ import {
 import type { KioskRecommendation, KioskSessionState } from "@/lib/kiosk/types";
 
 type HandoffOverlayProps = {
-  open: boolean;
   programs: KioskRecommendation[];
   onClose: () => void;
 };
 
 type HandoffStep = "phone" | "otp" | "complete";
 
-export function HandoffOverlay({ open, programs, onClose }: HandoffOverlayProps) {
+export function HandoffOverlay({ programs, onClose }: HandoffOverlayProps) {
   const [step, setStep] = useState<HandoffStep>("phone");
   const [phone, setPhone] = useState("");
   const [otp, setOtp] = useState("");
   const [session, setSession] = useState<KioskSessionState | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-
-  useEffect(() => {
-    if (!open) {
-      setStep("phone");
-      setPhone("");
-      setOtp("");
-      setSession(null);
-      setBusy(false);
-      setError("");
-    }
-  }, [open]);
-
-  if (!open) return null;
 
   const submitPhone = async () => {
     if (phone.length !== 10) {

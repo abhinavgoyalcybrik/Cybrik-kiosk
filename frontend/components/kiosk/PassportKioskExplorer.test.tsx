@@ -63,6 +63,13 @@ it("opens preferences and updates document context for selected program", async 
   await user.click(screen.getByRole("button", { name: /open preferences/i }));
   expect(preferences).toHaveAttribute("data-open", "true");
 
+  const documents = screen.getByRole("region", { name: "Required documents" });
+  expect(documents).toHaveAttribute("data-open", "true");
+  await user.click(screen.getByRole("button", { name: /close required documents/i }));
+  expect(documents).toHaveAttribute("data-open", "false");
+  await user.click(screen.getByRole("button", { name: /open required documents/i }));
+  expect(documents).toHaveAttribute("data-open", "true");
+
   await user.click(screen.getByRole("button", { name: /select msc ai/i }));
   expect(screen.getByText("Minimum English score")).toBeVisible();
   expect(screen.getByText("6.5 overall")).toBeVisible();

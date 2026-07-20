@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { SourceBadge } from "@/components/signal/SourceBadge";
 import { loadPublicKioskRecommendations } from "@/lib/kiosk/service";
 import {
@@ -67,11 +68,27 @@ export function PassportKioskExplorer() {
   }, []);
 
   useEffect(() => {
-    void loadRecommendations(INITIAL_KIOSK_PROFILE);
+    const activeRequest = requestId.current + 1;
+    requestId.current = activeRequest;
+
+    void loadPublicKioskRecommendations(INITIAL_KIOSK_PROFILE)
+      .then((nextBundle) => {
+        if (requestId.current !== activeRequest) return;
+        setBundle(nextBundle);
+        setSelectedId(nextBundle.recommendations[0]?.id ?? null);
+      })
+      .catch((reason) => {
+        if (requestId.current !== activeRequest) return;
+        setError(reason instanceof Error ? reason.message : "Could not load university matches.");
+      })
+      .finally(() => {
+        if (requestId.current === activeRequest) setLoading(false);
+      });
+
     return () => {
-      requestId.current += 1;
+      if (requestId.current === activeRequest) requestId.current += 1;
     };
-  }, [loadRecommendations]);
+  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined" || !window.matchMedia) return;
@@ -119,10 +136,10 @@ export function PassportKioskExplorer() {
   return (
     <main className="passport-kiosk">
       <header className="passport-topbar">
-        <a className="passport-brand" href="/">
+        <Link className="passport-brand" href="/">
           <span aria-hidden="true">✦</span>
           <span><strong>SIGNAL STUDIO</strong><small>STUDENT KIOSK</small></span>
-        </a>
+        </Link>
         <div className="passport-topbar-actions">
           {bundle ? <SourceBadge source={bundle.source} /> : <span className="passport-loading-badge">Loading catalog</span>}
           <button className="passport-reset-button" onClick={resetExplorer} type="button">Reset</button>
@@ -195,7 +212,9 @@ export function PassportKioskExplorer() {
         />
       </div>
 
-      <HandoffOverlay onClose={() => setHandoffOpen(false)} open={handoffOpen} programs={selectedPrograms} />
+      {handoffOpen ? (
+        <HandoffOverlay onClose={() => setHandoffOpen(false)} programs={selectedPrograms} />
+      ) : null}
     </main>
   );
 }
