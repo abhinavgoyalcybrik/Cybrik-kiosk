@@ -1,6 +1,10 @@
+import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  turbopack: {
+    root: path.join(__dirname),
+  },
   allowedDevOrigins: ["shona-unwitty-stanley.ngrok-free.dev"],
   images: {
     remotePatterns: [
@@ -34,7 +38,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://127.0.0.1:8000/api/:path*/",
+        destination: "http://127.0.0.1:8003/api/:path*/",
       },
     ];
   },

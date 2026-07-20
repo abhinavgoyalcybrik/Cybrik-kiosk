@@ -876,7 +876,14 @@ function KioskFrame({
   bg?: string;
 }) {
   return (
-    <div className="kiosk" style={{ background: bg || "var(--bg)" }}>
+    <div
+      className="kiosk"
+      style={{
+        background:
+          bg ||
+          "linear-gradient(135deg, rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.22)), linear-gradient(135deg, #f9fbff 0%, #eef5ff 50%, #fff7f0 100%)",
+      }}
+    >
       {children}
       <div className="k-screenlabel">{label}</div>
       <div className="k-home" />
@@ -907,7 +914,10 @@ function TopBar({
         {tag ? (
           <div
             className="k-brandtag"
-            style={{ borderLeft: "2px solid var(--line)", paddingLeft: 20 }}
+            style={{
+              borderLeft: "2px solid rgba(17, 24, 51, 0.14)",
+              paddingLeft: 20,
+            }}
           >
             {tag}
           </div>
@@ -1030,7 +1040,7 @@ function IdleScreen({ onStart }: { onStart: () => void }) {
   return (
     <KioskFrame
       label="01 · IDLE / ATTRACT"
-      bg="linear-gradient(135deg, #eef3fb 0%, #e9eff9 52%, #edf2fa 100%)"
+      bg="linear-gradient(135deg, rgba(255, 255, 255, 0.76) 0%, rgba(236, 242, 255, 0.9) 52%, rgba(255, 242, 230, 0.92) 100%)"
     >
       <div className="hero-screen">
         <div className="hero-frame-bar">
@@ -1197,6 +1207,7 @@ function HeroMatchCard({
         gap: 14,
         alignItems: "center",
         boxShadow: "var(--shadow-lg)",
+        borderRadius: 24,
       }}
     >
       <div className="uni-logo hero-match-logo">▲</div>
@@ -1367,8 +1378,8 @@ function OtpScreen({
             style={{
               marginTop: 40,
               padding: 26,
-              background: "#F0F8EE",
-              borderColor: "#CDE8C2",
+              background: "linear-gradient(135deg, rgba(22, 204, 138, 0.12), rgba(91, 124, 250, 0.08))",
+              borderColor: "rgba(22, 204, 138, 0.2)",
             }}
           >
             <div style={{ display: "flex", gap: 16, alignItems: "flex-start" }}>
