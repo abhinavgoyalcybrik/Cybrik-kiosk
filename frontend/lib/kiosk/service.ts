@@ -527,6 +527,40 @@ export function primeKioskCatalog(): void {
   void loadCatalog();
 }
 
+async function buildRecommendationBundle(
+  profile: KioskProfile
+): Promise<KioskRecommendationBundle> {
+  const catalog = await loadCatalog();
+  const mappedProfile = toRecommendationProfile(profile);
+  const ranked = buildShortlistCards(catalog.courses, mappedProfile, "");
+  const coursesById = new Map(
+    catalog.courses.map((course) => [course.course_id, course])
+  );
+
+  const recommendations =
+    ranked.courses.length > 0
+      ? ranked.courses.slice(0, 18).flatMap((card) => {
+          const sourceCourse = coursesById.get(card.id);
+          return sourceCourse
+            ? [buildRecommendationFromCard(card, sourceCourse, profile)]
+            : [];
+        })
+      : buildFallbackRecommendations(catalog.courses, profile);
+
+  return {
+    source: catalog.source,
+    totalPrograms: ranked.totalMatches > 0 ? ranked.totalMatches : recommendations.length,
+    profileSignalChips: buildProfileSignalChips(mappedProfile),
+    recommendations,
+  };
+}
+
+export async function loadPublicKioskRecommendations(
+  profile: KioskProfile
+): Promise<KioskRecommendationBundle> {
+  return buildRecommendationBundle(profile);
+}
+
 export function getKioskDeviceId(): string {
   return DEMO_DEVICE_ID;
 }
@@ -638,30 +672,7 @@ export async function loadKioskRecommendations(
 
   const record = assertSession(sessionId);
   record.profile = profile;
-
-  const catalog = await loadCatalog();
-  const mappedProfile = toRecommendationProfile(profile);
-  const ranked = buildShortlistCards(catalog.courses, mappedProfile, "");
-  const coursesById = new Map(
-    catalog.courses.map((course) => [course.course_id, course])
-  );
-
-  const recommendations =
-    ranked.courses.length > 0
-      ? ranked.courses.slice(0, 18).flatMap((card) => {
-          const sourceCourse = coursesById.get(card.id);
-          return sourceCourse
-            ? [buildRecommendationFromCard(card, sourceCourse, profile)]
-            : [];
-        })
-      : buildFallbackRecommendations(catalog.courses, profile);
-
-  return {
-    source: catalog.source,
-    totalPrograms: ranked.totalMatches > 0 ? ranked.totalMatches : recommendations.length,
-    profileSignalChips: buildProfileSignalChips(mappedProfile),
-    recommendations,
-  };
+  return buildRecommendationBundle(profile);
 }
 
 export async function completeKioskHandoff(
@@ -731,6 +742,22 @@ export function buildDocumentChecklist(profile: KioskProfile): KioskDocument[] {
     { id: "financial", title: "Financial letter", subtitle: "For visa & I-20 / CAS", status: "ready" },
     { id: "transcript", title: "Transcript", subtitle: "Upload from your college", status: "action_needed" },
   ];
+}
+
+export function getSelectedProgramRequirement(
+  recommendation: KioskRecommendation | null
+): { label: string; value: string } {
+  if (!recommendation) {
+    return {
+      label: "Select a program",
+      value: "Requirements shown from catalog when available",
+    };
+  }
+
+  return {
+    label: "Minimum English score",
+    value: recommendation.ielts,
+  };
 }
 
 export function buildSopPreview(profile: KioskProfile, recommendation: KioskRecommendation): string {
