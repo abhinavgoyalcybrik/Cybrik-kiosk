@@ -18,7 +18,7 @@
 .passport-kiosk {
   min-height: 100dvh;
   color: var(--passport-ink);
-  font-family: var(--font-kiosk-sans), "Plus Jakarta Sans", system-ui, sans-serif;
+  font-family: var(--font-kiosk-mono), "JetBrains Mono", monospace;
   background:
     radial-gradient(circle at 100% 0, #26b4f61a 0, transparent 24rem),
     radial-gradient(circle at 0 100%, #ff6d8f12 0, transparent 26rem),
