@@ -36,8 +36,14 @@ export default function RadialOrbitalTimeline({ timelineData, activeId, onSelect
         const Icon = item.icon;
         const isOpen = expanded === item.id;
         const isActive = activeId === item.id;
+        // Keep server and browser serialization byte-for-byte stable. Different
+        // JS engines can otherwise disagree in the final digit of trig results.
+        const nodeX = Math.cos(radian).toFixed(6);
+        const nodeY = Math.sin(radian).toFixed(6);
+        const nodeOpacity = (isOpen ? 1 : Math.max(.55, .78 + Math.sin(radian) * .2)).toFixed(6);
+        const nodeZIndex = String(isOpen ? 20 : Math.round(8 + Math.sin(radian) * 2));
         return (
-          <div className="radial-node-wrap" key={item.id} style={{ "--node-x": Math.cos(radian), "--node-y": Math.sin(radian), zIndex: isOpen ? 20 : Math.round(8 + Math.sin(radian) * 2), opacity: isOpen ? 1 : Math.max(.55, .78 + Math.sin(radian) * .2) } as React.CSSProperties}>
+          <div className="radial-node-wrap" key={item.id} style={{ "--node-x": nodeX, "--node-y": nodeY, zIndex: nodeZIndex, opacity: nodeOpacity } as React.CSSProperties}>
             <button className={`radial-node ${isActive ? "is-active" : ""}`} type="button" aria-expanded={isOpen} aria-label={`View ${item.title}`} onClick={(event) => { event.stopPropagation(); choose(item.id); }}><Icon size={17} /><span>{item.title}</span></button>
             {isOpen && <Card className="radial-detail" onClick={(event) => event.stopPropagation()}><CardHeader><div className="radial-detail-meta"><Badge variant={item.status === "completed" ? "default" : "secondary"}>{item.status.replace("-", " ")}</Badge><span>{item.date}</span></div><CardTitle>{item.title}</CardTitle></CardHeader><CardContent><p>{item.content}</p><div className="radial-energy"><span><Zap size={12} /> Profile fit</span><b>{item.energy}%</b><i><em style={{ width: `${item.energy}%` }} /></i></div>{item.relatedIds.length > 0 && <div className="radial-links"><span><Link2 size={12} /> Connected</span>{item.relatedIds.slice(0, 2).map((id) => { const related = timelineData.find((entry) => entry.id === id); return <Button key={id} variant="ghost" size="sm" onClick={() => choose(id)}>{related?.title}<ArrowRight size={12} /></Button>; })}</div>}</CardContent></Card>}
           </div>

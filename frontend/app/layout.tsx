@@ -23,6 +23,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={geist.variable}
+      data-scroll-behavior="smooth"
     >
       <body>{children}</body>
     </html>
