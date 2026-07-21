@@ -257,6 +257,7 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
           </i>
         </div>
         <div className="app-help">
+          {kiosk && <span className="kiosk-badge">43″ guided kiosk</span>}
           <span className="secure">
             <Shield size={16} /> Secure session
           </span>
