@@ -30,7 +30,14 @@ export default function SmoothScrollHero({
   const backgroundSize = useTransform(scrollYProgress, [0, 1], ["116%", "104%"]);
 
   return (
-    <div ref={rootRef} className={`smooth-hero-root${hasImage ? "" : " smooth-hero-static"}`} style={{ height: hasImage ? `calc(${scrollHeight}px + 100svh)` : "auto" }}>
+    <div
+      ref={rootRef}
+      className={`smooth-hero-root${hasImage ? "" : " smooth-hero-static"}`}
+      style={{
+        position: "relative",
+        height: hasImage ? `calc(${scrollHeight}px + 100svh)` : "auto",
+      }}
+    >
       <motion.div className="smooth-hero-sticky" style={{ clipPath: reduceMotion || !hasImage ? "none" : clipPath }}>
         {mobileImage && <motion.div className="smooth-hero-image smooth-hero-mobile" style={{ backgroundImage: `url(${mobileImage})`, backgroundSize: reduceMotion ? "cover" : backgroundSize }} />}
         {desktopImage && <motion.div className="smooth-hero-image smooth-hero-desktop" style={{ backgroundImage: `url(${desktopImage})`, backgroundSize: reduceMotion ? "cover" : backgroundSize }} />}
