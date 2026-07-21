@@ -31,9 +31,9 @@ export function LandingPage() {
             </div>
 
             <div className="hero-intelligence" data-hero-sequence data-visible="true" data-craft-reactive aria-label="Personalized study planning preview">
-              <div className="hero-photo-row" data-hero-item style={{ "--hero-delay": "0ms" } as React.CSSProperties}>
-                <div className="college-image-card"><Image src="/student-campus-1.webp" alt="Students discussing university plans on campus" fill priority loading="eager" sizes="(max-width: 820px) 42vw, 210px" /><span>Campus life</span></div>
-                <div className="college-image-card secondary"><Image src="/student-campus-2.webp" alt="International students connecting on campus" fill sizes="(max-width: 820px) 42vw, 210px" /><span>Global community</span></div>
+              <div className="hero-photo-row">
+                <div className="college-image-card" data-hero-item style={{ "--hero-delay": "0ms" } as React.CSSProperties}><Image src="/student-campus-1.webp" alt="Students discussing university plans on campus" fill priority loading="eager" sizes="(max-width: 560px) 50vw, 300px" /><span>Campus life</span></div>
+                <div className="college-image-card secondary" data-hero-item style={{ "--hero-delay": "80ms" } as React.CSSProperties}><Image src="/student-campus-2.webp" alt="International students connecting on campus" fill sizes="(max-width: 560px) 50vw, 300px" /><span>Global community</span></div>
               </div>
               <div className="hero-widget-grid">
                 <article className="hero-widget match-widget" data-hero-item style={{ "--hero-delay": "110ms" } as React.CSSProperties}><div className="widget-icon"><Graduation /></div><div><span>Personalized university matches</span><strong>98% match</strong><i className="hero-progress"><b style={{ "--progress": ".98" } as React.CSSProperties} /></i></div></article>
