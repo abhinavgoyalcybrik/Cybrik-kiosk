@@ -1,5 +1,6 @@
 .worktrees/
 .superpowers/
+.codex/
 
 # Python artifacts
 __pycache__/
