@@ -142,3 +142,30 @@ body{overflow-x:hidden}.smooth-hero-content,.smooth-hero-content .hero,.hero-cop
 .testimonial-rating{display:flex;align-items:center;gap:7px;margin-top:5px;line-height:1}
 .testimonial-card header .testimonial-rating>span{color:#ffc400;font-size:12px;letter-spacing:1px;overflow:visible;text-shadow:0 1px 3px rgba(255,196,0,.32)}
 .testimonial-rating b{color:#39496f;font-size:11px;font-weight:700;font-variant-numeric:tabular-nums}
+
+/* Flag-inspired destination themes */
+.destination-stage{--country-primary:#012169;--country-secondary:#c8102e;--country-accent:#fff;--country-surface:#edf3ff;--country-surface-alt:#fff1f3;--country-border:#b8c9e8;--country-text:#101d45;--country-muted:#53617d;--country-chip:#dce7fb}
+.theme-australia{--country-primary:#012169;--country-secondary:#c8102e;--country-accent:#fff;--country-surface:#edf3ff;--country-surface-alt:#fff1f3;--country-border:#b8c9e8;--country-chip:#dce7fb}
+.theme-canada{--country-primary:#c90024;--country-secondary:#fff;--country-accent:#a4001d;--country-surface:#fff0f2;--country-surface-alt:#fff;--country-border:#f0b6c0;--country-chip:#ffe0e5}
+.theme-united-kingdom{--country-primary:#012169;--country-secondary:#c8102e;--country-accent:#fff;--country-surface:#edf2ff;--country-surface-alt:#fff0f2;--country-border:#b7c7e7;--country-chip:#dce7fb}
+.theme-germany{--country-primary:#181818;--country-secondary:#dd0000;--country-accent:#ffcc00;--country-surface:#fff8da;--country-surface-alt:#fff0f0;--country-border:#e5c85b;--country-chip:#ffedaa}
+.theme-france{--country-primary:#002395;--country-secondary:#ed2939;--country-accent:#fff;--country-surface:#eef2ff;--country-surface-alt:#fff1f2;--country-border:#bdc9ec;--country-chip:#dfe7ff}
+.theme-ireland{--country-primary:#087f4f;--country-secondary:#ff883e;--country-accent:#fff;--country-surface:#ecf9f2;--country-surface-alt:#fff3e9;--country-border:#b7dec9;--country-chip:#d8f1e3}
+.theme-new-zealand{--country-primary:#00247d;--country-secondary:#cc142b;--country-accent:#fff;--country-surface:#edf2ff;--country-surface-alt:#fff0f2;--country-border:#b8c7e8;--country-chip:#dce6fb}
+.destination-stage .country-main{overflow:hidden;color:var(--country-text);background:linear-gradient(145deg,var(--country-surface) 0%,#fff 54%,var(--country-surface-alt) 100%);border-color:var(--country-border);box-shadow:0 26px 65px rgba(24,47,105,.16),inset 0 1px rgba(255,255,255,.85)}
+.destination-stage .country-main:after{content:"";position:absolute;inset:0 0 auto;height:6px;background:linear-gradient(90deg,var(--country-primary) 0 34%,var(--country-accent) 34% 66%,var(--country-secondary) 66% 100%);box-shadow:0 1px 5px rgba(17,29,70,.1)}
+.destination-stage .country-main>svg{box-sizing:content-box;width:25px;height:25px;margin-bottom:22px;padding:9px;color:var(--country-primary);background:var(--country-chip);border:1px solid var(--country-border);border-radius:12px}
+.destination-stage .country-main>span{color:var(--country-primary)}
+.destination-stage .country-main>strong{color:var(--country-text)}
+.destination-stage .country-main>small{color:var(--country-muted)}
+.destination-stage .city-pills b{color:var(--country-primary);background:var(--country-chip);border:1px solid var(--country-border)}
+.destination-stage .city-pills b:hover{color:#fff;background:var(--country-primary);border-color:var(--country-primary)}
+.destination-stage .floating-card{background:linear-gradient(145deg,#fff,var(--country-surface));border-color:var(--country-border)}
+.destination-stage .floating-card span{color:var(--country-primary)}
+.destination-stage .floating-card.scholarship{border-top-color:var(--country-secondary)}
+.destination-stage .floating-card.deadline{border-top-color:var(--country-primary)}
+.destination-stage .radial-ring{border-color:var(--country-border);box-shadow:inset 0 0 60px var(--country-surface)}
+.destination-stage .radial-core{background:linear-gradient(145deg,var(--country-primary),var(--country-secondary));box-shadow:0 0 0 9px var(--country-surface),0 12px 30px rgba(24,47,105,.22)}
+.destination-stage .radial-node{color:var(--country-primary);border-color:var(--country-border)}
+.destination-stage .radial-node:hover,.destination-stage .radial-node:focus-visible,.destination-stage .radial-node.is-active{color:#fff;background:var(--country-primary);border-color:var(--country-primary)}
+.destination-stage .radial-energy em{background:linear-gradient(90deg,var(--country-primary),var(--country-secondary))}
