@@ -108,3 +108,6 @@ body{overflow-x:hidden}.smooth-hero-content,.smooth-hero-content .hero,.hero-cop
 @media (max-width:680px){.footer-main{padding:58px 20px 44px;grid-template-columns:1fr 1fr;gap:38px 26px}.footer-brand,.footer-social{grid-column:1/-1}.footer-brand{max-width:100%}.footer-bottom{margin:0 20px;padding-left:0;padding-right:0;align-items:flex-start;flex-direction:column}.footer-bottom>div{flex-wrap:wrap;gap:12px 20px}.footer-social a{width:48px;height:48px}}
 @media (max-width:420px){.footer-main{grid-template-columns:1fr}.footer-brand,.footer-social{grid-column:auto}.footer-column>strong,.footer-social>strong{margin-bottom:10px}.footer-column>a{padding:6px 0}}
 @media (prefers-reduced-motion:reduce){.footer-social a,.footer-column>a,.footer-cta{transition:none}.footer-social a:hover,.footer-column>a:hover{transform:none}}
+
+/* Closing CTA contrast safeguard */
+.closing-cta>p{color:#f1f5ff;font-size:17px}.closing-cta .kicker.light{color:#d8ffc2}.closing-cta .button.button-light{background:#fff;color:#183b9f;border:1px solid rgba(255,255,255,.85);box-shadow:0 14px 34px rgba(4,18,61,.24);font-size:16px}.closing-cta .button.button-light:hover{background:#eaf8e3;color:#102c7f;box-shadow:0 18px 42px rgba(4,18,61,.3)}.closing-cta .button.button-light:focus-visible{outline:3px solid #d8ffc2;outline-offset:4px}
