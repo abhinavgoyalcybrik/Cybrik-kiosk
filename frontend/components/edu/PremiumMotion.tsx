@@ -14,6 +14,7 @@ export function PremiumMotion() {
     if (typeof IntersectionObserver === "undefined") {
       reveals.forEach((element) => element.setAttribute("data-visible", "true"));
       heroSequence?.setAttribute("data-visible", "true");
+      document.documentElement.setAttribute("data-motion-ready", "true");
       return;
     }
     const observer = new IntersectionObserver((entries) => {
@@ -26,6 +27,7 @@ export function PremiumMotion() {
     }, { threshold: 0.14, rootMargin: "0px 0px -6%" });
     reveals.forEach((element) => observer.observe(element));
     if (heroSequence) observer.observe(heroSequence);
+    document.documentElement.setAttribute("data-motion-ready", "true");
 
     if (reduced || !finePointer) return () => observer.disconnect();
 

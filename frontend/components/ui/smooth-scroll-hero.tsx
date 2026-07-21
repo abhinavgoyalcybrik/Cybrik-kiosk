@@ -21,6 +21,7 @@ export default function SmoothScrollHero({
   children,
 }: SmoothScrollHeroProps) {
   const rootRef = React.useRef<HTMLDivElement>(null);
+  const hasImage = Boolean(desktopImage || mobileImage);
   const reduceMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: rootRef, offset: ["start start", "end end"] });
   const clipStart = useTransform(scrollYProgress, [0, 1], [initialClipPercentage, 0]);
@@ -29,8 +30,8 @@ export default function SmoothScrollHero({
   const backgroundSize = useTransform(scrollYProgress, [0, 1], ["116%", "104%"]);
 
   return (
-    <div ref={rootRef} className="smooth-hero-root" style={{ height: `calc(${scrollHeight}px + 100svh)` }}>
-      <motion.div className="smooth-hero-sticky" style={{ clipPath: reduceMotion ? "none" : clipPath }}>
+    <div ref={rootRef} className={`smooth-hero-root${hasImage ? "" : " smooth-hero-static"}`} style={{ height: hasImage ? `calc(${scrollHeight}px + 100svh)` : "auto" }}>
+      <motion.div className="smooth-hero-sticky" style={{ clipPath: reduceMotion || !hasImage ? "none" : clipPath }}>
         {mobileImage && <motion.div className="smooth-hero-image smooth-hero-mobile" style={{ backgroundImage: `url(${mobileImage})`, backgroundSize: reduceMotion ? "cover" : backgroundSize }} />}
         {desktopImage && <motion.div className="smooth-hero-image smooth-hero-desktop" style={{ backgroundImage: `url(${desktopImage})`, backgroundSize: reduceMotion ? "cover" : backgroundSize }} />}
         <div className="smooth-hero-wash" />

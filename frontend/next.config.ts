@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.join(__dirname),
   },
-  allowedDevOrigins: ["shona-unwitty-stanley.ngrok-free.dev"],
+  allowedDevOrigins: [
+    "shona-unwitty-stanley.ngrok-free.dev",
+    "lantern-sharpener-prone.ngrok-free.dev",
+  ],
   images: {
     remotePatterns: [
       {
