@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import { DM_Sans, Manrope } from "next/font/google";
+import { DM_Mono, Manrope, Newsreader } from "next/font/google";
 import "./globals.css";
 
 const manrope = Manrope({
-  variable: "--font-display",
+  variable: "--font-body",
   subsets: ["latin"],
 });
 
-const dmSans = DM_Sans({
-  variable: "--font-body",
+const newsreader = Newsreader({
+  variable: "--font-display",
   subsets: ["latin"],
+  style: ["normal", "italic"],
+});
+
+const dmMono = DM_Mono({
+  variable: "--font-utility",
+  subsets: ["latin"],
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +33,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${manrope.variable} ${dmSans.variable}`}
+      className={`${manrope.variable} ${newsreader.variable} ${dmMono.variable}`}
     >
       <body>{children}</body>
     </html>
