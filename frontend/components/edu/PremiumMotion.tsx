@@ -10,8 +10,10 @@ export function PremiumMotion() {
     const reduced = canQueryMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const finePointer = !canQueryMedia || window.matchMedia("(pointer: fine)").matches;
     const reveals = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]"));
+    const heroSequence = document.querySelector<HTMLElement>("[data-hero-sequence]");
     if (typeof IntersectionObserver === "undefined") {
       reveals.forEach((element) => element.setAttribute("data-visible", "true"));
+      heroSequence?.setAttribute("data-visible", "true");
       return;
     }
     const observer = new IntersectionObserver((entries) => {
@@ -23,6 +25,7 @@ export function PremiumMotion() {
       });
     }, { threshold: 0.14, rootMargin: "0px 0px -6%" });
     reveals.forEach((element) => observer.observe(element));
+    if (heroSequence) observer.observe(heroSequence);
 
     if (reduced || !finePointer) return () => observer.disconnect();
 
