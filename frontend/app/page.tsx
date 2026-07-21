@@ -1,5 +1,5 @@
-import KioskExperience from "@/components/kiosk/KioskExperience";
+import { LandingPage } from "@/components/edu/LandingPage";
 
 export default function HomePage() {
-  return <KioskExperience />;
+  return <LandingPage />;
 }

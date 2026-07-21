@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { StudentJourney } from "@/components/edu/StudentJourney";
 
 export default function PortalPage() {
-  redirect("/");
+  return <StudentJourney />;
 }

@@ -1,27 +1,21 @@
 import type { Metadata } from "next";
-import { Fraunces, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { DM_Sans, Manrope } from "next/font/google";
 import "./globals.css";
-import "./passport-kiosk.css";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-kiosk-sans",
+const manrope = Manrope({
+  variable: "--font-display",
   subsets: ["latin"],
 });
 
-const fraunces = Fraunces({
-  variable: "--font-kiosk-display",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-kiosk-mono",
+const dmSans = DM_Sans({
+  variable: "--font-body",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Cybrik EduGraph | Colorful admissions made simple",
-  description: "A vibrant university discovery experience with fast, profile-based recommendations.",
+  title: "Cybrik Solutions | Your route to global education",
+  description: "Discover universities that fit your profile, compare courses, and prepare every document with confidence.",
+  icons: { icon: "/cybrik-logo.png", apple: "/cybrik-logo.png" },
 };
 
 export default function RootLayout({
@@ -32,9 +26,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${fraunces.variable} ${jetBrainsMono.variable} h-full antialiased`}
+      className={`${manrope.variable} ${dmSans.variable}`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
