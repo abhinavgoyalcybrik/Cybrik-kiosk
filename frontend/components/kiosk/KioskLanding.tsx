@@ -6,9 +6,9 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Graduation, Search, Spark } from "@/components/edu/Icons";
 
 const HERO_SLIDES = [
+  { country: "Canada", university: "Georgian College", image: "/georgian-college-canada.jpg" },
   { country: "United Kingdom", university: "University of Birmingham", image: "/student-campus-1.webp" },
   { country: "Australia", university: "The University of Melbourne", image: "/student-campus-2.webp" },
-  { country: "Canada", university: "University of Toronto", image: "/student-campus-1.webp" },
   { country: "New Zealand", university: "University of Auckland", image: "/student-campus-2.webp" },
 ] as const;
 
@@ -105,7 +105,7 @@ export function KioskLanding() {
 
       <section className="edu-kiosk-hero" aria-roledescription="carousel" aria-label="Featured study destinations">
         {HERO_SLIDES.map((slide, index) => (
-          <div className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}`} key={`${slide.country}-${slide.university}`} aria-hidden={index !== heroIndex}>
+          <div className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}${slide.image.includes("georgian-college") ? " is-georgian" : ""}`} key={`${slide.country}-${slide.university}`} aria-hidden={index !== heroIndex}>
             <Image src={slide.image} alt="" fill priority={index === 0} sizes="100vw" />
           </div>
         ))}
