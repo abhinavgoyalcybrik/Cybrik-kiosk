@@ -8,6 +8,7 @@ import { DestinationOrbitalCard } from "./DestinationOrbitalCard";
 import { TestimonialCarousel } from "./TestimonialCarousel";
 import { SiteFooter } from "./SiteFooter";
 import { DraggableCallNow } from "./DraggableCallNow";
+import { TypingHeadline } from "./TypingHeadline";
 
 export function LandingPage() {
   return (
@@ -25,7 +26,7 @@ export function LandingPage() {
           <section className="hero section-pad">
             <div className="hero-copy reveal">
               <div className="eyebrow"><Spark size={16} /> Intelligent study-abroad guidance</div>
-              <h1>Your future has a <span>world of possibilities.</span></h1>
+              <h1><span className="hero-heading-static">Your future has a world of </span><TypingHeadline /></h1>
               <p>Tell us where you stand and where you want to go. Cybrik turns your profile into a clear shortlist of courses, universities, and next steps—built around you.</p>
               <div className="hero-actions"><Link href="/portal" className="button button-lg">Discover my matches <ArrowRight /></Link><a href="#how" className="button button-lg button-quiet">See how it works</a></div>
               <div className="trust-row"><span><Check size={16} /> No application fees</span><span><Check size={16} /> Profile takes 3 minutes</span><span><Shield size={16} /> Your data stays private</span></div>
