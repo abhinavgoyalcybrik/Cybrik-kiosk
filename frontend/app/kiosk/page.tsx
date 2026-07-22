@@ -1,5 +1,5 @@
-import { StudentJourney } from "@/components/edu/StudentJourney";
+import { KioskLanding } from "@/components/kiosk/KioskLanding";
 
 export default function KioskPage() {
-  return <StudentJourney kiosk />;
+  return <KioskLanding />;
 }
