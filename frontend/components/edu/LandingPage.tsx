@@ -7,6 +7,7 @@ import { PremiumMotion } from "./PremiumMotion";
 import { DestinationOrbitalCard } from "./DestinationOrbitalCard";
 import { TestimonialCarousel } from "./TestimonialCarousel";
 import { SiteFooter } from "./SiteFooter";
+import { DraggableCallNow } from "./DraggableCallNow";
 
 export function LandingPage() {
   return (
@@ -55,6 +56,7 @@ export function LandingPage() {
         <section className="closing-cta section-pad" data-reveal><div className="cta-globe"><Globe size={220} /></div><span className="kicker light">Your next chapter is closer than it feels</span><h2>Find the university<br />that fits your story.</h2><p>Three minutes is all it takes to turn uncertainty into a thoughtful shortlist.</p><Link href="/portal" className="button button-light button-lg">Start my journey <ArrowRight /></Link></section>
       </div>
       <SiteFooter />
+      <DraggableCallNow />
     </main>
   );
 }

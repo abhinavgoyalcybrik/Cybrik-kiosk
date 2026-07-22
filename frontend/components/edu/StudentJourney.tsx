@@ -20,6 +20,7 @@ import {
   User,
   Wallet,
 } from "./Icons";
+import { DraggableCallNow } from "./DraggableCallNow";
 
 type Stage = "auth" | "otp" | "profile" | "matches" | "documents" | "complete";
 type University = {
@@ -381,6 +382,9 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
           </motion.div>
         )}
       </AnimatePresence>
+      {(stage === "profile" || stage === "matches" || stage === "documents") && (
+        <DraggableCallNow />
+      )}
     </main>
   );
 }

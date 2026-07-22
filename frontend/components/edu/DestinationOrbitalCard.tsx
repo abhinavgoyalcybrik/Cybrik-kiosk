@@ -16,12 +16,13 @@ const destinations = [
 ] as const;
 
 const timeline: TimelineItem[] = destinations.map((item, index) => ({ id: index + 1, title: item.country, date: item.intake, content: `${item.universities} universities and ${item.programs} matching programs.`, category: "Destination", icon: MapPin, relatedIds: [((index + 1) % destinations.length) + 1], status: index < 2 ? "completed" : index < 4 ? "in-progress" : "pending", energy: item.fit }));
+const DESTINATION_ROTATION_MS = 3600;
 
 export function DestinationOrbitalCard() {
   const [active, setActive] = useState(0);
   useEffect(() => {
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
-    const timer = window.setInterval(() => setActive((value) => (value + 1) % destinations.length), 4500);
+    const timer = window.setInterval(() => setActive((value) => (value + 1) % destinations.length), DESTINATION_ROTATION_MS);
     return () => window.clearInterval(timer);
   }, []);
   const destination = destinations[active];
