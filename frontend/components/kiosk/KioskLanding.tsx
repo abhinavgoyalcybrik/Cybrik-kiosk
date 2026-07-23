@@ -5,11 +5,12 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Graduation, Search, Spark } from "@/components/edu/Icons";
 
-const HERO_SLIDES = [
-  { country: "Canada", university: "Georgian College", image: "/georgian-college-canada.jpg" },
-  { country: "United Kingdom", university: "University of Birmingham", image: "/student-campus-1.webp" },
-  { country: "Australia", university: "The University of Melbourne", image: "/student-campus-2.webp" },
-  { country: "New Zealand", university: "University of Auckland", image: "/student-campus-2.webp" },
+const HERO_DESTINATIONS = [
+  { country: "Canada", university: "Georgian College", image: "/georgian-college-canada.jpg", position: "right center" },
+  { country: "Germany", university: "Humboldt University of Berlin", image: "/humboldt-university-berlin.jpg", position: "center center" },
+  { country: "United Kingdom", university: "Birmingham City University", image: "/birmingham-city-university.webp", position: "center center" },
+  { country: "Germany", university: "GISMA University of Applied Sciences", image: "/gisma-university.webp", position: "center center" },
+  { country: "Canada", university: "University of Manitoba", image: "/university-of-manitoba.jpg", position: "center center" },
 ] as const;
 
 const DESTINATIONS = [
@@ -34,8 +35,8 @@ const FOOTER_MESSAGES = [
 const KEYBOARD_ROWS = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"] as const;
 
 export function KioskLanding() {
-  const [heroIndex, setHeroIndex] = useState(0);
   const [footerIndex, setFooterIndex] = useState(0);
+  const [heroIndex, setHeroIndex] = useState(0);
   const [dark, setDark] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -43,13 +44,15 @@ export function KioskLanding() {
   const idleTimer = useRef<number | null>(null);
 
   useEffect(() => {
-    const heroTimer = window.setInterval(() => setHeroIndex((value) => (value + 1) % HERO_SLIDES.length), 5500);
     const messageTimer = window.setInterval(() => setFooterIndex((value) => (value + 1) % FOOTER_MESSAGES.length), 4500);
-    return () => {
-      window.clearInterval(heroTimer);
-      window.clearInterval(messageTimer);
-    };
+    return () => window.clearInterval(messageTimer);
   }, []);
+
+  useEffect(() => {
+    if (searchOpen || selected || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const slideTimer = window.setInterval(() => setHeroIndex((value) => (value + 1) % HERO_DESTINATIONS.length), 5500);
+    return () => window.clearInterval(slideTimer);
+  }, [searchOpen, selected]);
 
   useEffect(() => {
     const resetHome = () => {
@@ -57,7 +60,6 @@ export function KioskLanding() {
       setSelected(null);
       setQuery("");
       setDark(false);
-      setHeroIndex(0);
     };
     const restartIdleTimer = () => {
       if (idleTimer.current) window.clearTimeout(idleTimer.current);
@@ -88,8 +90,6 @@ export function KioskLanding() {
     () => DESTINATIONS.filter((destination) => destination.name.toLowerCase().includes(query.toLowerCase())),
     [query],
   );
-  const activeSlide = HERO_SLIDES[heroIndex];
-
   return (
     <main className={`edu-kiosk-home${dark ? " is-dark" : ""}`}>
       <header className="edu-kiosk-header">
@@ -103,10 +103,10 @@ export function KioskLanding() {
         </div>
       </header>
 
-      <section className="edu-kiosk-hero" aria-roledescription="carousel" aria-label="Featured study destinations">
-        {HERO_SLIDES.map((slide, index) => (
-          <div className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}${slide.image.includes("georgian-college") ? " is-georgian" : ""}`} key={`${slide.country}-${slide.university}`} aria-hidden={index !== heroIndex}>
-            <Image src={slide.image} alt="" fill priority={index === 0} sizes="100vw" />
+      <section className="edu-kiosk-hero" aria-label="Featured international university campuses">
+        {HERO_DESTINATIONS.map((destination, index) => (
+          <div className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}`} aria-hidden={index !== heroIndex} key={destination.university}>
+            <Image src={destination.image} alt={`${destination.university} campus in ${destination.country}`} fill priority={index === 0} sizes="100vw" style={{ objectPosition: destination.position }} />
           </div>
         ))}
         <div className="edu-kiosk-hero-scrim" />
@@ -116,13 +116,13 @@ export function KioskLanding() {
           <p>Discover suitable countries, universities and courses based on your profile.</p>
           <Link className="edu-kiosk-start" href="/portal">Start now <ArrowRight size={34} /></Link>
         </div>
-        <div className="edu-kiosk-slide-copy" key={activeSlide.country} aria-live="polite">
-          <span>Featured destination</span>
-          <strong>{activeSlide.country}</strong>
-          <p>{activeSlide.university}</p>
-        </div>
-        <div className="edu-kiosk-slide-progress" aria-label={`Slide ${heroIndex + 1} of ${HERO_SLIDES.length}`}>
-          {HERO_SLIDES.map((slide, index) => <button type="button" className={index === heroIndex ? "is-active" : ""} onClick={() => setHeroIndex(index)} aria-label={`Show ${slide.country}`} key={slide.country} />)}
+        <div className="edu-kiosk-slide-copy-stack">
+          {HERO_DESTINATIONS.map((destination, index) => (
+            <div className={`edu-kiosk-slide-copy${index === heroIndex ? " is-active" : ""}`} aria-hidden={index !== heroIndex} key={destination.university}>
+              <strong>{destination.university}</strong>
+              <p>{destination.country}</p>
+            </div>
+          ))}
         </div>
       </section>
 
