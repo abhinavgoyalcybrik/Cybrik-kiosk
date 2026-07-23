@@ -1,6 +1,36 @@
 /* Portrait kiosk hero: scale the entire composition from its landscape image frame. */
 .edu-kiosk-home {
-  grid-template-rows: clamp(104px, 6dvh, 120px) clamp(405px, 56.25vw, 1220px) minmax(0, 1fr) clamp(92px, 5.3dvh, 106px);
+  position: relative;
+  grid-template-rows: clamp(520px, 74vw, 1580px) minmax(0, 1fr) clamp(92px, 5.3dvh, 106px);
+}
+
+.edu-kiosk-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 20;
+  height: clamp(104px, 6dvh, 120px);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.edu-kiosk-cybrik-logo {
+  display: block;
+  width: clamp(210px, 27vw, 290px);
+  height: auto;
+  filter: drop-shadow(0 3px 10px rgba(2, 11, 28, 0.55));
+}
+
+.edu-kiosk-brand strong,
+.is-dark .edu-kiosk-brand strong {
+  color: #fff;
+  text-shadow: 0 2px 14px rgba(2, 11, 28, 0.72);
+}
+
+.edu-kiosk-brand small {
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 10px rgba(2, 11, 28, 0.8);
 }
 
 .edu-kiosk-hero-slide {
@@ -18,18 +48,25 @@
 
 .edu-kiosk-hero-scrim {
   background:
+    linear-gradient(180deg, rgba(3, 13, 31, 0.58) 0%, rgba(3, 13, 31, 0.16) 24%, transparent 42%),
     linear-gradient(90deg, rgba(4, 15, 36, 0.62) 0%, rgba(5, 19, 45, 0.4) 38%, rgba(7, 23, 49, 0.1) 68%, rgba(4, 15, 34, 0.18) 100%),
     linear-gradient(0deg, rgba(3, 13, 31, 0.3), transparent 52%);
 }
 
 .edu-kiosk-hero-copy {
-  top: 48%;
-  width: min(58%, 620px);
+  top: 53%;
+  width: min(64%, 700px);
 }
 
 .edu-kiosk-hero-copy h1 {
   margin-block: clamp(10px, 1.4vw, 18px) clamp(8px, 1.2vw, 14px);
-  font-size: clamp(36px, 5vw, 62px);
+  font-size: clamp(42px, 5.8vw, 72px);
+  line-height: 0.98;
+}
+
+.edu-kiosk-hero-copy h1 em {
+  color: #ffd43b;
+  text-shadow: 0 3px 0 rgba(93, 49, 0, 0.38), 0 7px 24px rgba(0, 0, 0, 0.72);
 }
 
 .edu-kiosk-hero-copy p {
@@ -39,8 +76,29 @@
 .edu-kiosk-hero-copy .edu-kiosk-start {
   width: clamp(230px, 28vw, 300px);
   min-height: clamp(54px, 6.2vw, 66px);
-  margin-top: clamp(14px, 2vw, 24px);
+  margin-top: clamp(20px, 2.4vw, 30px);
+  color: #fff;
+  background: linear-gradient(115deg, #b9230b 0%, #d63c0b 52%, #e85d04 100%);
+  box-shadow: 0 16px 38px rgba(163, 38, 5, 0.48), 0 0 0 7px rgba(255, 174, 72, 0.16);
   font-size: clamp(18px, 2.2vw, 21px);
+  animation: kiosk-cta-warm-pulse 2.2s ease-in-out infinite;
+}
+
+.edu-kiosk-hero-copy .edu-kiosk-start:focus-visible {
+  outline: 4px solid #ffd43b;
+  outline-offset: 5px;
+}
+
+@keyframes kiosk-cta-warm-pulse {
+  0%, 82%, 100% {
+    transform: scale(1);
+    box-shadow: 0 16px 38px rgba(163, 38, 5, 0.48), 0 0 0 7px rgba(255, 174, 72, 0.16);
+  }
+
+  90% {
+    transform: scale(1.035);
+    box-shadow: 0 20px 48px rgba(163, 38, 5, 0.58), 0 0 0 14px rgba(255, 174, 72, 0.08);
+  }
 }
 
 .edu-kiosk-slide-copy-stack {
@@ -50,7 +108,7 @@
 
 @media (max-width: 820px), (max-height: 1100px) {
   .edu-kiosk-home {
-    grid-template-rows: 104px clamp(405px, 56.25vw, 700px) auto 96px;
+    grid-template-rows: clamp(520px, 74vw, 700px) auto 96px;
   }
 
   .edu-kiosk-hero {
@@ -64,14 +122,20 @@
   }
 
   .edu-kiosk-hero-copy {
-    top: 46%;
+    top: 52%;
   }
 
   .edu-kiosk-hero-copy h1 {
-    font-size: clamp(32px, 8.2vw, 44px);
+    font-size: clamp(36px, 8.8vw, 48px);
   }
 
   .edu-kiosk-slide-copy-stack {
     bottom: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .edu-kiosk-hero-copy .edu-kiosk-start {
+    animation: none;
   }
 }

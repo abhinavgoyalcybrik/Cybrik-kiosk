@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, Graduation, Search, Spark } from "@/components/edu/Icons";
+import { ArrowLeft, ArrowRight, Search, Spark } from "@/components/edu/Icons";
 
 const HERO_DESTINATIONS = [
   { country: "Canada", university: "Georgian College", image: "/georgian-college-canada.jpg", position: "right center" },
@@ -93,14 +93,9 @@ export function KioskLanding() {
   return (
     <main className={`edu-kiosk-home${dark ? " is-dark" : ""}`}>
       <header className="edu-kiosk-header">
-        <Link className="edu-kiosk-brand" href="/kiosk" aria-label="EDUGRAPH kiosk home">
-          <span className="edu-kiosk-brand-mark"><Graduation size={34} /></span>
-          <span><strong>EDUGRAPH</strong><small>Powered by Cybrik Solutions</small></span>
+        <Link className="edu-kiosk-brand" href="/kiosk" aria-label="Cybrik Solutions kiosk home">
+          <Image className="edu-kiosk-cybrik-logo" src="/cybrik-logo-hero.png" alt="Cybrik Solutions" width={621} height={174} priority />
         </Link>
-        <div className="edu-kiosk-header-actions">
-          <button className="edu-kiosk-icon-button" type="button" onClick={() => setSearchOpen(true)} aria-label="Open search"><Search size={32} /></button>
-          <button className="edu-kiosk-icon-button" type="button" onClick={() => setDark((value) => !value)} aria-label={dark ? "Use light mode" : "Use dark mode"}>{dark ? <SunIcon /> : <MoonIcon />}</button>
-        </div>
       </header>
 
       <section className="edu-kiosk-hero" aria-label="Featured international university campuses">
@@ -112,8 +107,7 @@ export function KioskLanding() {
         <div className="edu-kiosk-hero-scrim" />
         <div className="edu-kiosk-hero-copy">
           <span className="edu-kiosk-eyebrow"><Spark size={22} /> Global education, simplified</span>
-          <h1>Access your information<br />in just <em>30 seconds.</em></h1>
-          <p>Discover suitable countries, universities and courses based on your profile.</p>
+          <h1>Access your<br />information in just<br /><em>30 Seconds</em></h1>
           <Link className="edu-kiosk-start" href="/portal">Start now <ArrowRight size={34} /></Link>
         </div>
         <div className="edu-kiosk-slide-copy-stack">
@@ -174,7 +168,5 @@ export function KioskLanding() {
   );
 }
 
-function MoonIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z" /></svg>; }
-function SunIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>; }
 function HomeIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="m3 11 9-8 9 8v10h-6v-6H9v6H3Z"/></svg>; }
 function CloseIcon() { return <svg aria-hidden="true" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 6 12 12M18 6 6 18"/></svg>; }
