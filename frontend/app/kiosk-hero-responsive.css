@@ -17,7 +17,7 @@
 
 .edu-kiosk-cybrik-logo {
   display: block;
-  width: clamp(210px, 27vw, 290px);
+  width: clamp(160px, 22vw, 235px);
   height: auto;
   filter: drop-shadow(0 3px 10px rgba(2, 11, 28, 0.55));
 }
@@ -55,13 +55,25 @@
 
 .edu-kiosk-hero-copy {
   top: 53%;
-  width: min(64%, 700px);
+  width: min(70%, 780px);
 }
 
 .edu-kiosk-hero-copy h1 {
-  margin-block: clamp(10px, 1.4vw, 18px) clamp(8px, 1.2vw, 14px);
-  font-size: clamp(42px, 5.8vw, 72px);
-  line-height: 0.98;
+  margin-block: clamp(15px, 1.4vw, 24px) clamp(10px, 1.2vw, 20px);
+  font-size: clamp(50px, 6.7vw, 86px);
+  line-height: 0.94;
+  letter-spacing: -0.055em;
+}
+
+.edu-kiosk-hero-copy h1 i {
+  display: inline-block;
+  padding-right: 0.08em;
+  color: #fff;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #ffd43b;
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.1em;
 }
 
 .edu-kiosk-hero-copy h1 em {
@@ -126,7 +138,7 @@
   }
 
   .edu-kiosk-hero-copy h1 {
-    font-size: clamp(36px, 8.8vw, 48px);
+    font-size: clamp(40px, 9.6vw, 54px);
   }
 
   .edu-kiosk-slide-copy-stack {

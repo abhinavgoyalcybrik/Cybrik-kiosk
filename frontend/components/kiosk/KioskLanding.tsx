@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, Search, Spark } from "@/components/edu/Icons";
+import { ArrowLeft, ArrowRight, Search } from "@/components/edu/Icons";
 
 const HERO_DESTINATIONS = [
   { country: "Canada", university: "Georgian College", image: "/georgian-college-canada.jpg", position: "right center" },
@@ -106,8 +106,7 @@ export function KioskLanding() {
         ))}
         <div className="edu-kiosk-hero-scrim" />
         <div className="edu-kiosk-hero-copy">
-          <span className="edu-kiosk-eyebrow"><Spark size={22} /> Global education, simplified</span>
-          <h1>Access your<br />information in just<br /><em>30 Seconds</em></h1>
+          <h1>Explore ! <br />Study Abroad in<br /><em> 30 seconds</em></h1>
           <Link className="edu-kiosk-start" href="/portal">Start now <ArrowRight size={34} /></Link>
         </div>
         <div className="edu-kiosk-slide-copy-stack">
