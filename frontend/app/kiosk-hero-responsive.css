@@ -1,22 +1,10 @@
-/* Portrait kiosk hero: preserve each campus image while scaling with viewport height. */
+/* Portrait kiosk hero: scale the entire composition from its landscape image frame. */
 .edu-kiosk-home {
-  grid-template-rows: clamp(104px, 6dvh, 120px) clamp(540px, 38dvh, 760px) minmax(0, 1fr) clamp(92px, 5.3dvh, 106px);
+  grid-template-rows: clamp(104px, 6dvh, 120px) clamp(405px, 56.25vw, 1220px) minmax(0, 1fr) clamp(92px, 5.3dvh, 106px);
 }
 
 .edu-kiosk-hero-slide {
   transform: translate3d(2%, 0, 0);
-}
-
-.edu-kiosk-hero-slide::before {
-  content: "";
-  position: absolute;
-  inset: -24px;
-  background-image: var(--hero-image);
-  background-position: center;
-  background-size: cover;
-  filter: blur(24px);
-  opacity: 0.38;
-  transform: scale(1.08);
 }
 
 .edu-kiosk-hero-slide.is-active {
@@ -25,8 +13,7 @@
 
 .edu-kiosk-hero-slide img {
   z-index: 1;
-  object-fit: contain;
-  object-position: center;
+  object-fit: cover;
 }
 
 .edu-kiosk-hero-scrim {
@@ -35,9 +22,35 @@
     linear-gradient(0deg, rgba(3, 13, 31, 0.3), transparent 52%);
 }
 
+.edu-kiosk-hero-copy {
+  top: 48%;
+  width: min(58%, 620px);
+}
+
+.edu-kiosk-hero-copy h1 {
+  margin-block: clamp(10px, 1.4vw, 18px) clamp(8px, 1.2vw, 14px);
+  font-size: clamp(36px, 5vw, 62px);
+}
+
+.edu-kiosk-hero-copy p {
+  font-size: clamp(16px, 1.8vw, 21px);
+}
+
+.edu-kiosk-hero-copy .edu-kiosk-start {
+  width: clamp(230px, 28vw, 300px);
+  min-height: clamp(54px, 6.2vw, 66px);
+  margin-top: clamp(14px, 2vw, 24px);
+  font-size: clamp(18px, 2.2vw, 21px);
+}
+
+.edu-kiosk-slide-copy-stack {
+  bottom: clamp(18px, 2.6vw, 32px);
+  min-height: clamp(68px, 9vw, 112px);
+}
+
 @media (max-width: 820px), (max-height: 1100px) {
   .edu-kiosk-home {
-    grid-template-rows: 104px clamp(520px, 62dvh, 700px) auto 96px;
+    grid-template-rows: 104px clamp(405px, 56.25vw, 700px) auto 96px;
   }
 
   .edu-kiosk-hero {
@@ -47,10 +60,18 @@
 
 @media (max-width: 620px) {
   .edu-kiosk-hero {
-    min-height: clamp(560px, 62dvh, 760px);
+    min-height: clamp(405px, 68vw, 520px);
   }
 
-  .edu-kiosk-hero-slide img {
-    object-position: center;
+  .edu-kiosk-hero-copy {
+    top: 46%;
+  }
+
+  .edu-kiosk-hero-copy h1 {
+    font-size: clamp(32px, 8.2vw, 44px);
+  }
+
+  .edu-kiosk-slide-copy-stack {
+    bottom: 18px;
   }
 }

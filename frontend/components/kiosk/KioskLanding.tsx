@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Graduation, Search, Spark } from "@/components/edu/Icons";
 
@@ -106,12 +105,7 @@ export function KioskLanding() {
 
       <section className="edu-kiosk-hero" aria-label="Featured international university campuses">
         {HERO_DESTINATIONS.map((destination, index) => (
-          <div
-            className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}`}
-            aria-hidden={index !== heroIndex}
-            key={destination.university}
-            style={{ "--hero-image": `url(${destination.image})` } as CSSProperties}
-          >
+          <div className={`edu-kiosk-hero-slide${index === heroIndex ? " is-active" : ""}`} aria-hidden={index !== heroIndex} key={destination.university}>
             <Image src={destination.image} alt={`${destination.university} campus in ${destination.country}`} fill priority={index === 0} sizes="100vw" style={{ objectPosition: destination.position }} />
           </div>
         ))}
