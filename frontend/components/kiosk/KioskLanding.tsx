@@ -119,17 +119,15 @@ export function KioskLanding() {
         </div>
       </section>
 
-      <section className="edu-kiosk-destinations" aria-labelledby="destination-heading">
-        <div className="edu-kiosk-section-heading">
-          <div><span>Choose your next chapter</span><h2 id="destination-heading">Explore Top Study Destinations</h2></div>
-          <p>Select a country to explore universities, courses and opportunities.</p>
-        </div>
+      <section className="edu-kiosk-destinations" aria-label="Study destinations">
         <div className="edu-kiosk-country-grid">
           {DESTINATIONS.map((destination) => (
             <button className={`edu-kiosk-country-card accent-${destination.accent}`} type="button" onClick={() => setSelected(destination)} key={destination.name}>
-              <span className="edu-kiosk-country-head"><span className="edu-kiosk-flag" aria-label={`${destination.name} flag`}>{destination.code}</span><strong>{destination.name}</strong><ArrowRight size={24} /></span>
-              <span className="edu-kiosk-country-image"><Image src={destination.image} alt={`Students exploring study opportunities in ${destination.name}`} fill sizes="30vw" /></span>
-              <span className="edu-kiosk-country-foot"><span>{destination.universities}</span><b>Explore programs <ArrowRight size={18} /></b></span>
+              <span className="edu-kiosk-country-image">
+                <Image src={destination.image} alt={`Students exploring study opportunities in ${destination.name}`} fill sizes="(max-width: 620px) 100vw, 260px" />
+                <span className="edu-kiosk-flag" aria-label={`${destination.name} flag`}>{destination.code}</span>
+              </span>
+              <span className="edu-kiosk-country-foot"><strong>{destination.name}</strong><ArrowRight size={24} aria-hidden="true" /></span>
             </button>
           ))}
         </div>
