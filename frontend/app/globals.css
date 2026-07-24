@@ -5530,7 +5530,7 @@ body {
   height: 275px;
   overflow: hidden;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) 54px;
+  grid-template-rows: minmax(0, 1fr);
   padding: 0;
   border: 2px solid transparent;
   border-radius: 18px;
@@ -5585,8 +5585,9 @@ body {
 .edu-kiosk-country-image:after {
   content: "";
   position: absolute;
+  z-index: 0;
   inset: 0;
-  background: linear-gradient(180deg, rgba(7, 23, 51, .2), transparent 32%);
+  background: linear-gradient(180deg, rgba(7, 23, 51, .22), transparent 32%, rgba(5, 13, 25, .12) 52%, rgba(5, 11, 21, .9) 100%);
   pointer-events: none
 }
 
@@ -5619,58 +5620,91 @@ body {
   clip-path: circle(50% at 50% 50%)
 }
 
-.edu-kiosk-country-card:hover .edu-kiosk-country-image>img,
-.edu-kiosk-country-card:focus-visible .edu-kiosk-country-image>img {
-  transform: scale(1.035)
-}
-
-.edu-kiosk-country-foot {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 0 16px;
-  color: #f8fafc;
-  border-top: 1px solid #8e97a3;
-  background: linear-gradient(112deg, #080a0d 0%, #303640 24%, #10141a 48%, #56606b 72%, #171c23 100%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), inset 0 -1px 0 rgba(0, 0, 0, .72)
-}
-
-.edu-kiosk-country-foot:before {
-  content: "";
+.edu-kiosk-country-overlay {
   position: absolute;
-  z-index: -1;
-  inset: 0;
-  background: linear-gradient(105deg, transparent 18%, rgba(255, 255, 255, .13) 38%, transparent 53%);
+  z-index: 2;
+  right: 18px;
+  bottom: 18px;
+  left: 18px;
+  display: grid;
+  align-items: end;
+  justify-items: start;
+  min-height: 28px;
+  color: #fff;
   pointer-events: none
 }
 
-.edu-kiosk-country-foot strong {
-  min-width: 0;
+.edu-kiosk-country-overlay>strong {
+  grid-area: 1 / 1;
+  max-width: 100%;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .88);
+  opacity: 0;
+  animation: edu-kiosk-country-name-cycle 6.4s cubic-bezier(.22, 1, .36, 1) infinite
+}
+
+.edu-kiosk-country-overlay>span {
+  grid-area: 1 / 1;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 0;
-  white-space: nowrap;
-  color: #f8fafc;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .85)
+  letter-spacing: .015em;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, .9);
+  opacity: 0;
+  animation: edu-kiosk-get-info-cycle 6.4s cubic-bezier(.22, 1, .36, 1) infinite
 }
 
-.edu-kiosk-country-foot>svg {
-  flex: 0 0 auto;
-  margin-right: 3px;
-  color: #e7edf4;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .8));
-  transition: transform .22s
+.edu-kiosk-country-overlay svg {
+  flex: 0 0 auto
 }
 
-.edu-kiosk-country-card:hover .edu-kiosk-country-foot>svg,
-.edu-kiosk-country-card:focus-visible .edu-kiosk-country-foot>svg {
-  transform: translateX(3px)
+@keyframes edu-kiosk-country-name-cycle {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px)
+  }
+
+  8%, 38% {
+    opacity: 1;
+    transform: translateX(0)
+  }
+
+  47%, 100% {
+    opacity: 0;
+    transform: translateX(10px)
+  }
+}
+
+@keyframes edu-kiosk-get-info-cycle {
+  0%, 49% {
+    opacity: 0;
+    transform: translateX(-12px)
+  }
+
+  57%, 88% {
+    opacity: 1;
+    transform: translateX(0)
+  }
+
+  97%, 100% {
+    opacity: 0;
+    transform: translateX(10px)
+  }
+}
+
+.edu-kiosk-country-card:hover .edu-kiosk-country-image>img,
+.edu-kiosk-country-card:focus-visible .edu-kiosk-country-image>img {
+  transform: scale(1.035)
 }
 
 .accent-red {
@@ -6170,7 +6204,6 @@ body {
   .edu-kiosk-country-card {
     width: 100%;
     height: 190px;
-    grid-template-rows: minmax(0, 1fr) 42px;
     border-radius: 12px
   }
 
@@ -6186,25 +6219,25 @@ body {
     font-size: 9px
   }
 
-  .edu-kiosk-country-foot {
+  .edu-kiosk-country-overlay {
+    right: 10px;
+    bottom: 12px;
+    left: 10px;
+    min-height: 18px
+  }
+
+  .edu-kiosk-country-overlay>strong {
+    font-size: clamp(12px, 3.3vw, 15px)
+  }
+
+  .edu-kiosk-country-overlay>span {
     gap: 3px;
-    padding: 0 7px
+    font-size: clamp(9px, 2.35vw, 11px)
   }
 
-  .edu-kiosk-country-foot strong {
-    font-size: clamp(9px, 2.35vw, 11px);
-    line-height: 1
-  }
-
-  .edu-kiosk-country-foot>svg {
-    width: 16px;
-    height: 16px;
-    margin-right: 1px
-  }
-
-  .edu-kiosk-country-card:hover .edu-kiosk-country-foot>svg,
-  .edu-kiosk-country-card:focus-visible .edu-kiosk-country-foot>svg {
-    transform: none
+  .edu-kiosk-country-overlay svg {
+    width: 14px;
+    height: 14px
   }
 
   .edu-kiosk-footer {
@@ -6380,21 +6413,28 @@ body {
 
   .edu-kiosk-country-card {
     height: 550px;
-    grid-template-rows: minmax(0, 1fr) 108px;
     border-radius: 24px
   }
 
-  .edu-kiosk-country-foot {
-    padding: 0 40px
+  .edu-kiosk-country-overlay {
+    right: 40px;
+    bottom: 38px;
+    left: 40px;
+    min-height: 44px
   }
 
-  .edu-kiosk-country-foot strong {
-    font-size: 30px
+  .edu-kiosk-country-overlay>strong {
+    font-size: 38px
   }
 
-  .edu-kiosk-country-foot>svg {
-    width: 48px;
-    height: 48px
+  .edu-kiosk-country-overlay>span {
+    gap: 10px;
+    font-size: 24px
+  }
+
+  .edu-kiosk-country-overlay svg {
+    width: 30px;
+    height: 30px
   }
 
   .edu-kiosk-flag {
@@ -6558,6 +6598,21 @@ body {
   .edu-kiosk-footer p,
   .edu-kiosk-overlay {
     animation: none
+  }
+
+  .edu-kiosk-country-overlay>strong,
+  .edu-kiosk-country-overlay>span {
+    animation: none;
+    transform: none;
+    transition: none
+  }
+
+  .edu-kiosk-country-overlay>strong {
+    opacity: 1
+  }
+
+  .edu-kiosk-country-overlay>span {
+    opacity: 0
   }
 }
 
