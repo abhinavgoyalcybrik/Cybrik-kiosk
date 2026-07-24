@@ -138,7 +138,7 @@ export function KioskLanding() {
         </div>
       </section>
 
-      <footer className="edu-kiosk-footer" style={{ backgroundColor: "#5b6a7f" }}>
+      <footer className="edu-kiosk-footer">
         <span className="edu-kiosk-footer-label">EDUGRAPH</span>
         <p key={footerIndex}>{FOOTER_MESSAGES[footerIndex]}</p>
         <div className="edu-kiosk-footer-progress" aria-hidden="true">{FOOTER_MESSAGES.map((message, index) => <i className={index === footerIndex ? "is-active" : ""} key={message} />)}</div>
