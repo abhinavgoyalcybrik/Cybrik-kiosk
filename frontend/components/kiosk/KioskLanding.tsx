@@ -14,15 +14,15 @@ const HERO_DESTINATIONS = [
 ] as const;
 
 const DESTINATIONS = [
-  { name: "Canada", cardName: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/country-images/canada.webp", imagePosition: "center", flagImage: "/flags/canada-flag.avif" },
-  { name: "United Kingdom", cardName: "UK", code: "UK", universities: "160+ universities", accent: "blue", image: "/student-campus-2.webp", flagImage: "/flags/uk-flag.avif" },
+  { name: "Canada", cardName: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/country-images/canada-2.jpeg", imagePosition: "center", flagImage: "/flags/canada-flag.avif" },
+  { name: "United Kingdom", cardName: "UK", code: "UK", universities: "160+ universities", accent: "blue", image: "/country-images/uk.avif", imagePosition: "center", flagImage: "/flags/uk-flag.avif" },
   { name: "Australia", cardName: "Australia", code: "AU", universities: "43 universities", accent: "gold", image: "/country-images/australia.avif", imagePosition: "center", flagImage: "/flags/australia-flag.jpg" },
-  { name: "United States", cardName: "USA", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/student-campus-2.webp", flagImage: "/flags/usa-flag.jpg" },
-  { name: "New Zealand", cardName: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/student-campus-1.webp", flagImage: "/flags/new-zealand-flag.avif" },
-  { name: "Germany", cardName: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/country-images/germany.jpg", imagePosition: "center", flagImage: "/flags/germany-flag.webp" },
-  { name: "Ireland", cardName: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/country-images/ireland.jpg", imagePosition: "center", flagImage: "/flags/ireland-flag.webp" },
-  { name: "France", cardName: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/country-images/france.jpg", imagePosition: "center", flagImage: "/flags/france-flag.jpg" },
-  { name: "United Arab Emirates", cardName: "UAE", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/student-campus-1.webp", flagImage: "/flags/uae-flag.jpg" },
+  { name: "United States", cardName: "USA", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/country-images/usa.jpg", imagePosition: "center", flagImage: "/flags/usa-flag.jpg" },
+  { name: "New Zealand", cardName: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/country-images/new-zealand.png", imagePosition: "center", flagImage: "/flags/new-zealand-flag.avif" },
+  { name: "Germany", cardName: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/country-images/germany.png", imagePosition: "center", flagImage: "/flags/germany-flag.webp" },
+  { name: "Ireland", cardName: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/country-images/ireland.png", imagePosition: "center", flagImage: "/flags/ireland-flag.webp" },
+  { name: "France", cardName: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/country-images/france.png", imagePosition: "center", flagImage: "/flags/france-flag.jpg" },
+  { name: "United Arab Emirates", cardName: "UAE", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/country-images/uae.jpg", imagePosition: "center", flagImage: "/flags/uae-flag.jpg" },
 ] as const;
 
 const FOOTER_MESSAGES = [
