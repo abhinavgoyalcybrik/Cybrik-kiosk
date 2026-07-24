@@ -14,15 +14,15 @@ const HERO_DESTINATIONS = [
 ] as const;
 
 const DESTINATIONS = [
-  { name: "Canada", cardName: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/student-campus-1.webp" },
-  { name: "United Kingdom", cardName: "UK", code: "UK", universities: "160+ universities", accent: "blue", image: "/student-campus-2.webp" },
-  { name: "Australia", cardName: "Australia", code: "AU", universities: "43 universities", accent: "gold", image: "/student-campus-1.webp" },
-  { name: "United States", cardName: "USA", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/student-campus-2.webp" },
-  { name: "New Zealand", cardName: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/student-campus-1.webp" },
-  { name: "Germany", cardName: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/student-campus-2.webp" },
-  { name: "Ireland", cardName: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/student-campus-1.webp" },
-  { name: "France", cardName: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/student-campus-2.webp" },
-  { name: "United Arab Emirates", cardName: "UAE", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/student-campus-1.webp" },
+  { name: "Canada", cardName: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/student-campus-1.webp", flagImage: "/flags/canada-flag.avif" },
+  { name: "United Kingdom", cardName: "UK", code: "UK", universities: "160+ universities", accent: "blue", image: "/student-campus-2.webp", flagImage: "/flags/uk-flag.avif" },
+  { name: "Australia", cardName: "Australia", code: "AU", universities: "43 universities", accent: "gold", image: "/student-campus-1.webp", flagImage: "/flags/australia-flag.jpg" },
+  { name: "United States", cardName: "USA", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/student-campus-2.webp", flagImage: "/flags/usa-flag.jpg" },
+  { name: "New Zealand", cardName: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/student-campus-1.webp", flagImage: "/flags/new-zealand-flag.avif" },
+  { name: "Germany", cardName: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/student-campus-2.webp", flagImage: "/flags/germany-flag.webp" },
+  { name: "Ireland", cardName: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/student-campus-1.webp", flagImage: "/flags/ireland-flag.webp" },
+  { name: "France", cardName: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/student-campus-2.webp", flagImage: "/flags/france-flag.jpg" },
+  { name: "United Arab Emirates", cardName: "UAE", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/student-campus-1.webp", flagImage: "/flags/uae-flag.jpg" },
 ] as const;
 
 const FOOTER_MESSAGES = [
@@ -125,7 +125,9 @@ export function KioskLanding() {
             <button className={`edu-kiosk-country-card accent-${destination.accent}`} type="button" onClick={() => setSelected(destination)} key={destination.name}>
               <span className="edu-kiosk-country-image">
                 <Image src={destination.image} alt={`Students exploring study opportunities in ${destination.name}`} fill sizes="(max-width: 620px) 100vw, 260px" />
-                <span className="edu-kiosk-flag" aria-label={`${destination.name} flag`}>{destination.code}</span>
+                <span className="edu-kiosk-flag" role="img" aria-label={`${destination.name} flag`}>
+                  <Image src={destination.flagImage} alt="" fill sizes="(max-width: 620px) 34px, 82px" />
+                </span>
               </span>
               <span className="edu-kiosk-country-foot"><strong>{destination.cardName}</strong><ArrowRight size={24} aria-hidden="true" /></span>
             </button>
