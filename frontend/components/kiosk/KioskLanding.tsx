@@ -26,7 +26,6 @@ const DESTINATIONS = [
 ] as const;
 
 const FOOTER_MESSAGES = [
-  "EDUGRAPH",
   "Powered by Cybrik Solutions",
   "493-A, Model Town Extension, Ludhiana, Punjab – 141010",
   "Discover your study-abroad options in 30 seconds",
@@ -139,9 +138,7 @@ export function KioskLanding() {
       </section>
 
       <footer className="edu-kiosk-footer">
-        <span className="edu-kiosk-footer-label">EDUGRAPH</span>
         <p key={footerIndex}>{FOOTER_MESSAGES[footerIndex]}</p>
-        <div className="edu-kiosk-footer-progress" aria-hidden="true">{FOOTER_MESSAGES.map((message, index) => <i className={index === footerIndex ? "is-active" : ""} key={message} />)}</div>
       </footer>
 
       {searchOpen && (
