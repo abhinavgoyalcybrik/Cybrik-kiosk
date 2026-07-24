@@ -14,15 +14,15 @@ const HERO_DESTINATIONS = [
 ] as const;
 
 const DESTINATIONS = [
-  { name: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/student-campus-1.webp" },
-  { name: "United Kingdom", code: "UK", universities: "160+ universities", accent: "blue", image: "/student-campus-2.webp" },
-  { name: "Australia", code: "AU", universities: "43 universities", accent: "gold", image: "/student-campus-1.webp" },
-  { name: "United States", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/student-campus-2.webp" },
-  { name: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/student-campus-1.webp" },
-  { name: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/student-campus-2.webp" },
-  { name: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/student-campus-1.webp" },
-  { name: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/student-campus-2.webp" },
-  { name: "United Arab Emirates", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/student-campus-1.webp" },
+  { name: "Canada", cardName: "Canada", code: "CA", universities: "125+ universities", accent: "red", image: "/student-campus-1.webp" },
+  { name: "United Kingdom", cardName: "UK", code: "UK", universities: "160+ universities", accent: "blue", image: "/student-campus-2.webp" },
+  { name: "Australia", cardName: "Australia", code: "AU", universities: "43 universities", accent: "gold", image: "/student-campus-1.webp" },
+  { name: "United States", cardName: "USA", code: "US", universities: "4,000+ institutions", accent: "navy", image: "/student-campus-2.webp" },
+  { name: "New Zealand", cardName: "New Zealand", code: "NZ", universities: "8 universities", accent: "aqua", image: "/student-campus-1.webp" },
+  { name: "Germany", cardName: "Germany", code: "DE", universities: "400+ institutions", accent: "amber", image: "/student-campus-2.webp" },
+  { name: "Ireland", cardName: "Ireland", code: "IE", universities: "28 institutions", accent: "green", image: "/student-campus-1.webp" },
+  { name: "France", cardName: "France", code: "FR", universities: "250+ institutions", accent: "indigo", image: "/student-campus-2.webp" },
+  { name: "United Arab Emirates", cardName: "UAE", code: "AE", universities: "70+ institutions", accent: "emerald", image: "/student-campus-1.webp" },
 ] as const;
 
 const FOOTER_MESSAGES = [
@@ -119,7 +119,7 @@ export function KioskLanding() {
         </div>
       </section>
 
-      <section className="edu-kiosk-destinations" aria-label="Study destinations">
+      <section className="edu-kiosk-destinations" aria-label="Study destinations" style={{ background: "#ffffff" }}>
         <div className="edu-kiosk-country-grid">
           {DESTINATIONS.map((destination) => (
             <button className={`edu-kiosk-country-card accent-${destination.accent}`} type="button" onClick={() => setSelected(destination)} key={destination.name}>
@@ -127,13 +127,13 @@ export function KioskLanding() {
                 <Image src={destination.image} alt={`Students exploring study opportunities in ${destination.name}`} fill sizes="(max-width: 620px) 100vw, 260px" />
                 <span className="edu-kiosk-flag" aria-label={`${destination.name} flag`}>{destination.code}</span>
               </span>
-              <span className="edu-kiosk-country-foot"><strong>{destination.name}</strong><ArrowRight size={24} aria-hidden="true" /></span>
+              <span className="edu-kiosk-country-foot"><strong>{destination.cardName}</strong><ArrowRight size={24} aria-hidden="true" /></span>
             </button>
           ))}
         </div>
       </section>
 
-      <footer className="edu-kiosk-footer">
+      <footer className="edu-kiosk-footer" style={{ backgroundColor: "#5b6a7f" }}>
         <span className="edu-kiosk-footer-label">EDUGRAPH</span>
         <p key={footerIndex}>{FOOTER_MESSAGES[footerIndex]}</p>
         <div className="edu-kiosk-footer-progress" aria-hidden="true">{FOOTER_MESSAGES.map((message, index) => <i className={index === footerIndex ? "is-active" : ""} key={message} />)}</div>

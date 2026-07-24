@@ -5511,7 +5511,10 @@ body {
 
 .edu-kiosk-destinations {
   min-height: 0;
-  padding: clamp(28px, 3.2dvh, 48px) clamp(32px, 5vw, 56px)
+  padding: clamp(28px, 3.2dvh, 48px) clamp(32px, 5vw, 56px);
+  background: #fff !important;
+  border: 0;
+  box-shadow: none
 }
 
 .edu-kiosk-country-grid {
@@ -5527,7 +5530,7 @@ body {
   height: 275px;
   overflow: hidden;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) 60px;
+  grid-template-rows: minmax(0, 1fr) 54px;
   padding: 0;
   border: 2px solid transparent;
   border-radius: 0;
@@ -5559,14 +5562,14 @@ body {
   display: grid;
   place-items: center;
   flex: 0 0 auto;
-  width: 52px;
-  height: 52px;
+  width: 46px;
+  height: 46px;
   border: 3px solid var(--kiosk-surface);
   border-radius: 50%;
   color: #fff;
   background: linear-gradient(145deg, var(--card-accent), #143976);
   box-shadow: 0 6px 18px rgba(18, 54, 116, .3);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: .04em
 }
@@ -5629,7 +5632,7 @@ body {
 .edu-kiosk-country-foot strong {
   min-width: 0;
   font-family: inherit;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.12;
   white-space: normal;
@@ -5700,11 +5703,13 @@ body {
   padding: 0 clamp(32px, 5vw, 56px) env(safe-area-inset-bottom);
   box-sizing: border-box;
   color: #fff;
-  background: linear-gradient(100deg, #071733, #102c5a 58%, #0b4a52);
-  box-shadow: 0 -10px 28px rgba(4, 14, 35, .2)
+  border-top: 0;
+  background: #5b6a7f;
+  box-shadow: 0 -10px 28px rgba(45, 55, 70, .24)
 }
 
 .edu-kiosk-footer-label {
+  color: #fff;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: .08em
@@ -5731,7 +5736,8 @@ body {
 }
 
 .edu-kiosk-footer-progress i.is-active {
-  background: var(--kiosk-green);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .18);
   transform: scale(1.25)
 }
 
@@ -6144,7 +6150,7 @@ body {
   .edu-kiosk-country-card {
     width: 100%;
     height: 190px;
-    grid-template-rows: minmax(0, 1fr) 46px;
+    grid-template-rows: minmax(0, 1fr) 42px;
     border-radius: 0
   }
 
@@ -6154,10 +6160,10 @@ body {
   }
 
   .edu-kiosk-country-card .edu-kiosk-flag {
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
     border-width: 2px;
-    font-size: 10px
+    font-size: 9px
   }
 
   .edu-kiosk-country-foot {
@@ -6166,7 +6172,7 @@ body {
   }
 
   .edu-kiosk-country-foot strong {
-    font-size: clamp(10px, 2.75vw, 13px);
+    font-size: clamp(9px, 2.5vw, 12px);
     line-height: 1.05
   }
 
@@ -6354,7 +6360,7 @@ body {
 
   .edu-kiosk-country-card {
     height: 550px;
-    grid-template-rows: minmax(0, 1fr) 120px;
+    grid-template-rows: minmax(0, 1fr) 108px;
     border-radius: 0
   }
 
@@ -6363,7 +6369,7 @@ body {
   }
 
   .edu-kiosk-country-foot strong {
-    font-size: 36px
+    font-size: 32px
   }
 
   .edu-kiosk-country-foot>svg {
@@ -6372,9 +6378,9 @@ body {
   }
 
   .edu-kiosk-flag {
-    width: 92px;
-    height: 92px;
-    font-size: 26px
+    width: 82px;
+    height: 82px;
+    font-size: 23px
   }
 
   .edu-kiosk-country-image>.edu-kiosk-flag {
