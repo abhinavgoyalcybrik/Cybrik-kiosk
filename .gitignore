@@ -73,3 +73,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+# Images
+Country images
