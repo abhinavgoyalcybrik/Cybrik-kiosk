@@ -26,7 +26,9 @@
 
 .edu-kiosk-country-image > .edu-kiosk-flag {
   isolation: isolate;
-  transform: scale(1.1);
+  top: clamp(10px, 1vw, 18px);
+  left: clamp(10px, 1vw, 18px);
+  transform: scale(0.9);
   transform-origin: center;
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.62);
