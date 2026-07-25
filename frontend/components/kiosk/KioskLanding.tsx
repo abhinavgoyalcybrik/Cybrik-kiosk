@@ -128,8 +128,7 @@ export function KioskLanding() {
                   <Image src={destination.flagImage} alt="" fill sizes="(max-width: 620px) 34px, 82px" />
                 </span>
                 <span className="edu-kiosk-country-overlay">
-                  <strong>{destination.cardName}</strong>
-                  <span>Get Info <ArrowRight size={20} aria-hidden="true" /></span>
+                  <strong>{destination.cardName} <ArrowRight size={20} aria-hidden="true" /></strong>
                 </span>
               </span>
             </button>

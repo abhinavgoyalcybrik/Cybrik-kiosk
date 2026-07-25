@@ -83,6 +83,21 @@
   pointer-events: none;
 }
 
+.edu-kiosk-country-overlay > strong {
+  display: block;
+  width: 100%;
+  padding-right: 36px;
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
+.edu-kiosk-country-overlay > strong svg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .edu-kiosk-footer {
   position: fixed;
   inset: auto 0 0;
