@@ -135,6 +135,7 @@ export function KioskLanding() {
             </button>
           ))}
         </div>
+        <div className="edu-kiosk-scroll-clearance" aria-hidden="true" />
       </section>
 
       <footer className="edu-kiosk-footer">
