@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -151,7 +151,13 @@ const docs = [
   ["Updated CV", "Academic and work experience", "ready"],
 ] as const;
 
-export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
+export function StudentJourney({
+  kiosk = false,
+  preferenceKiosk = false,
+}: {
+  kiosk?: boolean;
+  preferenceKiosk?: boolean;
+}) {
   const reduceMotion = useReducedMotion();
   const [stage, setStage] = useState<Stage>("auth");
   const [authMode, setAuthMode] = useState<"register" | "login">("register");
@@ -209,14 +215,6 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
     [academicScore, budget, city, country, score, search, sort, test],
   );
 
-  const progress =
-    stage === "auth" || stage === "otp"
-      ? 1
-      : stage === "profile"
-        ? 2
-        : stage === "matches"
-          ? 3
-          : 4;
   const transition = reduceMotion
     ? { duration: 0 }
     : { duration: 0.28, ease: "easeOut" as const };
@@ -236,7 +234,9 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
   };
 
   return (
-    <main className={`journey-app ${kiosk ? "kiosk-mode" : ""}`}>
+    <main
+      className={`journey-app ${kiosk ? "kiosk-mode" : ""} ${preferenceKiosk ? "preference-kiosk" : ""}`}
+    >
       <a className="skip-link" href="#journey-content">
         Skip to content
       </a>
@@ -250,12 +250,6 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
             priority
           />
         </Link>
-        <div className="step-track" aria-label={`Step ${progress} of 4`}>
-          <span>Step {progress} of 4</span>
-          <i>
-            <b style={{ width: `${progress * 25}%` }} />
-          </i>
-        </div>
         <div className="app-help">
           {kiosk && <span className="kiosk-badge">43″ guided kiosk</span>}
           <span className="secure">
@@ -264,9 +258,6 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
           <Link href="/">Exit</Link>
         </div>
       </header>
-      {stage !== "auth" && stage !== "otp" && (
-        <JourneySteps progress={progress} />
-      )}
       <AnimatePresence mode="wait">
         <motion.div
           id="journey-content"
@@ -401,7 +392,6 @@ function AuthScreen({
             onNext();
           }}
         >
-          <JourneySteps progress={1} embedded />
           <div className="form-tabs">
             <button
               type="button"
@@ -471,30 +461,6 @@ function AuthScreen({
   );
 }
 
-function JourneySteps({
-  progress,
-  embedded = false,
-}: {
-  progress: number;
-  embedded?: boolean;
-}) {
-  return (
-    <div
-      className={`app-steps${embedded ? " app-steps-embedded" : ""}`}
-      aria-label={`Step ${progress} of 4`}
-    >
-      {["Account", "Your profile", "Explore matches", "Document plan"].map(
-        (step, index) => (
-          <div className={index + 1 <= progress ? "active" : ""} key={step}>
-            <b>{index + 1 < progress ? <Check size={15} /> : index + 1}</b>
-            <span>{step}</span>
-          </div>
-        ),
-      )}
-    </div>
-  );
-}
-
 function OtpScreen({
   otp,
   setOtp,
@@ -512,7 +478,6 @@ function OtpScreen({
         <ArrowLeft /> Back
       </button>
       <div className="otp-card">
-        <JourneySteps progress={1} embedded />
         <div className="success-icon">
           <Shield />
         </div>
@@ -775,62 +740,81 @@ function MatchesScreen({
   setScore: (v: string) => void;
 }) {
   const [openPreference, setOpenPreference] = useState<string | null>(null);
+  const preferencesRef = useRef<HTMLElement>(null);
   const cityOptions = country === "Australia" ? ["Melbourne", "Sydney", "Brisbane"] : country === "Canada" ? ["Vancouver", "Toronto"] : ["Dublin"];
   const changeCountry = (nextCountry: string) => {
     setCountry(nextCountry);
     setCity(nextCountry === "Australia" ? "Melbourne" : nextCountry === "Canada" ? "Vancouver" : "Dublin");
   };
+  useEffect(() => {
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (
+        openPreference &&
+        !preferencesRef.current?.contains(event.target as Node)
+      ) {
+        setOpenPreference(null);
+      }
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpenPreference(null);
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [openPreference]);
   return (
     <section className="matches-page">
-      <aside className="filter-panel">
-        <div>
-          <span className="kicker">Your preferences</span>
-          <h2>Shape your results</h2>
+      <aside className="filter-panel" ref={preferencesRef}>
+        <div className="preference-toolbar-head">
+          <div>
+            <span className="kicker">Your preferences</span>
+            <h2>Shape your results</h2>
+          </div>
+          <button className="edit-profile" onClick={onEdit}>
+            Edit full profile <ArrowRight size={17} />
+          </button>
         </div>
-        <button className="edit-profile" onClick={onEdit}>
-          Edit full profile <ArrowRight size={17} />
-        </button>
-        <PreferenceEditor
-          icon={<Graduation />}
-          label="Academics"
-          value={`${qualification} · ${academicScore}`}
-          open={openPreference === "academics"}
-          onToggle={() => setOpenPreference(openPreference === "academics" ? null : "academics")}
-        >
-          <Select label="Qualification" value={qualification} onChange={setQualification} options={["Bachelor’s degree", "Master’s degree", "Diploma"]} />
-          <Select label="Latest score" value={academicScore} onChange={setAcademicScore} options={["8.2 CGPA", "7.5 CGPA", "7.0 CGPA"]} />
-        </PreferenceEditor>
-        <PreferenceEditor
-          icon={<Globe />}
-          label="Destination"
-          value={`${country} · ${city}`}
-          open={openPreference === "destination"}
-          onToggle={() => setOpenPreference(openPreference === "destination" ? null : "destination")}
-        >
-          <Select label="Country" value={country} onChange={changeCountry} options={["Australia", "Canada", "Ireland"]} />
-          <Select label="City" value={city} onChange={setCity} options={cityOptions} />
-          <FieldPlain label="Course"><input value={course} onChange={(event) => setCourse(event.target.value)} /></FieldPlain>
-        </PreferenceEditor>
-        <PreferenceEditor icon={<Spark />} label="English" value={`${test} · ${score}`} open={openPreference === "english"} onToggle={() => setOpenPreference(openPreference === "english" ? null : "english")}>
-          <Select label="Test" value={test} onChange={setTest} options={["IELTS", "PTE", "TOEFL", "Duolingo"]} />
-          <FieldPlain label={`${test} score`}><input inputMode="decimal" value={score} onChange={(event) => setScore(event.target.value)} /></FieldPlain>
-        </PreferenceEditor>
-        <PreferenceEditor
-          icon={<Wallet />}
-          label="Tuition"
-          value={`Up to ₹${budget}L / year`}
-          open={openPreference === "tuition"}
-          onToggle={() => setOpenPreference(openPreference === "tuition" ? null : "tuition")}
-        >
-          <label className="inline-budget"><span>Maximum annual tuition</span><strong>₹{budget}L</strong><input aria-label="Maximum annual tuition" type="range" min="5" max="60" value={budget} onChange={(event) => setBudget(Number(event.target.value))} /></label>
-        </PreferenceEditor>
-        <div className="preferences-live"><span aria-hidden="true" /> Results update automatically</div>
-        <div className="filter-tip">
-          <Spark />
-          <strong>Tip</strong>
-          <p>
-            Widening your city preference could reveal 8 more eligible programs.
-          </p>
+        <div className="preference-toolbar-scroll">
+          <div className="preference-toolbar">
+            <PreferenceEditor
+              icon={<Graduation />}
+              label="Academics"
+              value={`${qualification} · ${academicScore}`}
+              open={openPreference === "academics"}
+              onToggle={() => setOpenPreference(openPreference === "academics" ? null : "academics")}
+            >
+              <Select label="Qualification" value={qualification} onChange={(value) => { setQualification(value); setOpenPreference(null); }} options={["Bachelor’s degree", "Master’s degree", "Diploma"]} />
+              <Select label="Latest score" value={academicScore} onChange={(value) => { setAcademicScore(value); setOpenPreference(null); }} options={["8.2 CGPA", "7.5 CGPA", "7.0 CGPA"]} />
+            </PreferenceEditor>
+            <PreferenceEditor
+              icon={<Globe />}
+              label="Destination"
+              value={`${country} · ${city}`}
+              open={openPreference === "destination"}
+              onToggle={() => setOpenPreference(openPreference === "destination" ? null : "destination")}
+            >
+              <Select label="Country" value={country} onChange={(value) => { changeCountry(value); setOpenPreference(null); }} options={["Australia", "Canada", "Ireland"]} />
+              <Select label="City" value={city} onChange={(value) => { setCity(value); setOpenPreference(null); }} options={cityOptions} />
+              <FieldPlain label="Course"><input value={course} onChange={(event) => setCourse(event.target.value)} onBlur={() => setOpenPreference(null)} /></FieldPlain>
+            </PreferenceEditor>
+            <PreferenceEditor icon={<Spark />} label="English" value={`${test} · ${score}`} open={openPreference === "english"} onToggle={() => setOpenPreference(openPreference === "english" ? null : "english")}>
+              <Select label="Test" value={test} onChange={(value) => { setTest(value); setOpenPreference(null); }} options={["IELTS", "PTE", "TOEFL", "Duolingo"]} />
+              <FieldPlain label={`${test} score`}><input inputMode="decimal" value={score} onChange={(event) => setScore(event.target.value)} onBlur={() => setOpenPreference(null)} /></FieldPlain>
+            </PreferenceEditor>
+            <PreferenceEditor
+              icon={<Wallet />}
+              label="Tuition"
+              value={`Up to ₹${budget}L/year`}
+              open={openPreference === "tuition"}
+              onToggle={() => setOpenPreference(openPreference === "tuition" ? null : "tuition")}
+            >
+              <label className="inline-budget"><span>Maximum annual tuition</span><strong>₹{budget}L</strong><input aria-label="Maximum annual tuition" type="range" min="5" max="60" value={budget} onChange={(event) => setBudget(Number(event.target.value))} onPointerUp={() => setOpenPreference(null)} /></label>
+            </PreferenceEditor>
+            <div className="preferences-live"><span aria-hidden="true" /> Results update automatically</div>
+          </div>
         </div>
       </aside>
       <div className="results-panel">

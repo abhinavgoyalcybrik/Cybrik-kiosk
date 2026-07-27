@@ -106,7 +106,7 @@ export function KioskLanding() {
         <div className="edu-kiosk-hero-scrim" />
         <div className="edu-kiosk-hero-copy">
           <h1>Explore ! <br />Study Abroad in<br /><em> 30 seconds</em></h1>
-          <Link className="edu-kiosk-start" href="/portal">Start now <ArrowRight size={34} /></Link>
+          <Link className="edu-kiosk-start" href="/portal?display=kiosk">Start now <ArrowRight size={34} /></Link>
         </div>
         <div className="edu-kiosk-slide-copy-stack">
           {HERO_DESTINATIONS.map((destination, index) => (
@@ -159,7 +159,7 @@ export function KioskLanding() {
           <div className="edu-kiosk-overlay-bar"><button type="button" onClick={() => setSelected(null)}><ArrowLeft size={30} /> Back</button><button type="button" onClick={() => { setSelected(null); setQuery(""); }}><HomeIcon /> Home</button></div>
           <article className="edu-kiosk-country-detail">
             <div className="edu-kiosk-detail-image"><Image src={selected.image} alt={`University campus in ${selected.name}`} fill sizes="100vw" /></div>
-            <div className="edu-kiosk-detail-content"><span className="edu-kiosk-flag">{selected.code}</span><span className="edu-kiosk-eyebrow">Study destination</span><h2 id="country-detail-title">Explore {selected.name}</h2><p>Discover globally recognised universities, career-focused courses, scholarships and upcoming intakes matched to your goals.</p><div><span><strong>{selected.universities}</strong><small>to explore</small></span><span><strong>Multiple intakes</strong><small>throughout the year</small></span></div><Link className="edu-kiosk-start" href="/portal">Find my matches <ArrowRight size={32} /></Link></div>
+              <div className="edu-kiosk-detail-content"><span className="edu-kiosk-flag">{selected.code}</span><span className="edu-kiosk-eyebrow">Study destination</span><h2 id="country-detail-title">Explore {selected.name}</h2><p>Discover globally recognised universities, career-focused courses, scholarships and upcoming intakes matched to your goals.</p><div><span><strong>{selected.universities}</strong><small>to explore</small></span><span><strong>Multiple intakes</strong><small>throughout the year</small></span></div><Link className="edu-kiosk-start" href="/portal?display=kiosk">Find my matches <ArrowRight size={32} /></Link></div>
           </article>
         </div>
       )}
