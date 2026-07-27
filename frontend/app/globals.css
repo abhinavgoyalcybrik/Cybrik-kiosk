@@ -1241,8 +1241,7 @@ footer>span {
 /* Auth */
 .auth-layout {
   min-height: calc(100dvh - 144px);
-  display: grid;
-  grid-template-columns: 1fr 1fr
+  display: grid
 }
 
 .auth-story {
@@ -1360,7 +1359,9 @@ footer>span {
 }
 
 .auth-form-wrap {
-  padding: 45px;
+  width: 100%;
+  min-height: inherit;
+  padding: clamp(24px, 5vw, 48px);
   display: grid;
   place-items: center;
   background: #f6f8f4
@@ -7427,7 +7428,7 @@ body {
 
   .kiosk-mode .auth-layout {
     min-height: calc(100dvh - 148px);
-    grid-template-columns: .92fr 1.08fr
+    grid-template-columns: 1fr
   }
 
   .kiosk-mode .auth-story {

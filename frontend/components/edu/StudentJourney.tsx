@@ -400,39 +400,6 @@ function AuthScreen({
 }) {
   return (
     <section className="auth-layout">
-      <div className="auth-story">
-        <div className="auth-art">
-          <Globe size={190} />
-          <div className="route-line r1" />
-          <div className="route-line r2" />
-          <span className="pin p1">AU</span>
-          <span className="pin p2">UK</span>
-          <span className="pin p3">CA</span>
-        </div>
-        <span className="kicker">Your study journey starts here</span>
-        <h1>
-          One profile.
-          <br />A world of <span>possibility.</span>
-        </h1>
-        <p>
-          Discover programs that fit your ambitions, eligibility, and
-          budget—with every next step organized.
-        </p>
-        <div className="auth-proof">
-          <div>
-            <strong>2,400+</strong>
-            <span>Programs</span>
-          </div>
-          <div>
-            <strong>18</strong>
-            <span>Countries</span>
-          </div>
-          <div>
-            <strong>94%</strong>
-            <span>Strong matches</span>
-          </div>
-        </div>
-      </div>
       <div className="auth-form-wrap">
         <form
           className="form-card"
