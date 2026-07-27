@@ -2,6 +2,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.core.exceptions import ObjectDoesNotExist
 from django.conf import settings
+from django.core import signing
 from django.utils import timezone
 from functools import lru_cache
 from urllib.error import URLError, HTTPError
@@ -35,6 +36,11 @@ from services.risk_flags import generate_risk_flags
 from services.profile import compute_recommendation_confidence
 
 logger = logging.getLogger(__name__)
+
+AUTH_COOKIE_NAME = "cybrik_session"
+AUTH_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
+OTP_RESEND_COOLDOWN_SECONDS = 60
+OTP_MAX_SENDS_PER_HOUR = 5
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # UTILITY FUNCTIONS
@@ -353,8 +359,36 @@ def parse_int_or_none(value):
 
 
 def is_valid_phone(phone):
-    pattern = r"^[+\d][\d\s\-()]{6,}$"
-    return re.match(pattern, phone) is not None
+    return re.fullmatch(r"\d{8,15}", phone) is not None
+
+
+def normalize_phone(value):
+    return re.sub(r"\D", "", str(value or ""))
+
+
+def get_authenticated_session(request):
+    token = request.COOKIES.get(AUTH_COOKIE_NAME, "")
+    if not token:
+        return None
+    try:
+        payload = signing.loads(
+            token,
+            salt="cybrik.session",
+            max_age=AUTH_COOKIE_MAX_AGE,
+        )
+        return KioskSession.objects.filter(
+            session_key=payload.get("session_key"),
+            status=KioskSession.STATUS_VERIFIED,
+        ).select_related("student_profile").first()
+    except (signing.BadSignature, signing.SignatureExpired):
+        return None
+
+
+def require_matching_session(request, session_key):
+    session = get_authenticated_session(request)
+    if not session or str(session.session_key) != str(session_key):
+        return None, Response({"error": "Authentication required"}, status=401)
+    return session, None
 
 
 def parse_course_ids(raw_ids):
@@ -967,28 +1001,51 @@ def session_start(request):
         "phone": "919876543210"
     }
     """
+    mode = str(request.data.get("mode", "register")).strip().lower()
     name = str(request.data.get("name", "")).strip()
     email = str(request.data.get("email", "")).strip()
-    phone = str(request.data.get("phone", "")).strip()
+    phone = normalize_phone(request.data.get("phone", ""))
 
-    if not name:
+    if mode not in {"register", "login"}:
+        return Response({"error": "mode must be register or login"}, status=400)
+    if mode == "register" and not name:
         return Response({"error": "name is required"}, status=400)
     if not phone:
         return Response({"error": "phone is required"}, status=400)
     if not is_valid_phone(phone):
         return Response({"error": "phone format is invalid"}, status=400)
 
+    existing_student = StudentProfile.objects.filter(phone=phone).order_by("-updated_at").first()
+    if mode == "register" and existing_student:
+        return Response(
+            {"error": "Phone number is already registered. Please sign in."},
+            status=409,
+        )
+    if mode == "login" and not existing_student:
+        return Response(
+            {"error": "No account was found for this phone number."},
+            status=404,
+        )
+
+    profile_data = {
+        "name": name or (existing_student.name if existing_student else ""),
+        "email": email or (existing_student.email if existing_student else ""),
+        "phone": phone,
+        "auth_mode": mode,
+    }
     session = KioskSession.objects.create(
         phone=phone,
-        profile_data={"name": name, "email": email, "phone": phone},
+        profile_data=profile_data,
+        student_profile=existing_student,
     )
 
     return Response(
         {
             "session_key": str(session.session_key),
             "phone": session.phone,
-            "name": name,
-            "email": email,
+            "name": profile_data["name"],
+            "email": profile_data["email"],
+            "mode": mode,
             "status": session.status,
             "created_at": session.created_at.isoformat(),
         },
@@ -1006,10 +1063,21 @@ def session_otp_send(request, session_key):
     except KioskSession.DoesNotExist:
         return Response({"error": "Session not found"}, status=404)
 
+    recent = SessionOTP.objects.filter(session__phone=session.phone).order_by("-created_at").first()
+    if recent:
+        elapsed = (timezone.now() - recent.created_at).total_seconds()
+        if elapsed < OTP_RESEND_COOLDOWN_SECONDS:
+            retry_after = max(1, int(OTP_RESEND_COOLDOWN_SECONDS - elapsed))
+            return Response(
+                {"error": f"Please wait {retry_after} seconds before requesting another OTP.", "retry_after": retry_after},
+                status=429,
+            )
+    hour_ago = timezone.now() - timedelta(hours=1)
+    if SessionOTP.objects.filter(session__phone=session.phone, created_at__gte=hour_ago).count() >= OTP_MAX_SENDS_PER_HOUR:
+        return Response({"error": "Maximum OTP requests reached. Please try again later."}, status=429)
+
     otp_code = str(random.randint(100000, 999999))
     expires_at = timezone.now() + timedelta(minutes=5)
-
-    SessionOTP.objects.filter(session=session).delete()
 
     otp_obj = SessionOTP.objects.create(
         session=session,
@@ -1017,15 +1085,11 @@ def session_otp_send(request, session_key):
         expires_at=expires_at,
     )
 
-    profile_data = session.profile_data or {}
-    student_name = profile_data.get("name", "Student")
-    
     meta_service = MetaWhatsAppService()
-    message = f"Your Cybrik OTP is: {otp_code}\nValid for 5 minutes. Do not share with anyone."
-    
-    meta_result = meta_service.send_text_message(session.phone, message)
+    meta_result = meta_service.send_otp_message(session.phone, otp_code)
 
     if not meta_result.get("success"):
+        otp_obj.delete()
         logger.error(f"Meta WhatsApp OTP send failed: {meta_result}")
         return Response({
             "success": False,
@@ -1039,6 +1103,8 @@ def session_otp_send(request, session_key):
         "session_key": str(session.session_key),
         "phone": session.phone,
         "expires_in_minutes": 5,
+        "expires_in_seconds": 300,
+        "resend_after_seconds": OTP_RESEND_COOLDOWN_SECONDS,
     }, status=200)
 
 
@@ -1098,7 +1164,15 @@ def session_otp_verify(request, session_key):
 
     # Create or update StudentProfile from session data
     profile = session.profile_data or {}
-    student, created = StudentProfile.objects.get_or_create(phone=session.phone)
+    student = session.student_profile or StudentProfile.objects.filter(
+        phone=session.phone
+    ).order_by("-updated_at").first()
+    created = student is None
+    if student is None:
+        student = StudentProfile.objects.create(
+            phone=session.phone,
+            name=profile.get("name") or "Kiosk Student",
+        )
 
     student.name = profile.get("name", student.name or "Kiosk Student")
     student.email = profile.get("email", student.email or "")
@@ -1109,7 +1183,7 @@ def session_otp_verify(request, session_key):
     session.status = KioskSession.STATUS_VERIFIED
     session.save(update_fields=["student_profile", "status", "updated_at"])
 
-    return Response(
+    response = Response(
         {
             "verified": True,
             "message": "OTP verified successfully",
@@ -1119,6 +1193,41 @@ def session_otp_verify(request, session_key):
         },
         status=200,
     )
+    response.set_cookie(
+        AUTH_COOKIE_NAME,
+        signing.dumps({"session_key": str(session.session_key)}, salt="cybrik.session"),
+        max_age=AUTH_COOKIE_MAX_AGE,
+        httponly=True,
+        secure=not settings.DEBUG,
+        samesite="Lax",
+        path="/",
+    )
+    return response
+
+
+@api_view(["GET"])
+def session_status(request):
+    session = get_authenticated_session(request)
+    if not session:
+        response = Response({"authenticated": False}, status=200)
+        response.delete_cookie(AUTH_COOKIE_NAME, path="/", samesite="Lax")
+        return response
+    profile = session.student_profile
+    return Response({
+        "authenticated": True,
+        "session_key": str(session.session_key),
+        "phone": session.phone,
+        "student_profile_id": profile.id if profile else None,
+        "name": profile.name if profile else session.profile_data.get("name", ""),
+        "email": profile.email if profile else session.profile_data.get("email", ""),
+    })
+
+
+@api_view(["POST"])
+def session_logout(request):
+    response = Response({"success": True, "message": "Logged out"})
+    response.delete_cookie(AUTH_COOKIE_NAME, path="/", samesite="Lax")
+    return response
 
 
 @api_view(["PATCH"])
@@ -1135,10 +1244,9 @@ def session_autosave(request, session_key):
         ...
     }
     """
-    try:
-        session = KioskSession.objects.get(session_key=session_key)
-    except KioskSession.DoesNotExist:
-        return Response({"error": "Session not found"}, status=404)
+    session, auth_error = require_matching_session(request, session_key)
+    if auth_error:
+        return auth_error
 
     incoming = request.data or {}
     current = session.profile_data or {}

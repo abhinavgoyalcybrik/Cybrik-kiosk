@@ -25,6 +25,7 @@ ALLOWED_HOSTS = [
     "magical-advertising-genealogy-sci.trycloudflare.com",
     "192.168.1.105",
     "unexpired-bronzing-shredding.ngrok-free.dev",
+    "lantern-sharpener-prone.ngrok-free.dev",
     "192.168.1.119",
 ]
 
@@ -56,6 +57,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'https://nimbly-acuteness-zips.ngrok-free.dev',
+    'https://lantern-sharpener-prone.ngrok-free.dev',
     'http://10.213.179.88',
     'http://192.168.1.105',
     'http://192.168.1.119',
@@ -68,7 +70,8 @@ CSRF_TRUSTED_ORIGINS = [
     'http://10.213.179.88',
     "http://192.168.1.86",
     "http://192.168.1.105",
-    'https://unexpired-bronzing-shredding.ngrok-free.dev'
+    'https://unexpired-bronzing-shredding.ngrok-free.dev',
+    'https://lantern-sharpener-prone.ngrok-free.dev',
 ]
 
 ROOT_URLCONF = 'core.urls'

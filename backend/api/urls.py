@@ -16,6 +16,8 @@ from .views import (
     session_recommendations,
     session_otp_send,
     session_otp_verify,
+    session_status,
+    session_logout,
     session_select_courses,
     session_whatsapp_share,
 )
@@ -38,6 +40,8 @@ urlpatterns = [
     path("session/<uuid:session_key>/recommendations/", session_recommendations, name="session-recommendations"),
     path("session/<uuid:session_key>/otp/send/", session_otp_send, name="session-otp-send"),
     path("session/<uuid:session_key>/otp/verify/", session_otp_verify, name="session-otp-verify"),
+    path("session/status/", session_status, name="session-status"),
+    path("session/logout/", session_logout, name="session-logout"),
     path("session/<uuid:session_key>/select-courses/", session_select_courses, name="session-select-courses"),
     path("session/<uuid:session_key>/whatsapp-share/", session_whatsapp_share, name="session-whatsapp-share"),
 ]

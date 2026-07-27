@@ -5,6 +5,15 @@ import Link from "next/link";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
+  AuthApiError,
+  autosaveAuthProfile,
+  getAuthSession,
+  logoutAuthSession,
+  sendSessionOtp,
+  startAuthSession,
+  verifySessionOtp,
+} from "@/lib/auth";
+import {
   ArrowLeft,
   ArrowRight,
   Check,
@@ -163,6 +172,14 @@ export function StudentJourney({
   const [authMode, setAuthMode] = useState<"register" | "login">("register");
   const [otp, setOtp] = useState("");
   const [name, setName] = useState("Aarav Sharma");
+  const [phone, setPhone] = useState("98765 43210");
+  const [email, setEmail] = useState("aarav@example.com");
+  const [sessionKey, setSessionKey] = useState("");
+  const [authBusy, setAuthBusy] = useState(false);
+  const [authError, setAuthError] = useState("");
+  const [authMessage, setAuthMessage] = useState("");
+  const [otpExpiresIn, setOtpExpiresIn] = useState(300);
+  const [resendAfter, setResendAfter] = useState(60);
   const [qualification, setQualification] = useState("Bachelor’s degree");
   const [academicScore, setAcademicScore] = useState("8.2 CGPA");
   const [country, setCountry] = useState("Australia");
@@ -232,6 +249,130 @@ export function StudentJourney({
       saved.includes(id) ? "Removed from shortlist" : "Added to your shortlist",
     );
   };
+  useEffect(() => {
+    let active = true;
+    getAuthSession()
+      .then((session) => {
+        if (!active || !session.authenticated) return;
+        setSessionKey(session.session_key);
+        setPhone(session.phone);
+        setName(session.name || "Student");
+        setEmail(session.email || "");
+        setStage("profile");
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+  }, []);
+  const normalizedPhone = () => {
+    const digits = phone.replace(/\D/g, "");
+    return digits.length === 10 ? `91${digits}` : digits;
+  };
+  const beginAuthentication = async () => {
+    if (authBusy) return;
+    const submittedPhone = normalizedPhone();
+    if (!/^\d{8,15}$/.test(submittedPhone)) {
+      setAuthError("Enter a valid phone number with its country code.");
+      return;
+    }
+    setAuthBusy(true);
+    setAuthError("");
+    setAuthMessage("");
+    try {
+      const session = await startAuthSession({
+        mode: authMode,
+        name: authMode === "register" ? name : undefined,
+        email: authMode === "register" ? email : undefined,
+        phone: submittedPhone,
+      });
+      const delivery = await sendSessionOtp(session.session_key);
+      setSessionKey(session.session_key);
+      setPhone(session.phone);
+      setOtp("");
+      setOtpExpiresIn(delivery.expires_in_seconds || 300);
+      setResendAfter(delivery.resend_after_seconds || 60);
+      setAuthMessage(delivery.message);
+      go("otp");
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "Unable to continue.");
+    } finally {
+      setAuthBusy(false);
+    }
+  };
+  const verifyOtp = async () => {
+    if (authBusy || !sessionKey || otp.length !== 6) return;
+    setAuthBusy(true);
+    setAuthError("");
+    try {
+      const result = await verifySessionOtp(sessionKey, otp);
+      setAuthMessage(result.message);
+      notify(result.message);
+      go("profile");
+    } catch (error) {
+      setAuthError(error instanceof Error ? error.message : "OTP verification failed.");
+    } finally {
+      setAuthBusy(false);
+    }
+  };
+  const resendOtp = async () => {
+    if (authBusy || !sessionKey) return null;
+    setAuthBusy(true);
+    setAuthError("");
+    try {
+      const result = await sendSessionOtp(sessionKey);
+      setOtpExpiresIn(result.expires_in_seconds || 300);
+      setResendAfter(result.resend_after_seconds || 60);
+      setAuthMessage("OTP resent successfully.");
+      notify("OTP resent successfully.");
+      return result;
+    } catch (error) {
+      if (error instanceof AuthApiError && error.retryAfter) {
+        setResendAfter(error.retryAfter);
+      }
+      setAuthError(error instanceof Error ? error.message : "Unable to resend OTP.");
+      return null;
+    } finally {
+      setAuthBusy(false);
+    }
+  };
+  const changePhone = () => {
+    setOtp("");
+    setSessionKey("");
+    setAuthError("");
+    setAuthMessage("");
+    go("auth");
+  };
+  const handleLogout = async () => {
+    try {
+      await logoutAuthSession();
+    } finally {
+      setSessionKey("");
+      setOtp("");
+      window.location.href = "/";
+    }
+  };
+  const saveProfileAndContinue = async () => {
+    if (!sessionKey || authBusy) return;
+    setAuthBusy(true);
+    try {
+      await autosaveAuthProfile(sessionKey, {
+        preferred_countries: [country],
+        preferred_cities: [city],
+        preferred_course: course,
+        qualification,
+        academic_score: academicScore,
+        budget_lakhs: budget,
+        english_test: test,
+        english_score: score,
+      });
+      go("matches");
+    } catch (error) {
+      notify(error instanceof Error ? error.message : "Unable to save your profile.");
+    } finally {
+      setAuthBusy(false);
+    }
+  };
 
   return (
     <main
@@ -255,7 +396,7 @@ export function StudentJourney({
           <span className="secure">
             <Shield size={16} /> Secure session
           </span>
-          <Link href="/">Exit</Link>
+          <button className="auth-exit" type="button" onClick={handleLogout}>Exit</button>
         </div>
       </header>
       <AnimatePresence mode="wait">
@@ -270,18 +411,34 @@ export function StudentJourney({
           {stage === "auth" && (
             <AuthScreen
               mode={authMode}
-              setMode={setAuthMode}
               name={name}
               setName={setName}
-              onNext={() => go("otp")}
+              phone={phone}
+              setPhone={setPhone}
+              email={email}
+              setEmail={setEmail}
+              busy={authBusy}
+              error={authError}
+              onNext={beginAuthentication}
+              onModeChange={(mode) => {
+                setAuthMode(mode);
+                setAuthError("");
+              }}
             />
           )}
           {stage === "otp" && (
             <OtpScreen
               otp={otp}
               setOtp={setOtp}
-              onBack={() => go("auth")}
-              onNext={() => go("profile")}
+              phone={phone}
+              busy={authBusy}
+              error={authError}
+              message={authMessage}
+              expiresIn={otpExpiresIn}
+              resendAfter={resendAfter}
+              onBack={changePhone}
+              onNext={verifyOtp}
+              onResend={resendOtp}
             />
           )}
           {stage === "profile" && (
@@ -299,7 +456,7 @@ export function StudentJourney({
               setTest={setTest}
               score={score}
               setScore={setScore}
-              onNext={() => go("matches")}
+              onNext={saveProfileAndContinue}
             />
           )}
           {stage === "matches" && (
@@ -371,16 +528,28 @@ export function StudentJourney({
 
 function AuthScreen({
   mode,
-  setMode,
+  onModeChange,
   name,
   setName,
+  phone,
+  setPhone,
+  email,
+  setEmail,
+  busy,
+  error,
   onNext,
 }: {
   mode: "register" | "login";
-  setMode: (v: "register" | "login") => void;
+  onModeChange: (v: "register" | "login") => void;
   name: string;
   setName: (v: string) => void;
-  onNext: () => void;
+  phone: string;
+  setPhone: (v: string) => void;
+  email: string;
+  setEmail: (v: string) => void;
+  busy: boolean;
+  error: string;
+  onNext: () => Promise<void>;
 }) {
   return (
     <section className="auth-layout">
@@ -396,14 +565,14 @@ function AuthScreen({
             <button
               type="button"
               className={mode === "register" ? "active" : ""}
-              onClick={() => setMode("register")}
+              onClick={() => onModeChange("register")}
             >
               Create account
             </button>
             <button
               type="button"
               className={mode === "login" ? "active" : ""}
-              onClick={() => setMode("login")}
+              onClick={() => onModeChange("login")}
             >
               Sign in
             </button>
@@ -432,8 +601,11 @@ function AuthScreen({
             <input
               required
               type="tel"
+              inputMode="tel"
               autoComplete="tel"
-              defaultValue="98765 43210"
+              value={phone}
+              onChange={(event) => setPhone(event.target.value)}
+              aria-invalid={Boolean(error && error.toLowerCase().includes("phone"))}
             />
           </Field>
           {mode === "register" && (
@@ -443,12 +615,14 @@ function AuthScreen({
                 required
                 type="email"
                 autoComplete="email"
-                defaultValue="aarav@example.com"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </Field>
           )}
-          <button className="button button-full button-lg" type="submit">
-            {mode === "register" ? "Create my account" : "Send login code"}
+          {error && <div className="auth-error" role="alert">{error}</div>}
+          <button className="button button-full button-lg" type="submit" disabled={busy}>
+            {busy ? "Please wait…" : mode === "register" ? "Create my account" : "Send login code"}
             <ArrowRight />
           </button>
           <small className="form-note">
@@ -464,14 +638,56 @@ function AuthScreen({
 function OtpScreen({
   otp,
   setOtp,
+  phone,
+  busy,
+  error,
+  message,
+  expiresIn,
+  resendAfter,
   onBack,
   onNext,
+  onResend,
 }: {
   otp: string;
   setOtp: (v: string) => void;
+  phone: string;
+  busy: boolean;
+  error: string;
+  message: string;
+  expiresIn: number;
+  resendAfter: number;
   onBack: () => void;
-  onNext: () => void;
+  onNext: () => Promise<void>;
+  onResend: () => Promise<
+    { expires_in_seconds: number; resend_after_seconds: number } | null
+  >;
 }) {
+  const inputsRef = useRef<Array<HTMLInputElement | null>>([]);
+  const [expirySeconds, setExpirySeconds] = useState(expiresIn);
+  const [resendSeconds, setResendSeconds] = useState(resendAfter);
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setExpirySeconds((value) => Math.max(0, value - 1));
+      setResendSeconds((value) => Math.max(0, value - 1));
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, []);
+  const updateDigit = (index: number, value: string) => {
+    const digit = value.replace(/\D/g, "").slice(-1);
+    const next = otp.padEnd(6, " ").split("");
+    next[index] = digit || " ";
+    setOtp(next.join("").replace(/\s/g, "").slice(0, 6));
+    if (digit && index < 5) inputsRef.current[index + 1]?.focus();
+  };
+  const handlePaste = (event: React.ClipboardEvent<HTMLInputElement>) => {
+    const pasted = event.clipboardData.getData("text").replace(/\D/g, "").slice(0, 6);
+    if (!pasted) return;
+    event.preventDefault();
+    setOtp(pasted);
+    inputsRef.current[Math.min(pasted.length, 6) - 1]?.focus();
+  };
+  const formatTime = (seconds: number) =>
+    `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
   return (
     <section className="center-screen otp-screen">
       <button className="back-link" onClick={onBack}>
@@ -484,29 +700,58 @@ function OtpScreen({
         <span className="kicker">Secure verification</span>
         <h1>Check your phone</h1>
         <p>
-          We sent a 6-digit code to <strong>+91 98765 43210</strong>
+          We sent a 6-digit code to <strong>+{phone}</strong>
         </p>
-        <label className="otp-input">
-          <span>One-time code</span>
-          <input
-            autoFocus
-            inputMode="numeric"
-            maxLength={6}
-            value={otp}
-            onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
-            placeholder="• • • • • •"
-          />
-        </label>
+        <fieldset className="otp-digit-group">
+          <legend>One-time code</legend>
+          <div>
+            {Array.from({ length: 6 }, (_, index) => (
+              <input
+                key={index}
+                ref={(element) => { inputsRef.current[index] = element; }}
+                autoFocus={index === 0}
+                inputMode="numeric"
+                autoComplete={index === 0 ? "one-time-code" : "off"}
+                aria-label={`OTP digit ${index + 1}`}
+                maxLength={1}
+                value={otp[index] || ""}
+                onChange={(event) => updateDigit(index, event.target.value)}
+                onPaste={handlePaste}
+                onKeyDown={(event) => {
+                  if (event.key === "Backspace" && !otp[index] && index > 0) {
+                    inputsRef.current[index - 1]?.focus();
+                  }
+                }}
+              />
+            ))}
+          </div>
+        </fieldset>
+        <div className="otp-timer" role="timer">
+          {expirySeconds > 0 ? `Code expires in ${formatTime(expirySeconds)}` : "Code expired. Request a new OTP."}
+        </div>
+        {message && !error && <div className="auth-success" role="status">{message}</div>}
+        {error && <div className="auth-error" role="alert">{error}</div>}
         <button
           className="button button-full button-lg"
-          disabled={otp.length !== 6}
+          disabled={busy || otp.length !== 6 || expirySeconds === 0}
           onClick={onNext}
         >
-          Verify and continue <ArrowRight />
+          {busy ? "Verifying…" : "Verify OTP"} <ArrowRight />
         </button>
-        <button className="resend" onClick={() => setOtp("123456")}>
-          Use demo code <strong>123456</strong>
-        </button>
+        <div className="otp-actions">
+          <button className="resend" disabled={busy || resendSeconds > 0} onClick={async () => {
+            const result = await onResend();
+            if (result) {
+              setOtp("");
+              setExpirySeconds(result.expires_in_seconds);
+              setResendSeconds(result.resend_after_seconds);
+              inputsRef.current[0]?.focus();
+            }
+          }}>
+            {resendSeconds > 0 ? `Resend OTP in ${resendSeconds}s` : "Resend OTP"}
+          </button>
+          <button className="resend" disabled={busy} onClick={onBack}>Change phone number</button>
+        </div>
       </div>
     </section>
   );
