@@ -1217,6 +1217,56 @@ footer>span {
   color: #fff
 }
 
+.app-steps.app-steps-embedded {
+  width: 100%;
+  height: auto;
+  margin: 0 0 28px;
+  padding: 0 2px 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  gap: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line-soft);
+  background: transparent;
+  display: grid;
+  position: relative
+}
+
+.app-steps.app-steps-embedded:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 12px;
+  left: 12.5%;
+  right: 12.5%;
+  height: 1px;
+  background: var(--line)
+}
+
+.app-steps-embedded>div {
+  width: 100%;
+  justify-content: center;
+  gap: 0;
+  z-index: 1
+}
+
+.app-steps-embedded>div:not(:last-child):after {
+  display: none
+}
+
+.app-steps-embedded b {
+  background: #fff
+}
+
+.app-steps-embedded span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap
+}
+
 .toast {
   position: fixed;
   z-index: 100;
@@ -1240,7 +1290,7 @@ footer>span {
 
 /* Auth */
 .auth-layout {
-  min-height: calc(100dvh - 144px);
+  min-height: calc(100dvh - 74px);
   display: grid
 }
 
@@ -1494,6 +1544,10 @@ footer>span {
   position: relative
 }
 
+.otp-screen {
+  min-height: calc(100dvh - 74px)
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;
@@ -1515,6 +1569,23 @@ footer>span {
   padding: 45px;
   border-radius: 24px;
   text-align: center
+}
+
+.otp-card .app-steps-embedded {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  padding-inline: 0
+}
+
+.otp-card .app-steps-embedded>div {
+  width: 100%;
+  justify-content: center
+}
+
+.otp-card .app-steps-embedded>div:not(:last-child):after {
+  left: calc(50% + 12px);
+  width: calc(100% - 24px)
 }
 
 .success-icon,
@@ -2943,7 +3014,7 @@ footer>span {
   }
 
   .auth-layout {
-    min-height: calc(100dvh - 119px)
+    min-height: calc(100dvh - 64px)
   }
 
   .auth-story {
@@ -2973,6 +3044,10 @@ footer>span {
   .center-screen {
     min-height: calc(100dvh - 119px);
     padding-top: 80px
+  }
+
+  .otp-screen {
+    min-height: calc(100dvh - 64px)
   }
 
   .otp-card {
@@ -7427,7 +7502,7 @@ body {
   }
 
   .kiosk-mode .auth-layout {
-    min-height: calc(100dvh - 148px);
+    min-height: calc(100dvh - 86px);
     grid-template-columns: 1fr
   }
 
@@ -7518,6 +7593,10 @@ body {
   .kiosk-mode .center-screen {
     min-height: calc(100dvh - 148px);
     padding: 36px
+  }
+
+  .kiosk-mode .otp-screen {
+    min-height: calc(100dvh - 86px)
   }
 
   .kiosk-mode .otp-card {
@@ -7951,7 +8030,7 @@ body {
   }
 
   .kiosk-mode .auth-layout {
-    min-height: calc(100dvh - 212px)
+    min-height: calc(100dvh - 124px)
   }
 
   .kiosk-mode .auth-story h1 {
@@ -8038,5 +8117,28 @@ body {
 
   .kiosk-mode .document-row p {
     font-size: 17px
+  }
+}
+
+@media (min-width:1600px) and (min-height:800px) {
+  .kiosk-mode .app-steps.app-steps-embedded {
+    height: auto;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    padding: 0 2px 24px
+  }
+
+  .kiosk-mode .app-steps-embedded>div {
+    width: 100%;
+    justify-content: center
+  }
+
+  .kiosk-mode .app-steps-embedded>div:not(:last-child):after {
+    left: calc(50% + 15px);
+    width: calc(100% - 30px)
+  }
+
+  .kiosk-mode .app-steps.app-steps-embedded:before {
+    top: 15px
   }
 }

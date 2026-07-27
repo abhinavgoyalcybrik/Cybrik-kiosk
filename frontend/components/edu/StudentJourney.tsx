@@ -264,16 +264,9 @@ export function StudentJourney({ kiosk = false }: { kiosk?: boolean }) {
           <Link href="/">Exit</Link>
         </div>
       </header>
-      <div className="app-steps" aria-hidden="true">
-        {["Account", "Your profile", "Explore matches", "Document plan"].map(
-          (s, i) => (
-            <div className={i + 1 <= progress ? "active" : ""} key={s}>
-              <b>{i + 1 < progress ? <Check size={15} /> : i + 1}</b>
-              <span>{s}</span>
-            </div>
-          ),
-        )}
-      </div>
+      {stage !== "auth" && stage !== "otp" && (
+        <JourneySteps progress={progress} />
+      )}
       <AnimatePresence mode="wait">
         <motion.div
           id="journey-content"
@@ -408,6 +401,7 @@ function AuthScreen({
             onNext();
           }}
         >
+          <JourneySteps progress={1} embedded />
           <div className="form-tabs">
             <button
               type="button"
@@ -477,6 +471,30 @@ function AuthScreen({
   );
 }
 
+function JourneySteps({
+  progress,
+  embedded = false,
+}: {
+  progress: number;
+  embedded?: boolean;
+}) {
+  return (
+    <div
+      className={`app-steps${embedded ? " app-steps-embedded" : ""}`}
+      aria-label={`Step ${progress} of 4`}
+    >
+      {["Account", "Your profile", "Explore matches", "Document plan"].map(
+        (step, index) => (
+          <div className={index + 1 <= progress ? "active" : ""} key={step}>
+            <b>{index + 1 < progress ? <Check size={15} /> : index + 1}</b>
+            <span>{step}</span>
+          </div>
+        ),
+      )}
+    </div>
+  );
+}
+
 function OtpScreen({
   otp,
   setOtp,
@@ -489,11 +507,12 @@ function OtpScreen({
   onNext: () => void;
 }) {
   return (
-    <section className="center-screen">
+    <section className="center-screen otp-screen">
       <button className="back-link" onClick={onBack}>
         <ArrowLeft /> Back
       </button>
       <div className="otp-card">
+        <JourneySteps progress={1} embedded />
         <div className="success-icon">
           <Shield />
         </div>
