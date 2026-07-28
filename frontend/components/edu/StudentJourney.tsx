@@ -1062,7 +1062,6 @@ function MatchesScreen({
           </div>
         </div>
       </aside>
-      <div className="results-panel">
         <div className="results-head">
           <div>
             <span className="kicker">Personalized for you</span>
@@ -1198,7 +1197,6 @@ function MatchesScreen({
             Continue to documents <ArrowRight />
           </button>
         </div>
-      </div>
     </section>
   );
 }

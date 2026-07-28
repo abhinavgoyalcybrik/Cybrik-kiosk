@@ -167,8 +167,8 @@
   box-shadow: none;
 }
 
-.filter-panel + .results-panel {
-  margin-top: 30px;
+.filter-panel + .results-head {
+  margin-top: 24px;
 }
 
 @media (max-width: 1099px) {
@@ -299,4 +299,136 @@
 .preference-kiosk .preference-toolbar .preference-editor:nth-child(even) .preference-editor-body {
   right: 10px;
   left: auto;
+}
+
+/* Reference palette for the route-owned shortlist toolbar */
+.matches-page .filter-panel,
+.kiosk-mode .matches-page .filter-panel {
+  border-color: transparent;
+  background: linear-gradient(135deg, #0b45e5, #1764f6);
+  color: #fff;
+  box-shadow: 0 20px 48px rgba(11, 69, 229, 0.22);
+}
+
+.matches-page .filter-panel .kicker,
+.matches-page .filter-panel h2,
+.matches-page .filter-panel .edit-profile,
+.matches-page .filter-panel .filter-summary small,
+.matches-page .filter-panel .filter-summary strong,
+.matches-page .filter-panel .filter-summary > span,
+.matches-page .filter-panel .filter-summary > svg,
+.matches-page .filter-panel .preferences-live {
+  color: #fff;
+}
+
+.matches-page .filter-panel .preference-toolbar-scroll,
+.matches-page .filter-panel .preference-editor,
+.matches-page .filter-panel .preferences-live {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.matches-page .filter-panel .filter-summary:hover,
+.matches-page .filter-panel .filter-summary:focus-visible,
+.matches-page .filter-panel .preference-editor.open .filter-summary {
+  border-bottom-color: #fff;
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.matches-page .filter-panel .preference-editor.open .filter-summary > span,
+.matches-page .filter-panel .preference-editor.open .filter-summary > svg {
+  color: #fff;
+}
+
+.matches-page .filter-panel .preferences-live span {
+  background: #fff;
+}
+
+.matches-page .filter-panel .edit-profile {
+  padding: 8px 18px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+}
+
+.matches-page .filter-panel .preference-editor-body,
+.kiosk-mode .matches-page .filter-panel .preference-editor-body {
+  border-color: #cbd9f7;
+  background: #eaf1ff;
+  color: #06133d;
+}
+
+.matches-page .filter-panel .preference-editor-body label,
+.matches-page .filter-panel .preference-editor-body span,
+.matches-page .filter-panel .preference-editor-body strong,
+.matches-page .filter-panel .preference-editor-body input,
+.matches-page .filter-panel .preference-editor-body select {
+  color: #06133d;
+}
+
+.matches-page .filter-panel .preference-editor-body input,
+.matches-page .filter-panel .preference-editor-body select {
+  border-color: #cbd9f7;
+  background: #fff;
+}
+
+.matches-page .filter-panel input[type="range"] {
+  accent-color: #0b45e5;
+}
+
+.matches-page .results-head .kicker,
+.matches-page .match-score strong,
+.matches-page .result-title > div:first-child > span,
+.matches-page .shortlist-count svg {
+  color: #0b45e5;
+}
+
+.matches-page .results-head h1,
+.matches-page .result-title h3 {
+  color: #06133d;
+  font-weight: 800;
+}
+
+.matches-page .search-box,
+.matches-page .sort-box {
+  border-color: #cbd9f7;
+  background: #f1f5fd;
+}
+
+.matches-page .why-fit svg,
+.matches-page .save-button.saved,
+.matches-page .uni-mark.green {
+  border-color: #cbd9f7;
+  background: #eaf1ff;
+  color: #0b45e5;
+}
+
+.matches-page .button {
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0b45e5, #1764f6);
+  color: #fff;
+}
+
+.matches-page > .results-head,
+.matches-page > .result-tools,
+.matches-page > .result-list,
+.matches-page > .sticky-next {
+  width: 100%;
+  max-width: none;
+}
+
+.matches-page > .results-head,
+.matches-page > .result-tools,
+.matches-page > .result-list {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.matches-page > .result-tools {
+  margin: 18px 0;
+}
+
+.matches-page > .result-list {
+  gap: 14px;
 }

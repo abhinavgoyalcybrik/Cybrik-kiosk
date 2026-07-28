@@ -3279,6 +3279,169 @@ footer>span {
   }
 }
 
+/* Vexo-inspired journey palette: preferences through completion */
+.profile-page,
+.matches-page,
+.documents-page,
+.complete-screen {
+  --journey-blue: #0b45e5;
+  --journey-blue-bright: #1764f6;
+  --journey-navy: #06133d;
+  --journey-ice: #eaf1ff;
+  --journey-line: #cbd9f7;
+  --journey-gradient: linear-gradient(135deg, var(--journey-blue), var(--journey-blue-bright));
+}
+
+.profile-page h1,
+.profile-page h2,
+.profile-page h3,
+.documents-page h1,
+.documents-page h2,
+.documents-page h3,
+.complete-screen h1 {
+  color: var(--journey-navy);
+  font-weight: 800;
+}
+
+.profile-page .kicker,
+.documents-page > .back-link,
+.documents-page .documents-head .kicker {
+  color: var(--journey-blue);
+}
+
+.profile-page .profile-section,
+.profile-page .profile-actions,
+.documents-page .document-row {
+  border-color: var(--journey-line);
+  background: #fff;
+}
+
+.profile-page .profile-section legend > span:first-child,
+.documents-page .doc-icon.ready,
+.documents-page .doc-status.ready {
+  background: var(--journey-ice);
+  color: var(--journey-blue);
+}
+
+.profile-page .plain-field input,
+.profile-page .plain-field select {
+  border-color: var(--journey-line);
+  background: #f1f5fd;
+  color: var(--journey-navy);
+}
+
+.profile-page .plain-field input:focus,
+.profile-page .plain-field select:focus {
+  border-color: var(--journey-blue);
+  box-shadow: 0 0 0 3px rgba(11, 69, 229, .12);
+}
+
+.profile-page input[type="range"] {
+  accent-color: var(--journey-blue);
+}
+
+.profile-page .button,
+.documents-page .document-row > button {
+  border: 0;
+  border-radius: 999px;
+  background: var(--journey-gradient);
+  color: #fff;
+}
+
+.profile-page .profile-actions svg,
+.documents-page .readiness-ring strong {
+  color: var(--journey-blue);
+}
+
+.documents-page .readiness-ring {
+  background: conic-gradient(var(--journey-blue) 0 62%, #dce6fb 62% 100%);
+}
+
+.documents-page .readiness-ring::before {
+  background: #fff;
+}
+
+.documents-page .plan-summary {
+  border-color: transparent;
+  background: var(--journey-gradient);
+  color: #fff;
+  box-shadow: 0 20px 48px rgba(11, 69, 229, .22);
+}
+
+.documents-page .plan-summary h2,
+.documents-page .plan-summary .kicker,
+.documents-page .plan-summary strong,
+.documents-page .plan-summary span,
+.documents-page .plan-summary small,
+.documents-page .plan-summary p,
+.documents-page .plan-summary .plan-note {
+  color: #fff;
+}
+
+.documents-page .plan-summary .route-summary,
+.documents-page .plan-summary hr {
+  border-color: rgba(255, 255, 255, .28);
+}
+
+.documents-page .plan-summary .uni-mark,
+.documents-page .plan-summary .visa-note {
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+}
+
+.documents-page .plan-summary .button {
+  border: 1px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+}
+
+.complete-screen {
+  background: #fff;
+}
+
+.complete-screen .complete-card {
+  border: 0;
+  background: var(--journey-gradient);
+  color: #fff;
+  box-shadow: 0 26px 64px rgba(11, 69, 229, .26);
+}
+
+.complete-screen .complete-card h1,
+.complete-screen .complete-card > p,
+.complete-screen .complete-card .kicker,
+.complete-screen .complete-stats span,
+.complete-screen .complete-note p,
+.complete-screen .text-button {
+  color: #fff;
+}
+
+.complete-screen .complete-check {
+  background: #fff;
+  color: var(--journey-blue);
+}
+
+.complete-screen .complete-stats,
+.complete-screen .complete-stats div {
+  border-color: rgba(255, 255, 255, .3);
+}
+
+.complete-screen .complete-note {
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+}
+
+.complete-screen .complete-note > svg {
+  color: #fff;
+}
+
+.complete-screen .complete-card > .button {
+  border: 1px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+}
+
 @media (prefers-reduced-motion:reduce) {
   html {
     scroll-behavior: auto
