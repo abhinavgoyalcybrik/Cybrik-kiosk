@@ -33,6 +33,7 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
   const [active, setActive] = useState("overview");
   const [galleryOpen, setGalleryOpen] = useState(false);
   const [galleryIndex, setGalleryIndex] = useState(0);
+  const [heroImageIndex, setHeroImageIndex] = useState(0);
   const [saved, setSaved] = useState(false);
   const [expandedOverview, setExpandedOverview] = useState(false);
   const [openRequirement, setOpenRequirement] = useState("General requirements");
@@ -53,6 +54,11 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
   }, [course]);
 
   const images = useMemo(() => course?.gallery_images?.filter(Boolean).length ? course.gallery_images : fallbackImages, [course]);
+  useEffect(() => {
+    if (galleryOpen || images.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const timer = window.setInterval(() => setHeroImageIndex((value) => (value + 1) % images.length), 5500);
+    return () => window.clearInterval(timer);
+  }, [galleryOpen, images.length]);
   const intakes = course?.intake_labels?.length ? course.intake_labels : ["February 2027", "July 2027", "October 2027"];
   const tuition = money(course?.tuition_fee, course?.tuition_currency || "AUD");
   const location = [course?.university.city, course?.university.country].filter(Boolean).join(", ");
@@ -91,9 +97,28 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
         <div className="course-breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/portal">{course.university.country}</Link><span>/</span><span>{course.university.name}</span><span>/</span><strong>{course.title}</strong></div>
 
         <section className="course-hero" aria-labelledby="course-title">
-          <div className="gallery-grid">
-            {images.slice(0, 3).map((src, index) => <button key={`${src}-${index}`} className={`gallery-image gallery-image-${index + 1}`} onClick={() => { setGalleryIndex(index); setGalleryOpen(true); }} aria-label={`Open campus photo ${index + 1}`}><Image src={src} alt={`${course.university.name} campus view ${index + 1}`} fill sizes={index === 0 ? "(max-width: 768px) 100vw, 65vw" : "35vw"} priority={index === 0} unoptimized={src.startsWith("http")} /></button>)}
-            <button className="gallery-count" onClick={() => setGalleryOpen(true)}>View all {images.length} photos</button>
+          <div className="course-campus-showcase" aria-label={`${course.university.name} campus image gallery`}>
+            {images.map((src, index) => (
+              <button
+                key={`${src}-${index}`}
+                className={`course-campus-slide${index === heroImageIndex ? " is-active" : ""}`}
+                onClick={() => { setGalleryIndex(index); setGalleryOpen(true); }}
+                aria-label={`Open ${course.university.name} campus photo ${index + 1}`}
+                aria-hidden={index !== heroImageIndex}
+                tabIndex={index === heroImageIndex ? 0 : -1}
+              >
+                <Image src={src} alt={`${course.university.name} campus in ${course.university.country}`} fill sizes="(max-width: 1050px) 100vw, 58vw" priority={index === 0} unoptimized={src.startsWith("http")} />
+              </button>
+            ))}
+            <div className="course-campus-scrim" aria-hidden="true" />
+            <div className="course-campus-label" aria-live="polite">
+              <strong>{course.university.name}</strong>
+              <span>{course.university.country}</span>
+            </div>
+            <div className="course-campus-dots" aria-label="Choose campus image">
+              {images.map((_, index) => <button key={index} className={index === heroImageIndex ? "is-active" : ""} onClick={() => setHeroImageIndex(index)} aria-label={`Show campus image ${index + 1}`} aria-pressed={index === heroImageIndex} />)}
+            </div>
+            <button className="gallery-count" onClick={() => { setGalleryIndex(heroImageIndex); setGalleryOpen(true); }}>View all {images.length} photos</button>
           </div>
           <div className="course-hero-copy">
             <span className="hero-eyebrow"><Building2 /> {course.university.name}</span>
