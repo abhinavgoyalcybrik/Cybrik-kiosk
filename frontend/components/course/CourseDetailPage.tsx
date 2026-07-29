@@ -8,7 +8,7 @@ import {
   GraduationCap, Heart, Languages, MapPin, Menu, RotateCcw, Search, Send,
   Share2, ShieldCheck, Sparkles, X,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { getDemoCourse } from "@/lib/courseDemoData";
 import "./course-detail.css";
 
@@ -43,6 +43,9 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
   const [contrast, setContrast] = useState(false);
   const [largeText, setLargeText] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
+  const menuAreaRef = useRef<HTMLDivElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const menuPanelRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -52,6 +55,26 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
     sections.forEach(([id]) => { const node = document.getElementById(id); if (node) observer.observe(node); });
     return () => observer.disconnect();
   }, [course]);
+
+  useEffect(() => {
+    if (!navOpen) return;
+    const closeOnOutsidePress = (event: PointerEvent) => {
+      if (!menuAreaRef.current?.contains(event.target as Node)) setNavOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setNavOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener("pointerdown", closeOnOutsidePress);
+    document.addEventListener("keydown", closeOnEscape);
+    window.requestAnimationFrame(() => menuPanelRef.current?.querySelector<HTMLAnchorElement>("a")?.focus());
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsidePress);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [navOpen]);
 
   const images = useMemo(() => course?.gallery_images?.filter(Boolean).length ? course.gallery_images : fallbackImages, [course]);
   useEffect(() => {
@@ -83,13 +106,13 @@ export default function CourseDetailPage({ courseId }: { courseId: number }) {
         <nav className="course-global-nav" aria-label="Primary navigation">
           <Link href="/portal">Explore Courses</Link><Link href="/portal">Universities</Link><Link href="/portal">Shortlisted</Link>
         </nav>
-        <div className="course-header-actions">
+        <div className="course-header-actions" ref={menuAreaRef}>
           <button className="course-icon-button" aria-label="Search courses"><Search /></button>
           <button className="course-access-button" onClick={() => setLargeText((v) => !v)} aria-pressed={largeText}><Accessibility /> Text size</button>
-          <button className="course-icon-button course-nav-menu" onClick={() => setNavOpen((v) => !v)} aria-label="Toggle navigation" aria-expanded={navOpen}><Menu /></button>
+          <button ref={menuButtonRef} className="course-icon-button course-nav-menu" onClick={() => setNavOpen((v) => !v)} aria-label="Toggle navigation" aria-controls="course-popup-menu" aria-expanded={navOpen}><Menu /></button>
           <button className="course-primary small" onClick={() => scrollTo("apply")}>Talk to an Expert</button>
+          {navOpen && <nav id="course-popup-menu" ref={menuPanelRef} className="course-mobile-menu" aria-label="Course navigation"><Link href="/portal" onClick={() => setNavOpen(false)}>Explore Courses</Link><Link href="/portal" onClick={() => setNavOpen(false)}>Universities</Link><Link href="/portal" onClick={() => setNavOpen(false)}>Shortlisted</Link></nav>}
         </div>
-        {navOpen && <nav className="course-mobile-menu" aria-label="Mobile navigation"><Link href="/portal">Explore Courses</Link><Link href="/portal">Universities</Link><Link href="/portal">Shortlisted</Link></nav>}
       </header>
 
       <main id="course-main">
