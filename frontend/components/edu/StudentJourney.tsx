@@ -1155,12 +1155,12 @@ function MatchesScreen({
                       <Heart />
                       {saved.includes(u.id) ? "Shortlisted" : "Shortlist"}
                     </button>
-                    <button
+                    <Link
                       className="button button-sm"
-                      onClick={() => toggleSave(u.id)}
+                      href={`/course/${u.id}`}
                     >
                       View course <ArrowRight size={16} />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

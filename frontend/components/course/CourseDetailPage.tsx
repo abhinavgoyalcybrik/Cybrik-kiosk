@@ -1,0 +1,191 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Accessibility, ArrowLeft, ArrowRight, BookOpen, Building2, CalendarDays,
+  Check, CheckCircle2, ChevronDown, Clock3, Compass, Download, ExternalLink,
+  GraduationCap, Heart, Languages, MapPin, Menu, RotateCcw, Search, Send,
+  Share2, ShieldCheck, Sparkles, X,
+} from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { getDemoCourse } from "@/lib/courseDemoData";
+import "./course-detail.css";
+
+const fallbackImages = [
+  "/student-campus-1.webp",
+  "/student-campus-2.webp",
+  "/birmingham-city-university.webp",
+  "/university-of-manitoba.jpg",
+];
+
+const sections = [
+  ["overview", "Overview"], ["fees", "Fees & intakes"], ["requirements", "Requirements"],
+  ["plan", "Course plan"], ["scholarships", "Scholarships"], ["location", "Location"],
+  ["living", "Living costs"], ["apply", "How to apply"],
+] as const;
+
+const money = (value: number | null | undefined, currency = "AUD") =>
+  value == null ? "Contact university" : new Intl.NumberFormat("en-AU", { style: "currency", currency, maximumFractionDigits: 0 }).format(value);
+
+export default function CourseDetailPage({ courseId }: { courseId: number }) {
+  const course = useMemo(() => getDemoCourse(courseId), [courseId]);
+  const [active, setActive] = useState("overview");
+  const [galleryOpen, setGalleryOpen] = useState(false);
+  const [galleryIndex, setGalleryIndex] = useState(0);
+  const [saved, setSaved] = useState(false);
+  const [expandedOverview, setExpandedOverview] = useState(false);
+  const [openRequirement, setOpenRequirement] = useState("General requirements");
+  const [openSemester, setOpenSemester] = useState("Year 1 — Semester 1");
+  const [selectedIntake, setSelectedIntake] = useState(0);
+  const [livingPeriod, setLivingPeriod] = useState<"Weekly" | "Monthly" | "Annual">("Monthly");
+  const [contrast, setContrast] = useState(false);
+  const [largeText, setLargeText] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible?.target.id) setActive(visible.target.id);
+    }, { rootMargin: "-25% 0px -60%", threshold: [0.05, 0.3] });
+    sections.forEach(([id]) => { const node = document.getElementById(id); if (node) observer.observe(node); });
+    return () => observer.disconnect();
+  }, [course]);
+
+  const images = useMemo(() => course?.gallery_images?.filter(Boolean).length ? course.gallery_images : fallbackImages, [course]);
+  const intakes = course?.intake_labels?.length ? course.intake_labels : ["February 2027", "July 2027", "October 2027"];
+  const tuition = money(course?.tuition_fee, course?.tuition_currency || "AUD");
+  const location = [course?.university.city, course?.university.country].filter(Boolean).join(", ");
+  const duration = course?.duration_months ? `${Math.round(course.duration_months / 12 * 10) / 10} years` : "Duration on request";
+
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    setNavOpen(false);
+  };
+
+  const structuredData = {
+    "@context": "https://schema.org", "@type": "Course", name: course.title,
+    description: course.course_summary, provider: { "@type": "Organization", name: course.university.name },
+  };
+
+  return (
+    <div className={`course-page ${contrast ? "course-high-contrast" : ""} ${largeText ? "course-large-text" : ""}`}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <a className="course-skip" href="#course-main">Skip to course details</a>
+      <header className="course-header">
+        <Link href="/" className="course-brand" aria-label="Cybrik Solutions home"><Image src="/cybrik-logo.png" alt="Cybrik Solutions" width={164} height={48} priority /></Link>
+        <nav className="course-global-nav" aria-label="Primary navigation">
+          <Link href="/portal">Explore Courses</Link><Link href="/portal">Universities</Link><Link href="/portal">Shortlisted</Link>
+        </nav>
+        <div className="course-header-actions">
+          <button className="course-icon-button" aria-label="Search courses"><Search /></button>
+          <button className="course-access-button" onClick={() => setLargeText((v) => !v)} aria-pressed={largeText}><Accessibility /> Text size</button>
+          <button className="course-icon-button course-nav-menu" onClick={() => setNavOpen((v) => !v)} aria-label="Toggle navigation" aria-expanded={navOpen}><Menu /></button>
+          <button className="course-primary small" onClick={() => scrollTo("apply")}>Talk to an Expert</button>
+        </div>
+        {navOpen && <nav className="course-mobile-menu" aria-label="Mobile navigation"><Link href="/portal">Explore Courses</Link><Link href="/portal">Universities</Link><Link href="/portal">Shortlisted</Link></nav>}
+      </header>
+
+      <main id="course-main">
+        <div className="course-demo-banner" role="status"><Sparkles /> Demonstration data · Course information shown here is for interface testing only.</div>
+        <div className="course-breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/portal">{course.university.country}</Link><span>/</span><span>{course.university.name}</span><span>/</span><strong>{course.title}</strong></div>
+
+        <section className="course-hero" aria-labelledby="course-title">
+          <div className="gallery-grid">
+            {images.slice(0, 3).map((src, index) => <button key={`${src}-${index}`} className={`gallery-image gallery-image-${index + 1}`} onClick={() => { setGalleryIndex(index); setGalleryOpen(true); }} aria-label={`Open campus photo ${index + 1}`}><Image src={src} alt={`${course.university.name} campus view ${index + 1}`} fill sizes={index === 0 ? "(max-width: 768px) 100vw, 65vw" : "35vw"} priority={index === 0} unoptimized={src.startsWith("http")} /></button>)}
+            <button className="gallery-count" onClick={() => setGalleryOpen(true)}>View all {images.length} photos</button>
+          </div>
+          <div className="course-hero-copy">
+            <span className="hero-eyebrow"><Building2 /> {course.university.name}</span>
+            <h1 id="course-title">{course.title}</h1>
+            <p className="hero-location"><MapPin /> {location || "Campus location available on request"} · {course.campus || "Main campus"}</p>
+            <div className="hero-badges"><span><Sparkles /> Popular course</span>{course.university.scholarship_available && <span><GraduationCap /> Scholarship available</span>}<span><CalendarDays /> Upcoming intake</span></div>
+          <div className="course-hero-actions"><button className="course-primary" onClick={() => scrollTo("apply")}>Check Eligibility <ArrowRight /></button><button className={`course-secondary ${saved ? "selected" : ""}`} onClick={() => setSaved((v) => !v)} aria-pressed={saved}><Heart fill={saved ? "currentColor" : "none"} /> {saved ? "Saved" : "Save course"}</button><button className="course-icon-button course-bordered" aria-label="Share this course" onClick={() => navigator.share?.({ title: course.title, url: window.location.href }).catch(() => undefined)}><Share2 /></button></div>
+          </div>
+        </section>
+
+        <section className="course-summary" aria-label="Course summary">
+          <Fact icon={<BookOpen />} label="Study mode" value={course.mode || "On campus"} />
+          <Fact icon={<Clock3 />} label="Duration" value={duration} />
+          <Fact icon={<GraduationCap />} label="Annual tuition" value={tuition} />
+          <Fact icon={<CalendarDays />} label="Next intake" value={intakes[0]} />
+          <button className="course-primary summary-cta" onClick={() => scrollTo("apply")}>Apply Now</button>
+        </section>
+
+        <nav className="course-section-nav" aria-label="Course sections">{sections.map(([id, label]) => <button key={id} onClick={() => scrollTo(id)} className={active === id ? "active" : ""} aria-current={active === id ? "location" : undefined}>{label}</button>)}</nav>
+
+        <div className="course-layout">
+          <div className="course-content">
+            <CourseSection id="overview" kicker="Course at a glance" title="About This Course">
+              <p className={!expandedOverview ? "overview-clamped" : ""}>{course.course_summary || `${course.title} at ${course.university.name} combines practical learning with an internationally focused academic experience. Students develop specialist knowledge, applied skills and the confidence to work across global environments.`}</p>
+              <button className="text-action" onClick={() => setExpandedOverview((v) => !v)} aria-expanded={expandedOverview}>{expandedOverview ? "Show concise overview" : "Read full overview"}<ChevronDown className={expandedOverview ? "rotated" : ""} /></button>
+              <div className="fact-grid"><Info label="Qualification" value={course.degree_level} /><Info label="Field of study" value={course.field_of_study} /><Info label="Study load" value={course.mode || "Full-time"} /><Info label="Campus" value={course.campus || course.university.campus_locations || "Main campus"} /><Info label="Faculty" value={course.faculty || course.department || "Contact university"} /><Info label="Language" value="English" /></div>
+            </CourseSection>
+
+            <CourseSection id="fees" kicker="Plan your budget" title="Fees and Available Intakes">
+              <div className="fee-rows"><Info label="Annual tuition fee" value={tuition} strong /><Info label="Estimated total tuition" value={course.tuition_fee && course.duration_months ? money(course.tuition_fee * course.duration_months / 12, course.tuition_currency) : "Confirm with institution"} /><Info label="Application fee" value={money(course.university.application_fee, course.university.application_fee_currency || course.tuition_currency)} /><Info label="Fee period" value={course.fee_period || "Per academic year"} /></div>
+              <h3>Choose an intake</h3><div className="intake-grid">{intakes.map((intake, index) => <button key={intake} onClick={() => setSelectedIntake(index)} className={selectedIntake === index ? "selected" : ""} aria-pressed={selectedIntake === index}><span>{intake}</span><small>{index === 0 ? "Next available" : "Applications open"}</small>{selectedIntake === index && <Check />}</button>)}</div>
+              <p className="course-notice">Fees and intake availability may change. Confirm final amounts and deadlines with the institution before applying.</p>
+            </CourseSection>
+
+            <CourseSection id="requirements" kicker="Know where you stand" title="Entry Requirements">
+              <div className="requirement-result"><CheckCircle2 /><div><strong>Profile check available</strong><span>Add your academic and English results for a personalised indication.</span></div><button onClick={() => scrollTo("apply")}>Check Eligibility</button></div>
+              <div className="accordion-list">{[
+                ["General requirements", course.admissions_notes || `A recognised undergraduate qualification relevant to ${course.field_of_study || "the chosen discipline"}.`],
+                ["Indian applicants", "A recognised bachelor’s degree with the institution’s required academic average. Exact equivalencies depend on the awarding institution."],
+                ["Work experience", "Professional experience may strengthen an application and may be required for selected postgraduate pathways."],
+                ["Required subjects", course.specialization ? `Prior study related to ${course.specialization} may be required.` : "Subject prerequisites vary by academic background."],
+              ].map(([title, body]) => <Accordion key={title} title={title} open={openRequirement === title} onToggle={() => setOpenRequirement(openRequirement === title ? "" : title)}><p>{body}</p></Accordion>)}</div>
+              <h3>English language requirements</h3><div className="english-list"><EnglishTest name="IELTS Academic" overall={course.ielts_overall ? String(course.ielts_overall) : "6.5"} minimum="6.0 in each band" /><EnglishTest name="PTE Academic" overall="58" minimum="50 in each skill" /><EnglishTest name="TOEFL iBT" overall="79" minimum="Section requirements apply" /></div>
+            </CourseSection>
+
+            <CourseSection id="plan" kicker="Build your expertise" title="What You Will Study">
+              <p>{course.modules || "Explore a practical curriculum that balances core knowledge, specialist electives and applied projects."}</p>
+              <div className="accordion-list">{["Year 1 — Semester 1", "Year 1 — Semester 2", "Year 2 — Semester 1"].map((term, index) => <Accordion key={term} title={term} open={openSemester === term} onToggle={() => setOpenSemester(openSemester === term ? "" : term)}><div className="subject-list"><Info label={index === 0 ? "Foundations of the discipline" : "Applied professional practice"} value="Core · 12 credit points" /><Info label={index === 2 ? "Capstone project" : "Global perspectives"} value={`${index === 1 ? "Elective" : "Core"} · 12 credit points`} /></div></Accordion>)}</div>
+            </CourseSection>
+
+            <CourseSection id="scholarships" kicker="Funding opportunities" title="Available Scholarships">
+              <div className="scholarship-list"><Scholarship name="International Excellence Scholarship" award="Up to 20% tuition reduction" deadline="Before course commencement" /><Scholarship name={`${course.university.name} Global Award`} award="AUD 5,000–10,000" deadline="Varies by intake" /></div>
+              <button className="course-secondary course-wide">View All Scholarships <ArrowRight /></button>
+            </CourseSection>
+
+            <CourseSection id="location" kicker="See where you will study" title="Explore the Campus Location">
+              <div className="location-address"><MapPin /><div><strong>{course.university.name} · {course.campus || "Main campus"}</strong><span>{course.university.campus_locations || location}</span></div></div>
+              <div className="map-placeholder"><div className="map-art"><Compass /><span>Interactive campus map</span><small>Map content loads only when requested to keep the kiosk responsive.</small></div><div className="map-controls"><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${course.university.name} ${location}`)}`} target="_blank" rel="noreferrer">Map <ExternalLink /></a><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${course.university.name} ${location}`)}`} target="_blank" rel="noreferrer">Satellite</a><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${course.university.name} ${location}`)}`} target="_blank" rel="noreferrer">Street View</a></div></div>
+              <div className="campus-tour"><div className="tour-thumbnail"><Image src={images[0]} alt={`${course.university.name} campus tour preview`} fill sizes="(max-width: 900px) 100vw, 65vw" unoptimized={images[0].startsWith("http")} /><button aria-label="Play campus tour"><span>▶</span></button></div><div><strong>Take a Virtual Campus Tour</strong><span>Video will be available soon. Continue exploring the course below.</span></div></div>
+            </CourseSection>
+
+            <CourseSection id="living" kicker="Prepare with confidence" title="Estimated Living Costs">
+              <div className="period-tabs" role="group" aria-label="Living cost period">{(["Weekly", "Monthly", "Annual"] as const).map((period) => <button key={period} className={livingPeriod === period ? "active" : ""} onClick={() => setLivingPeriod(period)} aria-pressed={livingPeriod === period}>{period}</button>)}</div>
+              <div className="living-total"><span>Estimated {livingPeriod.toLowerCase()} living cost</span><strong>{livingPeriod === "Weekly" ? "AUD 460–650" : livingPeriod === "Annual" ? "AUD 22,000–31,000" : money(course.university.estimated_monthly_living_cost, course.university.living_cost_currency || "AUD")}</strong><small>Indicative range based on lifestyle and accommodation choices.</small></div>
+              <div className="cost-grid"><Info label="Accommodation" value="45–55%" /><Info label="Food and groceries" value="18–24%" /><Info label="Transport" value="6–10%" /><Info label="Utilities and personal" value="15–22%" /></div>
+              <div className="work-notice"><ShieldCheck /><div><strong>Post-Study Work Information</strong><p>Potential work-right duration depends on the course, location, individual circumstances and immigration rules in effect at the time of application. It is not guaranteed.</p><small>Last updated: July 2026</small></div><a href="https://immi.homeaffairs.gov.au/" target="_blank" rel="noreferrer">Official source <ExternalLink /></a></div>
+            </CourseSection>
+
+            <CourseSection id="apply" kicker="Your next step" title="Start Your Application">
+              <div className="application-stepper">{["Check Eligibility", "Submit Your Details", "Upload Documents", "Application Review", "Receive and Accept Offer", "Visa Guidance"].map((step, index) => <div key={step} className="application-step"><span>{index + 1}</span><div><strong>{step}</strong><p>{index === 0 ? "Get an initial profile assessment before committing." : "Your Cybrik counsellor will guide you through this stage."}</p></div>{index === 0 && <button onClick={() => alert("Eligibility flow is ready to connect to the student profile form.")}>Begin</button>}</div>)}</div>
+            </CourseSection>
+          </div>
+
+          <aside className="application-sidebar" aria-label="Application actions"><span className="sidebar-kicker">Ready to take the next step?</span><h2>Get guidance for your application</h2><p>Check your eligibility and receive a personalised document checklist.</p><div className="sidebar-stat"><span>Next intake</span><strong>{intakes[selectedIntake]}</strong></div><div className="sidebar-stat"><span>Tuition fee</span><strong>{tuition}</strong></div><button className="course-primary course-wide" onClick={() => alert("Eligibility flow is ready to connect to the student profile form.")}>Check Eligibility <ArrowRight /></button><button className="course-secondary course-wide"><Download /> Download Brochure</button><p className="sidebar-trust"><ShieldCheck /> No admission or visa outcome is guaranteed.</p></aside>
+        </div>
+
+        <section className="similar-section"><div><span className="course-section-kicker">Keep comparing</span><h2>Similar Courses You May Like</h2></div><div className="similar-track">{["Master of International Business", "Master of Project Management", "Master of Business Analytics"].map((name, index) => <article className="similar-card" key={name}><Image src={fallbackImages[index]} alt="University campus" width={520} height={280} /><span>{index === 1 ? "Sydney, Australia" : location}</span><h3>{name}</h3><p>{course.university.name}</p><div><strong>From {tuition}</strong><Link href="/portal">View Course <ArrowRight /></Link></div></article>)}</div></section>
+
+        <footer className="course-footer"><Image src="/cybrik-logo.png" alt="Cybrik Solutions" width={150} height={44} /><p>Course fees, admission requirements, scholarships, immigration policies and intake availability may change. Confirm final information with the institution and relevant government authorities.</p><button onClick={() => { setSaved(false); setSelectedIntake(0); scrollTo("overview"); }}><RotateCcw /> Start Over</button></footer>
+      </main>
+
+      <div className="kiosk-actions"><button onClick={() => alert("Eligibility flow is ready to connect to the student profile form.")}><CheckCircle2 /> Check Eligibility</button><button onClick={() => scrollTo("apply")} className="primary"><Send /> Apply Now</button><button onClick={() => navigator.share?.({ title: course.title, url: window.location.href }).catch(() => undefined)}><Share2 /> Send to Phone</button></div>
+      <div className="accessibility-fab"><button onClick={() => setContrast((v) => !v)} aria-pressed={contrast}><Accessibility /> {contrast ? "Standard contrast" : "High contrast"}</button></div>
+
+      {galleryOpen && <div className="gallery-modal" role="dialog" aria-modal="true" aria-label="Campus photo gallery"><button className="gallery-close" onClick={() => setGalleryOpen(false)}><X /> Close gallery</button><button className="gallery-arrow left" aria-label="Previous photo" onClick={() => setGalleryIndex((galleryIndex - 1 + images.length) % images.length)}><ArrowLeft /></button><div className="gallery-stage"><Image src={images[galleryIndex]} alt={`${course.university.name} campus photo ${galleryIndex + 1}`} fill sizes="95vw" unoptimized={images[galleryIndex].startsWith("http")} /><span>{galleryIndex + 1} / {images.length}</span></div><button className="gallery-arrow right" aria-label="Next photo" onClick={() => setGalleryIndex((galleryIndex + 1) % images.length)}><ArrowRight /></button></div>}
+    </div>
+  );
+}
+
+function CourseSection({ id, kicker, title, children }: { id: string; kicker: string; title: string; children: React.ReactNode }) { return <section id={id} className="course-section"><span className="course-section-kicker">{kicker}</span><h2>{title}</h2>{children}</section>; }
+function Fact({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) { return <div className="summary-fact">{icon}<span>{label}<strong>{value}</strong></span></div>; }
+function Info({ label, value, strong = false }: { label: string; value: string; strong?: boolean }) { return <div className={`info-pair ${strong ? "strong" : ""}`}><span>{label}</span><strong>{value || "Not specified"}</strong></div>; }
+function Accordion({ title, open, onToggle, children }: { title: string; open: boolean; onToggle: () => void; children: React.ReactNode }) { return <div className={`course-accordion ${open ? "open" : ""}`}><button onClick={onToggle} aria-expanded={open}><span>{title}</span><ChevronDown /></button>{open && <div className="accordion-content">{children}</div>}</div>; }
+function EnglishTest({ name, overall, minimum }: { name: string; overall: string; minimum: string }) { return <div className="english-row"><Languages /><strong>{name}</strong><span>Overall: <b>{overall}</b></span><span>Minimum: {minimum}</span><em>Score not added</em></div>; }
+function Scholarship({ name, award, deadline }: { name: string; award: string; deadline: string }) { return <article className="course-scholarship"><GraduationCap /><div><h3>{name}</h3><p>Merit-based support for eligible international applicants.</p><span>{award} · Deadline: {deadline}</span></div><button>Check Eligibility</button></article>; }
