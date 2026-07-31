@@ -10,6 +10,7 @@ MONTH_ALIASES = {
     month[:3].casefold(): month for month in MONTHS
 } | {month.casefold(): month for month in MONTHS}
 CITY_PLACEHOLDERS = {"", "n/a", "na", "unknown", "not available", "not specified", "-"}
+NON_CITY_LOCATIONS = {"online", "online learning", "onshore", "offshore", "main campus", "multiple campuses"}
 
 
 def compact(value):
@@ -25,6 +26,27 @@ def normalize_city(value):
 
 def display_city(value):
     return normalize_city(value) or "Location not specified"
+
+
+def location_matches_city(value, selected_city):
+    """Return true only when a valid city/campus value names the selected city."""
+    actual = normalize_city(value)
+    wanted = normalize_city(selected_city)
+    if not actual or not wanted:
+        return False
+    if actual.casefold() == wanted.casefold():
+        return True
+    return bool(re.search(rf"(?<!\w){re.escape(wanted)}(?!\w)", actual, re.IGNORECASE))
+
+
+def location_city_choices(value):
+    choices = []
+    for part in re.split(r"\s*(?:,|/|;|\band\b)\s*", compact(value), flags=re.IGNORECASE):
+        cleaned = re.sub(r"\s+campuses?$", "", part, flags=re.IGNORECASE).strip()
+        normalized = normalize_city(cleaned)
+        if normalized and normalized.casefold() not in NON_CITY_LOCATIONS and normalized not in choices:
+            choices.append(normalized)
+    return choices
 
 
 def normalize_field(value):
@@ -88,4 +110,3 @@ def currency_quality(currency, country):
     code = compact(currency).upper()
     unusual = compact(country).casefold() == "new zealand" and code not in {"", "NZD"}
     return {"raw": code, "normalized": code or None, "requires_confirmation": unusual}
-

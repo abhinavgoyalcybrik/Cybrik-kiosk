@@ -13,23 +13,27 @@ import {
   sendSessionOtp,
   startAuthSession,
   verifySessionOtp,
+  type MatchFactor,
 } from "@/lib/auth";
 import { fetchPreferenceOptions, type PreferenceOptions } from "@/lib/api";
 import {
   ArrowLeft,
   ArrowRight,
+  AlertCircle,
   Check,
   ChevronDown,
   FileText,
   Globe,
   Graduation,
   Heart,
+  InfoCircle,
   MapPin,
   Search,
   Shield,
   Spark,
   User,
   Wallet,
+  XCircle,
 } from "./Icons";
 
 type Stage = "auth" | "otp" | "profile" | "matches" | "documents" | "complete";
@@ -39,6 +43,7 @@ type University = {
   university: string;
   course: string;
   city: string;
+  campus?: string;
   country: string;
   fee: number;
   duration: string;
@@ -48,6 +53,14 @@ type University = {
   rank: string;
   reasons: string[];
   feeLabel?: string;
+  matchSummary?: { matched_count: number; not_matched_count: number; partial_count: number; review_count: number };
+  matchedFactors?: MatchFactor[];
+  partialFactors?: MatchFactor[];
+  unmatchedFactors?: MatchFactor[];
+  reviewFactors?: MatchFactor[];
+  academicEligibility?: { status: string; reasons: string[] };
+  englishEligibility?: { status: string; requirements: Record<string, number> | []; student_scores: Record<string, number> | null; gaps: Array<{ test: string; gap: number }> };
+  documentReadiness?: { status: string; required_count: number; available_count: number; missing_documents: string[] };
 };
 
 const universities: University[] = [
@@ -185,11 +198,16 @@ export function StudentJourney({
   const [resendAfter, setResendAfter] = useState(60);
   const [qualification, setQualification] = useState("Bachelor’s degree");
   const [academicScore, setAcademicScore] = useState("8.2 CGPA");
-  const [country, setCountry] = useState("Australia");
-  const [city, setCity] = useState("Melbourne");
-  const [course, setCourse] = useState("Data Science");
+  const [country, setCountry] = useState("");
+  const [city, setCity] = useState("");
+  const [course, setCourse] = useState("");
   const [preferredUniversity, setPreferredUniversity] = useState("");
   const [preferenceOptions, setPreferenceOptions] = useState<PreferenceOptions | null>(null);
+  const [institutionOptions, setInstitutionOptions] = useState<PreferenceOptions | null>(null);
+  const [courseOptions, setCourseOptions] = useState<PreferenceOptions | null>(null);
+  const [countryOptions, setCountryOptions] = useState<string[]>([]);
+  const [preferenceLoading, setPreferenceLoading] = useState<"countries" | "cities" | "institutions" | "courses" | "">("");
+  const [preferenceError, setPreferenceError] = useState("");
   const [budget, setBudget] = useState(35);
   const [test, setTest] = useState("IELTS");
   const [score, setScore] = useState("7.5");
@@ -200,11 +218,49 @@ export function StudentJourney({
   const [liveUniversities, setLiveUniversities] = useState<University[] | null>(null);
   useEffect(() => {
     const controller = new AbortController();
+    Promise.resolve().then(() => { if (!controller.signal.aborted) setPreferenceLoading("countries"); });
+    fetchPreferenceOptions("", controller.signal)
+      .then((options) => { setCountryOptions(options.countries); setPreferenceError(""); })
+      .catch(() => { if (!controller.signal.aborted) setPreferenceError("Unable to load available countries."); })
+      .finally(() => { if (!controller.signal.aborted) setPreferenceLoading(""); });
+    return () => controller.abort();
+  }, []);
+  useEffect(() => {
+    if (!country) return;
+    const controller = new AbortController();
+    Promise.resolve().then(() => { if (!controller.signal.aborted) setPreferenceLoading("cities"); });
     fetchPreferenceOptions(country, controller.signal)
-      .then((options) => setPreferenceOptions(options))
-      .catch(() => { if (!controller.signal.aborted) setPreferenceOptions(null); });
+      .then((options) => { setPreferenceOptions(options); setPreferenceError(""); })
+      .catch(() => { if (!controller.signal.aborted) { setPreferenceOptions(null); setPreferenceError("Unable to load available cities."); } })
+      .finally(() => { if (!controller.signal.aborted) setPreferenceLoading(""); });
     return () => controller.abort();
   }, [country]);
+  useEffect(() => {
+    if (!country || !city) return;
+    const controller = new AbortController();
+    Promise.resolve().then(() => { if (!controller.signal.aborted) setPreferenceLoading("institutions"); });
+    fetchPreferenceOptions(country, controller.signal, { city })
+      .then((options) => {
+        setInstitutionOptions(options);
+        setPreferenceError("");
+      })
+      .catch(() => { if (!controller.signal.aborted) { setInstitutionOptions(null); setPreferenceError("Unable to load institutions in the selected city."); } })
+      .finally(() => { if (!controller.signal.aborted) setPreferenceLoading(""); });
+    return () => controller.abort();
+  }, [city, country]);
+  useEffect(() => {
+    if (!country || !city || !preferredUniversity) return;
+    const controller = new AbortController();
+    Promise.resolve().then(() => { if (!controller.signal.aborted) setPreferenceLoading("courses"); });
+    fetchPreferenceOptions(country, controller.signal, { city, institution: preferredUniversity })
+      .then((options) => {
+        setCourseOptions(options);
+        setPreferenceError("");
+      })
+      .catch(() => { if (!controller.signal.aborted) { setCourseOptions(null); setPreferenceError("Unable to load courses from the selected institution."); } })
+      .finally(() => { if (!controller.signal.aborted) setPreferenceLoading(""); });
+    return () => controller.abort();
+  }, [city, country, preferredUniversity]);
 
   const matches = useMemo(
     () =>
@@ -212,6 +268,7 @@ export function StudentJourney({
         .filter(
           (u) =>
             (!country || u.country === country) &&
+            (!city || u.city.toLocaleLowerCase().includes(city.toLocaleLowerCase())) &&
             `${u.university} ${u.course} ${u.city}`
               .toLowerCase()
               .includes(search.toLowerCase()),
@@ -267,12 +324,39 @@ export function StudentJourney({
   useEffect(() => {
     let active = true;
     getAuthSession()
-      .then((session) => {
+      .then(async (session) => {
         if (!active || !session.authenticated) return;
         setSessionKey(session.session_key);
         setPhone(session.phone);
         setName(session.name || "Student");
         setEmail(session.email || "");
+        const savedCountry = Array.isArray(session.profile_data.preferred_countries) ? String(session.profile_data.preferred_countries[0] || "") : "";
+        const savedCity = Array.isArray(session.profile_data.preferred_cities) ? String(session.profile_data.preferred_cities[0] || "") : "";
+        const savedUniversity = typeof session.profile_data.preferred_university === "string" ? session.profile_data.preferred_university : "";
+        const savedCourse = typeof session.profile_data.preferred_course === "string" ? session.profile_data.preferred_course : "";
+        if (savedCountry) {
+          setCountry(savedCountry);
+          try {
+            const cities = await fetchPreferenceOptions(savedCountry);
+            if (!active) return;
+            setPreferenceOptions(cities);
+            if (savedCity && cities.cities.includes(savedCity)) {
+              setCity(savedCity);
+              const institutions = await fetchPreferenceOptions(savedCountry, undefined, { city: savedCity });
+              if (!active) return;
+              setInstitutionOptions(institutions);
+              if (savedUniversity && institutions.universities.includes(savedUniversity)) {
+                setPreferredUniversity(savedUniversity);
+                const courses = await fetchPreferenceOptions(savedCountry, undefined, { city: savedCity, institution: savedUniversity });
+                if (!active) return;
+                setCourseOptions(courses);
+                if (savedCourse && courses.courses.includes(savedCourse)) setCourse(savedCourse);
+              }
+            }
+          } catch {
+            if (active) setPreferenceError("Some saved study preferences are no longer available.");
+          }
+        }
         setStage("profile");
       })
       .catch(() => undefined);
@@ -370,6 +454,8 @@ export function StudentJourney({
   const saveProfileAndContinue = async () => {
     if (!sessionKey || authBusy) return;
     setAuthBusy(true);
+    setLiveUniversities([]);
+    setSaved([]);
     try {
       await autosaveAuthProfile(sessionKey, {
         preferred_countries: [country],
@@ -389,7 +475,8 @@ export function StudentJourney({
         code: item.university.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 4).toUpperCase(),
         university: item.university.name,
         course: item.title,
-        city: item.university.city_display || item.university.city || "Location not specified",
+        city: item.location_display || item.university.city_display || item.university.city || "Location not specified",
+        campus: item.campus || "Campus not specified",
         country: item.university.country,
         fee: item.tuition_fee ?? 0,
         feeLabel: item.tuition_fee === null ? "Fee not specified" : `${item.tuition_currency} ${new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(item.tuition_fee)}${item.fee_period ? ` ${item.fee_period}` : ""}`,
@@ -399,6 +486,14 @@ export function StudentJourney({
         scholarship: "Scholarship details available on request",
         rank: "Preference-based match",
         reasons: item.reasons.length ? item.reasons.map((reason) => `Matches your ${reason.replaceAll("_", " ")} preference`) : ["Matches submitted preferences"],
+        matchSummary: item.match_summary,
+        matchedFactors: item.matched_factors,
+        partialFactors: item.partial_factors,
+        unmatchedFactors: item.unmatched_factors,
+        reviewFactors: item.review_factors,
+        academicEligibility: item.academic_eligibility,
+        englishEligibility: item.english_eligibility,
+        documentReadiness: item.document_readiness,
       })));
       setSaved([]);
       go("matches");
@@ -490,6 +585,11 @@ export function StudentJourney({
               preferredUniversity={preferredUniversity}
               setPreferredUniversity={setPreferredUniversity}
               preferenceOptions={preferenceOptions}
+              institutionOptions={institutionOptions}
+              courseOptions={courseOptions}
+              countryOptions={countryOptions}
+              preferenceLoading={preferenceLoading}
+              preferenceError={preferenceError}
               budget={budget}
               setBudget={setBudget}
               test={test}
@@ -515,11 +615,9 @@ export function StudentJourney({
               academicScore={academicScore}
               setAcademicScore={setAcademicScore}
               country={country}
-              setCountry={setCountry}
               city={city}
-              setCity={setCity}
+              preferredUniversity={preferredUniversity}
               course={course}
-              setCourse={setCourse}
               budget={budget}
               setBudget={setBudget}
               test={test}
@@ -810,6 +908,11 @@ function ProfileScreen({
   preferredUniversity,
   setPreferredUniversity,
   preferenceOptions,
+  institutionOptions,
+  courseOptions,
+  countryOptions,
+  preferenceLoading,
+  preferenceError,
   budget,
   setBudget,
   test,
@@ -830,6 +933,11 @@ function ProfileScreen({
   preferredUniversity: string;
   setPreferredUniversity: (v: string) => void;
   preferenceOptions: PreferenceOptions | null;
+  institutionOptions: PreferenceOptions | null;
+  courseOptions: PreferenceOptions | null;
+  countryOptions: string[];
+  preferenceLoading: "countries" | "cities" | "institutions" | "courses" | "";
+  preferenceError: string;
   budget: number;
   setBudget: (v: number) => void;
   test: string;
@@ -895,21 +1003,43 @@ function ProfileScreen({
           note="Where and what you’d like to study"
         >
           <div className="input-grid">
-            <Select
+            <DependentSelect
               label="Preferred country"
               value={country}
               onChange={(value) => { setCountry(value); setCity(""); setCourse(""); setPreferredUniversity(""); }}
-              options={["Australia", "Canada", "Ireland", "New Zealand", "United Kingdom", "United States", "Germany"]}
+              options={countryOptions}
+              placeholder={preferenceLoading === "countries" ? "Loading available countries..." : "Select a country"}
+              disabled={preferenceLoading === "countries"}
             />
-            <Select
+            <DependentSelect
               label="Preferred city"
               value={city}
-              onChange={(value) => setCity(value === "Any city" ? "" : value)}
-              options={["Any city", ...(preferenceOptions?.cities ?? [])]}
+              onChange={(value) => { setCity(value); setPreferredUniversity(""); setCourse(""); }}
+              options={preferenceOptions?.cities ?? []}
+              placeholder={!country ? "Select a country first" : preferenceLoading === "cities" ? "Loading available cities..." : "Select a city"}
+              emptyMessage="No cities are currently available in the selected country."
+              disabled={!country || preferenceLoading === "cities"}
             />
-            <label className="plain-field"><span>Preferred course</span><div className="select-wrap"><select value={course} onChange={(event) => setCourse(event.target.value)}><option value="">Any course</option>{(preferenceOptions?.courses ?? []).map((item) => <option key={item}>{item}</option>)}</select><ChevronDown /></div></label>
-            <label className="plain-field"><span>Preferred university (optional)</span><div className="select-wrap"><select value={preferredUniversity} onChange={(event) => setPreferredUniversity(event.target.value)}><option value="">Any university</option>{(preferenceOptions?.universities ?? []).map((item) => <option key={item}>{item}</option>)}</select><ChevronDown /></div></label>
+            <DependentSelect
+              label="Preferred university or college"
+              value={preferredUniversity}
+              onChange={(value) => { setPreferredUniversity(value); setCourse(""); }}
+              options={institutionOptions?.universities ?? []}
+              placeholder={preferenceLoading === "institutions" ? "Loading institutions in the selected city..." : "SELECT"}
+              emptyMessage="No universities or colleges are currently available in the selected city."
+              disabled={!country || !city || preferenceLoading === "institutions"}
+            />
+            <DependentSelect
+              label="Preferred course"
+              value={course}
+              onChange={setCourse}
+              options={courseOptions?.courses ?? []}
+              placeholder={preferenceLoading === "courses" ? "Loading courses from the selected institution..." : "SELECT"}
+              emptyMessage="No courses are currently available for the selected university or college."
+              disabled={!preferredUniversity || preferenceLoading === "courses"}
+            />
           </div>
+          {preferenceError && <p className="preference-field-error" role="alert">{preferenceError}</p>}
         </ProfileSection>
         <ProfileSection
           icon={<Spark />}
@@ -957,7 +1087,7 @@ function ProfileScreen({
           <span>
             <Shield size={17} /> Your profile auto-saves on this device
           </span>
-          <button className="button button-lg" type="submit">
+          <button className="button button-lg" type="submit" disabled={!country || !city || preferenceLoading === "countries" || preferenceLoading === "cities" || preferenceLoading === "institutions"}>
             Show my matches <ArrowRight />
           </button>
         </div>
@@ -981,11 +1111,9 @@ function MatchesScreen({
   academicScore,
   setAcademicScore,
   country,
-  setCountry,
   city,
-  setCity,
+  preferredUniversity,
   course,
-  setCourse,
   budget,
   setBudget,
   test,
@@ -1007,11 +1135,9 @@ function MatchesScreen({
   academicScore: string;
   setAcademicScore: (v: string) => void;
   country: string;
-  setCountry: (v: string) => void;
   city: string;
-  setCity: (v: string) => void;
+  preferredUniversity: string;
   course: string;
-  setCourse: (v: string) => void;
   budget: number;
   setBudget: (v: number) => void;
   test: string;
@@ -1020,12 +1146,8 @@ function MatchesScreen({
   setScore: (v: string) => void;
 }) {
   const [openPreference, setOpenPreference] = useState<string | null>(null);
+  const [expandedMatches, setExpandedMatches] = useState<number[]>([]);
   const preferencesRef = useRef<HTMLElement>(null);
-  const cityOptions = country === "Australia" ? ["Melbourne", "Sydney", "Brisbane"] : country === "Canada" ? ["Vancouver", "Toronto"] : ["Dublin"];
-  const changeCountry = (nextCountry: string) => {
-    setCountry(nextCountry);
-    setCity(nextCountry === "Australia" ? "Melbourne" : nextCountry === "Canada" ? "Vancouver" : "Dublin");
-  };
   useEffect(() => {
     const closeOnOutsideClick = (event: PointerEvent) => {
       if (
@@ -1072,13 +1194,11 @@ function MatchesScreen({
             <PreferenceEditor
               icon={<Globe />}
               label="Destination"
-              value={`${country} · ${city}`}
+              value={[country, city, preferredUniversity, course].filter(Boolean).join(" · ")}
               open={openPreference === "destination"}
               onToggle={() => setOpenPreference(openPreference === "destination" ? null : "destination")}
             >
-              <Select label="Country" value={country} onChange={(value) => { changeCountry(value); setOpenPreference(null); }} options={["Australia", "Canada", "Ireland"]} />
-              <Select label="City" value={city} onChange={(value) => { setCity(value); setOpenPreference(null); }} options={cityOptions} />
-              <FieldPlain label="Course"><input value={course} onChange={(event) => setCourse(event.target.value)} onBlur={() => setOpenPreference(null)} /></FieldPlain>
+              <button type="button" className="button course-wide" onClick={onEdit}>Edit study preferences <ArrowRight /></button>
             </PreferenceEditor>
             <PreferenceEditor icon={<Spark />} label="English" value={`${test} · ${score}`} open={openPreference === "english"} onToggle={() => setOpenPreference(openPreference === "english" ? null : "english")}>
               <Select label="Test" value={test} onChange={(value) => { setTest(value); setOpenPreference(null); }} options={["IELTS", "PTE", "TOEFL", "Duolingo"]} />
@@ -1153,7 +1273,7 @@ function MatchesScreen({
                 <div className="result-meta">
                   <span>
                     <MapPin />
-                    {u.city}, {u.country}
+                    {u.city}, {u.country}{u.campus && u.campus !== "Campus not specified" ? ` · ${u.campus}` : ""}
                   </span>
                   <span>
                     <Wallet />{u.feeLabel ?? `₹${u.fee}L / year`}
@@ -1168,13 +1288,34 @@ function MatchesScreen({
                   </span>
                 </div>
                 <div className="why-fit">
-                  <strong>Why this fits</strong>
-                  {u.reasons.map((r) => (
-                    <span key={r}>
-                      <Check />
-                      {r}
-                    </span>
-                  ))}
+                  <div className="match-summary-heading">
+                    <strong>Match summary</strong>
+                    {u.matchSummary && <div className="match-summary-counts" aria-label={`${u.matchSummary.matched_count} matched, ${u.matchSummary.not_matched_count} not matched`}>
+                      <span className="is-match"><Check />{u.matchSummary.matched_count} matched</span>
+                      <span className="is-mismatch"><XCircle />{u.matchSummary.not_matched_count} not matched</span>
+                    </div>}
+                  </div>
+                  {(u.unmatchedFactors ?? []).slice(0, 2).map((factor) => <MatchFactorRow key={factor.key} factor={factor} />)}
+                  {(u.unmatchedFactors?.length ?? 0) === 0 && (u.matchedFactors ?? []).slice(0, 2).map((factor) => <MatchFactorRow key={factor.key} factor={factor} />)}
+                  <button
+                    type="button"
+                    className="match-details-toggle"
+                    aria-expanded={expandedMatches.includes(u.id)}
+                    aria-controls={`match-details-${u.id}`}
+                    onClick={() => setExpandedMatches((current) => current.includes(u.id) ? current.filter((id) => id !== u.id) : [...current, u.id])}
+                  >
+                    {expandedMatches.includes(u.id) ? "Hide match details" : "View match details"}
+                    <ChevronDown />
+                  </button>
+                  {expandedMatches.includes(u.id) && <div id={`match-details-${u.id}`} className="match-details-panel">
+                    <MatchFactorGroup title="Preferences and requirements matched" factors={u.matchedFactors ?? []} />
+                    <MatchFactorGroup title="Not matched" factors={u.unmatchedFactors ?? []} />
+                    <div className="eligibility-grid">
+                      {u.academicEligibility && !["requires_manual_review", "requirement_unavailable"].includes(u.academicEligibility.status) && <EligibilityStatus label="Academic requirements" status={u.academicEligibility.status} detail={u.academicEligibility.reasons?.join(" ") || "Academic requirement status available."} />}
+                      <EligibilityStatus label="English eligibility" status={u.englishEligibility?.status ?? "requirement_unavailable"} detail={`${formatEnglishEligibility(u.englishEligibility)} This does not affect the main matching percentage.`} />
+                      <EligibilityStatus label="Document readiness" status={u.documentReadiness?.status ?? "requirements_unavailable"} detail={u.documentReadiness ? `${u.documentReadiness.available_count} of ${u.documentReadiness.required_count} required documents available${u.documentReadiness.missing_documents.length ? `. Missing: ${u.documentReadiness.missing_documents.join(", ")}` : ""}.` : "Document requirements unavailable."} />
+                    </div>
+                  </div>}
                 </div>
                 <div className="result-bottom">
                   <span className="scholarship">
@@ -1234,6 +1375,53 @@ function MatchesScreen({
         </div>
     </section>
   );
+}
+
+function formatFactorValue(value: unknown) {
+  if (value === null || value === undefined || value === "") return "Not provided";
+  if (Array.isArray(value)) return value.length ? value.join(", ") : "Not provided";
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
+}
+
+function MatchFactorRow({ factor }: { factor: MatchFactor }) {
+  const Icon = factor.status === "matched" ? Check : factor.status === "not_matched" ? XCircle : factor.status === "unavailable" ? InfoCircle : AlertCircle;
+  const statusLabel = factor.status === "matched" ? "Matched" : factor.status === "not_matched" ? "Not matched" : factor.status === "partial" ? "Partial match" : factor.status === "unavailable" ? "Information unavailable" : "Manual review";
+  return <div className={`match-factor is-${factor.status}`}>
+    <Icon />
+    <div>
+      <strong>{statusLabel}: {factor.label}</strong>
+      <span>Your value: {formatFactorValue(factor.user_value)}</span>
+      <span>Course value: {formatFactorValue(factor.course_value)}</span>
+      {factor.reason && <p>{factor.reason}</p>}
+    </div>
+  </div>;
+}
+
+function MatchFactorGroup({ title, factors }: { title: string; factors: MatchFactor[] }) {
+  if (!factors.length) return null;
+  return <section className="match-factor-group">
+    <h4>{title}</h4>
+    <div>{factors.map((factor, index) => <MatchFactorRow key={`${factor.key}-${index}`} factor={factor} />)}</div>
+  </section>;
+}
+
+function formatEnglishEligibility(eligibility: University["englishEligibility"]) {
+  if (!eligibility) return "English requirement unavailable.";
+  const requirements = Array.isArray(eligibility.requirements) ? [] : Object.entries(eligibility.requirements).map(([testName, value]) => `${testName.toUpperCase()} ${value}`);
+  const scores = eligibility.student_scores ? Object.entries(eligibility.student_scores).map(([testName, value]) => `${testName.toUpperCase()} ${value}`) : [];
+  const status = eligibility.status.replaceAll("_", " ");
+  return `${status.charAt(0).toUpperCase()}${status.slice(1)}.${requirements.length ? ` Requirement: ${requirements.join(", ")}.` : ""}${scores.length ? ` Your score: ${scores.join(", ")}.` : ""}`;
+}
+
+function EligibilityStatus({ label, status, detail }: { label: string; status: string; detail: string }) {
+  const mismatch = status === "not_currently_eligible" || status === "below_requirement";
+  const positive = status === "eligible" || status === "meets_requirement" || status === "ready";
+  const Icon = positive ? Check : mismatch ? XCircle : InfoCircle;
+  return <section className={`eligibility-status ${positive ? "is-positive" : mismatch ? "is-negative" : "is-neutral"}`}>
+    <Icon />
+    <div><strong>{label}: {status.replaceAll("_", " ")}</strong><p>{detail}</p></div>
+  </section>;
 }
 
 function DocumentsScreen({
@@ -1464,6 +1652,38 @@ function Select({
           {options.map((o) => (
             <option key={o}>{o}</option>
           ))}
+        </select>
+        <ChevronDown />
+      </div>
+    </label>
+  );
+}
+function DependentSelect({
+  label,
+  options,
+  value,
+  onChange,
+  placeholder,
+  emptyMessage,
+  disabled = false,
+}: {
+  label: string;
+  options: string[];
+  value: string;
+  onChange: (value: string) => void;
+  placeholder: string;
+  emptyMessage?: string;
+  disabled?: boolean;
+}) {
+  const hasOptions = options.length > 0;
+  const prompt = !disabled && !hasOptions && emptyMessage ? emptyMessage : placeholder;
+  return (
+    <label className={`plain-field dependent-field${disabled ? " is-disabled" : ""}`}>
+      <span>{label}</span>
+      <div className="select-wrap">
+        <select value={value} disabled={disabled || !hasOptions} onChange={(event) => onChange(event.target.value)}>
+          <option value="">{prompt}</option>
+          {options.map((option) => <option key={option} value={option}>{option}</option>)}
         </select>
         <ChevronDown />
       </div>

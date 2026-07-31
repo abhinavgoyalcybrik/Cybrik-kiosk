@@ -35,11 +35,11 @@ from services.explanations import generate_explanations
 from services.risk_flags import generate_risk_flags
 from services.profile import compute_recommendation_confidence
 from services.normalization import (
-    MONTHS, currency_quality, display_city, display_field, normalize_degree,
+    MONTHS, currency_quality, display_city, display_field, location_city_choices, location_matches_city, normalize_city, normalize_degree,
     normalize_intake,
 )
 from services.course_matching import (
-    academic_eligibility, english_eligibility, preference_match,
+    academic_eligibility, calculate_course_match, english_eligibility, preference_match,
 )
 from services.document_checklist import build_document_checklist
 
@@ -83,6 +83,11 @@ def serialize_course_catalog_item(course):
         "course_id": course.id,
         "title": course.title,
         "course_url": course.course_url,
+        "location_display": (
+            display_city(course.university.city)
+            if display_city(course.university.city) != "Location not specified"
+            else (course.campus.strip() or "Location not specified")
+        ),
         "university": {
             "name": course.university.name,
             "official_website": course.university.official_website,
@@ -712,9 +717,27 @@ def courses_catalog(request):
 def preference_options(request):
     courses = Course.objects.select_related("university", "fee").prefetch_related("intakes")
     country = (request.query_params.get("country") or "").strip()
+    city = (request.query_params.get("city") or "").strip()
+    institution = (request.query_params.get("institution") or "").strip()
     if country:
         courses = courses.filter(university__country__iexact=country)
-    cities = sorted({display_city(c.university.city) for c in courses if display_city(c.university.city) != "Location not specified"})
+    if city:
+        courses = [
+            course for course in courses
+            if location_matches_city(course.university.city, city)
+            or location_matches_city(course.campus, city)
+        ]
+    if institution:
+        courses = [
+            course for course in courses
+            if course.university.name.casefold().strip() == institution.casefold()
+        ]
+    cities = sorted({
+        city_name
+        for course in courses
+        for raw_location in (course.university.city, course.campus)
+        for city_name in location_city_choices(raw_location)
+    })
     fields = sorted({display_field(c.field_of_study) for c in courses if c.field_of_study.strip()})
     return Response({
         "countries": sorted({c.university.country.strip() for c in courses if c.university.country.strip()}),
@@ -1301,6 +1324,7 @@ def session_status(request):
         "student_profile_id": profile.id if profile else None,
         "name": profile.name if profile else session.profile_data.get("name", ""),
         "email": profile.email if profile else session.profile_data.get("email", ""),
+        "profile_data": session.profile_data or {},
     })
 
 
@@ -1420,7 +1444,15 @@ def session_recommendations(request, session_key):
     except KioskSession.DoesNotExist:
         return Response({"error": "Session not found"}, status=404)
 
-    profile = session.profile_data or {}
+    profile = dict(session.profile_data or {})
+    if profile.get("academic_score") not in (None, ""):
+        if profile.get("grading_scale") == "percentage":
+            profile["percentage"] = profile["academic_score"]
+        elif profile.get("grading_scale") == "cgpa_10":
+            profile["cgpa"] = profile["academic_score"]
+    profile["highest_qualification"] = profile.get("highest_qualification") or profile.get("qualification", "")
+    profile["english_test_type"] = profile.get("english_test_type") or profile.get("english_test", "")
+    profile["english_overall"] = profile.get("english_overall") if profile.get("english_overall") is not None else profile.get("english_score")
 
     # Build temporary student object from session profile data
     class TempStudent:
@@ -1454,8 +1486,39 @@ def session_recommendations(request, session_key):
     preferred_countries = [c.casefold().strip() for c in profile.get("preferred_countries", [])]
     if preferred_countries:
         courses = courses.filter(university__country__in=profile.get("preferred_countries", []))
-    evaluated = [(course, preference_match(course, profile)) for course in courses]
-    evaluated.sort(key=lambda item: item[1]["percentage"], reverse=True)
+    preferred_cities = [city for city in profile.get("preferred_cities", []) if normalize_city(city)]
+    if preferred_cities:
+        courses = [
+            course for course in courses
+            if any(
+                location_matches_city(course.university.city, selected_city)
+                or location_matches_city(course.campus, selected_city)
+                for selected_city in preferred_cities
+            )
+        ]
+    preferred_university = str(profile.get("preferred_university") or "").strip()
+    if preferred_university:
+        courses = [
+            course for course in courses
+            if course.university.name.casefold().strip() == preferred_university.casefold()
+        ]
+    preferred_course = str(profile.get("preferred_course") or "").strip()
+    if preferred_course:
+        courses = [
+            course for course in courses
+            if course.title.casefold().strip() == preferred_course.casefold()
+        ]
+    evaluated = [(course, calculate_course_match(course, profile)) for course in courses]
+    evaluated.sort(
+        key=lambda item: (
+            item[1]["percentage"],
+            -item[1]["match_summary"]["not_matched_count"],
+            int(item[0].human_verified),
+            int(any(factor["key"] == "intake" for factor in item[1]["matched_factors"])),
+            -float(get_optional_relation(item[0], "fee").tuition_fee or 10**12) if get_optional_relation(item[0], "fee") else -(10**12),
+        ),
+        reverse=True,
+    )
     total = len(evaluated)
     top_results = evaluated[:50]
 
@@ -1464,17 +1527,30 @@ def session_recommendations(request, session_key):
         academic = academic_eligibility(course, profile)
         english = english_eligibility(course, profile)
         documents = build_document_checklist([course], profile)
+        serialized = serialize_course_catalog_item(course)
+        if preferred_cities:
+            serialized["location_display"] = next(
+                normalize_city(city) for city in preferred_cities
+                if location_matches_city(course.university.city, city)
+                or location_matches_city(course.campus, city)
+            )
         data.append(
             {
-                **serialize_course_catalog_item(course),
+                **serialized,
                 "status": academic["status"],
                 "match_percentage": match["percentage"],
                 "score": match["percentage"],
                 "preference_match": match,
+                "match_summary": match["match_summary"],
+                "matched_factors": match["matched_factors"],
+                "partial_factors": match["partial_factors"],
+                "unmatched_factors": match["unmatched_factors"],
+                "review_factors": match["review_factors"],
                 "academic_eligibility": academic,
                 "english_eligibility": english,
+                "english_affects_matching_score": False,
                 "document_readiness": documents,
-                "reasons": [item["factor"] for item in match["matched_factors"]],
+                "reasons": [item["key"] for item in match["matched_factors"]],
             }
         )
 

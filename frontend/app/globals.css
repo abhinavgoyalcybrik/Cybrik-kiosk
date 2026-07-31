@@ -12,6 +12,11 @@
   --aqua: #22bfa6;
   --amber: #f0a737;
   --coral: #ed6a4b;
+  --danger: #b42318;
+  --danger-pale: #fff1f0;
+  --warning-dark: #8a4b08;
+  --warning-pale: #fff8e8;
+  --info-pale: #f1f5f9;
   --paper: #f7f9ff;
   --surface: #fff;
   --line: #d7deec;
@@ -8633,4 +8638,110 @@ body {
   .kiosk-mode .preference-toolbar .preferences-live {
     min-width: 180px
   }
+}
+.dependent-field.is-disabled,
+.dependent-field:has(select:disabled) {
+  opacity: 0.72;
+}
+
+.dependent-field select:disabled {
+  cursor: not-allowed;
+  background-color: color-mix(in srgb, var(--surface, #fff) 86%, #94a3b8 14%);
+}
+
+.preference-field-error {
+  margin: 0.75rem 0 0;
+  color: #b42318;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+/* Structured shortlist match diagnostics */
+.match-summary-heading {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.match-summary-heading>strong {
+  font-size: 12px;
+}
+
+.match-summary-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.why-fit .match-summary-counts span {
+  min-height: 28px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.why-fit .match-summary-counts .is-match { color: var(--green-dark); background: var(--green-pale); }
+.why-fit .match-summary-counts .is-mismatch { color: var(--danger); background: var(--danger-pale); }
+.why-fit .match-summary-counts .is-review { color: var(--warning-dark); background: var(--warning-pale); }
+
+.match-factor {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.why-fit .match-factor>svg { width: 18px; height: 18px; padding: 2px; }
+.match-factor>div { display: grid; gap: 2px; min-width: 0; }
+.why-fit .match-factor strong { font-size: 12px; line-height: 1.35; }
+.why-fit .match-factor span { display: block; font-size: 11px; line-height: 1.4; overflow-wrap: anywhere; }
+.match-factor p { margin: 3px 0 0; color: var(--ink-2); font-size: 11px; line-height: 1.45; }
+.match-factor.is-matched { border-color: color-mix(in srgb, var(--green) 42%, var(--line-soft)); background: var(--green-pale); }
+.match-factor.is-not_matched { border-color: color-mix(in srgb, var(--danger) 35%, var(--line-soft)); background: var(--danger-pale); }
+.match-factor.is-not_matched strong, .match-factor.is-not_matched>svg { color: var(--danger); }
+.match-factor.is-partial, .match-factor.is-review { border-color: color-mix(in srgb, var(--amber) 45%, var(--line-soft)); background: var(--warning-pale); }
+.match-factor.is-partial strong, .match-factor.is-review strong, .match-factor.is-partial>svg, .match-factor.is-review>svg { color: var(--warning-dark); }
+.match-factor.is-unavailable { background: var(--info-pale); }
+
+.match-details-toggle {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--blue-2);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.match-details-toggle:hover, .match-details-toggle:focus-visible { background: color-mix(in srgb, var(--blue) 9%, transparent); }
+.match-details-toggle[aria-expanded="true"] svg { transform: rotate(180deg); }
+.match-details-toggle svg { transition: transform .2s var(--ease); }
+
+.match-details-panel { display: grid; width: 100%; gap: 14px; padding-top: 4px; }
+.match-factor-group { display: grid; gap: 8px; }
+.match-factor-group h4 { margin: 0; font-size: 13px; }
+.match-factor-group>div { display: grid; gap: 8px; }
+.eligibility-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.eligibility-status { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 8px; padding: 11px; border-radius: 12px; background: var(--info-pale); }
+.eligibility-status svg { width: 18px; height: 18px; }
+.eligibility-status strong { display: block; font-size: 11px; text-transform: capitalize; }
+.eligibility-status p { margin: 4px 0 0; font-size: 10px; line-height: 1.45; }
+.eligibility-status.is-positive { background: var(--green-pale); color: var(--green-dark); }
+.eligibility-status.is-negative { background: var(--danger-pale); color: var(--danger); }
+.eligibility-status.is-neutral { background: var(--warning-pale); color: var(--warning-dark); }
+
+@media (max-width: 760px) {
+  .match-summary-heading { align-items: flex-start; flex-direction: column; }
+  .eligibility-grid { grid-template-columns: 1fr; }
 }

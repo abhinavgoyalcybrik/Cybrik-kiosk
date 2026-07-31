@@ -9,6 +9,9 @@ function IconBase({ size = 20, children, ...props }: IconProps) {
 export const ArrowRight = (p: IconProps) => <IconBase {...p}><path d="M5 12h14M13 6l6 6-6 6" /></IconBase>;
 export const ArrowLeft = (p: IconProps) => <IconBase {...p}><path d="M19 12H5m6 6-6-6 6-6" /></IconBase>;
 export const Check = (p: IconProps) => <IconBase {...p}><path d="m5 12 4 4L19 6" /></IconBase>;
+export const AlertCircle = (p: IconProps) => <IconBase {...p}><circle cx="12" cy="12" r="9"/><path d="M12 7v6M12 17h.01" /></IconBase>;
+export const InfoCircle = (p: IconProps) => <IconBase {...p}><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01" /></IconBase>;
+export const XCircle = (p: IconProps) => <IconBase {...p}><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6m0-6-6 6" /></IconBase>;
 export const ChevronDown = (p: IconProps) => <IconBase {...p}><path d="m6 9 6 6 6-6" /></IconBase>;
 export const Compass = (p: IconProps) => <IconBase {...p}><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z" /></IconBase>;
 export const FileText = (p: IconProps) => <IconBase {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16h16V8Z"/><path d="M14 2v6h6M8 13h8M8 17h6" /></IconBase>;

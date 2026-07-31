@@ -3,7 +3,7 @@ from unittest.mock import patch
 from django.test import TestCase
 from rest_framework.test import APIClient
 
-from api.models import KioskSession, SessionOTP, StudentProfile
+from api.models import Course, KioskSession, SessionOTP, StudentProfile, University
 
 
 class AuthenticationSessionTests(TestCase):
@@ -114,3 +114,48 @@ class AuthenticationSessionTests(TestCase):
             format="json",
         )
         self.assertEqual(response.status_code, 401)
+
+    def test_recommendations_apply_strict_city_and_refresh_changed_city(self):
+        dunedin = University.objects.create(name="Dunedin University", country="New Zealand", city="Dunedin")
+        auckland = University.objects.create(name="Auckland University", country="New Zealand", city="Auckland")
+        missing = University.objects.create(name="ATMC", country="New Zealand", city="N/A")
+        dunedin_course = Course.objects.create(university=dunedin, title="Dunedin Course", degree_level="Bachelor", field_of_study="Business")
+        auckland_course = Course.objects.create(university=auckland, title="Auckland Course", degree_level="Bachelor", field_of_study="Business")
+        missing_course = Course.objects.create(university=missing, title="Unknown Location Course", degree_level="Bachelor", field_of_study="Business")
+        campus_course = Course.objects.create(university=missing, title="Campus Course", degree_level="Bachelor", field_of_study="Business", campus="Auckland / Dunedin campuses")
+        session = KioskSession.objects.create(phone="919999999999", profile_data={"preferred_countries": ["New Zealand"], "preferred_cities": ["Dunedin"]})
+
+        city_options = self.client.get("/api/preference-options/?country=New+Zealand&city=Dunedin")
+        self.assertEqual(city_options.status_code, 200)
+        self.assertEqual(set(city_options.json()["universities"]), {"Dunedin University", "ATMC"})
+        course_options = self.client.get("/api/preference-options/?country=New+Zealand&city=Dunedin&institution=Dunedin+University")
+        self.assertEqual(course_options.json()["courses"], ["Dunedin Course"])
+
+        response = self.client.get(f"/api/session/{session.session_key}/recommendations/")
+        self.assertEqual(response.status_code, 200)
+        ids = {item["course_id"] for item in response.json()["recommendations"]}
+        self.assertEqual(ids, {dunedin_course.id, campus_course.id})
+        self.assertNotIn(missing_course.id, ids)
+        campus_result = next(item for item in response.json()["recommendations"] if item["course_id"] == campus_course.id)
+        self.assertEqual(campus_result["location_display"], "Dunedin")
+        self.assertIn("city", campus_result["reasons"])
+
+        session.profile_data = {"preferred_countries": ["New Zealand"], "preferred_cities": ["Auckland"]}
+        session.save(update_fields=["profile_data", "updated_at"])
+        changed = self.client.get(f"/api/session/{session.session_key}/recommendations/")
+        self.assertEqual({item["course_id"] for item in changed.json()["recommendations"]}, {auckland_course.id, campus_course.id})
+
+        session.profile_data = {"preferred_countries": ["New Zealand"], "preferred_cities": []}
+        session.save(update_fields=["profile_data", "updated_at"])
+        any_city = self.client.get(f"/api/session/{session.session_key}/recommendations/")
+        self.assertEqual({item["course_id"] for item in any_city.json()["recommendations"]}, {dunedin_course.id, auckland_course.id, missing_course.id, campus_course.id})
+
+        session.profile_data = {"preferred_countries": ["New Zealand"], "preferred_cities": ["Dunedin"], "preferred_university": "Dunedin University", "preferred_course": ""}
+        session.save(update_fields=["profile_data", "updated_at"])
+        institution_only = self.client.get(f"/api/session/{session.session_key}/recommendations/")
+        self.assertEqual([item["course_id"] for item in institution_only.json()["recommendations"]], [dunedin_course.id])
+
+        session.profile_data = {"preferred_countries": ["New Zealand"], "preferred_cities": ["Dunedin"], "preferred_university": "Dunedin University", "preferred_course": "Dunedin Course"}
+        session.save(update_fields=["profile_data", "updated_at"])
+        exact = self.client.get(f"/api/session/{session.session_key}/recommendations/")
+        self.assertEqual([item["course_id"] for item in exact.json()["recommendations"]], [dunedin_course.id])

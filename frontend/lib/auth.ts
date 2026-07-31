@@ -34,6 +34,7 @@ export type AuthSessionResponse =
       student_profile_id: number | null;
       name: string;
       email: string;
+      profile_data: Record<string, unknown>;
     }
   | { authenticated: false };
 
@@ -128,14 +129,37 @@ export function autosaveAuthProfile(sessionKey: string, profile: Record<string, 
 export type SessionRecommendation = {
   course_id: number;
   title: string;
+  location_display: string;
   university: { name: string; country: string; city: string; city_display?: string };
   tuition_fee: number | null;
   tuition_currency: string;
   fee_period: string;
   duration_months: number | null;
+  campus: string;
   intake_labels: string[];
   match_percentage: number;
   reasons: string[];
+  match_summary: { matched_count: number; not_matched_count: number; partial_count: number; review_count: number };
+  matched_factors: MatchFactor[];
+  partial_factors: MatchFactor[];
+  unmatched_factors: MatchFactor[];
+  review_factors: MatchFactor[];
+  academic_eligibility: { status: string; reasons: string[] };
+  english_eligibility: { status: string; requirements: Record<string, number> | []; student_scores: Record<string, number> | null; gaps: Array<{ test: string; gap: number }> };
+  english_affects_matching_score: false;
+  document_readiness: { status: string; required_count: number; available_count: number; missing_documents: string[] };
+};
+
+export type MatchFactor = {
+  key: string;
+  label: string;
+  user_value: unknown;
+  course_value: unknown;
+  status: "matched" | "partial" | "not_matched" | "review" | "unavailable";
+  reason: string;
+  score: number;
+  maximum_score: number;
+  applicable: boolean;
 };
 
 export function fetchSessionRecommendations(sessionKey: string) {

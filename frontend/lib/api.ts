@@ -149,9 +149,12 @@ export type PreferenceOptions = {
 
 export async function fetchPreferenceOptions(
 	country: string,
-	signal?: AbortSignal
+	signal?: AbortSignal,
+	filters: { city?: string; institution?: string } = {}
 ): Promise<PreferenceOptions> {
 	const params = new URLSearchParams({ country });
+	if (filters.city) params.set("city", filters.city);
+	if (filters.institution) params.set("institution", filters.institution);
 	return requestJson<PreferenceOptions>(`/api/preference-options/?${params}`, {
 		cache: "no-store",
 		signal,
