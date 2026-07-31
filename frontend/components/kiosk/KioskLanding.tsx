@@ -33,7 +33,7 @@ const FOOTER_MESSAGES = [
 
 const KEYBOARD_ROWS = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"] as const;
 
-export function KioskLanding() {
+export function KioskLanding({ countryImages }: { countryImages: Partial<Record<(typeof DESTINATIONS)[number]["name"], string>> }) {
   const [footerIndex, setFooterIndex] = useState(0);
   const [heroIndex, setHeroIndex] = useState(0);
   const [dark, setDark] = useState(false);
@@ -123,7 +123,7 @@ export function KioskLanding() {
           {DESTINATIONS.map((destination) => (
             <button className={`edu-kiosk-country-card accent-${destination.accent}`} type="button" onClick={() => setSelected(destination)} key={destination.name}>
               <span className="edu-kiosk-country-image">
-                <Image src={destination.image} alt={`Study destination in ${destination.name}`} fill sizes="(max-width: 620px) 110px, (max-width: 820px) 210px, 420px" style={{ objectPosition: "imagePosition" in destination ? destination.imagePosition : "center" }} />
+                <Image src={countryImages[destination.name] ?? destination.image} alt={`Study destination in ${destination.name}`} fill sizes="(max-width: 620px) 110px, (max-width: 820px) 210px, 420px" style={{ objectPosition: "imagePosition" in destination ? destination.imagePosition : "center" }} />
                 <span className={`edu-kiosk-flag flag-${destination.code.toLowerCase()}`} role="img" aria-label={`${destination.name} flag`}>
                   <Image src={destination.flagImage} alt="" fill sizes="(max-width: 620px) 34px, 82px" />
                 </span>
@@ -158,7 +158,7 @@ export function KioskLanding() {
         <div className="edu-kiosk-overlay" role="dialog" aria-modal="true" aria-labelledby="country-detail-title">
           <div className="edu-kiosk-overlay-bar"><button type="button" onClick={() => setSelected(null)}><ArrowLeft size={30} /> Back</button><button type="button" onClick={() => { setSelected(null); setQuery(""); }}><HomeIcon /> Home</button></div>
           <article className="edu-kiosk-country-detail">
-            <div className="edu-kiosk-detail-image"><Image src={selected.image} alt={`University campus in ${selected.name}`} fill sizes="100vw" /></div>
+            <div className="edu-kiosk-detail-image"><Image src={countryImages[selected.name] ?? selected.image} alt={`University campus in ${selected.name}`} fill sizes="100vw" /></div>
               <div className="edu-kiosk-detail-content"><span className="edu-kiosk-flag">{selected.code}</span><span className="edu-kiosk-eyebrow">Study destination</span><h2 id="country-detail-title">Explore {selected.name}</h2><p>Discover globally recognised universities, career-focused courses, scholarships and upcoming intakes matched to your goals.</p><div><span><strong>{selected.universities}</strong><small>to explore</small></span><span><strong>Multiple intakes</strong><small>throughout the year</small></span></div><Link className="edu-kiosk-start" href="/portal?display=kiosk">Find my matches <ArrowRight size={32} /></Link></div>
           </article>
         </div>
