@@ -98,15 +98,6 @@ function normalize(value: string | null | undefined): string {
 	return value?.toLowerCase().trim() ?? "";
 }
 
-function parseNumeric(value: string): number | null {
-	if (!value.trim()) {
-		return null;
-	}
-
-	const parsed = Number(value);
-	return Number.isFinite(parsed) ? parsed : null;
-}
-
 function formatMoney(amount: number | null, currency: string, feePeriod: string): string {
 	if (amount === null) {
 		return "N/A";
@@ -264,29 +255,6 @@ function evaluateIntakeMatch(
 	return { selected: true, matched };
 }
 
-function hasMeaningfulBudgetPreference(profile: StudentProfile): boolean {
-	return profile.budgetMinLakhs !== "0" || profile.budgetMaxLakhs !== "80";
-}
-
-function computeBudgetBias(profile: StudentProfile, course: CourseCatalogApiItem): number {
-	if (!hasMeaningfulBudgetPreference(profile) || course.tuition_fee === null) {
-		return 0;
-	}
-
-	const maxBudget = parseNumeric(profile.budgetMaxLakhs);
-	if (maxBudget === null) {
-		return 0;
-	}
-
-	const strictness = Math.max(0, Math.min(1, (80 - maxBudget) / 80));
-	if (strictness === 0) {
-		return 0;
-	}
-
-	const normalizedTuition = Math.max(0, Math.min(1, course.tuition_fee / 50000));
-	return Math.round(((1 - normalizedTuition) * 12 - normalizedTuition * 3) * strictness);
-}
-
 function computeDataCompleteness(course: CourseCatalogApiItem): number {
 	let completeness = 0;
 
@@ -356,15 +324,6 @@ function scoreCourse(profile: StudentProfile, course: CourseCatalogApiItem): Cou
 	}
 
 	if (preferredCities.length > 0 && !preferredCities.some((preferredCity) => city.includes(preferredCity))) {
-		return null;
-	}
-
-	const ieltsOverall = parseNumeric(profile.ieltsOverall);
-	if (
-		ieltsOverall !== null &&
-		course.ielts_overall !== null &&
-		ieltsOverall + 0.001 < course.ielts_overall
-	) {
 		return null;
 	}
 
@@ -460,30 +419,12 @@ function scoreCourse(profile: StudentProfile, course: CourseCatalogApiItem): Cou
 		}
 	}
 
-	if (ieltsOverall !== null) {
-		if (course.ielts_overall === null) {
-			displayScore += 2;
-			rankScore += 2;
-		} else {
-			const scoreBuffer = Math.max(0, ieltsOverall - course.ielts_overall);
-			const displayBuffer = Math.min(6, Math.round(scoreBuffer * 3));
-			const rankBuffer = Math.min(6.5, scoreBuffer * 3.25);
-
-			displayScore += 8 + displayBuffer;
-			rankScore += 8 + rankBuffer;
-		}
-	}
-
 	if (profile.hasWorkExperience === "Yes" && POSTGRAD_LEVELS.has(normalizedDegreeLevel)) {
 		displayScore += 4;
 		rankScore += 4;
 	}
 
-	const budgetBias = computeBudgetBias(profile, course);
 	const dataCompleteness = computeDataCompleteness(course);
-
-	displayScore += budgetBias;
-	rankScore += budgetBias;
 	rankScore += dataCompleteness;
 
 	return {
@@ -503,9 +444,7 @@ export function hasLiveRankingSignals(profile: StudentProfile): boolean {
 			profile.preferredIntakeYear.trim() ||
 			profile.twelfthStream.trim() ||
 			profile.graduationDegree.trim() ||
-			profile.ieltsOverall.trim() ||
-			profile.hasWorkExperience === "Yes" ||
-			hasMeaningfulBudgetPreference(profile)
+			profile.hasWorkExperience === "Yes"
 	);
 }
 
@@ -534,10 +473,6 @@ export function buildProfileSignalChips(profile: StudentProfile): string[] {
 				.filter(Boolean)
 				.join(" ")}`
 		);
-	}
-
-	if (profile.ieltsOverall.trim()) {
-		chips.push(`IELTS: ${profile.ieltsOverall}`);
 	}
 
 	return chips.slice(0, 8);

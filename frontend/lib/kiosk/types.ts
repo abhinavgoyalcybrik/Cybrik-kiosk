@@ -76,6 +76,9 @@ export type KioskRecommendation = {
   score: number;
   successLabel: "High" | "Medium" | "Growing";
   reasons: string[];
+  academicEligibility: string;
+  englishEligibility: string;
+  documentReadiness: string;
 };
 
 export type KioskRecommendationBundle = {
@@ -117,6 +120,7 @@ export type KioskCostBreakdown = {
 export const COUNTRY_OPTIONS = [
   "Canada",
   "Australia",
+  "New Zealand",
   "United Kingdom",
   "United States",
   "Ireland",

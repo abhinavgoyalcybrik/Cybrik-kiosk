@@ -374,21 +374,6 @@ function buildReasons(
     reasons.push(`Strong alignment with ${course.field_of_study}`);
   }
 
-  if (
-    profile.englishExam === "IELTS" &&
-    profile.englishScore &&
-    course.ielts_overall !== null
-  ) {
-    const buffer = Number(profile.englishScore) - course.ielts_overall;
-    if (Number.isFinite(buffer) && buffer >= 0) {
-      reasons.push(`IELTS profile clears the requirement by ${buffer.toFixed(1)}`);
-    }
-  }
-
-  if (course.tuition_fee !== null && profile.budgetMaxLakhs <= 35) {
-    reasons.push("Good value relative to your stated budget");
-  }
-
   if (score >= 80) {
     reasons.push("High confidence match from your current profile");
   }
@@ -420,6 +405,16 @@ function buildRecommendationFromCard(
     score,
     successLabel: score >= 80 ? "High" : score >= 65 ? "Medium" : "Growing",
     reasons: buildReasons(profile, course, score),
+    academicEligibility: "Requires manual review",
+    englishEligibility:
+      !profile.englishScore || profile.englishExam === "None yet"
+        ? "Test not provided"
+        : course.ielts_overall === null || profile.englishExam !== "IELTS"
+          ? "Requirement unavailable"
+          : Number(profile.englishScore) >= course.ielts_overall
+            ? "Meets requirement"
+            : "Below requirement",
+    documentReadiness: "Review requirements",
   };
 }
 
@@ -458,6 +453,9 @@ function buildFallbackRecommendations(
       score,
       successLabel: score >= 80 ? "High" : score >= 65 ? "Medium" : "Growing",
       reasons: buildReasons(profile, course, score),
+      academicEligibility: "Requires manual review",
+      englishEligibility: "Requirement unavailable",
+      documentReadiness: "Review requirements",
     };
   });
 }

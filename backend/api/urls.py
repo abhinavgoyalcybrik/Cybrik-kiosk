@@ -10,6 +10,8 @@ from .views import (
     student_profile_lookup,
     whatsapp_lead_capture,
     shortlist_whatsapp_share,
+    preference_options,
+    session_document_checklist,
     # New Kiosk Session APIs
     session_start,
     session_autosave,
@@ -26,6 +28,7 @@ urlpatterns = [
     # ── Existing APIs ──────────────────────────────────────────
     path("stats/", platform_stats, name="platform-stats"),
     path("courses/", courses_catalog, name="courses-catalog"),
+    path("preference-options/", preference_options, name="preference-options"),
     path("courses/<int:course_id>/", course_detail, name="course-detail"),
     path("courses/<int:course_id>/whatsapp-share/", course_whatsapp_share_payload, name="course-whatsapp-share"),
     path("leads/whatsapp/form-context/", whatsapp_lead_form_context, name="whatsapp-lead-form-context"),
@@ -38,6 +41,7 @@ urlpatterns = [
     path("session/start/", session_start, name="session-start"),
     path("session/<uuid:session_key>/autosave/", session_autosave, name="session-autosave"),
     path("session/<uuid:session_key>/recommendations/", session_recommendations, name="session-recommendations"),
+    path("session/<uuid:session_key>/document-checklist/", session_document_checklist, name="session-document-checklist"),
     path("session/<uuid:session_key>/otp/send/", session_otp_send, name="session-otp-send"),
     path("session/<uuid:session_key>/otp/verify/", session_otp_verify, name="session-otp-verify"),
     path("session/status/", session_status, name="session-status"),

@@ -598,8 +598,6 @@ def import_university_courses(json_path: Path) -> str:
                 "degree_level": infer_degree_level(title, program.get("course_level")),
                 "field_of_study": infer_field_of_study(title),
                 "specialization": "",
-                "department": "",
-                "faculty": "",
                 "duration_months": parse_duration_months(program.get("course_duration")),
                 "mode": "Part-time"
                 if "part-time" in normalize_whitespace(program.get("course_duration")).lower()
@@ -609,7 +607,6 @@ def import_university_courses(json_path: Path) -> str:
                 "campus": normalize_campus_location(program.get("campus_location")),
                 "course_url": extract_source_url(program.get("source_reference")),
                 "course_summary": normalize_whitespace(program.get("course_duration")),
-                "admissions_notes": build_admissions_notes(program),
             }
             course, created, duplicate_count = upsert_course(
                 university=university,
@@ -630,7 +627,6 @@ def import_university_courses(json_path: Path) -> str:
                     course=course,
                     intake_month=str(intake_entry["intake_month"]),
                     intake_year=intake_entry["intake_year"],
-                    notes=str(intake_entry["notes"]),
                 )
             recreated_intakes += len(intake_entries)
 
@@ -652,7 +648,6 @@ def import_university_courses(json_path: Path) -> str:
                 defaults={
                     "required_qualification": academic_notes[:255],
                     "required_bachelor_background": academic_notes,
-                    "academic_flexibility_notes": academic_notes,
                 },
             )
             if academic_created:
@@ -667,7 +662,6 @@ def import_university_courses(json_path: Path) -> str:
                 course=course,
                 defaults={
                     **english_scores,
-                    "english_score_flexibility_notes": english_notes,
                 },
             )
             if english_created:

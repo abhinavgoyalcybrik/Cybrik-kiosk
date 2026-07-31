@@ -352,6 +352,9 @@ export function LegacyKioskExperience() {
           score: 80,
           successLabel: "High",
           reasons: [],
+          academicEligibility: "Requires manual review",
+          englishEligibility: "Requirement unavailable",
+          documentReadiness: "Review requirements",
         }));
         setBundle({ source: "live_catalog", totalPrograms: recs.length, profileSignalChips: [], recommendations: recs });
         setScreen("results");
@@ -1610,6 +1613,25 @@ function ProfileScreen({
               },
             ]}
           />
+          <label style={{ display: "grid", gap: 8 }}>
+            <span className="small" style={{ fontWeight: 700 }}>
+              Enter your {profile.scoreMode === "cgpa" ? "CGPA" : "percentage"}
+            </span>
+            <input
+              aria-label={profile.scoreMode === "cgpa" ? "CGPA out of 10" : "Academic percentage"}
+              inputMode="decimal"
+              min={profile.scoreMode === "cgpa" ? 0 : 0}
+              max={profile.scoreMode === "cgpa" ? 10 : 100}
+              step="0.01"
+              type="number"
+              value={profile.academicScore}
+              onChange={(event) => onChange("academicScore", event.target.value)}
+              style={{ minHeight: 54, border: "1.5px solid var(--line)", borderRadius: 14, padding: "0 16px", fontSize: 22, background: "white" }}
+            />
+            <span className="small">
+              Decimals are accepted. Enter 0–{profile.scoreMode === "cgpa" ? "10" : "100"}.
+            </span>
+          </label>
 
           <ChoiceField
             label="Field of study"
@@ -2382,9 +2404,12 @@ function ProgramCard({
           gap: 12,
         }}
       >
-        <span className="eyebrow" style={{ fontSize: 16 }}>
-          IELTS: {recommendation.ielts}
-        </span>
+        <div style={{ display: "grid", gap: 6 }}>
+          <span className="eyebrow" style={{ fontSize: 16 }}>Preference match: {recommendation.score}%</span>
+          <span className="small">Academic: {recommendation.academicEligibility}</span>
+          <span className="small">English: {recommendation.englishEligibility}</span>
+          <span className="small">Documents: {recommendation.documentReadiness}</span>
+        </div>
         <button
           type="button"
           className="blue-text link-reset"
@@ -2527,15 +2552,18 @@ function ProgramDetailScreen({
           <div className="card" style={{ padding: 32, display: "flex", alignItems: "center", gap: 28 }}>
             <Ring pct={recommendation.score} size={180} stroke={16} color="var(--green)">
               <div className="h1" style={{ fontSize: 56 }}>{recommendation.score}%</div>
-              <div className="small" style={{ fontSize: 18 }}>match</div>
+              <div className="small" style={{ fontSize: 18 }}>preference match</div>
             </Ring>
             <div>
               <div className="title" style={{ fontSize: 28 }}>
                 {recommendation.score >= 85 ? "Excellent match" : recommendation.score >= 65 ? "Strong match" : "Growing match"}
               </div>
               <div className="body" style={{ fontSize: 24, marginTop: 6 }}>
-                Based on your academics, English score, and budget profile.
+                Based only on the preferences you provided. English eligibility is shown separately.
               </div>
+              <div className="small" style={{ marginTop: 10 }}>Academic: {recommendation.academicEligibility}</div>
+              <div className="small">English: {recommendation.englishEligibility}</div>
+              <div className="small">Documents: {recommendation.documentReadiness}</div>
             </div>
           </div>
 

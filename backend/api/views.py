@@ -34,6 +34,14 @@ from services.eligibility import get_eligible_courses
 from services.explanations import generate_explanations
 from services.risk_flags import generate_risk_flags
 from services.profile import compute_recommendation_confidence
+from services.normalization import (
+    MONTHS, currency_quality, display_city, display_field, normalize_degree,
+    normalize_intake,
+)
+from services.course_matching import (
+    academic_eligibility, english_eligibility, preference_match,
+)
+from services.document_checklist import build_document_checklist
 
 logger = logging.getLogger(__name__)
 
@@ -80,14 +88,27 @@ def serialize_course_catalog_item(course):
             "official_website": course.university.official_website,
             "country": course.university.country,
             "city": course.university.city,
+            "city_display": display_city(course.university.city),
+            "institution_type": course.university.institution_type,
+            "ownership_type": course.university.ownership_type,
+            "scholarship_available": course.university.scholarship_available,
+            "accommodation_available": course.university.accommodation_available,
         },
         "degree_level": course.degree_level,
+        "normalized_degree_level": normalize_degree(course.degree_level),
         "field_of_study": course.field_of_study,
+        "field_of_study_display": display_field(course.field_of_study),
+        "mode": course.mode,
+        "campus": course.campus,
+        "human_verified": course.human_verified,
         "duration_months": course.duration_months,
         "tuition_fee": (
             float(fee.tuition_fee) if fee and fee.tuition_fee is not None else None
         ),
         "tuition_currency": fee.currency if fee else "",
+        "currency_quality": currency_quality(
+            fee.currency if fee else "", course.university.country
+        ),
         "fee_period": fee.fee_period if fee else "",
         "application_fee": (
             float(course.university.application_fee)
@@ -96,6 +117,16 @@ def serialize_course_catalog_item(course):
         ),
         "application_fee_currency": course.university.application_fee_currency or "",
         "intake_labels": serialize_intakes(course),
+        "normalized_intakes": [
+            {
+                "raw": normalized.raw,
+                "months": list(normalized.months),
+                "classification": normalized.classification,
+            }
+            for normalized in (
+                normalize_intake(label) for label in serialize_intakes(course)
+            )
+        ],
         "ielts_overall": (
             english_requirement.ielts_overall
             if english_requirement and english_requirement.ielts_overall is not None
@@ -647,6 +678,24 @@ def courses_catalog(request):
     )
     data = [serialize_course_catalog_item(course) for course in courses]
     return Response({"count": len(data), "courses": data})
+
+
+@api_view(["GET"])
+def preference_options(request):
+    courses = Course.objects.select_related("university", "fee").prefetch_related("intakes")
+    cities = sorted({display_city(c.university.city) for c in courses if display_city(c.university.city) != "Location not specified"})
+    fields = sorted({display_field(c.field_of_study) for c in courses if c.field_of_study.strip()})
+    return Response({
+        "countries": sorted({c.university.country.strip() for c in courses if c.university.country.strip()}),
+        "cities": cities,
+        "universities": sorted({c.university.name.strip() for c in courses}),
+        "degree_levels": sorted({normalize_degree(c.degree_level) for c in courses if normalize_degree(c.degree_level) != "Unspecified"}),
+        "fields_of_study": fields,
+        "campuses": sorted({c.campus.strip() for c in courses if c.campus.strip()}),
+        "study_modes": sorted({c.mode.strip() for c in courses if c.mode.strip()}),
+        "currencies": sorted({c.fee.currency.strip().upper() for c in courses if get_optional_relation(c, "fee") and c.fee.currency.strip()}),
+        "intake_months": list(MONTHS),
+    })
 
 
 @api_view(["GET"])
@@ -1249,6 +1298,19 @@ def session_autosave(request, session_key):
         return auth_error
 
     incoming = request.data or {}
+    score_limits = {"percentage": 100, "cgpa_10": 10, "gpa_4": 4, "gpa_5": 5}
+    grading_scale = incoming.get("grading_scale")
+    for field in ("academic_score", "tenth_score", "twelfth_score", "graduation_score", "postgraduation_score"):
+        if field not in incoming or incoming[field] in (None, ""):
+            continue
+        if grading_scale not in score_limits:
+            return Response({"error": "grading_scale is required for academic scores"}, status=400)
+        try:
+            value = float(incoming[field])
+        except (TypeError, ValueError):
+            return Response({"error": f"{field} must be numeric"}, status=400)
+        if not 0 <= value <= score_limits[grading_scale]:
+            return Response({"error": f"{field} must be between 0 and {score_limits[grading_scale]}"}, status=400)
     current = session.profile_data or {}
     current.update(incoming)
     session.profile_data = current
@@ -1345,51 +1407,57 @@ def session_recommendations(request, session_key):
     student.active_backlogs = profile.get("active_backlogs")
     student.duolingo_overall = profile.get("duolingo_overall")
 
-    results = get_eligible_courses(student)
-
-    # Remove Not Eligible courses
-    results = [r for r in results if r["status"] != "Not Eligible"]
-
-    # Country filter
-    preferred_countries = [
-        c.lower().strip() for c in (student.preferred_countries or [])
-    ]
+    courses = Course.objects.select_related(
+        "university", "fee", "academic_requirement", "english_requirement", "document_requirement"
+    ).prefetch_related("intakes").order_by("university__name", "title")
+    preferred_countries = [c.casefold().strip() for c in profile.get("preferred_countries", [])]
     if preferred_countries:
-        results = [
-            r
-            for r in results
-            if r["course"].university.country.lower().strip() in preferred_countries
-        ]
-
-    # Sort by score descending
-    results = sorted(results, key=lambda x: x["score"]["final_score"], reverse=True)
-    top_results = results[:50]
+        courses = courses.filter(university__country__in=profile.get("preferred_countries", []))
+    evaluated = [(course, preference_match(course, profile)) for course in courses]
+    evaluated.sort(key=lambda item: item[1]["percentage"], reverse=True)
+    total = len(evaluated)
+    top_results = evaluated[:50]
 
     data = []
-    for r in top_results:
-        course = r["course"]
-        score = r["score"]
+    for course, match in top_results:
+        academic = academic_eligibility(course, profile)
+        english = english_eligibility(course, profile)
+        documents = build_document_checklist([course], profile)
         data.append(
             {
                 **serialize_course_catalog_item(course),
-                "status": r["status"],
-                "match_percentage": round(score["final_score"], 1),
-                "score": score["final_score"],
-                "score_breakdown": score["breakdown"],
-                "reasons": r["reasons"],
+                "status": academic["status"],
+                "match_percentage": match["percentage"],
+                "score": match["percentage"],
+                "preference_match": match,
+                "academic_eligibility": academic,
+                "english_eligibility": english,
+                "document_readiness": documents,
+                "reasons": [item["factor"] for item in match["matched_factors"]],
             }
         )
 
     return Response(
         {
             "session_key": str(session.session_key),
-            "total_matched": len(results),
+            "total_matched": total,
             "showing": len(data),
             "active_country_filter": preferred_countries,
             "recommendations": data,
         },
         status=200,
     )
+
+
+@api_view(["GET"])
+def session_document_checklist(request, session_key):
+    try:
+        session = KioskSession.objects.get(session_key=session_key)
+    except KioskSession.DoesNotExist:
+        return Response({"error": "Session not found"}, status=404)
+    ids = session.selected_course_ids or session.shortlisted_course_ids or []
+    courses = Course.objects.select_related("document_requirement").filter(id__in=ids)
+    return Response(build_document_checklist(courses, session.profile_data or {}))
 
 
 @api_view(["POST"])
