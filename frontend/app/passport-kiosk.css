@@ -821,3 +821,39 @@
     transition-duration: 0.01ms !important;
   }
 }
+.passport-inline-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.passport-find-button {
+  min-height: 52px;
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  background: var(--passport-ink, #17213a);
+  color: #fff;
+  font: inherit;
+  font-weight: 750;
+  cursor: pointer;
+  transition: opacity 180ms ease, background-color 180ms ease;
+}
+
+.passport-find-button:disabled {
+  cursor: not-allowed;
+  opacity: .48;
+}
+
+.passport-find-button:focus-visible {
+  outline: 4px solid rgba(13, 148, 136, .35);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .passport-inline-fields { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .passport-find-button { transition: none; }
+}

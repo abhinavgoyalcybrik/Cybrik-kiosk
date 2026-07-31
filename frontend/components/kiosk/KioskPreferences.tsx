@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
+import { fetchPreferenceOptions, type PreferenceOptions } from "@/lib/api";
 import {
   COUNTRY_OPTIONS,
   FIELD_OPTIONS,
@@ -13,6 +14,8 @@ type KioskPreferencesProps = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onChange: (patch: Partial<KioskProfile>) => void;
+  onSubmit: () => void;
+  submitting: boolean;
 };
 
 function PreferenceSection({ title, children }: { title: string; children: ReactNode }) {
@@ -39,7 +42,29 @@ export function KioskPreferences({
   open,
   onOpenChange,
   onChange,
+  onSubmit,
+  submitting,
 }: KioskPreferencesProps) {
+  const isNewZealand = profile.preferredCountries[0] === "New Zealand";
+  const [options, setOptions] = useState<PreferenceOptions | null>(null);
+  const [optionsError, setOptionsError] = useState("");
+  useEffect(() => {
+    if (!isNewZealand) return;
+    const controller = new AbortController();
+    queueMicrotask(() => {
+      if (!controller.signal.aborted) { setOptions(null); setOptionsError(""); }
+    });
+    fetchPreferenceOptions("New Zealand", controller.signal)
+      .then(setOptions)
+      .catch((reason) => {
+        if (!controller.signal.aborted) setOptionsError(reason instanceof Error ? reason.message : "Could not load options.");
+      });
+    return () => controller.abort();
+  }, [isNewZealand]);
+  const score = Number(profile.academicScore);
+  const scoreValid = profile.academicScore !== "" && Number.isFinite(score) && score >= 0 && score <= (profile.scoreMode === "cgpa" ? 10 : 100);
+  const feeValid = !(profile.tuitionMin || profile.tuitionMax) || (Boolean(profile.feeCurrency) && (!profile.tuitionMin || !profile.tuitionMax || Number(profile.tuitionMin) <= Number(profile.tuitionMax)));
+  const ready = Boolean(profile.preferredCountries[0] && profile.studyGoal && profile.preferredFields.length && profile.intakeSeason && scoreValid && feeValid && (!isNewZealand || options));
   return (
     <section
       aria-label="Preferences"
@@ -83,7 +108,22 @@ export function KioskPreferences({
             </label>
           </PreferenceSection>
 
+          {isNewZealand ? (
+            <PreferenceSection title="New Zealand options">
+              {!options && !optionsError ? <p aria-live="polite">Loading New Zealand cities and institutions…</p> : null}
+              {optionsError ? <p role="alert">We couldn’t load New Zealand options. Please retry.</p> : null}
+              {options ? <>
+                <label>Preferred city<select value={profile.preferredCities[0] ?? ""} onChange={(event) => onChange({ preferredCities: event.target.value ? [event.target.value] : [] })}><option value="">Any city</option>{options.cities.map((city) => <option key={city}>{city}</option>)}</select></label>
+                <label>Preferred institution<select value={profile.preferredUniversity} onChange={(event) => onChange({ preferredUniversity: event.target.value })}><option value="">Any institution</option>{options.universities.map((institution) => <option key={institution}>{institution}</option>)}</select></label>
+                <label>Fee currency<select value={profile.feeCurrency} onChange={(event) => onChange({ feeCurrency: event.target.value as KioskProfile["feeCurrency"] })}><option value="">Required for a fee range</option>{options.currencies.filter((item) => ["NZD", "AUD", "USD"].includes(item)).map((item) => <option key={item}>{item}</option>)}</select></label>
+                <div className="passport-inline-fields"><label>Minimum fee<input min="0" type="number" value={profile.tuitionMin} onChange={(event) => onChange({ tuitionMin: event.target.value })} /></label><label>Maximum fee<input min="0" type="number" value={profile.tuitionMax} onChange={(event) => onChange({ tuitionMax: event.target.value })} /></label></div>
+                {!feeValid ? <p role="alert">Select a currency and ensure the minimum fee does not exceed the maximum.</p> : null}
+              </> : null}
+            </PreferenceSection>
+          ) : null}
+
           <PreferenceSection title="Program">
+            <label>Degree level<select value={profile.studyGoal} onChange={(event) => onChange({ studyGoal: event.target.value as KioskProfile["studyGoal"] })}><option value="">Choose a degree level</option><option value="undergraduate">Undergraduate</option><option value="postgraduate">Postgraduate</option></select></label>
             <label>
               Academic track
               <select
@@ -106,6 +146,12 @@ export function KioskPreferences({
             </label>
           </PreferenceSection>
 
+          <PreferenceSection title="Academic score">
+            <label>Grading system<select value={profile.scoreMode} onChange={(event) => onChange({ scoreMode: event.target.value as KioskProfile["scoreMode"], academicScore: "" })}><option value="percentage">Percentage</option><option value="cgpa">CGPA out of 10</option></select></label>
+            <label>Score<input aria-invalid={profile.academicScore !== "" && !scoreValid} inputMode="decimal" max={profile.scoreMode === "cgpa" ? 10 : 100} min="0" step="0.01" type="number" value={profile.academicScore} onChange={(event) => onChange({ academicScore: event.target.value })} /></label>
+            {profile.academicScore !== "" && !scoreValid ? <p role="alert">Enter a value from 0 to {profile.scoreMode === "cgpa" ? 10 : 100}.</p> : null}
+          </PreferenceSection>
+
           <PreferenceSection title="Budget">
             <label>
               Annual budget <strong>₹{profile.budgetMaxLakhs}L</strong>
@@ -119,6 +165,7 @@ export function KioskPreferences({
               />
             </label>
           </PreferenceSection>
+          <button className="passport-find-button" disabled={!ready || submitting} onClick={onSubmit} type="button">{submitting ? "Finding matching courses…" : ready ? "Find matching courses" : "Complete required preferences"}</button>
 
           <PreferenceSection title="Intake">
             <label>

@@ -134,6 +134,30 @@ export async function fetchCoursesCatalog(): Promise<CourseCatalogResponse> {
 	});
 }
 
+export type PreferenceOptions = {
+	countries: string[];
+	cities: string[];
+	universities: string[];
+	degree_levels: string[];
+	fields_of_study: string[];
+	campuses: string[];
+	study_modes: string[];
+	courses: string[];
+	currencies: string[];
+	intake_months: string[];
+};
+
+export async function fetchPreferenceOptions(
+	country: string,
+	signal?: AbortSignal
+): Promise<PreferenceOptions> {
+	const params = new URLSearchParams({ country });
+	return requestJson<PreferenceOptions>(`/api/preference-options/?${params}`, {
+		cache: "no-store",
+		signal,
+	});
+}
+
 export async function fetchCourseDetail(id: number): Promise<DetailedCourse> {
 	return requestJson<DetailedCourse>(`/api/courses/${id}/`, {
 		cache: "no-store",

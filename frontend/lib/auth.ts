@@ -124,3 +124,23 @@ export function autosaveAuthProfile(sessionKey: string, profile: Record<string, 
     body: JSON.stringify(profile),
   });
 }
+
+export type SessionRecommendation = {
+  course_id: number;
+  title: string;
+  university: { name: string; country: string; city: string; city_display?: string };
+  tuition_fee: number | null;
+  tuition_currency: string;
+  fee_period: string;
+  duration_months: number | null;
+  intake_labels: string[];
+  match_percentage: number;
+  reasons: string[];
+};
+
+export function fetchSessionRecommendations(sessionKey: string) {
+  return authRequest<{ total_matched: number; recommendations: SessionRecommendation[] }>(
+    `/api/session/${sessionKey}/recommendations/`,
+    { method: "GET", cache: "no-store" },
+  );
+}

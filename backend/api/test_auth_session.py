@@ -60,6 +60,15 @@ class AuthenticationSessionTests(TestCase):
             ["Australia"],
         )
 
+        legacy_score_response = self.client.patch(
+            f"/api/session/{session_key}/autosave/",
+            {"academic_score": "8.2 CGPA", "preferred_countries": ["New Zealand"]},
+            format="json",
+        )
+        self.assertEqual(legacy_score_response.status_code, 200)
+        self.assertEqual(legacy_score_response.json()["profile_data"]["grading_scale"], "cgpa_10")
+        self.assertEqual(legacy_score_response.json()["profile_data"]["academic_score"], 8.2)
+
         logout_response = self.client.post("/api/session/logout/", {}, format="json")
         self.assertEqual(logout_response.status_code, 200)
         logged_out_status = self.client.get("/api/session/status/")

@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { startTransition, useEffect, useEffectEvent, useMemo, useState } from "react";
 import { SourceBadge } from "@/components/signal/SourceBadge";
 import { PassportKioskExplorer } from "./PassportKioskExplorer";
+import { fetchPreferenceOptions, type PreferenceOptions } from "@/lib/api";
 
 import {
   buildCostBreakdown,
@@ -13,7 +14,6 @@ import {
   completeKioskHandoff,
   getKioskDeviceId,
   loadKioskRecommendations,
-  primeKioskCatalog,
   resendKioskOtp,
   saveKioskProfile,
   startKioskSession,
@@ -73,10 +73,13 @@ function countFilledProfileFields(profile: KioskProfile): number {
 }
 
 function isProfileReady(profile: KioskProfile): boolean {
-  const englishReady =
-    !profile.englishExam ||
-    profile.englishExam === "None yet" ||
-    Boolean(profile.englishScore.trim());
+  const score = Number(profile.academicScore);
+  const scoreValid = Number.isFinite(score) && score >= 0 && score <= (profile.scoreMode === "cgpa" ? 10 : 100);
+  const minFee = profile.tuitionMin ? Number(profile.tuitionMin) : null;
+  const maxFee = profile.tuitionMax ? Number(profile.tuitionMax) : null;
+  const feeValid = minFee === null && maxFee === null
+    ? true
+    : Boolean(profile.feeCurrency) && (minFee === null || maxFee === null || minFee <= maxFee);
 
   return Boolean(
     profile.fullName.trim() &&
@@ -86,8 +89,8 @@ function isProfileReady(profile: KioskProfile): boolean {
       profile.preferredFields.length > 0 &&
       profile.intakeSeason &&
       profile.intakeYear &&
-      profile.academicScore.trim() &&
-      englishReady
+      scoreValid &&
+      feeValid
   );
 }
 
@@ -252,6 +255,10 @@ export function LegacyKioskExperience() {
 
     filtered.sort((left, right) => {
       if (sortMode === "lowest_cost") {
+        const currencies = new Set(items.map((item) => item.tuitionLabel.split(" ")[0]).filter(Boolean));
+        if (currencies.size > 1 && !profile.feeCurrency) {
+          return right.score - left.score;
+        }
         const leftCost = left.tuitionValue ?? Number.POSITIVE_INFINITY;
         const rightCost = right.tuitionValue ?? Number.POSITIVE_INFINITY;
         return leftCost - rightCost;
@@ -265,7 +272,7 @@ export function LegacyKioskExperience() {
     });
 
     return filtered;
-  }, [bundle, countryFilter, sortMode]);
+  }, [bundle, countryFilter, profile.feeCurrency, sortMode]);
 
   const activeRecommendationId =
     selectedRecommendationId !== null &&
@@ -311,10 +318,6 @@ export function LegacyKioskExperience() {
   });
 
   useEffect(() => {
-    primeKioskCatalog();
-  }, []);
-
-  useEffect(() => {
     if (typeof window === "undefined") return;
     const params = new URLSearchParams(window.location.search);
     if (params.get("demo") !== "results") return;
@@ -355,6 +358,10 @@ export function LegacyKioskExperience() {
           academicEligibility: "Requires manual review",
           englishEligibility: "Requirement unavailable",
           documentReadiness: "Review requirements",
+          currencyRequiresConfirmation: c.tuition_currency !== "NZD" && (typeof c.university === "object" ? c.university.country === "New Zealand" : false),
+          campus: "Campus not specified",
+          studyMode: "Mode not specified",
+          humanVerified: false,
         }));
         setBundle({ source: "live_catalog", totalPrograms: recs.length, profileSignalChips: [], recommendations: recs });
         setScreen("results");
@@ -778,14 +785,28 @@ export function LegacyKioskExperience() {
               provisionalMatches={provisionalMatches}
               onChange={setProfileField}
               onToggleCountry={(value) =>
-                setProfile((current) => ({
-                  ...current,
-                  preferredCountries: toggleArrayItem(
-                    current.preferredCountries,
-                    value,
-                    4
-                  ),
-                }))
+                setProfile((current) => {
+                  const selectNz = value === "New Zealand" && !current.preferredCountries.includes(value);
+                  const nextCountries = selectNz
+                    ? ["New Zealand"]
+                    : toggleArrayItem(current.preferredCountries, value, 4).filter(
+                        (country) => value === "New Zealand" || country !== "New Zealand"
+                      );
+                  if (current.preferredCountries.includes("New Zealand") !== nextCountries.includes("New Zealand")) {
+                    setBundle(null);
+                    setSelectedRecommendationId(null);
+                    setShortlistIds([]);
+                  }
+                  return {
+                    ...current,
+                    preferredCountries: nextCountries,
+                    preferredCities: [],
+                    preferredUniversity: "",
+                    feeCurrency: "",
+                    tuitionMin: "",
+                    tuitionMax: "",
+                  };
+                })
               }
               onToggleField={(value) =>
                 setProfile((current) => ({
@@ -1465,6 +1486,29 @@ function ProfileScreen({
   onToggleField: (value: string) => void;
   onContinue: () => void;
 }) {
+  const isNewZealand = profile.preferredCountries.includes("New Zealand");
+  const [preferenceOptions, setPreferenceOptions] = useState<PreferenceOptions | null>(null);
+  const [optionsError, setOptionsError] = useState("");
+  useEffect(() => {
+    if (!isNewZealand) {
+      return;
+    }
+    const controller = new AbortController();
+    queueMicrotask(() => {
+      if (!controller.signal.aborted) {
+        setPreferenceOptions(null);
+        setOptionsError("");
+      }
+    });
+    fetchPreferenceOptions("New Zealand", controller.signal)
+      .then(setPreferenceOptions)
+      .catch((error) => {
+        if (!controller.signal.aborted) {
+          setOptionsError(error instanceof Error ? error.message : "Could not load New Zealand options.");
+        }
+      });
+    return () => controller.abort();
+  }, [isNewZealand]);
   const scoreValue = getNumericScore(profile);
   const englishValue = getNumericEnglishScore(profile);
   const scoreMin = profile.scoreMode === "cgpa" ? 5 : 50;
@@ -1558,6 +1602,7 @@ function ProfileScreen({
             type="button"
             className="btn btn-blue btn-xl btn-full"
             style={{ marginTop: "auto" }}
+            disabled={!isProfileReady(profile) || Boolean(isNewZealand && !preferenceOptions)}
             onClick={onContinue}
           >
             See my {provisionalMatches} matches →
@@ -1700,6 +1745,22 @@ function ProfileScreen({
               onToggle={onToggleCountry}
             />
           </div>
+
+          {isNewZealand ? (
+            <fieldset className="nz-preferences">
+              <legend className="title">New Zealand study preferences</legend>
+              {!preferenceOptions && !optionsError ? <p aria-live="polite" className="small">Loading New Zealand cities and institutions…</p> : null}
+              {optionsError ? <p role="alert" className="nz-error">We couldn’t load New Zealand options. Check the backend and try again.</p> : null}
+              {preferenceOptions ? <>
+                <label className="nz-field"><span className="small">Preferred city</span><select value={profile.preferredCities[0] ?? ""} onChange={(event) => onChange("preferredCities", event.target.value ? [event.target.value] : [])}><option value="">Any city</option>{preferenceOptions.cities.map((city) => <option key={city}>{city}</option>)}</select></label>
+                <label className="nz-field"><span className="small">Preferred institution</span><select value={profile.preferredUniversity} onChange={(event) => onChange("preferredUniversity", event.target.value)}><option value="">Any institution</option>{preferenceOptions.universities.map((university) => <option key={university}>{university}</option>)}</select></label>
+                <label className="nz-field"><span className="small">Fee currency</span><select value={profile.feeCurrency} onChange={(event) => onChange("feeCurrency", event.target.value as KioskProfile["feeCurrency"])}><option value="">Select when using a fee range</option>{preferenceOptions.currencies.filter((currency): currency is "NZD" | "AUD" | "USD" => ["NZD", "AUD", "USD"].includes(currency)).map((currency) => <option key={currency}>{currency}</option>)}</select></label>
+                <div className="nz-fee-range"><label className="nz-field"><span className="small">Minimum fee</span><input type="number" min="0" value={profile.tuitionMin} onChange={(event) => onChange("tuitionMin", event.target.value)} /></label><label className="nz-field"><span className="small">Maximum fee</span><input type="number" min="0" value={profile.tuitionMax} onChange={(event) => onChange("tuitionMax", event.target.value)} /></label></div>
+                {(profile.tuitionMin || profile.tuitionMax) && !profile.feeCurrency ? <p role="alert" className="nz-error">Select a currency for your tuition range.</p> : null}
+                {profile.tuitionMin && profile.tuitionMax && Number(profile.tuitionMin) > Number(profile.tuitionMax) ? <p role="alert" className="nz-error">Minimum tuition fee cannot exceed maximum tuition fee.</p> : null}
+              </> : null}
+            </fieldset>
+          ) : null}
 
           <div className="card" style={{ gridColumn: "1 / -1", padding: 26 }}>
             <div
@@ -2368,7 +2429,14 @@ function ProgramCard({
           <span className="k">Duration</span>
           <span className="v">{recommendation.duration}</span>
         </div>
+        <div className="drow" style={{ padding: "10px 0" }}>
+          <span className="k">Campus · mode</span>
+          <span className="v">{recommendation.campus} · {recommendation.studyMode}</span>
+        </div>
       </div>
+
+      {recommendation.currencyRequiresConfirmation ? <div className="small" role="note">Fee currency requires confirmation.</div> : null}
+      {recommendation.humanVerified ? <div className="status status-green" style={{ marginTop: 10 }}><span className="dot dot-green" />Human verified</div> : null}
 
       <hr className="hr" style={{ margin: "10px 0 16px" }} />
 

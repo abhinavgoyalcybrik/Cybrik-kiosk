@@ -322,9 +322,9 @@ function toRecommendationProfile(profile: KioskProfile): StudentProfile {
     phone: formatDisplayPhone(profile.phone),
     currentCity: "",
     preferredCountries: profile.preferredCountries,
-    preferredCities: [],
+    preferredCities: profile.preferredCities,
     preferredFields: preferredFieldSeed,
-    preferredUniversity: "",
+    preferredUniversity: profile.preferredUniversity,
     preferredIntakeSeason: profile.intakeSeason,
     preferredIntakeYear: profile.intakeYear,
     tenthBoard: "",
@@ -415,6 +415,10 @@ function buildRecommendationFromCard(
             ? "Meets requirement"
             : "Below requirement",
     documentReadiness: "Review requirements",
+    currencyRequiresConfirmation: Boolean(course.currency_quality?.requires_confirmation),
+    campus: course.campus || "Campus not specified",
+    studyMode: course.mode || "Mode not specified",
+    humanVerified: Boolean(course.human_verified),
   };
 }
 
@@ -456,6 +460,10 @@ function buildFallbackRecommendations(
       academicEligibility: "Requires manual review",
       englishEligibility: "Requirement unavailable",
       documentReadiness: "Review requirements",
+      currencyRequiresConfirmation: Boolean(course.currency_quality?.requires_confirmation),
+      campus: course.campus || "Campus not specified",
+      studyMode: course.mode || "Mode not specified",
+      humanVerified: Boolean(course.human_verified),
     };
   });
 }
@@ -521,18 +529,24 @@ async function loadCatalog(): Promise<CatalogLoadResult> {
   return catalogPromise;
 }
 
-export function primeKioskCatalog(): void {
-  void loadCatalog();
-}
-
 async function buildRecommendationBundle(
   profile: KioskProfile
 ): Promise<KioskRecommendationBundle> {
   const catalog = await loadCatalog();
   const mappedProfile = toRecommendationProfile(profile);
-  const ranked = buildShortlistCards(catalog.courses, mappedProfile, "");
+  const isNewZealand = profile.preferredCountries.length === 1 && profile.preferredCountries[0] === "New Zealand";
+  const minFee = profile.tuitionMin ? Number(profile.tuitionMin) : null;
+  const maxFee = profile.tuitionMax ? Number(profile.tuitionMax) : null;
+  const eligibleCatalog = catalog.courses.filter((course) => {
+    if (isNewZealand && course.university.country !== "New Zealand") return false;
+    if ((minFee !== null || maxFee !== null) && course.tuition_currency !== profile.feeCurrency) return false;
+    if (minFee !== null && (course.tuition_fee === null || course.tuition_fee < minFee)) return false;
+    if (maxFee !== null && (course.tuition_fee === null || course.tuition_fee > maxFee)) return false;
+    return true;
+  });
+  const ranked = buildShortlistCards(eligibleCatalog, mappedProfile, "");
   const coursesById = new Map(
-    catalog.courses.map((course) => [course.course_id, course])
+    eligibleCatalog.map((course) => [course.course_id, course])
   );
 
   const recommendations =
@@ -543,7 +557,9 @@ async function buildRecommendationBundle(
             ? [buildRecommendationFromCard(card, sourceCourse, profile)]
             : [];
         })
-      : buildFallbackRecommendations(catalog.courses, profile);
+      : isNewZealand
+        ? []
+        : buildFallbackRecommendations(eligibleCatalog, profile);
 
   return {
     source: catalog.source,

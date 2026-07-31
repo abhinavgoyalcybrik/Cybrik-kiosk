@@ -8,11 +8,13 @@ import {
   AuthApiError,
   autosaveAuthProfile,
   getAuthSession,
+  fetchSessionRecommendations,
   logoutAuthSession,
   sendSessionOtp,
   startAuthSession,
   verifySessionOtp,
 } from "@/lib/auth";
+import { fetchPreferenceOptions, type PreferenceOptions } from "@/lib/api";
 import {
   ArrowLeft,
   ArrowRight,
@@ -45,6 +47,7 @@ type University = {
   scholarship: string;
   rank: string;
   reasons: string[];
+  feeLabel?: string;
 };
 
 const universities: University[] = [
@@ -185,6 +188,8 @@ export function StudentJourney({
   const [country, setCountry] = useState("Australia");
   const [city, setCity] = useState("Melbourne");
   const [course, setCourse] = useState("Data Science");
+  const [preferredUniversity, setPreferredUniversity] = useState("");
+  const [preferenceOptions, setPreferenceOptions] = useState<PreferenceOptions | null>(null);
   const [budget, setBudget] = useState(35);
   const [test, setTest] = useState("IELTS");
   const [score, setScore] = useState("7.5");
@@ -192,10 +197,18 @@ export function StudentJourney({
   const [saved, setSaved] = useState<number[]>([1, 2, 3]);
   const [sort, setSort] = useState("Best match");
   const [toast, setToast] = useState("");
+  const [liveUniversities, setLiveUniversities] = useState<University[] | null>(null);
+  useEffect(() => {
+    const controller = new AbortController();
+    fetchPreferenceOptions(country, controller.signal)
+      .then((options) => setPreferenceOptions(options))
+      .catch(() => { if (!controller.signal.aborted) setPreferenceOptions(null); });
+    return () => controller.abort();
+  }, [country]);
 
   const matches = useMemo(
     () =>
-      universities
+      (liveUniversities ?? universities)
         .filter(
           (u) =>
             (!country || u.country === country) &&
@@ -216,20 +229,22 @@ export function StudentJourney({
                   : languageScore >= 105;
           return {
             ...u,
-            score: Math.max(
-              72,
-              u.base -
-                (budget < u.fee ? 5 : 0) +
-                (city === u.city ? 2 : 0) +
-                academicBonus -
-                (languageReady ? 0 : 6),
-            ),
+            score: liveUniversities
+              ? u.base
+              : Math.max(
+                  72,
+                  u.base -
+                    (budget < u.fee ? 5 : 0) +
+                    (city === u.city ? 2 : 0) +
+                    academicBonus -
+                    (languageReady ? 0 : 6),
+                ),
           };
         })
         .sort((a, b) =>
           sort === "Lowest tuition" ? a.fee - b.fee : b.score - a.score,
         ),
-    [academicScore, budget, city, country, score, search, sort, test],
+    [academicScore, budget, city, country, liveUniversities, score, search, sort, test],
   );
 
   const transition = reduceMotion
@@ -358,14 +373,34 @@ export function StudentJourney({
     try {
       await autosaveAuthProfile(sessionKey, {
         preferred_countries: [country],
-        preferred_cities: [city],
+        preferred_cities: city ? [city] : [],
         preferred_course: course,
+        preferred_university: preferredUniversity,
         qualification,
-        academic_score: academicScore,
+        academic_score: Number.parseFloat(academicScore),
+        grading_scale: academicScore.toLowerCase().includes("cgpa") ? "cgpa_10" : "percentage",
         budget_lakhs: budget,
         english_test: test,
         english_score: score,
       });
+      const response = await fetchSessionRecommendations(sessionKey);
+      setLiveUniversities(response.recommendations.map((item) => ({
+        id: item.course_id,
+        code: item.university.name.split(/\s+/).map((word) => word[0]).join("").slice(0, 4).toUpperCase(),
+        university: item.university.name,
+        course: item.title,
+        city: item.university.city_display || item.university.city || "Location not specified",
+        country: item.university.country,
+        fee: item.tuition_fee ?? 0,
+        feeLabel: item.tuition_fee === null ? "Fee not specified" : `${item.tuition_currency} ${new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(item.tuition_fee)}${item.fee_period ? ` ${item.fee_period}` : ""}`,
+        duration: item.duration_months ? `${item.duration_months} months` : "Duration not specified",
+        intake: item.intake_labels.join(", ") || "Intake not specified",
+        base: item.match_percentage,
+        scholarship: "Scholarship details available on request",
+        rank: "Preference-based match",
+        reasons: item.reasons.length ? item.reasons.map((reason) => `Matches your ${reason.replaceAll("_", " ")} preference`) : ["Matches submitted preferences"],
+      })));
+      setSaved([]);
       go("matches");
     } catch (error) {
       notify(error instanceof Error ? error.message : "Unable to save your profile.");
@@ -450,6 +485,11 @@ export function StudentJourney({
               setCity={setCity}
               course={course}
               setCourse={setCourse}
+              academicScore={academicScore}
+              setAcademicScore={setAcademicScore}
+              preferredUniversity={preferredUniversity}
+              setPreferredUniversity={setPreferredUniversity}
+              preferenceOptions={preferenceOptions}
               budget={budget}
               setBudget={setBudget}
               test={test}
@@ -765,6 +805,11 @@ function ProfileScreen({
   setCity,
   course,
   setCourse,
+  academicScore,
+  setAcademicScore,
+  preferredUniversity,
+  setPreferredUniversity,
+  preferenceOptions,
   budget,
   setBudget,
   test,
@@ -780,6 +825,11 @@ function ProfileScreen({
   setCity: (v: string) => void;
   course: string;
   setCourse: (v: string) => void;
+  academicScore: string;
+  setAcademicScore: (v: string) => void;
+  preferredUniversity: string;
+  setPreferredUniversity: (v: string) => void;
+  preferenceOptions: PreferenceOptions | null;
   budget: number;
   setBudget: (v: number) => void;
   test: string;
@@ -834,11 +884,9 @@ function ProfileScreen({
               defaultValue="CBSE"
               options={["CBSE", "ICSE", "State Board"]}
             />
-            <Select
-              label="UG score"
-              defaultValue="8.2 CGPA"
-              options={["8.2 CGPA", "7.5 CGPA", "70%"]}
-            />
+            <FieldPlain label="UG score">
+              <input inputMode="decimal" value={academicScore.replace(/[^0-9.]/g, "")} onChange={(event) => setAcademicScore(`${event.target.value} CGPA`)} />
+            </FieldPlain>
           </div>
         </ProfileSection>
         <ProfileSection
@@ -850,30 +898,17 @@ function ProfileScreen({
             <Select
               label="Preferred country"
               value={country}
-              onChange={setCountry}
-              options={["Australia", "Canada", "Ireland"]}
+              onChange={(value) => { setCountry(value); setCity(""); setCourse(""); setPreferredUniversity(""); }}
+              options={["Australia", "Canada", "Ireland", "New Zealand", "United Kingdom", "United States", "Germany"]}
             />
             <Select
               label="Preferred city"
               value={city}
-              onChange={setCity}
-              options={
-                country === "Australia"
-                  ? ["Melbourne", "Sydney", "Brisbane"]
-                  : country === "Canada"
-                    ? ["Vancouver", "Toronto"]
-                    : ["Dublin"]
-              }
+              onChange={(value) => setCity(value === "Any city" ? "" : value)}
+              options={["Any city", ...(preferenceOptions?.cities ?? [])]}
             />
-            <FieldPlain label="Preferred course">
-              <input
-                value={course}
-                onChange={(e) => setCourse(e.target.value)}
-              />
-            </FieldPlain>
-            <FieldPlain label="Preferred university (optional)">
-              <input placeholder="Any university" />
-            </FieldPlain>
+            <label className="plain-field"><span>Preferred course</span><div className="select-wrap"><select value={course} onChange={(event) => setCourse(event.target.value)}><option value="">Any course</option>{(preferenceOptions?.courses ?? []).map((item) => <option key={item}>{item}</option>)}</select><ChevronDown /></div></label>
+            <label className="plain-field"><span>Preferred university (optional)</span><div className="select-wrap"><select value={preferredUniversity} onChange={(event) => setPreferredUniversity(event.target.value)}><option value="">Any university</option>{(preferenceOptions?.universities ?? []).map((item) => <option key={item}>{item}</option>)}</select><ChevronDown /></div></label>
           </div>
         </ProfileSection>
         <ProfileSection
@@ -1121,7 +1156,7 @@ function MatchesScreen({
                     {u.city}, {u.country}
                   </span>
                   <span>
-                    <Wallet />₹{u.fee}L / year
+                    <Wallet />{u.feeLabel ?? `₹${u.fee}L / year`}
                   </span>
                   <span>
                     <Graduation />

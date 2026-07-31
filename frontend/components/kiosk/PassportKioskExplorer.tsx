@@ -18,10 +18,13 @@ import { UniversityTicket } from "./UniversityTicket";
 
 function sortRecommendations(
   recommendations: KioskRecommendation[],
-  sortMode: KioskSortMode
+  sortMode: KioskSortMode,
+  selectedCurrency: string
 ): KioskRecommendation[] {
   return [...recommendations].sort((left, right) => {
     if (sortMode === "lowest_cost") {
+      const currencies = new Set(recommendations.map((item) => item.tuitionLabel.split(" ")[0]).filter(Boolean));
+      if (!selectedCurrency && currencies.size > 1) return right.score - left.score;
       return (left.tuitionValue ?? Number.POSITIVE_INFINITY) - (right.tuitionValue ?? Number.POSITIVE_INFINITY);
     }
     if (sortMode === "fastest_intake") {
@@ -40,7 +43,7 @@ export function PassportKioskExplorer() {
   const [preferencesOpen, setPreferencesOpen] = useState(true);
   const [documentsOpen, setDocumentsOpen] = useState(true);
   const [handoffOpen, setHandoffOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const requestId = useRef(0);
 
@@ -68,29 +71,6 @@ export function PassportKioskExplorer() {
   }, []);
 
   useEffect(() => {
-    const activeRequest = requestId.current + 1;
-    requestId.current = activeRequest;
-
-    void loadPublicKioskRecommendations(INITIAL_KIOSK_PROFILE)
-      .then((nextBundle) => {
-        if (requestId.current !== activeRequest) return;
-        setBundle(nextBundle);
-        setSelectedId(nextBundle.recommendations[0]?.id ?? null);
-      })
-      .catch((reason) => {
-        if (requestId.current !== activeRequest) return;
-        setError(reason instanceof Error ? reason.message : "Could not load university matches.");
-      })
-      .finally(() => {
-        if (requestId.current === activeRequest) setLoading(false);
-      });
-
-    return () => {
-      if (requestId.current === activeRequest) requestId.current += 1;
-    };
-  }, []);
-
-  useEffect(() => {
     if (typeof window === "undefined" || !window.matchMedia) return;
     const compactView = window.matchMedia("(max-width: 760px)");
     const syncPanelState = () => {
@@ -105,8 +85,8 @@ export function PassportKioskExplorer() {
   }, []);
 
   const recommendations = useMemo(
-    () => sortRecommendations(bundle?.recommendations ?? [], sortMode),
-    [bundle, sortMode]
+    () => sortRecommendations(bundle?.recommendations ?? [], sortMode, profile.feeCurrency),
+    [bundle, profile.feeCurrency, sortMode]
   );
   const selectedRecommendation =
     recommendations.find((recommendation) => recommendation.id === selectedId) ?? recommendations[0] ?? null;
@@ -117,7 +97,21 @@ export function PassportKioskExplorer() {
   }, [recommendations, selectedRecommendation, shortlistIds]);
 
   const updateProfile = (patch: Partial<KioskProfile>) => {
-    setProfile((current) => ({ ...current, ...patch }));
+    setProfile((current) => {
+      const countryChanged = patch.preferredCountries && patch.preferredCountries[0] !== current.preferredCountries[0];
+      if (countryChanged) {
+        requestId.current += 1;
+        setBundle(null);
+        setSelectedId(null);
+        setShortlistIds([]);
+        setError("");
+      }
+      return {
+        ...current,
+        ...patch,
+        ...(countryChanged ? { preferredCities: [], preferredUniversity: "", feeCurrency: "" as const, tuitionMin: "", tuitionMax: "" } : {}),
+      };
+    });
   };
 
   const toggleShortlist = (id: number) => {
@@ -130,7 +124,10 @@ export function PassportKioskExplorer() {
     setProfile(INITIAL_KIOSK_PROFILE);
     setShortlistIds([]);
     setSortMode("best_match");
-    void loadRecommendations(INITIAL_KIOSK_PROFILE);
+    requestId.current += 1;
+    setBundle(null);
+    setSelectedId(null);
+    setError("");
   };
 
   return (
@@ -141,7 +138,7 @@ export function PassportKioskExplorer() {
           <span><strong>SIGNAL STUDIO</strong><small>STUDENT KIOSK</small></span>
         </Link>
         <div className="passport-topbar-actions">
-          {bundle ? <SourceBadge source={bundle.source} /> : <span className="passport-loading-badge">Loading catalog</span>}
+          {bundle ? <SourceBadge source={bundle.source} /> : <span className="passport-loading-badge">Preferences not submitted</span>}
           <button className="passport-reset-button" onClick={resetExplorer} type="button">Reset</button>
         </div>
       </header>
@@ -149,6 +146,8 @@ export function PassportKioskExplorer() {
       <div className="passport-grid">
         <KioskPreferences
           onChange={updateProfile}
+          onSubmit={() => void loadRecommendations(profile)}
+          submitting={loading}
           onOpenChange={setPreferencesOpen}
           open={preferencesOpen}
           profile={profile}
@@ -161,12 +160,10 @@ export function PassportKioskExplorer() {
               <h1>University matches</h1>
               <span>{bundle?.totalPrograms ?? 0} programs mapped to your route</span>
             </div>
-            <button className="passport-refresh-button" disabled={loading} onClick={() => void loadRecommendations(profile)} type="button">
-              {loading ? "Updating..." : "Update matches"}
-            </button>
+            {bundle ? <button className="passport-refresh-button" disabled={loading} onClick={() => void loadRecommendations(profile)} type="button">{loading ? "Updating…" : "Update matches"}</button> : null}
           </div>
 
-          <div className="passport-sort" aria-label="Sort university matches">
+          {bundle ? <div className="passport-sort" aria-label="Sort university matches">
             {([
               ["best_match", "Best match"],
               ["lowest_cost", "Lowest cost"],
@@ -182,11 +179,13 @@ export function PassportKioskExplorer() {
                 {label}
               </button>
             ))}
-          </div>
+          </div> : null}
 
-          {loading ? <p className="passport-results-status" role="status">Mapping your university route...</p> : null}
-          {error ? <p className="passport-results-error" role="alert">{error}</p> : null}
-          {!loading && !error ? (
+          {loading ? <p className="passport-results-status" role="status">Finding courses that match your preferences…</p> : null}
+          {error ? <p className="passport-results-error" role="alert">We couldn’t load matching courses right now. Please try again.</p> : null}
+          {!loading && !error && !bundle ? <p className="passport-results-status">{profile.preferredCountries[0] === "New Zealand" ? "Complete your New Zealand study preferences to view matching universities and courses." : "Select your preferences, then find matching courses."}</p> : null}
+          {!loading && !error && bundle && recommendations.length === 0 ? <p className="passport-results-status">No New Zealand courses currently match all your selected preferences. Try adjusting your city, intake, tuition budget, degree level, or field of study.</p> : null}
+          {!loading && !error && bundle && recommendations.length > 0 ? (
             <div className="passport-ticket-list">
               {recommendations.map((recommendation) => (
                 <UniversityTicket

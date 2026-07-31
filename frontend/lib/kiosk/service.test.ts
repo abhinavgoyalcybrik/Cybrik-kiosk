@@ -30,4 +30,31 @@ describe("public kiosk catalog", () => {
       value: "Requirements shown from catalog when available",
     });
   });
+
+  it("returns only submitted New Zealand matches and never falls back to unrelated countries", async () => {
+    const bundle = await loadPublicKioskRecommendations({
+      ...INITIAL_KIOSK_PROFILE,
+      studyGoal: "undergraduate",
+      preferredCountries: ["New Zealand"],
+      preferredFields: ["Commerce"],
+      intakeSeason: "Summer (May - Jul)",
+      feeCurrency: "NZD",
+    });
+
+    expect(bundle.recommendations.length).toBeGreaterThan(0);
+    expect(bundle.recommendations.every((course) => course.country === "New Zealand")).toBe(true);
+  });
+
+  it("does not let English scores change the preference percentage", async () => {
+    const profile = {
+      ...INITIAL_KIOSK_PROFILE,
+      studyGoal: "undergraduate" as const,
+      preferredCountries: ["New Zealand"],
+      preferredFields: ["Commerce"],
+      intakeSeason: "Summer (May - Jul)",
+    };
+    const low = await loadPublicKioskRecommendations({ ...profile, englishScore: "4.0" });
+    const high = await loadPublicKioskRecommendations({ ...profile, englishScore: "9.0" });
+    expect(low.recommendations[0]?.score).toBe(high.recommendations[0]?.score);
+  });
 });

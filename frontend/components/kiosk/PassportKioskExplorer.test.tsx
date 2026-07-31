@@ -53,6 +53,11 @@ it("opens preferences and updates document context for selected program", async 
   const user = userEvent.setup();
   render(<PassportKioskExplorer />);
 
+  expect(screen.queryByText("University of Toronto")).not.toBeInTheDocument();
+  await user.selectOptions(screen.getByLabelText("Degree level"), "postgraduate");
+  await user.selectOptions(screen.getByLabelText("Academic track"), "Computer Science");
+  await user.type(screen.getByLabelText("Score"), "82.5");
+  await user.click(screen.getByRole("button", { name: "Find matching courses" }));
   await screen.findByText("University of Toronto");
   expect(screen.getByText("Demo catalog")).toBeVisible();
 

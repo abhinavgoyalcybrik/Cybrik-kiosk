@@ -28,6 +28,11 @@ export type KioskProfile = {
     | "Arts & Humanities";
   preferredCountries: string[];
   preferredFields: string[];
+  preferredCities: string[];
+  preferredUniversity: string;
+  feeCurrency: "" | "NZD" | "AUD" | "USD";
+  tuitionMin: string;
+  tuitionMax: string;
   intakeSeason: string;
   intakeYear: string;
   scoreMode: "percentage" | "cgpa";
@@ -79,6 +84,10 @@ export type KioskRecommendation = {
   academicEligibility: string;
   englishEligibility: string;
   documentReadiness: string;
+  currencyRequiresConfirmation: boolean;
+  campus: string;
+  studyMode: string;
+  humanVerified: boolean;
 };
 
 export type KioskRecommendationBundle = {
@@ -170,6 +179,11 @@ export const INITIAL_KIOSK_PROFILE: KioskProfile = {
   academicTrack: "",
   preferredCountries: ["Canada", "Australia"],
   preferredFields: ["Computer Science"],
+  preferredCities: [],
+  preferredUniversity: "",
+  feeCurrency: "",
+  tuitionMin: "",
+  tuitionMax: "",
   intakeSeason: "Fall (Aug - Oct)",
   intakeYear: "2027",
   scoreMode: "percentage",

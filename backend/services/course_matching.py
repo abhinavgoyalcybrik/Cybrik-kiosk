@@ -9,7 +9,7 @@ PREFERENCE_WEIGHTS = {
     "country": 15, "degree_level": 15, "field_of_study": 15, "intake": 10,
     "tuition_fee": 10, "city": 8, "university": 8, "study_mode": 5,
     "duration": 5, "campus": 3, "scholarship": 3, "accommodation": 1.5,
-    "institution_type": .75, "ownership": .75,
+    "institution_type": .75, "ownership": .75, "course_or_field": 15,
 }
 
 
@@ -34,7 +34,7 @@ def preference_match(course, profile):
     fee = related(course, "fee")
     values = {
         "country": (course.university.country, profile.get("preferred_countries")),
-        "university": (course.university.name, profile.get("preferred_universities")),
+        "university": (course.university.name, profile.get("preferred_universities") or profile.get("preferred_university")),
         "city": (normalize_city(course.university.city), profile.get("preferred_cities")),
         "degree_level": (normalize_degree(course.degree_level), profile.get("preferred_degree")),
         "field_of_study": (normalize_field(course.field_of_study), profile.get("preferred_field")),
@@ -42,6 +42,7 @@ def preference_match(course, profile):
         "campus": (course.campus, profile.get("preferred_campus")),
         "institution_type": (course.university.institution_type, profile.get("preferred_institution_type")),
         "ownership": (course.university.ownership_type, profile.get("preferred_ownership")),
+        "course_or_field": (course.title, profile.get("preferred_course")),
     }
     for name, (actual, expected) in values.items():
         if expected in (None, "", []):
@@ -117,4 +118,3 @@ def english_eligibility(course, profile):
         return {"status": "alternative_test_may_be_accepted", "requirements": requirements, "student_scores": {test: score}, "gaps": []}
     gap = round(required - float(score), 2)
     return {"status": "meets_requirement" if gap <= 0 else "below_requirement", "requirements": requirements, "student_scores": {test: float(score)}, "gaps": [] if gap <= 0 else [{"test": test, "gap": gap}]}
-

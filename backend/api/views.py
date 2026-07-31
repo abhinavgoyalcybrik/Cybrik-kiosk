@@ -157,7 +157,18 @@ def serialize_student_profile_summary(student):
 def serialize_course_detailed(course):
     fee = get_optional_relation(course, "fee")
     english_requirement = get_optional_relation(course, "english_requirement")
+    academic_requirement = get_optional_relation(course, "academic_requirement")
     university = course.university
+    admission_parts = []
+    if academic_requirement:
+        if academic_requirement.required_qualification:
+            admission_parts.append(academic_requirement.required_qualification)
+        if academic_requirement.required_bachelor_background:
+            admission_parts.append(academic_requirement.required_bachelor_background)
+        if academic_requirement.min_percentage is not None:
+            admission_parts.append(f"Minimum percentage: {academic_requirement.min_percentage:g}%")
+        if academic_requirement.min_cgpa is not None:
+            admission_parts.append(f"Minimum CGPA: {academic_requirement.min_cgpa:g}")
     return {
         "course_id": course.id,
         "title": course.title,
@@ -191,16 +202,33 @@ def serialize_course_detailed(course):
         "degree_level": course.degree_level,
         "field_of_study": course.field_of_study,
         "specialization": course.specialization,
+        "department": "",
+        "faculty": "",
         "duration_months": course.duration_months,
         "mode": course.mode,
         "campus": course.campus,
         "course_url": course.course_url,
         "course_summary": course.course_summary,
+        "modules": "",
+        "credits": "",
+        "thesis_option": False,
+        "project_option": False,
+        "internship_available": False,
+        "career_outcomes": "",
+        "relevant_industries": "",
+        "application_difficulty": "",
+        "tuition_fee": float(fee.tuition_fee) if fee and fee.tuition_fee is not None else None,
+        "tuition_currency": fee.currency if fee else "",
+        "fee_period": fee.fee_period if fee else "",
         "intake_labels": serialize_intakes(course),
         "ielts_overall": (
             english_requirement.ielts_overall
             if english_requirement and english_requirement.ielts_overall is not None
             else None
+        ),
+        "admissions_notes": ". ".join(admission_parts),
+        "gallery_images": list(
+            university.gallery_images.exclude(image_url="").values_list("image_url", flat=True)
         ),
     }
 
@@ -647,7 +675,7 @@ def course_detail(request, course_id):
     """Retrieve all details for a specific course."""
     try:
         course = (
-            Course.objects.select_related("university", "fee", "english_requirement")
+            Course.objects.select_related("university", "fee", "english_requirement", "academic_requirement")
             .prefetch_related("intakes")
             .get(id=course_id)
         )
@@ -683,6 +711,9 @@ def courses_catalog(request):
 @api_view(["GET"])
 def preference_options(request):
     courses = Course.objects.select_related("university", "fee").prefetch_related("intakes")
+    country = (request.query_params.get("country") or "").strip()
+    if country:
+        courses = courses.filter(university__country__iexact=country)
     cities = sorted({display_city(c.university.city) for c in courses if display_city(c.university.city) != "Location not specified"})
     fields = sorted({display_field(c.field_of_study) for c in courses if c.field_of_study.strip()})
     return Response({
@@ -693,6 +724,7 @@ def preference_options(request):
         "fields_of_study": fields,
         "campuses": sorted({c.campus.strip() for c in courses if c.campus.strip()}),
         "study_modes": sorted({c.mode.strip() for c in courses if c.mode.strip()}),
+        "courses": sorted({c.title.strip() for c in courses if c.title.strip()}),
         "currencies": sorted({c.fee.currency.strip().upper() for c in courses if get_optional_relation(c, "fee") and c.fee.currency.strip()}),
         "intake_months": list(MONTHS),
     })
@@ -1300,17 +1332,26 @@ def session_autosave(request, session_key):
     incoming = request.data or {}
     score_limits = {"percentage": 100, "cgpa_10": 10, "gpa_4": 4, "gpa_5": 5}
     grading_scale = incoming.get("grading_scale")
+    if not grading_scale and incoming.get("academic_score") not in (None, ""):
+        raw_score = str(incoming.get("academic_score")).casefold()
+        grading_scale = "cgpa_10" if "cgpa" in raw_score else "percentage"
+        incoming = dict(incoming)
+        incoming["grading_scale"] = grading_scale
+        number = re.search(r"-?\d+(?:\.\d+)?", raw_score)
+        if number:
+            incoming["academic_score"] = float(number.group(0))
     for field in ("academic_score", "tenth_score", "twelfth_score", "graduation_score", "postgraduation_score"):
         if field not in incoming or incoming[field] in (None, ""):
             continue
-        if grading_scale not in score_limits:
+        field_scale = incoming.get(f"{field}_scale") or grading_scale
+        if field_scale not in score_limits:
             return Response({"error": "grading_scale is required for academic scores"}, status=400)
         try:
             value = float(incoming[field])
         except (TypeError, ValueError):
             return Response({"error": f"{field} must be numeric"}, status=400)
-        if not 0 <= value <= score_limits[grading_scale]:
-            return Response({"error": f"{field} must be between 0 and {score_limits[grading_scale]}"}, status=400)
+        if not 0 <= value <= score_limits[field_scale]:
+            return Response({"error": f"{field} must be between 0 and {score_limits[field_scale]}"}, status=400)
     current = session.profile_data or {}
     current.update(incoming)
     session.profile_data = current
